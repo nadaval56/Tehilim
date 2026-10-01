@@ -249,7 +249,9 @@ td.n, th.n { text-align: end; font-variant-numeric: tabular-nums; }
 }
 .legend { display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-4); margin: var(--sp-3) 0 0; padding: 0; list-style: none; font-size: .8125rem; color: var(--text-2); }
 .legend li { display: inline-flex; align-items: center; gap: var(--sp-2); }
-.legend[hidden] { display: none; }
+.legend[hidden], .dim-panel[hidden] { display: none; }
+.dim-panel { margin-top: var(--sp-6); }
+.dim-panel h3 { margin-top: 0; }
 .legend i { width: .9rem; height: .9rem; border-radius: 3px; display: inline-block; flex: none; }
 .tooltip {
   position: fixed; z-index: 50; pointer-events: none; background: var(--bg-card); color: var(--text);
@@ -410,3 +412,8 @@ html.show-names .nm-ELOKIM { box-shadow: inset 0 -.18em 0 color-mix(in srgb, var
 .lit-list { padding: 0; list-style: none; margin: 0; }
 .lit-list li { padding: var(--sp-2) 0; border-bottom: 1px solid var(--border); }
 .lit-list li:last-child { border-bottom: 0; }
+
+details { margin: var(--sp-3) 0; }
+details > summary {
+  cursor: pointer; min-height: 2.75rem; display: flex; align-items: center; color: var(--link); font-weight: 500;
+}

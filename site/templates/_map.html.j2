@@ -31,5 +31,6 @@
     {% endif %}
   </ul>
   {% endfor %}
+  {% if caller is defined %}{{ caller() }}{% endif %}
 </div>
 {% endmacro %}
