@@ -120,11 +120,17 @@ html.a11y-invert.a11y-links a:focus-visible { background: #4a3d00; color: #fff; 
 
 /* ---- פונט קריא ----
  * גופני תצוגה (משיכות משתנות, ליגטורות) קשים בדיסלקציה ובראייה ירודה.
- * Frank Ruhl Libre הוא בדיוק גופן כזה, ובאתר הזה הוא נושא את רוב הטקסט. */
+ * נוסח המקרא נשאר ב-Noto Sans Hebrew: הוא כבר גופן פשוט ללא תגים, ובגופני
+ * המערכת אין בדרך כלל טעמי מקרא, כך שהטעמים היו מתפרקים. */
 html.a11y-readable body,
 html.a11y-readable body * {
-  font-family: Arial, 'Segoe UI', system-ui, 'Noto Sans Coptic', sans-serif !important;
+  font-family: Arial, 'Segoe UI', system-ui, sans-serif !important;
   font-variant-ligatures: none !important;
+}
+html.a11y-readable .psalm-text,
+html.a11y-readable .psalm-text *:not(.vnum):not(.vref),
+html.a11y-readable .pair-text *:not(h2):not(.vnum) {
+  font-family: 'Noto Sans Hebrew', sans-serif !important;
 }
 
 /* ---- ריווח מוגדל — הערכים של קריטריון 1.4.12 ---- */

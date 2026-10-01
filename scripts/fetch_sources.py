@@ -7,6 +7,8 @@ from __future__ import annotations
 import json
 import re
 import sys
+import urllib.parse
+import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -46,6 +48,41 @@ SOURCES = {
 }
 
 
+# Passages from Hebrew Wikisource: the excerpt runs from `start` to the end of `end`.
+WIKISOURCE = {
+    "chida_sansan": {
+        "title": "חיד\"א, סנסן ליאיר, סימן יא (\"דברים המועילים לרפואה\"), אות ב",
+        "page": "סנסן ליאיר",
+        "start": "דברים המועילים לרפואה",
+        "end": "מספר ליקוטי תהלים.",
+        "topic": "קריאת פסוקי תהלים לפי אותיות השם",
+    },
+    "chida_kaf_achat": {
+        "title": "חיד\"א, כף אחת, אות ה",
+        "page": "כף אחת",
+        "start": "לאחר פסוקי לקוטי תהלים",
+        "end": "אשר ראשיהם אותיות שם פלוני",
+        "topic": "תפילה אחרי פסוקי ליקוטי תהלים",
+    },
+}
+
+
+def wikisource(src: dict) -> dict:
+    url = "https://he.wikisource.org/w/index.php?" + urllib.parse.urlencode({"title": src["page"], "action": "raw"})
+    req = urllib.request.Request(url, headers={"User-Agent": sefaria.UA})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        raw = strip_marks(r.read().decode("utf-8"))
+    raw = re.sub(r"\{\{ש\}\}|=+|\[\[|\]\]|'{2,}", " ", raw)
+    a = raw.index(src["start"])
+    b = raw.index(src["end"], a) + len(src["end"])
+    text = re.sub(r"\s+", " ", raw[a:b]).strip()
+    masked, _ = names.mask(text, names.detect(text))
+    del raw, text
+    return {"title": src["title"], "topic": src["topic"], "version": "ויקיטקסט", "license": "CC-BY-SA",
+            "segments": [{"ref": src["page"], "he_ref": src["page"], "text": masked}],
+            "url": "https://he.wikisource.org/wiki/" + urllib.parse.quote(src["page"].replace(" ", "_"))}
+
+
 def clean(s: str) -> str:
     s = re.sub(r"<[^>]+>", "", s)
     return re.sub(r"\s+", " ", strip_marks(s)).strip()
@@ -69,6 +106,8 @@ def main() -> int:
             "segments": segs,
             "url": "https://www.sefaria.org/" + src["segments"][0].rsplit(".", 1)[0] + "?lang=he",
         }
+    for key, src in WIKISOURCE.items():
+        out[key] = wikisource(src)
     path = ROOT / "data" / "sources.json"
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"wrote {len(out)} sources")
