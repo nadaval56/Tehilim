@@ -46,6 +46,7 @@
   --hav: #2f6db0;
   --elo: #c96442;
   --mid: #e6e3d9;
+  --diff: #eda100;  /* הבדל שאינו שם: צבע שלישי, נבדל מהויה ומא-להים (validate_palette, all-pairs) */
   --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100;
   --c5: #e87ba4; --c6: #008300; --c-none: #d8d4c8;
 
@@ -67,7 +68,7 @@
   --text: #f5f3ee; --text-2: #a8a59d; --text-3: #a8a59d;
   --gold: #e08a6b; --gold-dark: #e08a6b; --gold-soft: #33241e; --link: #e8a084;
   --border: #34322d; --border-2: #45423c; --tap: rgba(255, 255, 255, .06);
-  --hav: #5b93dc; --elo: #d8714e; --mid: #3a3833;
+  --hav: #5b93dc; --elo: #d8714e; --mid: #3a3833; --diff: #b8b000;
   --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500;
   --c5: #d55181; --c6: #008300; --c-none: #45423c;
   color-scheme: dark;
@@ -78,7 +79,7 @@
     --text: #f5f3ee; --text-2: #a8a59d; --text-3: #a8a59d;
     --gold: #e08a6b; --gold-dark: #e08a6b; --gold-soft: #33241e; --link: #e8a084;
     --border: #34322d; --border-2: #45423c; --tap: rgba(255, 255, 255, .06);
-    --hav: #5b93dc; --elo: #d8714e; --mid: #3a3833;
+    --hav: #5b93dc; --elo: #d8714e; --mid: #3a3833; --diff: #b8b000;
     --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500;
     --c5: #d55181; --c6: #008300; --c-none: #45423c;
     color-scheme: dark;
@@ -313,9 +314,9 @@ html.show-names .nm-ELOKIM { box-shadow: inset 0 -.18em 0 color-mix(in srgb, var
   padding: var(--sp-4) var(--sp-5); font-family: var(--font-text); font-size: 1.25rem; line-height: 2.05;
 }
 .pair-text h2 { font-family: var(--font-ui); font-size: 1rem; margin: 0 0 var(--sp-2); }
-.diff { background: color-mix(in srgb, var(--gold) 22%, transparent); border-radius: 3px; }
-.diff-name-HAVAYAH { background: color-mix(in srgb, var(--hav) 26%, transparent); border-radius: 3px; }
-.diff-name-ELOKIM { background: color-mix(in srgb, var(--elo) 26%, transparent); border-radius: 3px; }
+.diff { background: color-mix(in srgb, var(--diff) 38%, transparent); border-radius: 3px; }
+.diff-name-HAVAYAH { background: color-mix(in srgb, var(--hav) 32%, transparent); border-radius: 3px; }
+.diff-name-ELOKIM { background: color-mix(in srgb, var(--elo) 32%, transparent); border-radius: 3px; }
 
 /* ── גרף לפי ספרים ── */
 .chart { width: 100%; height: auto; display: block; }
