@@ -14,13 +14,36 @@
   <p>ספר תהילים נחלק לחמישה ספרים. כאן מוצגים החלוקה, המחברים והסוגים, כפי שהם עולים מלשון הכתוב ומדברי חז"ל. בחרו ממד כדי לצבוע את המפה ולראות את הנתונים שלו.</p>
 </section>
 
-{% call book_map(cells, root, [('book', 'ספר'), ('author', 'מחבר לפי הכותרת'), ('type', 'סוג לפי הכותרת')], 'book', AUTHOR_LEGEND, TYPE_LEGEND, BOOK_NAMES) %}
+{% call book_map(cells, root, [('book', 'ספר'), ('author', 'מחבר לפי הכותרת'), ('type', 'סוג לפי הכותרת'), ('alpha', 'על סדר האלף־בית')], 'book', AUTHOR_LEGEND, TYPE_LEGEND, BOOK_NAMES) %}
 <section class="dim-panel" data-for="book" aria-label="נתונים לפי ספר">
   <h3>מזמורים בכל ספר</h3>
   {{ charts.book }}
   <h3>פסוקים בכל ספר</h3>
   {{ charts.book_verses }}
   <p class="note">{% for b in books %}{{ BOOK_NAMES[b.n] }}: מזמורים {{ b.first|heb }}–{{ b.last|heb }}{% if not loop.last %} · {% endif %}{% endfor %}.</p>
+<h3 id="numbering">על המספור</h3>
+<p class="read">האתר משתמש בחלוקה המקובלת ל-150 מזמורים. יש מסורות שבהן החלוקה שונה. כך, למשל, בגמרא על מזמורים א–ב:</p>
+{{ src_quote(sources.psalms_1_2) }}
+</section>
+
+<section class="dim-panel" data-for="alpha" id="alphabetic" aria-label="מזמורים על סדר האלף־בית" hidden>
+<h3>מזמורים על סדר האלף־בית</h3>
+<div class="table-wrap"><table>
+  <thead><tr><th>מזמור</th><th>מבנה</th><th>אותיות שלא נמצאו בראשי הפסוקים</th></tr></thead>
+  <tbody>
+  {% for a in alpha %}
+  <tr>
+    <td><a href="{{ root }}mizmor/{{ a.n }}/">{{ a.n|heb }}</a></td>
+    <td>{{ a.kind }}</td>
+    <td>{% if a.missing is none %}<span class="muted">לא חושב (האותיות בראשי חצאי הפסוקים)</span>{% elif a.missing %}{{ a.missing|join(', ') }}{% else %}כל האותיות{% if a.verified %}, שמונה פסוקים לכל אחת{% endif %}{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+<p class="note">החישוב לפי האות הראשונה של כל פסוק, אחרי הכותרת.</p>
+<h4>הנו"ן שאינה ב"תהלה לדוד" (קמה)</h4>
+{{ src_quote(sources.ashrei_nun) }}
+<p class="no-source">לאותיות החסרות במזמורים כה ו-לד: לא נמצא עדיין מקור בחומר שנשלף.</p>
 </section>
 
 <section class="dim-panel" data-for="author" id="authors" aria-label="נתונים לפי מחבר" hidden>
@@ -69,25 +92,4 @@
 </section>
 {% endcall %}
 
-<h2 id="alphabetic">מזמורים על סדר האלף־בית</h2>
-<div class="table-wrap"><table>
-  <thead><tr><th>מזמור</th><th>מבנה</th><th>אותיות שלא נמצאו בראשי הפסוקים</th></tr></thead>
-  <tbody>
-  {% for a in alpha %}
-  <tr>
-    <td><a href="{{ root }}mizmor/{{ a.n }}/">{{ a.n|heb }}</a></td>
-    <td>{{ a.kind }}</td>
-    <td>{% if a.missing is none %}<span class="muted">לא חושב (האותיות בראשי חצאי הפסוקים)</span>{% elif a.missing %}{{ a.missing|join(', ') }}{% else %}כל האותיות{% if a.verified %}, שמונה פסוקים לכל אחת{% endif %}{% endif %}</td>
-  </tr>
-  {% endfor %}
-  </tbody>
-</table></div>
-<p class="note">החישוב לפי האות הראשונה של כל פסוק, אחרי הכותרת.</p>
-<h3>הנו"ן שאינה ב"תהלה לדוד" (קמה)</h3>
-{{ src_quote(sources.ashrei_nun) }}
-<p class="no-source">לאותיות החסרות במזמורים כה ו-לד: לא נמצא עדיין מקור בחומר שנשלף.</p>
-
-<h2 id="numbering">על המספור</h2>
-<p class="read">האתר משתמש בחלוקה המקובלת ל-150 מזמורים. יש מסורות שבהן החלוקה שונה. כך, למשל, בגמרא על מזמורים א–ב:</p>
-{{ src_quote(sources.psalms_1_2) }}
 {% endblock %}

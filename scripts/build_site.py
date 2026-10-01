@@ -345,8 +345,9 @@ def main() -> int:
         base = f"מזמור {heb(n)}"
         cells.append({
             "n": n, "heb": heb(n), "book": p["book"], "author": a_slot, "author2": a_slot2, "type": t_slot, "names": nm, "k": k,
-            "strong": strong,
+            "strong": strong, "alpha": n in (25, 34, 111, 112, 119, 145),
             "labels": {
+                "alpha": f"{base} · " + ("על סדר האלף־בית" if n in (25, 34, 111, 112, 119, 145) else "—"),
                 "book": f"{base} · {BOOK_NAMES[p['book']]}",
                 "author": f"{base} · {', '.join(att) if att else 'ללא מחבר בכותרת'}",
                 "type": f"{base} · {', '.join(typ) if typ else 'ללא כינוי סוג'}",
