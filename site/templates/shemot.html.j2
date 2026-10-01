@@ -60,21 +60,74 @@
   </a>
   {% endfor %}
 </div>
-{% set cands = doublets.computed|selectattr('status', 'equalto', 'candidate')|list %}
 <h3>קטעים מקבילים נוספים שנמצאו חישובית <span class="tag neutral">ממתין לאישור</span></h3>
-<p class="note">פסוקים רצופים שדומים זה לזה לפחות ב-70%, כשכל שם נחשב שווה לכל שם. הרשימה ממתינה לבדיקת בעל האתר.</p>
-<div class="table-wrap"><table>
-  <thead><tr><th>מקום א</th><th>מקום ב</th><th class="n">פסוקים</th><th class="n">דמיון</th></tr></thead>
+<p class="note">פסוקים רצופים שדומים זה לזה לפחות ב-70%, כשכל שם נחשב שווה לכל שם. עמדו על שורה או לחצו על "השוואה" כדי לראות את שני הקטעים זה לצד זה, עם הדגשת ההבדלים.</p>
+<div class="table-wrap"><table class="cmp-table">
+  <thead><tr><th>מקום א</th><th>מקום ב</th><th class="n">פסוקים</th><th class="n">דמיון</th><th><span class="visually-hidden">השוואה</span></th></tr></thead>
   <tbody>
-  {% for r in cands %}
-  <tr>
-    <td><a href="{{ root }}mizmor/{{ r.a }}/#v{{ r.a_from }}">{{ r.a|heb }}:{{ r.a_from|heb }}{% if r.a_to != r.a_from %}–{{ r.a_to|heb }}{% endif %}</a></td>
-    <td><a href="{{ root }}mizmor/{{ r.b }}/#v{{ r.b_from }}">{{ r.b|heb }}:{{ r.b_from|heb }}{% if r.b_to != r.b_from %}–{{ r.b_to|heb }}{% endif %}</a></td>
+  {% for r in cand_cmp %}
+  {% set la %}{{ r.a|heb }}:{{ r.a_from|heb }}{% if r.a_to != r.a_from %}–{{ r.a_to|heb }}{% endif %}{% endset %}
+  {% set lb %}{{ r.b|heb }}:{{ r.b_from|heb }}{% if r.b_to != r.b_from %}–{{ r.b_to|heb }}{% endif %}{% endset %}
+  <tr class="cmp-row">
+    <td><a href="{{ root }}mizmor/{{ r.a }}/#v{{ r.a_from }}">{{ la }}</a></td>
+    <td><a href="{{ root }}mizmor/{{ r.b }}/#v{{ r.b_from }}">{{ lb }}</a></td>
     <td class="n">{{ r.verses }}</td><td class="n">{{ (r.mean_similarity * 100)|round|int }}%</td>
+    <td><button type="button" class="cmp-btn" aria-expanded="false" aria-controls="cmp-pop">השוואה</button>
+      <template class="cmp-tpl">
+        <div class="cmp-col"><h4>תהילים {{ la }}</h4><p>{{ r.html_a }}</p></div>
+        <div class="cmp-col"><h4>תהילים {{ lb }}</h4><p>{{ r.html_b }}</p></div>
+      </template>
+    </td>
   </tr>
   {% endfor %}
   </tbody>
 </table></div>
+<div id="cmp-pop" class="cmp-pop" role="dialog" aria-label="השוואת הקטעים" hidden>
+  <button type="button" class="cmp-x" aria-label="סגירה">×</button>
+  <div class="cmp-body"></div>
+  <p class="cmp-legend small"><span class="diff">הבדל</span> <span class="diff-name-HAVAYAH">שם הויה</span> <span class="diff-name-ELOKIM">א-להים</span></p>
+</div>
+<script>
+  (function () {
+    var pop = document.getElementById('cmp-pop'), body = pop.querySelector('.cmp-body');
+    var current = null, pinned = false;
+    function place(row) {
+      var r = row.getBoundingClientRect();
+      if (window.innerWidth < 640) { pop.style.left = '8px'; pop.style.right = '8px'; pop.style.width = ''; pop.style.top = ''; pop.style.bottom = '8px'; return; }
+      pop.style.right = ''; pop.style.bottom = '';
+      var w = Math.min(760, window.innerWidth - 32);
+      pop.style.width = w + 'px';
+      pop.style.left = Math.max(16, (window.innerWidth - w) / 2) + 'px';
+      var top = r.bottom + 6;
+      if (top + pop.offsetHeight > window.innerHeight - 8) top = Math.max(8, r.top - pop.offsetHeight - 6);
+      pop.style.top = top + 'px';
+    }
+    function show(row, pin) {
+      if (current && current !== row) current.querySelector('.cmp-btn').setAttribute('aria-expanded', 'false');
+      current = row; pinned = !!pin;
+      body.innerHTML = row.querySelector('.cmp-tpl').innerHTML;
+      pop.hidden = false; document.body.classList.add('cmp-open'); place(row);
+      row.querySelector('.cmp-btn').setAttribute('aria-expanded', String(pinned));
+    }
+    function hide() {
+      pop.hidden = true; pinned = false; document.body.classList.remove('cmp-open');
+      if (current) current.querySelector('.cmp-btn').setAttribute('aria-expanded', 'false');
+      current = null;
+    }
+    document.querySelectorAll('.cmp-row').forEach(function (row) {
+      row.addEventListener('mouseenter', function () { if (!pinned && window.matchMedia('(hover: hover)').matches) show(row, false); });
+      row.addEventListener('mouseleave', function (e) { if (!pinned && !pop.contains(e.relatedTarget)) hide(); });
+      var btn = row.querySelector('.cmp-btn');
+      btn.addEventListener('click', function () {
+        if (pinned && current === row) { hide(); btn.focus(); } else { show(row, true); pop.querySelector('.cmp-x').focus(); }
+      });
+    });
+    pop.addEventListener('mouseleave', function (e) { if (!pinned && !(current && current.contains(e.relatedTarget))) hide(); });
+    pop.querySelector('.cmp-x').addEventListener('click', function () { var b = current && current.querySelector('.cmp-btn'); hide(); if (b) b.focus(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !pop.hidden) { var b = current && current.querySelector('.cmp-btn'); hide(); if (b) b.focus(); } });
+    window.addEventListener('scroll', function () { if (current && !pop.hidden) place(current); }, { passive: true });
+  })();
+</script>
 
 <h2 id="explanations">הסברים</h2>
 <p class="no-source">ההסברים לבחירת השם יובאו מהפרשנים בשלב הבא, רק כפי שהם נמצאים במקורות שנשלפו. עד אז: לא נמצא מקור.</p>

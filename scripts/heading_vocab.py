@@ -38,6 +38,10 @@ ATTRIBUTIONS = [
     (("לשלמה",), "שלמה"),
     (("להימן",), "הימן"),
     (("לאיתן",), "איתן"),
+    (("לידותון",), "ידותון"),
+    (("לידיתון",), "ידותון"),
+    (("על", "ידותון"), "ידותון"),
+    (("על", "ידיתון"), "ידותון"),
 ]
 
 TYPES = [
@@ -174,7 +178,7 @@ def parse_heading(n: int, raw_verses: list[str], verses: list[dict]) -> dict | N
     return {
         "text": text,
         "end": end,
-        "attribution": [label for pat, label in ATTRIBUTIONS if _find(seq, [(pat, label)])],
+        "attribution": list(dict.fromkeys(label for pat, label in ATTRIBUTIONS if _find(seq, [(pat, label)]))),
         "types": _find(seq, TYPES),
         "musical_terms": _find(seq, MUSICAL),
         "historical_event": event,
