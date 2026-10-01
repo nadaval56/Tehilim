@@ -1,0 +1,288 @@
+{
+ "n": 42,
+ "book": 2,
+ "heading": {
+  "text": "לַמְנַצֵּ֗חַ מַשְׂכִּ֥יל לִבְנֵי־קֹֽרַח׃",
+  "end": {
+   "v": 1,
+   "offset": 40
+  },
+  "attribution": [
+   "בני קרח"
+  ],
+  "types": [
+   "משכיל"
+  ],
+  "musical_terms": [
+   "למנצח"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 12,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֗חַ מַשְׂכִּ֥יל לִבְנֵי־קֹֽרַח׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "כְּאַיָּ֗ל תַּעֲרֹ֥ג עַל־אֲפִֽיקֵי־מָ֑יִם כֵּ֤ן נַפְשִׁ֨י תַעֲרֹ֖ג אֵלֶ֣יךָ אֱ-לֹהִֽים׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 9,
+     "start": 76,
+     "end": 86,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "צָמְאָ֬ה נַפְשִׁ֨י ׀ לֵא-לֹהִים֮ לְאֵ֢-ל חָ֥֫י מָתַ֥י אָב֑וֹא וְ֝אֵרָאֶ֗ה פְּנֵ֣י אֱ-לֹהִֽים׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 21,
+     "end": 32,
+     "prefix": "ל",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "EL",
+     "word": 3,
+     "start": 33,
+     "end": 40,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 9,
+     "start": 82,
+     "end": 92,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "הָֽיְתָה־לִּ֬י דִמְעָתִ֣י לֶ֭חֶם יוֹמָ֣ם וָלָ֑יְלָה בֶּאֱמֹ֥ר אֵלַ֥י כׇּל־הַ֝יּ֗וֹם אַיֵּ֥ה אֱ-לֹהֶֽיךָ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 11,
+     "start": 92,
+     "end": 103,
+     "prefix": "",
+     "suffix": "יך",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "אֵ֤לֶּה אֶזְכְּרָ֨ה ׀ וְאֶשְׁפְּכָ֬ה עָלַ֨י ׀ נַפְשִׁ֗י כִּ֤י אֶעֱבֹ֨ר ׀ בַּסָּךְ֮ אֶדַּדֵּ֗ם עַד־בֵּ֥ית־אֱ-לֹ֫הִ֥ים בְּקוֹל־רִנָּ֥ה וְתוֹדָ֗ה הָמ֥וֹן חוֹגֵֽג׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 11,
+     "start": 105,
+     "end": 116,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "מַה־תִּשְׁתּ֬וֹחֲחִ֨י ׀ נַפְשִׁי֮ וַתֶּהֱמִ֢י עָ֫לָ֥י הוֹחִ֣לִי לֵ֭א-לֹהִים כִּי־ע֥וֹד אוֹדֶ֗נּוּ יְשׁוּע֥וֹת פָּנָֽיו׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 6,
+     "start": 64,
+     "end": 75,
+     "prefix": "ל",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "אֱֽ-לֹהַ֗י עָלַי֮ נַפְשִׁ֢י תִשְׁתּ֫וֹחָ֥ח עַל־כֵּ֗ן אֶ֭זְכׇּרְךָ מֵאֶ֣רֶץ יַרְדֵּ֑ן וְ֝חֶרְמוֹנִ֗ים מֵהַ֥ר מִצְעָֽר׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 0,
+     "start": 0,
+     "end": 10,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 8,
+   "text": "תְּהוֹם־אֶל־תְּה֣וֹם ק֭וֹרֵא לְק֣וֹל צִנּוֹרֶ֑יךָ כׇּֽל־מִשְׁבָּרֶ֥יךָ וְ֝גַלֶּ֗יךָ עָלַ֥י עָבָֽרוּ׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "יוֹמָ֤ם ׀ יְצַוֶּ֬ה ה' ׀ חַסְדּ֗וֹ וּ֭בַלַּיְלָה שִׁירֹ֣ה עִמִּ֑י תְּ֝פִלָּ֗ה לְאֵ֣-ל חַיָּֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 20,
+     "end": 22,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "EL",
+     "word": 8,
+     "start": 78,
+     "end": 85,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "אוֹמְרָ֤ה ׀ לְאֵ֥-ל סַלְעִי֮ לָמָ֢ה שְׁכַ֫חְתָּ֥נִי לָֽמָּה־קֹדֵ֥ר אֵלֵ֗ךְ בְּלַ֣חַץ אוֹיֵֽב׃",
+   "names": [
+    {
+     "type": "EL",
+     "word": 1,
+     "start": 12,
+     "end": 19,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 11,
+   "text": "בְּרֶ֤צַח ׀ בְּֽעַצְמוֹתַ֗י חֵרְפ֥וּנִי צוֹרְרָ֑י בְּאׇמְרָ֥ם אֵלַ֥י כׇּל־הַ֝יּ֗וֹם אַיֵּ֥ה אֱ-לֹהֶֽיךָ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 9,
+     "start": 92,
+     "end": 103,
+     "prefix": "",
+     "suffix": "יך",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 12,
+   "text": "מַה־תִּשְׁתּ֬וֹחֲחִ֨י ׀ נַפְשִׁי֮ וּֽמַה־תֶּהֱמִ֢י עָ֫לָ֥י הוֹחִ֣ילִי לֵ֭א-לֹהִים כִּי־ע֣וֹד אוֹדֶ֑נּוּ יְשׁוּעֹ֥ת פָּ֝נַ֗י וֵא-לֹהָֽי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 7,
+     "start": 70,
+     "end": 81,
+     "prefix": "ל",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 13,
+     "start": 124,
+     "end": 134,
+     "prefix": "ו",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  12
+ ],
+ "names_count": {
+  "HAVAYAH": 1,
+  "ELOKIM": 10,
+  "EL": 3,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 1
+  },
+  "ELOKIM": {
+   "ים": 6,
+   "יך": 2,
+   "י": 2
+  },
+  "EL": {
+   "base": 3
+  }
+ },
+ "names_combos": {
+  "ELOKIM+EL": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.42",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.42?lang=he"
+ }
+}

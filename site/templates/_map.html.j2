@@ -1,0 +1,35 @@
+{% macro book_map(cells, root, dims, default, AUTHOR_LEGEND, TYPE_LEGEND, BOOK_NAMES, id='map') %}
+<div class="map-box" data-map>
+  <div class="map-controls" role="group" aria-label="צביעת המפה לפי">
+    <span class="muted small">צביעה לפי:</span>
+    <div class="seg">
+      {% for key, label in dims %}
+      <button type="button" value="{{ key }}" aria-pressed="{{ 'true' if key == default else 'false' }}">{{ label }}</button>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="book-map" data-dim="{{ default }}" id="{{ id }}">
+    {% for c in cells %}
+    <a class="cell" href="{{ root }}mizmor/{{ c.n }}/" data-book="{{ c.book }}" data-author="{{ c.author }}" data-type="{{ c.type }}"
+       data-names="{{ c.names }}" style="--k: {{ c.k }}%"{% if c.strong %} data-strong{% endif %}
+       aria-label="{{ c.labels[default] }}"{% for key, _ in dims %} data-label-{{ key }}="{{ c.labels[key] }}"{% endfor %}>{{ c.heb }}</a>
+    {% endfor %}
+  </div>
+  {% for key, _ in dims %}
+  <ul class="legend" data-for="{{ key }}"{% if key != default %} hidden{% endif %}>
+    {% if key == 'book' %}
+      {% for b in range(1, 6) %}<li><i style="background: var(--b{{ b }})"></i>{{ BOOK_NAMES[b] }}</li>{% endfor %}
+    {% elif key == 'author' %}
+      {% for s, label in AUTHOR_LEGEND %}<li><i style="background: var(--c{{ s if s else '-none' }})"></i>{{ label }}</li>{% endfor %}
+    {% elif key == 'type' %}
+      {% for s, label in TYPE_LEGEND %}<li><i style="background: var(--c{{ s if s else '-none' }})"></i>{{ label }}</li>{% endfor %}
+    {% elif key == 'names' %}
+      <li><i style="background: var(--hav)"></i>רוב שם הויה</li>
+      <li><i style="background: var(--mid)"></i>שווה</li>
+      <li><i style="background: var(--elo)"></i>רוב א-להים</li>
+      <li><i style="background: repeating-linear-gradient(45deg, var(--c-none) 0 3px, transparent 3px 6px)"></i>אין אף אחד מהשניים</li>
+    {% endif %}
+  </ul>
+  {% endfor %}
+</div>
+{% endmacro %}

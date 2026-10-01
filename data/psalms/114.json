@@ -1,0 +1,86 @@
+{
+ "n": 114,
+ "book": 5,
+ "heading": null,
+ "verse_count": 8,
+ "verses": [
+  {
+   "v": 1,
+   "text": "בְּצֵ֣את יִ֭שְׂרָאֵל מִמִּצְרָ֑יִם בֵּ֥ית יַ֝עֲקֹ֗ב מֵעַ֥ם לֹעֵֽז׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "הָיְתָ֣ה יְהוּדָ֣ה לְקׇדְשׁ֑וֹ יִ֝שְׂרָאֵ֗ל מַמְשְׁלוֹתָֽיו׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "הַיָּ֣ם רָ֭אָה וַיָּנֹ֑ס הַ֝יַּרְדֵּ֗ן יִסֹּ֥ב לְאָחֽוֹר׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "הֶ֭הָרִים רָקְד֣וּ כְאֵילִ֑ים גְּ֝בָע֗וֹת כִּבְנֵי־צֹֽאן׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "מַה־לְּךָ֣ הַ֭יָּם כִּ֣י תָנ֑וּס הַ֝יַּרְדֵּ֗ן תִּסֹּ֥ב לְאָחֽוֹר׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "הֶ֭הָרִים תִּרְקְד֣וּ כְאֵילִ֑ים גְּ֝בָע֗וֹת כִּבְנֵי־צֹֽאן׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "מִלִּפְנֵ֣י אָ֭דוֹן ח֣וּלִי אָ֑רֶץ מִ֝לִּפְנֵ֗י אֱ-ל֣וֹהַּ יַעֲקֹֽב׃",
+   "names": [
+    {
+     "type": "ELOAH",
+     "word": 5,
+     "start": 48,
+     "end": 58,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 8,
+   "text": "הַהֹפְכִ֣י הַצּ֣וּר אֲגַם־מָ֑יִם חַ֝לָּמִ֗ישׁ לְמַעְיְנוֹ־מָֽיִם׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [],
+ "names_count": {
+  "HAVAYAH": 0,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 1,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "ELOAH": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.114",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.114?lang=he"
+ }
+}

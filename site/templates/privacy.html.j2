@@ -1,0 +1,67 @@
+{% extends "base.html.j2" %}
+{% block title %}מדיניות פרטיות | {{ site.name }}{% endblock %}
+{% block head %}<link rel="stylesheet" href="{{ root }}assets/legal.css?v={{ version }}">{% endblock %}
+{% block content %}
+<article class="read legal">
+<h1>מדיניות פרטיות</h1>
+<p>האתר הזה לא אוסף עליך מידע, אין בו עוגיות ואין בו כלי מדידה. מה שכן נשמר נשמר במכשיר שלך בלבד. אפשר לראות אותו ולמחוק אותו מהדף הזה.</p>
+
+<h2>מה האתר לא עושה</h2>
+<p>זו רשימה שלמה, וכל פריט בה נבדק בקוד של האתר:</p>
+<ul>
+  <li>אין עוגיות, אף לא אחת, גם לא "הכרחיות".</li>
+  <li>אין כלי סטטיסטיקה, פרסומות או פיקסלים של רשתות חברתיות.</li>
+  <li>אין טפסים, הרשמה או חשבונות.</li>
+  <li>אין טעינה של קבצים משרתים חיצוניים: הגופנים, הסגנונות והסקריפטים מוגשים מהאתר עצמו.</li>
+</ul>
+
+<h2>מה כן נשמר, ואיפה</h2>
+<p>הנתונים האלה נשמרים באחסון המקומי של הדפדפן שלך (localStorage), ואינם נשלחים לשום מקום:</p>
+<div class="table-wrap"><table>
+  <thead><tr><th>מפתח</th><th>מה בו</th></tr></thead>
+  <tbody>
+    <tr><td><code>a11y:v1</code></td><td>העדפות תפריט הנגישות</td></tr>
+    <tr><td><code>tehillim:prefs</code></td><td>ערכת נושא, הצגת טעמים וסימון השמות</td></tr>
+    <tr><td><code>privacy:v1</code></td><td>הבחירה שלך לגבי שמירה מקומית. המפתח הזה נשמר גם אם ביקשת לא לשמור, כדי שנוכל לכבד את הבקשה בביקור הבא.</td></tr>
+  </tbody>
+</table></div>
+
+<h2>הנתונים שלך: עיון ומחיקה</h2>
+<div class="card">
+  <p id="pv-list" class="small">טוען…</p>
+  <p>
+    <button type="button" class="toggle" id="pv-delete">מחיקת כל מה שנשמר</button>
+    <button type="button" class="toggle" id="pv-reopen">הצגת הודעת הפרטיות מחדש</button>
+  </p>
+</div>
+
+<h2>גורמים חיצוניים שמעורבים בכל זאת</h2>
+<ul>
+  <li>האתר מאוחסן ב-GitHub Pages. השרת של GitHub רושם, כמו כל שרת, את כתובת ה-IP של הבקשה. מדיניות הפרטיות של GitHub חלה על כך.</li>
+  <li>קישורים יוצאים, למשל לספריא, מובילים לאתרים שיש להם מדיניות משלהם.</li>
+</ul>
+<p>איך לוודא את כל זה בעצמך: בכלי המפתחים של הדפדפן, בלשונית Network, רואים שכל הבקשות הן לכתובת האתר בלבד.</p>
+
+<h2>הזכויות שלך</h2>
+<p>האתר אינו מחזיק מידע אישי עליך. כל מה שנשמר נמצא במכשיר שלך, ואפשר למחוק אותו כאן. לשאלות אפשר לפנות דרך <a href="{{ site.repo }}/issues">דף הפניות של הפרויקט</a>.</p>
+
+<h2>שינויים במדיניות</h2>
+<p>אם האתר יתחיל להשתמש בשירות חיצוני או לשמור מידע חדש, המדיניות תעודכן לפני השינוי, וההודעה תוצג מחדש.</p>
+<p class="note">אין במסמך זה ייעוץ משפטי. עודכן לאחרונה: {{ site.updated }}.</p>
+</article>
+<script>
+  (function () {
+    function render() {
+      var el = document.getElementById('pv-list');
+      if (!window.PRIVACY) { el.textContent = 'לא זמין.'; return; }
+      var inv = PRIVACY.inventory();
+      el.textContent = inv.length ? 'נשמר כעת: ' + inv.map(function (i) { return i.key; }).join(', ') : 'לא נשמר דבר במכשיר הזה.';
+    }
+    window.addEventListener('load', function () {
+      render();
+      document.getElementById('pv-delete').addEventListener('click', function () { if (window.PRIVACY) { PRIVACY.purge(); render(); } });
+      document.getElementById('pv-reopen').addEventListener('click', function () { if (window.PRIVACY) PRIVACY.reopen(); });
+    });
+  })();
+</script>
+{% endblock %}

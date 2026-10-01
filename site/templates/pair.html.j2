@@ -1,0 +1,22 @@
+{% extends "base.html.j2" %}
+{% block title %}מזמור כפול: {{ pair.title }} | {{ site.name }}{% endblock %}
+{% block description %}השוואה בין {{ pair.title }} בספר תהילים, זה לצד זה, עם הדגשת ההבדלים ובכללם הבדלי השמות.{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{{ root }}shemot/#doublets">מזמורים כפולים</a></p>
+<h1>{{ pair.title }}</h1>
+<p class="read muted">ההבדלים מודגשים. הבדל בשם מסומן בצבע השם: <span class="diff-name-HAVAYAH">כחול לשם הויה</span>, <span class="diff-name-ELOKIM">טרקוטה לא-להים</span>, ושאר ההבדלים <span class="diff">בגוון ההדגשה</span>.</p>
+<dl class="facts">
+  <div class="fact"><dt>שמות בצד א</dt><dd class="num">ה' {{ pair.count_a.HAVAYAH }} · א-להים {{ pair.count_a.ELOKIM }}</dd></div>
+  <div class="fact"><dt>שמות בצד ב</dt><dd class="num">ה' {{ pair.count_b.HAVAYAH }} · א-להים {{ pair.count_b.ELOKIM }}</dd></div>
+  <div class="fact"><dt>מקומות שבהם שם אחד מול שם אחר</dt><dd class="num">{{ pair.name_diffs }}</dd></div>
+</dl>
+<div class="text-tools" role="group" aria-label="תצוגת הטקסט">
+  <button type="button" class="toggle" id="tg-teamim" aria-pressed="true">טעמי המקרא</button>
+</div>
+<div class="pair">
+  <section class="pair-text" lang="he"><h2>{{ pair.title.split(' ↔ ')[0] }}</h2>{{ pair.html_a }}</section>
+  <section class="pair-text" lang="he"><h2>{{ pair.title.split(' ↔ ')[1] }}</h2>{{ pair.html_b }}</section>
+</div>
+<h2>הסברים</h2>
+<p class="no-source">לא נמצא עדיין מקור. הסברי הפרשנים לזוג זה יובאו רק מתוך מקורות שנשלפו, עם הפניה.</p>
+{% endblock %}

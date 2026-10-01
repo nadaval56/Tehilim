@@ -1,0 +1,10 @@
+{
+  "_note": "שם האתר והדומיין הם החלטה פתוחה (סעיף 8.4). base_path משמש רק לדף 404.",
+  "name": "תהילים",
+  "tagline": "עיון בספר תהילים: מבנה, שמות, דוד, ובחיים היהודיים",
+  "base_url": "https://nadaval56.github.io/Tehilim/",
+  "base_path": "/Tehilim/",
+  "repo": "https://github.com/nadaval56/Tehilim",
+  "contact_email": null,
+  "updated": "2026-10-01"
+}

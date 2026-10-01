@@ -1,0 +1,177 @@
+{
+ "n": 54,
+ "book": 2,
+ "heading": {
+  "text": "לַמְנַצֵּ֥חַ בִּנְגִינֹ֗ת מַשְׂכִּ֥יל לְדָוִֽד׃ בְּבֹ֣א הַ֭זִּיפִים וַיֹּאמְר֣וּ לְשָׁא֑וּל הֲלֹ֥א דָ֝וִ֗ד מִסְתַּתֵּ֥ר עִמָּֽנוּ׃",
+  "end": {
+   "v": 2,
+   "offset": 82
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "משכיל"
+  ],
+  "musical_terms": [
+   "למנצח",
+   "בנגינת"
+  ],
+  "historical_event": "בְּבֹ֣א הַ֭זִּיפִים וַיֹּאמְר֣וּ לְשָׁא֑וּל הֲלֹ֥א דָ֝וִ֗ד מִסְתַּתֵּ֥ר עִמָּֽנוּ׃",
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 9,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֥חַ בִּנְגִינֹ֗ת מַשְׂכִּ֥יל לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "בְּבֹ֣א הַ֭זִּיפִים וַיֹּאמְר֣וּ לְשָׁא֑וּל הֲלֹ֥א דָ֝וִ֗ד מִסְתַּתֵּ֥ר עִמָּֽנוּ׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "אֱ֭-לֹהִים בְּשִׁמְךָ֣ הוֹשִׁיעֵ֑נִי וּבִגְבוּרָתְךָ֥ תְדִינֵֽנִי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 0,
+     "start": 0,
+     "end": 10,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "אֱ֭-לֹהִים שְׁמַ֣ע תְּפִלָּתִ֑י הַ֝אֲזִ֗ינָה לְאִמְרֵי־פִֽי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 0,
+     "start": 0,
+     "end": 10,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "כִּ֤י זָרִ֨ים ׀ קָ֤מוּ עָלַ֗י וְֽ֭עָרִיצִים בִּקְשׁ֣וּ נַפְשִׁ֑י לֹ֤א שָׂ֨מוּ אֱ-לֹהִ֖ים לְנֶגְדָּ֣ם סֶֽלָה׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 9,
+     "start": 78,
+     "end": 88,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "הִנֵּ֣ה אֱ֭-לֹהִים עֹזֵ֣ר לִ֑י אֲ֝-דֹנָ֗י בְּֽסֹמְכֵ֥י נַפְשִֽׁי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 8,
+     "end": 18,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ADNI",
+     "word": 4,
+     "start": 31,
+     "end": 41,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "(ישוב) [יָשִׁ֣יב] הָ֭רַע לְשֹׁרְרָ֑י בַּ֝אֲמִתְּךָ֗ הַצְמִיתֵֽם׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "בִּנְדָבָ֥ה אֶזְבְּחָה־לָּ֑ךְ א֤וֹדֶה־שִּׁמְךָ֖ ה' כִּי־טֽוֹב׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 48,
+     "end": 50,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "כִּ֣י מִכׇּל־צָ֭רָה הִצִּילָ֑נִי וּ֝בְאֹיְבַ֗י רָאֲתָ֥ה עֵינִֽי׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  9
+ ],
+ "names_count": {
+  "HAVAYAH": 1,
+  "ELOKIM": 4,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 1,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 1
+  },
+  "ELOKIM": {
+   "ים": 4
+  },
+  "ADNI": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 1,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.54",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.54?lang=he"
+ }
+}

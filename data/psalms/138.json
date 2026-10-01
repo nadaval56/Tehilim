@@ -1,0 +1,175 @@
+{
+ "n": 138,
+ "book": 5,
+ "heading": {
+  "text": "לְדָוִ֨ד",
+  "end": {
+   "v": 1,
+   "offset": 8
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 8,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לְדָוִ֨ד ׀ אוֹדְךָ֥ בְכׇל־לִבִּ֑י נֶ֖גֶד אֱ-לֹהִ֣ים אֲזַמְּרֶֽךָּ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 5,
+     "start": 41,
+     "end": 51,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "אֶשְׁתַּחֲוֶ֨ה אֶל־הֵיכַ֪ל קׇדְשְׁךָ֡ וְא֘וֹדֶ֤ה אֶת־שְׁמֶ֗ךָ עַל־חַסְדְּךָ֥ וְעַל־אֲמִתֶּ֑ךָ כִּֽי־הִגְדַּ֥לְתָּ עַל־כׇּל־שִׁ֝מְךָ֗ אִמְרָתֶֽךָ׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "בְּי֣וֹם קָ֭רָֽאתִי וַֽתַּעֲנֵ֑נִי תַּרְהִבֵ֖נִי בְנַפְשִׁ֣י עֹֽז׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "יוֹד֣וּךָ ה' כׇּל־מַלְכֵי־אָ֑רֶץ כִּ֥י שָׁ֝מְע֗וּ אִמְרֵי־פִֽיךָ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "וְ֭יָשִׁירוּ בְּדַרְכֵ֣י ה' כִּֽי־גָ֝ד֗וֹל כְּב֣וֹד ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 25,
+     "end": 27,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 6,
+     "start": 52,
+     "end": 54,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "כִּי־רָ֣ם ה' וְשָׁפָ֣ל יִרְאֶ֑ה וְ֝גָבֹ֗הַּ מִמֶּרְחָ֥ק יְיֵדָֽע׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "אִם־אֵלֵ֤ךְ ׀ בְּקֶ֥רֶב צָרָ֗ה תְּחַ֫יֵּ֥נִי עַ֤ל אַ֣ף אֹ֭יְבַי תִּשְׁלַ֣ח יָדֶ֑ךָ וְת֖וֹשִׁיעֵ֣נִי יְמִינֶֽךָ׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "ה' יִגְמֹ֢ר בַּ֫עֲדִ֥י ה' חַסְדְּךָ֣ לְעוֹלָ֑ם מַעֲשֵׂ֖י יָדֶ֣יךָ אַל־תֶּֽרֶף׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 23,
+     "end": 25,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  8
+ ],
+ "names_count": {
+  "HAVAYAH": 6,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 6
+  },
+  "ELOKIM": {
+   "ים": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.138",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.138?lang=he"
+ }
+}

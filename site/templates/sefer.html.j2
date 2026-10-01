@@ -1,0 +1,93 @@
+{% extends "base.html.j2" %}
+{% from "_map.html.j2" import book_map %}
+{% block title %}מבנה ספר תהילים — חמשת הספרים, המחברים וסוגי המזמורים | {{ site.name }}{% endblock %}
+{% block description %}חמשת הספרים שבספר תהילים וחתימותיהם, המחברים לפי הכותרות ולפי חז"ל, וסוגי המזמורים לפי לשון הכותרות.{% endblock %}
+{% macro src_quote(s) %}
+<blockquote class="source-quote">
+  {% for seg in s.segments %}{{ seg.text }}{% if not loop.last %} {% endif %}{% endfor %}
+  <cite>{{ s.title }} · <a href="{{ s.url }}">ספריא</a>, {{ s.version }} ({{ s.license }})</cite>
+</blockquote>
+{% endmacro %}
+{% block content %}
+<section class="read">
+  <h1>מבנה הספר</h1>
+  <p>ספר תהילים נחלק לחמישה ספרים, ובסוף כל אחד מארבעת הראשונים פסוק של ברכה. כאן מוצגים החלוקה, המחברים והסוגים, כפי שהם עולים מלשון הכתוב ומדברי חז"ל.</p>
+</section>
+
+{{ book_map(cells, root, [('book', 'ספר'), ('author', 'מחבר לפי הכותרת'), ('type', 'סוג לפי הכותרת')], 'book', AUTHOR_LEGEND, TYPE_LEGEND, BOOK_NAMES) }}
+
+<h2>חמשת הספרים</h2>
+{% for b in books %}
+<section class="card" id="book-{{ b.n }}">
+  <h3 style="margin-top:0">{{ BOOK_NAMES[b.n] }} <span class="muted small num">מזמורים {{ b.first|heb }}–{{ b.last|heb }} · {{ b.count }} מזמורים · {{ b.verses }} פסוקים</span></h3>
+  {% if b.closing %}
+    {% for c in b.closing %}
+    <p class="small muted" style="margin-bottom: .25rem">חתימת הספר — {{ c.psalm|heb }}:{% for v in c.verses %}{{ v|heb }}{% if not loop.last %}–{% endif %}{% endfor %}</p>
+    <blockquote class="source-quote" style="font-family: var(--font-text)">
+      {% for v in c.verses %}{{ psalms[c.psalm].verses[v - 1].text }}{% if not loop.last %} {% endif %}{% endfor %}
+      <cite><a href="{{ root }}mizmor/{{ c.psalm }}/#v{{ c.verses[0] }}">תהילים {{ c.psalm|heb_p }}</a></cite>
+    </blockquote>
+    {% endfor %}
+    {% if b.note_verse %}<p class="note">הפסוק האחרון בספר השני (עב:כ) חותם במילים "כלו תפלות דוד בן ישי".</p>{% endif %}
+  {% else %}
+  <p class="small muted">הספר החמישי, האחרון, נחתם במזמורי הללויה (קמו–קנ).</p>
+  {% endif %}
+</section>
+{% endfor %}
+
+<h2 id="authors">המחברים לפי הכותרות</h2>
+<p class="read">מי שנזכר בכותרת המזמור בלשון "ל..." (לדוד, לאסף וכו'). מזמור שכותרתו מזכירה יותר מאחד נמנה תחת כל אחד מהם.</p>
+{% set att_names = ['דוד', 'בני קרח', 'אסף', 'משה', 'שלמה', 'הימן', 'איתן'] %}
+<div class="table-wrap"><table>
+  <thead><tr><th>בכותרת</th><th class="n">מזמורים</th><th>רשימה</th></tr></thead>
+  <tbody>
+  {% for a in att_names %}
+    {% set ns = [] %}{% for n, p in psalms.items() if p.heading and a in p.heading.attribution %}{% set _ = ns.append(n) %}{% endfor %}
+    <tr><td>{{ a }}</td><td class="n">{{ ns|length }}</td><td class="small">{% for n in ns %}<a href="{{ root }}mizmor/{{ n }}/">{{ n|heb }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</td></tr>
+  {% endfor %}
+  {% set ns = [] %}{% for n, p in psalms.items() if not p.heading or not p.heading.attribution %}{% set _ = ns.append(n) %}{% endfor %}
+    <tr><td>ללא מחבר בכותרת</td><td class="n">{{ ns|length }}</td><td class="small">{% for n in ns %}<a href="{{ root }}mizmor/{{ n }}/">{{ n|heb }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</td></tr>
+  </tbody>
+</table></div>
+
+<h2 id="chazal">המחברים לפי חז"ל</h2>
+<p class="read">הגמרא במסכת בבא בתרא מונה את מי שעל ידם נכתב הספר:</p>
+{{ src_quote(sources.ten_elders) }}
+<p class="read">ובהמשך הסוגיה, על איתן האזרחי:</p>
+{{ src_quote(sources.eitan_avraham) }}
+
+<h2 id="types">סוגי המזמורים לפי לשון הכותרות</h2>
+<p class="read">רק הכינויים שבכותרות עצמן. מזמור שכותרתו כוללת כמה כינויים (למשל "שיר מזמור") נמנה תחת כל אחד.</p>
+{% set type_names = ['מזמור', 'שיר', 'שיר המעלות', 'משכיל', 'מכתם', 'תפלה', 'תהלה', 'שגיון'] %}
+<div class="table-wrap"><table>
+  <thead><tr><th>כינוי</th><th class="n">מזמורים</th><th>רשימה</th></tr></thead>
+  <tbody>
+  {% for t in type_names %}
+    {% set ns = [] %}{% for n, p in psalms.items() if p.heading and t in p.heading.types %}{% set _ = ns.append(n) %}{% endfor %}
+    <tr><td>{{ t }}</td><td class="n">{{ ns|length }}</td><td class="small">{% for n in ns %}<a href="{{ root }}mizmor/{{ n }}/">{{ n|heb }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+<h2 id="alphabetic">מזמורים על סדר האלף־בית</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>מזמור</th><th>מבנה</th><th>אותיות שלא נמצאו בראשי הפסוקים</th></tr></thead>
+  <tbody>
+  {% for a in alpha %}
+  <tr>
+    <td><a href="{{ root }}mizmor/{{ a.n }}/">{{ a.n|heb }}</a></td>
+    <td>{{ a.kind }}</td>
+    <td>{% if a.missing is none %}<span class="muted">לא חושב (האותיות בראשי חצאי הפסוקים)</span>{% elif a.missing %}{{ a.missing|join(', ') }}{% else %}כל האותיות{% if a.verified %}, שמונה פסוקים לכל אחת{% endif %}{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+<p class="note">החישוב לפי האות הראשונה של כל פסוק, אחרי הכותרת.</p>
+<h3>הנו"ן שאינה ב"תהלה לדוד" (קמה)</h3>
+{{ src_quote(sources.ashrei_nun) }}
+<p class="no-source">לאותיות החסרות במזמורים כה ו-לד: לא נמצא עדיין מקור בחומר שנשלף.</p>
+
+<h2 id="numbering">על המספור</h2>
+<p class="read">האתר משתמש בחלוקה המקובלת ל-150 מזמורים. יש מסורות שבהן החלוקה שונה. כך, למשל, בגמרא על מזמורים א–ב:</p>
+{{ src_quote(sources.psalms_1_2) }}
+{% endblock %}

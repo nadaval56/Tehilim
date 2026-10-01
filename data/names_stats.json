@@ -1,0 +1,2378 @@
+{
+ "per_psalm": [
+  {
+   "n": 1,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 2,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 3,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.75
+  },
+  {
+   "n": 4,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8333
+  },
+  {
+   "n": 5,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 2,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.7143
+  },
+  {
+   "n": 6,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 8,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 7,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 8,
+    "ELOKIM": 5,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6154
+  },
+  {
+   "n": 8,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 2,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6667
+  },
+  {
+   "n": 9,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 9,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.9
+  },
+  {
+   "n": 10,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 2,
+    "EL": 2,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.7143
+  },
+  {
+   "n": 11,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 12,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 13,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.75
+  },
+  {
+   "n": 14,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.5714
+  },
+  {
+   "n": 15,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 16,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 17,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 0,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 18,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 19,
+    "ELOKIM": 5,
+    "EL": 4,
+    "ELOAH": 1,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.7917
+  },
+  {
+   "n": 19,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 7,
+    "ELOKIM": 0,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 20,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.625
+  },
+  {
+   "n": 21,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 22,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 1,
+    "EL": 3,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8571
+  },
+  {
+   "n": 23,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 24,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 1
+   },
+   "havayah_share": 0.8571
+  },
+  {
+   "n": 25,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 10,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.7692
+  },
+  {
+   "n": 26,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 27,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 13,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.9286
+  },
+  {
+   "n": 28,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 29,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 18,
+    "ELOKIM": 0,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 30,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 9,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8182
+  },
+  {
+   "n": 31,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 10,
+    "ELOKIM": 1,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.9091
+  },
+  {
+   "n": 32,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 33,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 13,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.9286
+  },
+  {
+   "n": 34,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 16,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 35,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 8,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 3,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8
+  },
+  {
+   "n": 36,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 2,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6
+  },
+  {
+   "n": 37,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 15,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.9375
+  },
+  {
+   "n": 38,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 3,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6
+  },
+  {
+   "n": 39,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 40,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 9,
+    "ELOKIM": 4,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6923
+  },
+  {
+   "n": 41,
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8571
+  },
+  {
+   "n": 42,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 10,
+    "EL": 3,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0909
+  },
+  {
+   "n": 43,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 7,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 44,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 5,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 45,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 4,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 46,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 7,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 2
+   },
+   "havayah_share": 0.3
+  },
+  {
+   "n": 47,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 8,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.2
+  },
+  {
+   "n": 48,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 8,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 1
+   },
+   "havayah_share": 0.2
+  },
+  {
+   "n": 49,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 50,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 9,
+    "EL": 1,
+    "ELOAH": 1,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.1
+  },
+  {
+   "n": 51,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 6,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 52,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 3,
+    "EL": 2,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 53,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 7,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 54,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 4,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.2
+  },
+  {
+   "n": 55,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 5,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.2857
+  },
+  {
+   "n": 56,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 9,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.1
+  },
+  {
+   "n": 57,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 6,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 58,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.3333
+  },
+  {
+   "n": 59,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 9,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 1
+   },
+   "havayah_share": 0.25
+  },
+  {
+   "n": 60,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 5,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 61,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 62,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 7,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 63,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 2,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 64,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.25
+  },
+  {
+   "n": 65,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 66,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 8,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 67,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 6,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 68,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 26,
+    "EL": 5,
+    "ELOAH": 0,
+    "YAH": 2,
+    "ADNI": 7,
+    "SHADDAI": 1,
+    "TZVAOT": 1
+   },
+   "havayah_share": 0.0714
+  },
+  {
+   "n": 69,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 9,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 1
+   },
+   "havayah_share": 0.3571
+  },
+  {
+   "n": 70,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.4
+  },
+  {
+   "n": 71,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 9,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 2,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.25
+  },
+  {
+   "n": 72,
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.25
+  },
+  {
+   "n": 73,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 3,
+    "EL": 2,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 2,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.25
+  },
+  {
+   "n": 74,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 4,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.2
+  },
+  {
+   "n": 75,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.25
+  },
+  {
+   "n": 76,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 4,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.2
+  },
+  {
+   "n": 77,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 6,
+    "EL": 3,
+    "ELOAH": 0,
+    "YAH": 1,
+    "ADNI": 2,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 78,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 8,
+    "EL": 7,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.2
+  },
+  {
+   "n": 79,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.25
+  },
+  {
+   "n": 80,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 5,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 4
+   },
+   "havayah_share": 0.2857
+  },
+  {
+   "n": 81,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 4,
+    "EL": 2,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.3333
+  },
+  {
+   "n": 82,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 4,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.0
+  },
+  {
+   "n": 83,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 3,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.4
+  },
+  {
+   "n": 84,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 7,
+    "ELOKIM": 7,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 4
+   },
+   "havayah_share": 0.5
+  },
+  {
+   "n": 85,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 1,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8
+  },
+  {
+   "n": 86,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 5,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 7,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.4444
+  },
+  {
+   "n": 87,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6667
+  },
+  {
+   "n": 88,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8
+  },
+  {
+   "n": 89,
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 10,
+    "ELOKIM": 1,
+    "EL": 2,
+    "ELOAH": 0,
+    "YAH": 1,
+    "ADNI": 2,
+    "SHADDAI": 0,
+    "TZVAOT": 1
+   },
+   "havayah_share": 0.9091
+  },
+  {
+   "n": 90,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 2,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 2,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.3333
+  },
+  {
+   "n": 91,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 1,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6667
+  },
+  {
+   "n": 92,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 7,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.875
+  },
+  {
+   "n": 93,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 94,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 9,
+    "ELOKIM": 3,
+    "EL": 2,
+    "ELOAH": 0,
+    "YAH": 2,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.75
+  },
+  {
+   "n": 95,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 2,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6
+  },
+  {
+   "n": 96,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 11,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8462
+  },
+  {
+   "n": 97,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.75
+  },
+  {
+   "n": 98,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8571
+  },
+  {
+   "n": 99,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 7,
+    "ELOKIM": 4,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6364
+  },
+  {
+   "n": 100,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8
+  },
+  {
+   "n": 101,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 102,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 8,
+    "ELOKIM": 0,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 1,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 103,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 11,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 104,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 9,
+    "ELOKIM": 2,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8182
+  },
+  {
+   "n": 105,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8333
+  },
+  {
+   "n": 106,
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 9,
+    "ELOKIM": 2,
+    "EL": 2,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8182
+  },
+  {
+   "n": 107,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 12,
+    "ELOKIM": 0,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 108,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 6,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.1429
+  },
+  {
+   "n": 109,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 7,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.7778
+  },
+  {
+   "n": 110,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 111,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 112,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 113,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8571
+  },
+  {
+   "n": 114,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 1,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": null
+  },
+  {
+   "n": 115,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 10,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 1,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8333
+  },
+  {
+   "n": 116,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 15,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.9375
+  },
+  {
+   "n": 117,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 118,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 22,
+    "ELOKIM": 1,
+    "EL": 2,
+    "ELOAH": 0,
+    "YAH": 6,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.9565
+  },
+  {
+   "n": 119,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 24,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.96
+  },
+  {
+   "n": 120,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 121,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 122,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 1,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.75
+  },
+  {
+   "n": 123,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6667
+  },
+  {
+   "n": 124,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 125,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 126,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 127,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 128,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 129,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 130,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 1,
+    "ADNI": 3,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 131,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 132,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 133,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 134,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 135,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 15,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 1,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8824
+  },
+  {
+   "n": 136,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 1,
+    "ELOKIM": 2,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.3333
+  },
+  {
+   "n": 137,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 138,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 6,
+    "ELOKIM": 1,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.8571
+  },
+  {
+   "n": 139,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 0,
+    "EL": 2,
+    "ELOAH": 1,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 140,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 7,
+    "ELOKIM": 0,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 141,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 142,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 3,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 143,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 144,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 2,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.6667
+  },
+  {
+   "n": 145,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 9,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 146,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 9,
+    "ELOKIM": 3,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.75
+  },
+  {
+   "n": 147,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 5,
+    "ELOKIM": 3,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 1,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 0.625
+  },
+  {
+   "n": 148,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 4,
+    "ELOKIM": 0,
+    "EL": 0,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 149,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 2,
+    "ELOKIM": 0,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 0,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": 1.0
+  },
+  {
+   "n": 150,
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 0,
+    "ELOKIM": 0,
+    "EL": 1,
+    "ELOAH": 0,
+    "YAH": 1,
+    "ADNI": 0,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   },
+   "havayah_share": null
+  }
+ ],
+ "per_book": [
+  {
+   "book": 1,
+   "counts": {
+    "HAVAYAH": 278,
+    "ELOKIM": 48,
+    "EL": 17,
+    "ELOAH": 1,
+    "YAH": 0,
+    "ADNI": 15,
+    "SHADDAI": 0,
+    "TZVAOT": 1
+   }
+  },
+  {
+   "book": 2,
+   "counts": {
+    "HAVAYAH": 31,
+    "ELOKIM": 198,
+    "EL": 16,
+    "ELOAH": 1,
+    "YAH": 2,
+    "ADNI": 18,
+    "SHADDAI": 1,
+    "TZVAOT": 6
+   }
+  },
+  {
+   "book": 3,
+   "counts": {
+    "HAVAYAH": 44,
+    "ELOKIM": 63,
+    "EL": 23,
+    "ELOAH": 0,
+    "YAH": 2,
+    "ADNI": 15,
+    "SHADDAI": 0,
+    "TZVAOT": 9
+   }
+  },
+  {
+   "book": 4,
+   "counts": {
+    "HAVAYAH": 105,
+    "ELOKIM": 24,
+    "EL": 9,
+    "ELOAH": 0,
+    "YAH": 3,
+    "ADNI": 2,
+    "SHADDAI": 1,
+    "TZVAOT": 0
+   }
+  },
+  {
+   "book": 5,
+   "counts": {
+    "HAVAYAH": 236,
+    "ELOKIM": 29,
+    "EL": 10,
+    "ELOAH": 2,
+    "YAH": 11,
+    "ADNI": 9,
+    "SHADDAI": 0,
+    "TZVAOT": 0
+   }
+  }
+ ],
+ "segments": {
+  "42-83": {
+   "HAVAYAH": 44,
+   "ELOKIM": 245,
+   "EL": 34,
+   "ELOAH": 1,
+   "YAH": 3,
+   "ADNI": 24,
+   "SHADDAI": 1,
+   "TZVAOT": 10
+  },
+  "rest": {
+   "HAVAYAH": 650,
+   "ELOKIM": 117,
+   "EL": 41,
+   "ELOAH": 3,
+   "YAH": 15,
+   "ADNI": 35,
+   "SHADDAI": 1,
+   "TZVAOT": 6
+  }
+ },
+ "totals": {
+  "HAVAYAH": 694,
+  "ELOKIM": 362,
+  "EL": 75,
+  "ELOAH": 4,
+  "YAH": 18,
+  "ADNI": 59,
+  "SHADDAI": 2,
+  "TZVAOT": 16
+ },
+ "combos": {
+  "HAVAYAH+ELOKIM": 37,
+  "ELOKIM+ELOKIM": 10,
+  "HAVAYAH+ADNI": 8,
+  "HAVAYAH+TZVAOT": 8,
+  "ELOKIM+TZVAOT": 7,
+  "HAVAYAH+EL": 4,
+  "ELOKIM+ADNI": 4,
+  "ADNI+HAVAYAH": 4,
+  "ADNI+ELOKIM": 3,
+  "ELOKIM+EL": 2,
+  "EL+HAVAYAH": 2,
+  "EL+EL": 1,
+  "EL+ELOKIM": 1,
+  "ELOKIM+HAVAYAH": 1,
+  "TZVAOT+ELOKIM": 1,
+  "YAH+ELOKIM": 1,
+  "ADNI+EL": 1,
+  "HAVAYAH+HAVAYAH": 1,
+  "YAH+ADNI": 1
+ },
+ "uncounted": {
+  "halleluyah_and_chol": "הללויה ושמות חול שאושרו אינם נספרים",
+  "ktiv": "מופע בכתיב (בסוגריים עגולים) אינו נספר; נספר הקרי"
+ }
+}

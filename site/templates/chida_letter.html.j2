@@ -1,0 +1,23 @@
+{% extends "base.html.j2" %}
+{% block title %}תהלים החיד"א — אות {{ letter.letter }} | {{ site.name }}{% endblock %}
+{% block description %}{{ letter.count }} פסוקים בספר תהילים שפותחים באות {{ letter.letter }}, לפי סדרם בספר.{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{{ root }}chida/">תהלים החיד"א</a></p>
+<div class="psalm-head">
+  <h1>אות {{ letter.letter }}</h1>
+  <span class="muted num">{{ letter.count }} פסוקים</span>
+</div>
+<div class="text-tools" role="group" aria-label="תצוגת הטקסט">
+  <button type="button" class="toggle" id="tg-teamim" aria-pressed="true">טעמי המקרא</button>
+  <button type="button" class="toggle" id="tg-names" aria-pressed="false">סימון השמות</button>
+</div>
+<div class="psalm-text chida-list" lang="he">
+  {% for r in rows %}
+  <p class="verse"><a class="vref" href="{{ root }}mizmor/{{ r.psalm }}/#v{{ r.verse }}">{{ r.psalm|heb }}:{{ r.verse|heb }}</a> {{ r.html }}</p>
+  {% endfor %}
+</div>
+<nav class="pager" aria-label="אות קודמת והבאה">
+  {% if prev %}<a href="{{ root }}chida/{{ prev.slug }}/" rel="prev">→ אות {{ prev.letter }}</a>{% else %}<span></span>{% endif %}
+  {% if next %}<a href="{{ root }}chida/{{ next.slug }}/" rel="next">אות {{ next.letter }} ←</a>{% endif %}
+</nav>
+{% endblock %}

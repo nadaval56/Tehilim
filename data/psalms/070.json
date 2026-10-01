@@ -1,0 +1,146 @@
+{
+ "n": 70,
+ "book": 2,
+ "heading": {
+  "text": "לַ֝מְנַצֵּ֗חַ לְדָוִ֥ד לְהַזְכִּֽיר׃",
+  "end": {
+   "v": 1,
+   "offset": 36
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [],
+  "musical_terms": [
+   "למנצח",
+   "להזכיר"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 6,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַ֝מְנַצֵּ֗חַ לְדָוִ֥ד לְהַזְכִּֽיר׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "אֱ-לֹהִ֥ים לְהַצִּילֵ֑נִי ה' לְעֶזְרָ֥תִי חֽוּשָׁה׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 0,
+     "start": 0,
+     "end": 10,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 26,
+     "end": 28,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "יֵבֹ֣שׁוּ וְיַחְפְּרוּ֮ מְבַקְשֵׁ֢י נַ֫פְשִׁ֥י יִסֹּ֣גוּ אָ֭חוֹר וְיִכָּלְמ֑וּ חֲ֝פֵצֵ֗י רָעָתִֽי׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "יָ֭שׁוּבוּ עַל־עֵ֣קֶב בׇּשְׁתָּ֑ם הָ֝אֹמְרִ֗ים הֶ֘אָ֥ח ׀ הֶאָֽח׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "יָ֘שִׂ֤ישׂוּ וְיִשְׂמְח֨וּ ׀ בְּךָ֗ כׇּֽל־מְבַ֫קְשֶׁ֥יךָ וְיֹאמְר֣וּ תָ֭מִיד יִגְדַּ֣ל אֱ-לֹהִ֑ים אֹ֝הֲבֵ֗י יְשׁוּעָתֶֽךָ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 8,
+     "start": 87,
+     "end": 97,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "וַאֲנִ֤י ׀ עָנִ֣י וְאֶבְיוֹן֮ אֱ-לֹהִ֢ים ח֫וּשָׁה־לִּ֥י עֶזְרִ֣י וּמְפַלְטִ֣י אַ֑תָּה ה' אַל־תְּאַחַֽר׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 3,
+     "start": 30,
+     "end": 40,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 9,
+     "start": 86,
+     "end": 88,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  6
+ ],
+ "names_count": {
+  "HAVAYAH": 2,
+  "ELOKIM": 3,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 2
+  },
+  "ELOKIM": {
+   "ים": 3
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": [
+  "40-70"
+ ],
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.70",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.70?lang=he"
+ }
+}

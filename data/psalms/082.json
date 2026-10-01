@@ -1,0 +1,153 @@
+{
+ "n": 82,
+ "book": 3,
+ "heading": {
+  "text": "מִזְמ֗וֹר לְאָ֫סָ֥ף",
+  "end": {
+   "v": 1,
+   "offset": 19
+  },
+  "attribution": [
+   "אסף"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 8,
+ "verses": [
+  {
+   "v": 1,
+   "text": "מִזְמ֗וֹר לְאָ֫סָ֥ף אֱֽ-לֹהִ֗ים נִצָּ֥ב בַּעֲדַת־אֵ֑-ל בְּקֶ֖רֶב אֱ-לֹהִ֣ים יִשְׁפֹּֽט׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 20,
+     "end": 31,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "EL",
+     "word": 5,
+     "start": 49,
+     "end": 54,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 7,
+     "start": 65,
+     "end": 75,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "עַד־מָתַ֥י תִּשְׁפְּטוּ־עָ֑וֶל וּפְנֵ֥י רְ֝שָׁעִ֗ים תִּשְׂאוּ־סֶֽלָה׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "שִׁפְטוּ־דַ֥ל וְיָת֑וֹם עָנִ֖י וָרָ֣שׁ הַצְדִּֽיקוּ׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "פַּלְּטוּ־דַ֥ל וְאֶבְי֑וֹן מִיַּ֖ד רְשָׁעִ֣ים הַצִּֽילוּ׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "לֹ֤א יָדְע֨וּ ׀ וְלֹ֥א יָבִ֗ינוּ בַּחֲשֵׁכָ֥ה יִתְהַלָּ֑כוּ יִ֝מּ֗וֹטוּ כׇּל־מ֥וֹסְדֵי אָֽרֶץ׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "אֲֽנִי־אָ֭מַרְתִּי אֱ-לֹהִ֣ים אַתֶּ֑ם וּבְנֵ֖י עֶלְי֣וֹן כֻּלְּכֶֽם׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 19,
+     "end": 29,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "אָ֭כֵן כְּאָדָ֣ם תְּמוּת֑וּן וּכְאַחַ֖ד הַשָּׂרִ֣ים תִּפֹּֽלוּ׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "קוּמָ֣ה אֱ֭-לֹהִים שׇׁפְטָ֣ה הָאָ֑רֶץ כִּֽי־אַתָּ֥ה תִ֝נְחַ֗ל בְּכׇל־הַגּוֹיִֽם׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 8,
+     "end": 18,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  8
+ ],
+ "names_count": {
+  "HAVAYAH": 0,
+  "ELOKIM": 4,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "ELOKIM": {
+   "ים": 4
+  },
+  "EL": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 1,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.82",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.82?lang=he"
+ }
+}

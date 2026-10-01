@@ -1,0 +1,15 @@
+{
+  "_note": "מיפוי כינויים. הזיהוי עצמו נעשה בקוד (scripts/names.py) מתוך code points בלבד; כאן נקבעת רק צורת התצוגה. ממתין לאישור בעל הפרויקט (סעיף 8.3).",
+  "approved": false,
+  "hyphen": "-",
+  "types": {
+    "HAVAYAH": {"label": "שם הויה", "display": "replace", "replacement": "ה'", "example": "בַּה'"},
+    "ELOKIM":  {"label": "א-להים", "display": "hyphen_after_first_letter", "example": "אֱ-לֹהִים, אֱ-לֹהֵינוּ, לֵא-לֹהִים"},
+    "EL":      {"label": "א-ל", "display": "hyphen_after_first_letter", "example": "אֵ-ל, אֵ-לִי"},
+    "ELOAH":   {"label": "א-לוה", "display": "hyphen_after_first_letter", "example": "אֱ-לוֹהַּ"},
+    "YAH":     {"label": "י-ה", "display": "hyphen_after_first_letter", "example": "יָ-הּ"},
+    "ADNI":    {"label": "א-דני", "display": "hyphen_after_first_letter", "example": "אֲ-דֹנָי"},
+    "SHADDAI": {"label": "ש-די", "display": "hyphen_after_first_letter", "example": "שַׁ-דַּי"},
+    "TZVAOT":  {"label": "צ-באות", "display": "hyphen_after_first_letter", "example": "צְ-בָאוֹת"}
+  }
+}

@@ -1,0 +1,194 @@
+{
+ "n": 97,
+ "book": 4,
+ "heading": null,
+ "verse_count": 12,
+ "verses": [
+  {
+   "v": 1,
+   "text": "ה' מָ֭לָךְ תָּגֵ֣ל הָאָ֑רֶץ יִ֝שְׂמְח֗וּ אִיִּ֥ים רַבִּֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "עָנָ֣ן וַעֲרָפֶ֣ל סְבִיבָ֑יו צֶ֥דֶק וּ֝מִשְׁפָּ֗ט מְכ֣וֹן כִּסְאֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "אֵ֭שׁ לְפָנָ֣יו תֵּלֵ֑ךְ וּתְלַהֵ֖ט סָבִ֣יב צָרָֽיו׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "הֵאִ֣ירוּ בְרָקָ֣יו תֵּבֵ֑ל רָאֲתָ֖ה וַתָּחֵ֣ל הָאָֽרֶץ׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "הָרִ֗ים כַּדּוֹנַ֗ג נָ֭מַסּוּ מִלִּפְנֵ֣י ה' מִ֝לִּפְנֵ֗י אֲד֣וֹן כׇּל־הָאָֽרֶץ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 42,
+     "end": 44,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "הִגִּ֣ידוּ הַשָּׁמַ֣יִם צִדְק֑וֹ וְרָא֖וּ כׇל־הָעַמִּ֣ים כְּבוֹדֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "יֵבֹ֤שׁוּ ׀ כׇּל־עֹ֬בְדֵי פֶ֗סֶל הַמִּֽתְהַלְלִ֥ים בָּאֱלִילִ֑ים הִשְׁתַּחֲווּ־ל֝֗וֹ כׇּל־אֱ-לֹהִֽים׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 9,
+     "start": 90,
+     "end": 100,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 8,
+   "text": "שָׁמְעָ֬ה וַתִּשְׂמַ֨ח ׀ צִיּ֗וֹן וַ֭תָּגֵלְנָה בְּנ֣וֹת יְהוּדָ֑ה לְמַ֖עַן מִשְׁפָּטֶ֣יךָ ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 8,
+     "start": 91,
+     "end": 93,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "כִּֽי־אַתָּ֤ה ה' עֶלְי֥וֹן עַל־כׇּל־הָאָ֑רֶץ מְאֹ֥ד נַ֝עֲלֵ֗יתָ עַל־כׇּל־אֱ-לֹהִֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 14,
+     "end": 16,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 11,
+     "start": 73,
+     "end": 83,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "אֹֽהֲבֵ֥י ה' שִׂנְא֫וּ־רָ֥ע שֹׁ֭מֵר נַפְשׁ֣וֹת חֲסִידָ֑יו מִיַּ֥ד רְ֝שָׁעִ֗ים יַצִּילֵֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 11,
+   "text": "א֭וֹר זָרֻ֣עַ לַצַּדִּ֑יק וּֽלְיִשְׁרֵי־לֵ֥ב שִׂמְחָֽה׃",
+   "names": []
+  },
+  {
+   "v": 12,
+   "text": "שִׂמְח֣וּ צַ֭דִּיקִים בַּה' וְ֝הוֹד֗וּ לְזֵ֣כֶר קׇדְשֽׁוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 22,
+     "end": 27,
+     "prefix": "ב",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  12
+ ],
+ "names_count": {
+  "HAVAYAH": 6,
+  "ELOKIM": 2,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 6
+  },
+  "ELOKIM": {
+   "ים": 2
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.97",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.97?lang=he"
+ }
+}

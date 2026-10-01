@@ -1,0 +1,352 @@
+{
+ "n": 84,
+ "book": 3,
+ "heading": {
+  "text": "לַמְנַצֵּ֥חַ עַֽל־הַגִּתִּ֑ית לִבְנֵי־קֹ֥רַח מִזְמֽוֹר׃",
+  "end": {
+   "v": 1,
+   "offset": 55
+  },
+  "attribution": [
+   "בני קרח"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [
+   "למנצח",
+   "על הגתית"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 13,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֥חַ עַֽל־הַגִּתִּ֑ית לִבְנֵי־קֹ֥רַח מִזְמֽוֹר׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "מַה־יְּדִיד֥וֹת מִשְׁכְּנוֹתֶ֗יךָ ה' צְ-בָאֽוֹת׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 34,
+     "end": 36,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "TZVAOT",
+     "word": 4,
+     "start": 37,
+     "end": 47,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "נִכְסְפָ֬ה וְגַם־כָּלְתָ֨ה ׀ נַפְשִׁי֮ לְחַצְר֢וֹת ה' לִבִּ֥י וּבְשָׂרִ֑י יְ֝רַנְּנ֗וּ אֶ֣ל אֵֽ-ל־חָֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 51,
+     "end": 53,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "EL",
+     "word": 10,
+     "start": 92,
+     "end": 97,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "גַּם־צִפּ֨וֹר מָ֪צְאָה בַ֡יִת וּדְר֤וֹר ׀ קֵ֥ן לָהּ֮ אֲשֶׁר־שָׁ֢תָה אֶפְרֹ֫חֶ֥יהָ אֶֽת־מִ֭זְבְּחוֹתֶיךָ ה' צְ-בָא֑וֹת מַ֝לְכִּ֗י וֵא-לֹהָֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 12,
+     "start": 104,
+     "end": 106,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "TZVAOT",
+     "word": 13,
+     "start": 107,
+     "end": 117,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 15,
+     "start": 129,
+     "end": 139,
+     "prefix": "ו",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "אַ֭שְׁרֵי יוֹשְׁבֵ֣י בֵיתֶ֑ךָ ע֝֗וֹד יְֽהַלְל֥וּךָ סֶּֽלָה׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "אַשְׁרֵ֣י אָ֭דָם עֽוֹז־ל֥וֹ בָ֑ךְ מְ֝סִלּ֗וֹת בִּלְבָבָֽם׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "עֹבְרֵ֤י ׀ בְּעֵ֣מֶק הַ֭בָּכָא מַעְיָ֣ן יְשִׁית֑וּהוּ גַּם־בְּ֝רָכ֗וֹת יַעְטֶ֥ה מוֹרֶֽה׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "יֵ֭לְכוּ מֵחַ֣יִל אֶל־חָ֑יִל יֵרָאֶ֖ה אֶל־אֱ-לֹהִ֣ים בְּצִיּֽוֹן׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 6,
+     "start": 42,
+     "end": 52,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "ה' אֱ-לֹהִ֣ים צְ֭-בָאוֹת שִׁמְעָ֣ה תְפִלָּתִ֑י הַאֲזִ֨ינָה אֱ-לֹהֵ֖י יַעֲקֹ֣ב סֶֽלָה׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 3,
+     "end": 13,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "TZVAOT",
+     "word": 2,
+     "start": 14,
+     "end": 24,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 6,
+     "start": 59,
+     "end": 68,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "מָ֭גִנֵּנוּ רְאֵ֣ה אֱ-לֹהִ֑ים וְ֝הַבֵּ֗ט פְּנֵ֣י מְשִׁיחֶֽךָ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 19,
+     "end": 29,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 11,
+   "text": "כִּ֤י טֽוֹב־י֥וֹם בַּחֲצֵרֶ֗יךָ מֵ֫אָ֥לֶף בָּחַ֗רְתִּי הִ֭סְתּוֹפֵף בְּבֵ֣ית אֱ-לֹהַ֑י מִ֝דּ֗וּר בְּאׇהֳלֵי־רֶֽשַׁע׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 8,
+     "start": 77,
+     "end": 86,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 12,
+   "text": "כִּ֤י שֶׁ֨מֶשׁ ׀ וּמָגֵן֮ ה' אֱ-לֹ֫הִ֥ים חֵ֣ן וְ֭כָבוֹד יִתֵּ֣ן ה' לֹ֥א יִמְנַע־ט֝֗וֹב לַֽהֹלְכִ֥ים בְּתָמִֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 26,
+     "end": 28,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 4,
+     "start": 29,
+     "end": 40,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 8,
+     "start": 64,
+     "end": 66,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 13,
+   "text": "ה' צְ-בָא֑וֹת אַֽשְׁרֵ֥י אָ֝דָ֗ם בֹּטֵ֥חַ בָּֽךְ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "TZVAOT",
+     "word": 1,
+     "start": 3,
+     "end": 13,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  13
+ ],
+ "names_count": {
+  "HAVAYAH": 7,
+  "ELOKIM": 7,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 4
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 7
+  },
+  "ELOKIM": {
+   "י": 3,
+   "ים": 4
+  },
+  "EL": {
+   "base": 1
+  },
+  "TZVAOT": {
+   "base": 4
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+TZVAOT": 3,
+  "HAVAYAH+ELOKIM": 2,
+  "ELOKIM+TZVAOT": 1
+ },
+ "selah_count": 2,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.84",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.84?lang=he"
+ }
+}

@@ -1,0 +1,47 @@
+{% extends "base.html.j2" %}
+{% from "_map.html.j2" import book_map %}
+{% block title %}{{ site.name }} — {{ site.tagline }}{% endblock %}
+{% block content %}
+<section class="read">
+  <h1>ספר תהילים</h1>
+  <p>מאה וחמישים מזמורים, ספר אחד. האתר מציג כל מזמור בדף משלו, בנוסח המסורה המנוקד והמוטעם, ומעליהם ארבע עדשות שמסתכלות על הספר כולו.</p>
+</section>
+
+<h2 id="map-title">מפת הספר</h2>
+<p class="muted small read">כל תא הוא מזמור. לחיצה על תא פותחת את המזמור.</p>
+{{ book_map(cells, root, [('book', 'ספר'), ('author', 'מחבר לפי הכותרת'), ('type', 'סוג לפי הכותרת'), ('names', 'שמות')], 'book', AUTHOR_LEGEND, TYPE_LEGEND, BOOK_NAMES) }}
+
+<h2>ארבע עדשות</h2>
+<div class="cards">
+  <a class="card lens-card" href="{{ root }}sefer/">
+    <h3>מבנה הספר</h3>
+    <p>חמשת הספרים וחתימותיהם, המחברים לפי הכותרות ולפי חז"ל, וסוגי המזמורים לפי לשון הכותרות.</p>
+  </a>
+  <a class="card lens-card" href="{{ root }}shemot/">
+    <h3>השמות</h3>
+    <p>פיזור שמות הקודש לאורך הספר, והמזמורים הכפולים זה לצד זה.</p>
+  </a>
+  <div class="card lens-card" aria-disabled="true">
+    <h3>דוד <span class="tag neutral">בהכנה</span></h3>
+    <p>מזמורים שכותרתם מזכירה אירוע מחייו, עם הקטע המקביל בספר שמואל.</p>
+  </div>
+  <div class="card lens-card" aria-disabled="true">
+    <h3>בחיים היהודיים <span class="tag neutral">בהכנה</span></h3>
+    <p>היכן נאמר כל מזמור: בתפילה, במועדים ובמעגל החיים.</p>
+  </div>
+</div>
+
+<h2>תהלים החיד"א</h2>
+<p class="read">כל פסוקי הספר לפי האות שבה הם פותחים. <a href="{{ root }}chida/">לרשימת האותיות</a></p>
+<ul class="letter-grid">
+  {% for l in chida.letters %}<li><a href="{{ root }}chida/{{ l.slug }}/" aria-label="אות {{ l.letter }}, {{ l.count }} פסוקים"><span class="letter">{{ l.letter }}</span></a></li>{% endfor %}
+</ul>
+
+<h2>כל המזמורים</h2>
+{% for b in books %}
+<h3>{{ BOOK_NAMES[b.n] }} <span class="muted small num">(מזמורים {{ b.first|heb }}–{{ b.last|heb }})</span></h3>
+<p class="psalm-index">
+  {% for n in range(b.first, b.last + 1) %}<a href="{{ root }}mizmor/{{ n }}/" aria-label="מזמור {{ n|heb }}">{{ n|heb }}</a>{% endfor %}
+</p>
+{% endfor %}
+{% endblock %}

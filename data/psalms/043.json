@@ -1,0 +1,159 @@
+{
+ "n": 43,
+ "book": 2,
+ "heading": null,
+ "verse_count": 5,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שׇׁפְטֵ֤נִי אֱ-לֹהִ֨ים ׀ וְרִ֘יבָ֤ה רִיבִ֗י מִגּ֥וֹי לֹֽא־חָסִ֑יד מֵ֤אִישׁ־מִרְמָ֖ה וְעַוְלָ֣ה תְפַלְּטֵֽנִי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 12,
+     "end": 22,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "כִּי־אַתָּ֤ה ׀ אֱ-לֹהֵ֣י מָעוּזִּי֮ לָמָ֢ה זְנַ֫חְתָּ֥נִי לָֽמָּה־קֹדֵ֥ר אֶתְהַלֵּ֗ךְ בְּלַ֣חַץ אוֹיֵֽב׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 15,
+     "end": 24,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "שְׁלַח־אוֹרְךָ֣ וַ֭אֲמִתְּךָ הֵ֣מָּה יַנְח֑וּנִי יְבִיא֥וּנִי אֶל־הַֽר־קׇ֝דְשְׁךָ֗ וְאֶל־מִשְׁכְּנוֹתֶֽיךָ׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "וְאָב֤וֹאָה ׀ אֶל־מִזְבַּ֬ח אֱ-לֹהִ֗ים אֶל־אֵ-ל֮ שִׂמְחַ֢ת גִּ֫ילִ֥י וְאוֹדְךָ֥ בְכִנּ֗וֹר אֱ-לֹהִ֥ים אֱ-לֹהָֽי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 3,
+     "start": 28,
+     "end": 38,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "EL",
+     "word": 5,
+     "start": 43,
+     "end": 48,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 10,
+     "start": 91,
+     "end": 101,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 11,
+     "start": 102,
+     "end": 111,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "מַה־תִּשְׁתּ֬וֹחֲחִ֨י ׀ נַפְשִׁי֮ וּֽמַה־תֶּהֱמִ֢י עָ֫לָ֥י הוֹחִ֣ילִי לֵ֭א-לֹהִים כִּי־ע֣וֹד אוֹדֶ֑נּוּ יְשׁוּעֹ֥ת פָּ֝נַ֗י וֵא-לֹהָֽי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 7,
+     "start": 70,
+     "end": 81,
+     "prefix": "ל",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 13,
+     "start": 124,
+     "end": 134,
+     "prefix": "ו",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  5
+ ],
+ "names_count": {
+  "HAVAYAH": 0,
+  "ELOKIM": 7,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "ELOKIM": {
+   "ים": 4,
+   "י": 3
+  },
+  "EL": {
+   "base": 1
+  }
+ },
+ "names_combos": {
+  "ELOKIM+ELOKIM": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.43",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.43?lang=he"
+ }
+}

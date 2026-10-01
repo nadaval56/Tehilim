@@ -1,0 +1,76 @@
+[
+ {
+  "n": 1,
+  "first": 1,
+  "last": 41,
+  "closing": [
+   {
+    "psalm": 41,
+    "verses": [
+     14
+    ]
+   }
+  ],
+  "count": 41,
+  "verses": 637
+ },
+ {
+  "n": 2,
+  "first": 42,
+  "last": 72,
+  "closing": [
+   {
+    "psalm": 72,
+    "verses": [
+     18,
+     19,
+     20
+    ]
+   }
+  ],
+  "note_verse": {
+   "psalm": 72,
+   "verse": 20
+  },
+  "count": 31,
+  "verses": 495
+ },
+ {
+  "n": 3,
+  "first": 73,
+  "last": 89,
+  "closing": [
+   {
+    "psalm": 89,
+    "verses": [
+     53
+    ]
+   }
+  ],
+  "count": 17,
+  "verses": 368
+ },
+ {
+  "n": 4,
+  "first": 90,
+  "last": 106,
+  "closing": [
+   {
+    "psalm": 106,
+    "verses": [
+     48
+    ]
+   }
+  ],
+  "count": 17,
+  "verses": 323
+ },
+ {
+  "n": 5,
+  "first": 107,
+  "last": 150,
+  "closing": [],
+  "count": 44,
+  "verses": 704
+ }
+]

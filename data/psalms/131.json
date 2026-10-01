@@ -1,0 +1,91 @@
+{
+ "n": 131,
+ "book": 5,
+ "heading": {
+  "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד",
+  "end": {
+   "v": 1,
+   "offset": 30
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "שיר המעלות"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 3,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד ה' ׀ לֹא־גָבַ֣הּ לִ֭בִּי וְלֹא־רָמ֣וּ עֵינַ֑י וְלֹֽא־הִלַּ֓כְתִּי ׀ בִּגְדֹל֖וֹת וּבְנִפְלָא֣וֹת מִמֶּֽנִּי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 31,
+     "end": 33,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "אִם־לֹ֤א שִׁוִּ֨יתִי ׀ וְדוֹמַ֗מְתִּי נַ֫פְשִׁ֥י כְּ֭גָמֻל עֲלֵ֣י אִמּ֑וֹ כַּגָּמֻ֖ל עָלַ֣י נַפְשִֽׁי׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "יַחֵ֣ל יִ֭שְׂרָאֵל אֶל־ה' מֵ֝עַתָּ֗ה וְעַד־עוֹלָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 23,
+     "end": 25,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  3
+ ],
+ "names_count": {
+  "HAVAYAH": 2,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 2
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.131",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.131?lang=he"
+ }
+}

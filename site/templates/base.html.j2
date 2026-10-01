@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site.name }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ site.tagline }}{% endblock %}">
+  <link rel="canonical" href="{{ site.base_url }}{{ path ~ '/' if path else '' }}">
+  <meta property="og:title" content="{{ self.title() }}">
+  <meta property="og:description" content="{{ self.description() }}">
+  <meta property="og:locale" content="he_IL">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f4f2ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="{{ root }}assets/icon.svg" type="image/svg+xml">
+  <link rel="preload" href="{{ root }}assets/fonts/noto-serif-hebrew-hebrew.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ root }}assets/style.css?v={{ version }}">
+{{ a11y_head }}
+{% block head %}{% endblock %}
+</head>
+<body>
+  <a href="#main" class="skip-link">דלג לתוכן</a>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="{{ root }}">{{ site.name }}</a>
+      <nav class="site-nav" aria-label="ניווט ראשי">
+        <ul>
+          {% set nav = [('sefer', 'מבנה הספר'), ('shemot', 'השמות'), ('chida', 'תהלים החיד"א'), ('shita', 'שיטה'), ('about', 'אודות')] %}
+          {% for slug, label in nav %}
+          <li><a href="{{ root }}{{ slug }}/"{% if path == slug or path.startswith(slug ~ '/') %} aria-current="page"{% endif %}>{{ label }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <button type="button" class="theme-btn" aria-label="ערכת נושא: לפי המכשיר">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+{% block content %}{% endblock %}
+    </div>
+  </main>
+  <footer class="site-foot">
+    <div class="wrap">
+      <p>נוסח המקרא: <a href="https://www.sefaria.org/Psalms?lang=he">מקרא על פי המסורה</a>, דרך ספריא, ברישיון CC-BY-SA. שמות הקודש מופיעים בכינוי.</p>
+      <ul>
+        <li><a href="{{ root }}about/">אודות וקרדיטים</a></li>
+        <li><a href="{{ root }}shita/">שיטת העבודה</a></li>
+        <li><a href="{{ root }}accessibility/">הצהרת נגישות</a></li>
+        <li><a href="{{ root }}privacy/">מדיניות פרטיות</a></li>
+      </ul>
+    </div>
+  </footer>
+{{ a11y_foot }}
+  <script src="{{ root }}assets/app.js?v={{ version }}"></script>
+</body>
+</html>

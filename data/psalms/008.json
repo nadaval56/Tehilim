@@ -1,0 +1,171 @@
+{
+ "n": 8,
+ "book": 1,
+ "heading": {
+  "text": "לַמְנַצֵּ֥חַ עַֽל־הַגִּתִּ֗ית מִזְמ֥וֹר לְדָוִֽד׃",
+  "end": {
+   "v": 1,
+   "offset": 49
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [
+   "למנצח",
+   "על הגתית"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 10,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֥חַ עַֽל־הַגִּתִּ֗ית מִזְמ֥וֹר לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "ה' אֲ-דֹנֵ֗ינוּ מָה־אַדִּ֣יר שִׁ֭מְךָ בְּכׇל־הָאָ֑רֶץ אֲשֶׁ֥ר תְּנָ֥ה ה֝וֹדְךָ֗ עַל־הַשָּׁמָֽיִם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ADNI",
+     "word": 1,
+     "start": 3,
+     "end": 15,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "מִפִּ֤י עוֹלְלִ֨ים ׀ וְֽיֹנְקִים֮ יִסַּ֢דְתָּ֫ עֹ֥ז לְמַ֥עַן צוֹרְרֶ֑יךָ לְהַשְׁבִּ֥ית א֝וֹיֵ֗ב וּמִתְנַקֵּֽם׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "כִּֽי־אֶרְאֶ֣ה שָׁ֭מֶיךָ מַעֲשֵׂ֣ה אֶצְבְּעֹתֶ֑יךָ יָרֵ֥חַ וְ֝כוֹכָבִ֗ים אֲשֶׁ֣ר כּוֹנָֽנְתָּה׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "מָה־אֱנ֥וֹשׁ כִּֽי־תִזְכְּרֶ֑נּוּ וּבֶן־אָ֝דָ֗ם כִּ֣י תִפְקְדֶֽנּוּ׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "וַתְּחַסְּרֵ֣הוּ מְּ֭עַט מֵאֱ-לֹהִ֑ים וְכָב֖וֹד וְהָדָ֣ר תְּעַטְּרֵֽהוּ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 25,
+     "end": 37,
+     "prefix": "מ",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "תַּ֭מְשִׁילֵהוּ בְּמַעֲשֵׂ֣י יָדֶ֑יךָ כֹּ֝֗ל שַׁ֣תָּה תַֽחַת־רַגְלָֽיו׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "צֹנֶ֣ה וַאֲלָפִ֣ים כֻּלָּ֑ם וְ֝גַ֗ם בַּהֲמ֥וֹת שָׂדָֽי׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "צִפּ֣וֹר שָׁ֭מַיִם וּדְגֵ֣י הַיָּ֑ם עֹ֝בֵ֗ר אׇרְח֥וֹת יַמִּֽים׃",
+   "names": []
+  },
+  {
+   "v": 10,
+   "text": "ה' אֲ-דֹנֵ֑ינוּ מָה־אַדִּ֥יר שִׁ֝מְךָ֗ בְּכׇל־הָאָֽרֶץ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ADNI",
+     "word": 1,
+     "start": 3,
+     "end": 15,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  10
+ ],
+ "names_count": {
+  "HAVAYAH": 2,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 2,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 2
+  },
+  "ELOKIM": {
+   "ים": 1
+  },
+  "ADNI": {
+   "ינו": 2
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ADNI": 2
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.8",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.8?lang=he"
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "n": 149,
+ "book": 5,
+ "heading": null,
+ "verse_count": 9,
+ "verses": [
+  {
+   "v": 1,
+   "text": "הַ֥לְלוּ־יָ֨הּ ׀ שִׁ֣ירוּ לַֽ֭ה' שִׁ֣יר חָדָ֑שׁ תְּ֝הִלָּת֗וֹ בִּקְהַ֥ל חֲסִידִֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 26,
+     "end": 32,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "יִשְׂמַ֣ח יִשְׂרָאֵ֣ל בְּעֹשָׂ֑יו בְּנֵֽי־צִ֝יּ֗וֹן יָגִ֥ילוּ בְמַלְכָּֽם׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "יְהַלְל֣וּ שְׁמ֣וֹ בְמָח֑וֹל בְּתֹ֥ף וְ֝כִנּ֗וֹר יְזַמְּרוּ־לֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "כִּֽי־רוֹצֶ֣ה ה' בְּעַמּ֑וֹ יְפָאֵ֥ר עֲ֝נָוִ֗ים בִּישׁוּעָֽה׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 14,
+     "end": 16,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "יַעְלְז֣וּ חֲסִידִ֣ים בְּכָב֑וֹד יְ֝רַנְּנ֗וּ עַל־מִשְׁכְּבוֹתָֽם׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "רוֹמְמ֣וֹת אֵ֭-ל בִּגְרוֹנָ֑ם וְחֶ֖רֶב פִּיפִיּ֣וֹת בְּיָדָֽם׃",
+   "names": [
+    {
+     "type": "EL",
+     "word": 1,
+     "start": 11,
+     "end": 16,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "לַעֲשׂ֣וֹת נְ֭קָמָה בַּגּוֹיִ֑ם תּ֝וֹכֵח֗וֹת בַּלְאֻמִּֽים׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "לֶאְסֹ֣ר מַלְכֵיהֶ֣ם בְּזִקִּ֑ים וְ֝נִכְבְּדֵיהֶ֗ם בְּכַבְלֵ֥י בַרְזֶֽל׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "לַעֲשׂ֤וֹת בָּהֶ֨ם ׀ מִשְׁפָּ֬ט כָּת֗וּב הָדָ֣ר ה֭וּא לְכׇל־חֲסִידָ֗יו הַֽלְלוּ־יָֽהּ׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  9
+ ],
+ "names_count": {
+  "HAVAYAH": 2,
+  "ELOKIM": 0,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 2
+  },
+  "EL": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.149",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.149?lang=he"
+ }
+}

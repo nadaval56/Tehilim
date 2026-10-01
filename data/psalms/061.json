@@ -1,0 +1,134 @@
+{
+ "n": 61,
+ "book": 2,
+ "heading": {
+  "text": "לַמְנַצֵּ֬חַ ׀ עַֽל־נְגִינַ֬ת לְדָוִֽד׃",
+  "end": {
+   "v": 1,
+   "offset": 39
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [],
+  "musical_terms": [
+   "למנצח",
+   "על נגינת"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 9,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֬חַ ׀ עַֽל־נְגִינַ֬ת לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "שִׁמְעָ֣ה אֱ֭-לֹהִים רִנָּתִ֑י הַ֝קְשִׁ֗יבָה תְּפִלָּתִֽי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 10,
+     "end": 20,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "מִקְצֵ֤ה הָאָ֨רֶץ ׀ אֵלֶ֣יךָ אֶ֭קְרָא בַּעֲטֹ֣ף לִבִּ֑י בְּצוּר־יָר֖וּם מִמֶּ֣נִּי תַנְחֵֽנִי׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "כִּֽי־הָיִ֣יתָ מַחְסֶ֣ה לִ֑י מִגְדַּל־עֹ֝֗ז מִפְּנֵ֥י אוֹיֵֽב׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "אָג֣וּרָה בְ֭אׇהׇלְךָ עוֹלָמִ֑ים אֶ֥חֱסֶ֨ה בְסֵ֖תֶר כְּנָפֶ֣יךָ סֶּֽלָה׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "כִּֽי־אַתָּ֣ה אֱ֭-לֹהִים שָׁמַ֣עְתָּ לִנְדָרָ֑י נָתַ֥תָּ יְ֝רֻשַּׁ֗ת יִרְאֵ֥י שְׁמֶֽךָ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 14,
+     "end": 24,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "יָמִ֣ים עַל־יְמֵי־מֶ֣לֶךְ תּוֹסִ֑יף שְׁ֝נוֹתָ֗יו כְּמוֹ־דֹ֥ר וָדֹֽר׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "יֵשֵׁ֣ב ע֭וֹלָם לִפְנֵ֣י אֱ-לֹהִ֑ים חֶ֥סֶד וֶ֝אֱמֶ֗ת מַ֣ן יִנְצְרֻֽהוּ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 3,
+     "start": 25,
+     "end": 35,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "כֵּ֤ן אֲזַמְּרָ֣ה שִׁמְךָ֣ לָעַ֑ד לְֽשַׁלְּמִ֥י נְ֝דָרַ֗י י֣וֹם ׀ יֽוֹם׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  9
+ ],
+ "names_count": {
+  "HAVAYAH": 0,
+  "ELOKIM": 3,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "ELOKIM": {
+   "ים": 3
+  }
+ },
+ "names_combos": {},
+ "selah_count": 1,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.61",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.61?lang=he"
+ }
+}

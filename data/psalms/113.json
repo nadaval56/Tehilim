@@ -1,0 +1,168 @@
+{
+ "n": 113,
+ "book": 5,
+ "heading": null,
+ "verse_count": 9,
+ "verses": [
+  {
+   "v": 1,
+   "text": "הַ֥לְלוּ־יָ֨הּ ׀ הַ֭לְלוּ עַבְדֵ֣י ה' הַֽ֝לְל֗וּ אֶת־שֵׁ֥ם ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 35,
+     "end": 37,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 8,
+     "start": 59,
+     "end": 61,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "יְהִ֤י שֵׁ֣ם ה' מְבֹרָ֑ךְ מֵ֝עַתָּ֗ה וְעַד־עוֹלָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 13,
+     "end": 15,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "מִמִּזְרַח־שֶׁ֥מֶשׁ עַד־מְבוֹא֑וֹ מְ֝הֻלָּ֗ל שֵׁ֣ם ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 6,
+     "start": 51,
+     "end": 53,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "רָ֖ם עַל־כׇּל־גּוֹיִ֥ם ׀ ה' עַ֖ל הַשָּׁמַ֣יִם כְּבוֹדֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 25,
+     "end": 27,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "מִ֭י כַּה' אֱ-לֹהֵ֑ינוּ הַֽמַּגְבִּיהִ֥י לָשָֽׁבֶת׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 5,
+     "end": 10,
+     "prefix": "כ",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 11,
+     "end": 23,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "הַֽמַּשְׁפִּילִ֥י לִרְא֑וֹת בַּשָּׁמַ֥יִם וּבָאָֽרֶץ׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "מְקִ֥ימִ֣י מֵעָפָ֣ר דָּ֑ל מֵ֝אַשְׁפֹּ֗ת יָרִ֥ים אֶבְיֽוֹן׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "לְהוֹשִׁיבִ֥י עִם־נְדִיבִ֑ים עִ֝֗ם נְדִיבֵ֥י עַמּֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "מֽוֹשִׁיבִ֨י ׀ עֲקֶ֬רֶת הַבַּ֗יִת אֵֽם־הַבָּנִ֥ים שְׂמֵחָ֗ה הַֽלְלוּ־יָֽהּ׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  9
+ ],
+ "names_count": {
+  "HAVAYAH": 6,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 6
+  },
+  "ELOKIM": {
+   "ינו": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ELOKIM": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.113",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.113?lang=he"
+ }
+}

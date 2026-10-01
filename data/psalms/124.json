@@ -1,0 +1,140 @@
+{
+ "n": 124,
+ "book": 5,
+ "heading": {
+  "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד",
+  "end": {
+   "v": 1,
+   "offset": 30
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "שיר המעלות"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 8,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד לוּלֵ֣י ה' שֶׁהָ֣יָה לָ֑נוּ יֹאמַר־נָ֝֗א יִשְׂרָאֵֽל׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 39,
+     "end": 41,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "לוּלֵ֣י ה' שֶׁהָ֣יָה לָ֑נוּ בְּק֖וּם עָלֵ֣ינוּ אָדָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 8,
+     "end": 10,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "אֲ֭זַי חַיִּ֣ים בְּלָע֑וּנוּ בַּחֲר֖וֹת אַפָּ֣ם בָּֽנוּ׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "אֲ֭זַי הַמַּ֣יִם שְׁטָפ֑וּנוּ נַ֝֗חְלָה עָבַ֥ר עַל־נַפְשֵֽׁנוּ׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "אֲ֭זַי עָבַ֣ר עַל־נַפְשֵׁ֑נוּ הַ֝מַּ֗יִם הַזֵּידוֹנִֽים׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "בָּר֥וּךְ ה' שֶׁלֹּ֥א נְתָנָ֥נוּ טֶ֝֗רֶף לְשִׁנֵּיהֶֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "נַפְשֵׁ֗נוּ כְּצִפּ֥וֹר נִמְלְטָה֮ מִפַּ֢ח י֫וֹקְשִׁ֥ים הַפַּ֥ח נִשְׁבָּ֗ר וַאֲנַ֥חְנוּ נִמְלָֽטְנוּ׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "עֶ֭זְרֵנוּ בְּשֵׁ֣ם ה' עֹ֝שֵׂ֗ה שָׁמַ֥יִם וָאָֽרֶץ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 20,
+     "end": 22,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  8
+ ],
+ "names_count": {
+  "HAVAYAH": 4,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 4
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.124",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.124?lang=he"
+ }
+}
