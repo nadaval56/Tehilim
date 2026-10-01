@@ -1,0 +1,120 @@
+{
+ "n": 93,
+ "book": 4,
+ "heading": null,
+ "verse_count": 5,
+ "verses": [
+  {
+   "v": 1,
+   "text": "ה' מָלָךְ֮ גֵּא֢וּת לָ֫בֵ֥שׁ לָבֵ֣שׁ ה' עֹ֣ז הִתְאַזָּ֑ר אַף־תִּכּ֥וֹן תֵּ֝בֵ֗ל בַּל־תִּמּֽוֹט׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 37,
+     "end": 39,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "נָכ֣וֹן כִּסְאֲךָ֣ מֵאָ֑ז מֵעוֹלָ֣ם אָֽתָּה׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "נָשְׂא֤וּ נְהָר֨וֹת ׀ ה' נָשְׂא֣וּ נְהָר֣וֹת קוֹלָ֑ם יִשְׂא֖וּ נְהָר֣וֹת דׇּכְיָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 22,
+     "end": 24,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "מִקֹּל֨וֹת ׀ מַ֤יִם רַבִּ֗ים אַדִּירִ֣ים מִשְׁבְּרֵי־יָ֑ם אַדִּ֖יר בַּמָּר֣וֹם ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 8,
+     "start": 79,
+     "end": 81,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "עֵֽדֹתֶ֨יךָ ׀ נֶאֶמְנ֬וּ מְאֹ֗ד לְבֵיתְךָ֥ נַאֲוָה־קֹ֑דֶשׁ ה' לְאֹ֣רֶךְ יָמִֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 6,
+     "start": 59,
+     "end": 61,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  5
+ ],
+ "names_count": {
+  "HAVAYAH": 5,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 5
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.93",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.93?lang=he"
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "n": 96,
+ "book": 4,
+ "heading": null,
+ "verse_count": 13,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֣ירוּ לַ֭ה' שִׁ֣יר חָדָ֑שׁ שִׁ֥ירוּ לַ֝ה' כׇּל־הָאָֽרֶץ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 9,
+     "end": 14,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 39,
+     "end": 44,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "שִׁ֣ירוּ לַ֭ה' בָּרְכ֣וּ שְׁמ֑וֹ בַּשְּׂר֥וּ מִיּֽוֹם־לְ֝י֗וֹם יְשׁוּעָתֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 9,
+     "end": 14,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "סַפְּר֣וּ בַגּוֹיִ֣ם כְּבוֹד֑וֹ בְּכׇל־הָ֝עַמִּ֗ים נִפְלְאוֹתָֽיו׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "כִּ֥י־גָ֘ד֤וֹל ה' וּמְהֻלָּ֣ל מְאֹ֑ד נוֹרָ֥א ה֝֗וּא עַל־כׇּל־אֱ-לֹהִֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 15,
+     "end": 17,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 9,
+     "start": 61,
+     "end": 71,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "כִּ֤י ׀ כׇּל־אֱ-לֹהֵ֣י הָעַמִּ֣ים אֱלִילִ֑ים וַ֝ה' שָׁמַ֥יִם עָשָֽׂה׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 13,
+     "end": 22,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 45,
+     "end": 50,
+     "prefix": "ו",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "הוֹד־וְהָדָ֥ר לְפָנָ֑יו עֹ֥ז וְ֝תִפְאֶ֗רֶת בְּמִקְדָּשֽׁוֹ׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "הָב֣וּ לַ֭ה' מִשְׁפְּח֣וֹת עַמִּ֑ים הָב֥וּ לַ֝ה' כָּב֥וֹד וָעֹֽז׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 7,
+     "end": 12,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 43,
+     "end": 48,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 8,
+   "text": "הָב֣וּ לַ֭ה' כְּב֣וֹד שְׁמ֑וֹ שְׂאֽוּ־מִ֝נְחָ֗ה וּבֹ֥אוּ לְחַצְרוֹתָֽיו׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 7,
+     "end": 12,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "הִשְׁתַּחֲו֣וּ לַ֭ה' בְּהַדְרַת־קֹ֑דֶשׁ חִ֥ילוּ מִ֝פָּנָ֗יו כׇּל־הָאָֽרֶץ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 15,
+     "end": 20,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "אִמְר֤וּ בַגּוֹיִ֨ם ׀ ה' מָלָ֗ךְ אַף־תִּכּ֣וֹן תֵּ֭בֵל בַּל־תִּמּ֑וֹט יָדִ֥ין עַ֝מִּ֗ים בְּמֵישָׁרִֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 22,
+     "end": 24,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 11,
+   "text": "יִשְׂמְח֣וּ הַ֭שָּׁמַיִם וְתָגֵ֣ל הָאָ֑רֶץ יִֽרְעַ֥ם הַ֝יָּ֗ם וּמְלֹאֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 12,
+   "text": "יַעֲלֹ֣ז שָׂ֭דַי וְכׇל־אֲשֶׁר־בּ֑וֹ אָ֥ז יְ֝רַנְּנ֗וּ כׇּל־עֲצֵי־יָֽעַר׃",
+   "names": []
+  },
+  {
+   "v": 13,
+   "text": "לִפְנֵ֤י ה' ׀ כִּ֬י בָ֗א כִּ֥י בָא֮ לִשְׁפֹּ֢ט הָ֫אָ֥רֶץ יִשְׁפֹּֽט־תֵּבֵ֥ל בְּצֶ֑דֶק וְ֝עַמִּ֗ים בֶּאֱמוּנָתֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 9,
+     "end": 11,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  13
+ ],
+ "names_count": {
+  "HAVAYAH": 11,
+  "ELOKIM": 2,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 11
+  },
+  "ELOKIM": {
+   "ים": 1,
+   "י": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.96",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.96?lang=he"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "n": 133,
+ "book": 5,
+ "heading": {
+  "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד",
+  "end": {
+   "v": 1,
+   "offset": 30
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "שיר המעלות"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 3,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד הִנֵּ֣ה מַה־טּ֭וֹב וּמַה־נָּעִ֑ים שֶׁ֖בֶת אַחִ֣ים גַּם־יָֽחַד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "כַּשֶּׁ֤מֶן הַטּ֨וֹב ׀ עַל־הָרֹ֗אשׁ יֹרֵ֗ד עַֽל־הַזָּקָ֥ן זְקַֽן־אַהֲרֹ֑ן שֶׁ֝יֹּרֵ֗ד עַל־פִּ֥י מִדּוֹתָֽיו׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "כְּטַל־חֶרְמ֗וֹן שֶׁיֹּרֵד֮ עַל־הַרְרֵ֢י צִ֫יּ֥וֹן כִּ֤י שָׁ֨ם ׀ צִוָּ֣ה ה' אֶת־הַבְּרָכָ֑ה חַ֝יִּ֗ים עַד־הָעוֹלָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 9,
+     "start": 73,
+     "end": 75,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  3
+ ],
+ "names_count": {
+  "HAVAYAH": 1,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.133",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.133?lang=he"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "n": 15,
+ "book": 1,
+ "heading": {
+  "text": "מִזְמ֗וֹר לְדָ֫וִ֥ד",
+  "end": {
+   "v": 1,
+   "offset": 19
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 5,
+ "verses": [
+  {
+   "v": 1,
+   "text": "מִזְמ֗וֹר לְדָ֫וִ֥ד ה' מִי־יָג֣וּר בְּאׇהֳלֶ֑ךָ מִֽי־יִ֝שְׁכֹּ֗ן בְּהַ֣ר קׇדְשֶֽׁךָ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 20,
+     "end": 22,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "הוֹלֵ֣ךְ תָּ֭מִים וּפֹעֵ֥ל צֶ֑דֶק וְדֹבֵ֥ר אֱ֝מֶ֗ת בִּלְבָבֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "לֹֽא־רָגַ֨ל ׀ עַל־לְשֹׁנ֗וֹ לֹא־עָשָׂ֣ה לְרֵעֵ֣הוּ רָעָ֑ה וְ֝חֶרְפָּ֗ה לֹא־נָשָׂ֥א עַל־קְרֹבֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "נִבְזֶ֤ה ׀ בְּֽעֵ֘ינָ֤יו נִמְאָ֗ס וְאֶת־יִרְאֵ֣י ה' יְכַבֵּ֑ד נִשְׁבַּ֥ע לְ֝הָרַ֗ע וְלֹ֣א יָמִֽר׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 49,
+     "end": 51,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "כַּסְפּ֤וֹ ׀ לֹא־נָתַ֣ן בְּנֶשֶׁךְ֮ וְשֹׁ֥חַד עַל־נָקִ֗י לֹ֥א־לָ֫קָ֥ח עֹֽשֵׂה־אֵ֑לֶּה לֹ֖א יִמּ֣וֹט לְעוֹלָֽם׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  5
+ ],
+ "names_count": {
+  "HAVAYAH": 2,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 2
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.15",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.15?lang=he"
+ }
+}

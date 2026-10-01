@@ -1,0 +1,217 @@
+{
+ "n": 62,
+ "book": 2,
+ "heading": {
+  "text": "לַמְנַצֵּ֥חַ עַֽל־יְדוּת֗וּן מִזְמ֥וֹר לְדָוִֽד׃",
+  "end": {
+   "v": 1,
+   "offset": 48
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [
+   "למנצח",
+   "על ידותון"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 13,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֥חַ עַֽל־יְדוּת֗וּן מִזְמ֥וֹר לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "אַ֣ךְ אֶל־אֱ֭-לֹהִים דּֽוּמִיָּ֣ה נַפְשִׁ֑י מִ֝מֶּ֗נּוּ יְשׁוּעָתִֽי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 10,
+     "end": 20,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "אַךְ־ה֣וּא צ֭וּרִי וִישׁוּעָתִ֑י מִ֝שְׂגַּבִּ֗י לֹא־אֶמּ֥וֹט רַבָּֽה׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "עַד־אָ֤נָה ׀ תְּה֥וֹתְת֣וּ עַל־אִישׁ֮ תְּרָצְּח֢וּ כֻ֫לְּכֶ֥ם כְּקִ֥יר נָט֑וּי גָּ֝דֵ֗ר הַדְּחוּיָֽה׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "אַ֤ךְ מִשְּׂאֵת֨וֹ ׀ יָ֥עֲצ֣וּ לְהַדִּיחַ֮ יִרְצ֢וּ כָ֫זָ֥ב בְּפִ֥יו יְבָרֵ֑כוּ וּ֝בְקִרְבָּ֗ם יְקַֽלְלוּ־סֶֽלָה׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "אַ֣ךְ לֵ֭א-לֹהִים דּ֣וֹמִּי נַפְשִׁ֑י כִּֽי־מִ֝מֶּ֗נּוּ תִּקְוָתִֽי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 6,
+     "end": 17,
+     "prefix": "ל",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "אַךְ־ה֣וּא צ֭וּרִי וִישׁוּעָתִ֑י מִ֝שְׂגַּבִּ֗י לֹ֣א אֶמּֽוֹט׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "עַל־אֱ֭-לֹהִים יִשְׁעִ֣י וּכְבוֹדִ֑י צוּר־עֻזִּ֥י מַ֝חְסִ֗י בֵּא-לֹהִֽים׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 4,
+     "end": 14,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 7,
+     "start": 60,
+     "end": 72,
+     "prefix": "ב",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "בִּטְח֘וּ־ב֤וֹ בְכׇל־עֵ֨ת ׀ עָ֗ם שִׁפְכֽוּ־לְפָנָ֥יו לְבַבְכֶ֑ם אֱ-לֹהִ֖ים מַחֲסֶה־לָּ֣נוּ סֶֽלָה׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 8,
+     "start": 64,
+     "end": 74,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "אַ֤ךְ ׀ הֶ֥בֶל בְּנֵֽי־אָדָם֮ כָּזָ֢ב בְּנֵ֫י־אִ֥ישׁ בְּמֹאזְנַ֥יִם לַעֲל֑וֹת הֵ֝֗מָּה מֵהֶ֥בֶל יָֽחַד׃",
+   "names": []
+  },
+  {
+   "v": 11,
+   "text": "אַל־תִּבְטְח֣וּ בְעֹשֶׁק֮ וּבְגָזֵ֢ל אַל־תֶּ֫הְבָּ֥לוּ חַ֤יִל ׀ כִּֽי־יָנ֑וּב אַל־תָּשִׁ֥יתוּ לֵֽב׃",
+   "names": []
+  },
+  {
+   "v": 12,
+   "text": "אַחַ֤ת ׀ דִּבֶּ֬ר אֱ-לֹהִ֗ים שְׁתַּֽיִם־ז֥וּ שָׁמָ֑עְתִּי כִּ֥י עֹ֝֗ז לֵֽא-לֹהִֽים׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 18,
+     "end": 28,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 8,
+     "start": 70,
+     "end": 82,
+     "prefix": "ל",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 13,
+   "text": "וּלְךָֽ־אֲ-דֹנָ֥י חָ֑סֶד כִּֽי־אַתָּ֨ה תְשַׁלֵּ֖ם לְאִ֣ישׁ כְּֽמַעֲשֵֽׂהוּ׃",
+   "names": [
+    {
+     "type": "ADNI",
+     "word": 1,
+     "start": 8,
+     "end": 17,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  13
+ ],
+ "names_count": {
+  "HAVAYAH": 0,
+  "ELOKIM": 7,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 1,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "ELOKIM": {
+   "ים": 7
+  },
+  "ADNI": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 2,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.62",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.62?lang=he"
+ }
+}

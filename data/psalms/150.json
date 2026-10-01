@@ -1,0 +1,91 @@
+{
+ "n": 150,
+ "book": 5,
+ "heading": null,
+ "verse_count": 6,
+ "verses": [
+  {
+   "v": 1,
+   "text": "הַ֥לְלוּ־יָ֨הּ ׀ הַֽלְלוּ־אֵ֥-ל בְּקׇדְשׁ֑וֹ הַֽ֝לְל֗וּהוּ בִּרְקִ֥יעַ עֻזּֽוֹ׃",
+   "names": [
+    {
+     "type": "EL",
+     "word": 3,
+     "start": 26,
+     "end": 31,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "הַלְל֥וּהוּ בִגְבוּרֹתָ֑יו הַ֝לְל֗וּהוּ כְּרֹ֣ב גֻּדְלֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "הַ֭לְלוּהוּ בְּתֵ֣קַע שׁוֹפָ֑ר הַ֝לְל֗וּהוּ בְּנֵ֣בֶל וְכִנּֽוֹר׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "הַ֭לְלוּהוּ בְּתֹ֣ף וּמָח֑וֹל הַֽ֝לְל֗וּהוּ בְּמִנִּ֥ים וְעֻגָֽב׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "הַלְל֥וּהוּ בְצִלְצְלֵי־שָׁ֑מַע הַֽ֝לְל֗וּהוּ בְּֽצִלְצְלֵ֥י תְרוּעָֽה׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "כֹּ֣ל הַ֭נְּשָׁמָה תְּהַלֵּ֥ל יָ֗-הּ הַֽלְלוּ־יָֽהּ׃",
+   "names": [
+    {
+     "type": "YAH",
+     "word": 3,
+     "start": 30,
+     "end": 36,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [],
+ "names_count": {
+  "HAVAYAH": 0,
+  "ELOKIM": 0,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 1,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "EL": {
+   "base": 1
+  },
+  "YAH": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.150",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.150?lang=he"
+ }
+}

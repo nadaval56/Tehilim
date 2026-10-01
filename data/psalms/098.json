@@ -1,0 +1,182 @@
+{
+ "n": 98,
+ "book": 4,
+ "heading": {
+  "text": "מִזְמ֡וֹר",
+  "end": {
+   "v": 1,
+   "offset": 9
+  },
+  "attribution": [],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 9,
+ "verses": [
+  {
+   "v": 1,
+   "text": "מִזְמ֡וֹר שִׁ֤ירוּ לַה' ׀ שִׁ֣יר חָ֭דָשׁ כִּֽי־נִפְלָא֣וֹת עָשָׂ֑ה הוֹשִׁיעָה־לּ֥וֹ יְ֝מִינ֗וֹ וּזְר֥וֹעַ קׇדְשֽׁוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 19,
+     "end": 23,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "הוֹדִ֣יעַ ה' יְשׁוּעָת֑וֹ לְעֵינֵ֥י הַ֝גּוֹיִ֗ם גִּלָּ֥ה צִדְקָתֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "זָ֘כַ֤ר חַסְדּ֨וֹ ׀ וֶ֥אֱֽמוּנָתוֹ֮ לְבֵ֢ית יִשְׂרָ֫אֵ֥ל רָא֥וּ כׇל־אַפְסֵי־אָ֑רֶץ אֵ֝֗ת יְשׁוּעַ֥ת אֱ-לֹהֵֽינוּ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 11,
+     "start": 100,
+     "end": 112,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "הָרִ֣יעוּ לַ֭ה' כׇּל־הָאָ֑רֶץ פִּצְח֖וּ וְרַנְּנ֣וּ וְזַמֵּֽרוּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 15,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "זַמְּר֣וּ לַה' בְּכִנּ֑וֹר בְּ֝כִנּ֗וֹר וְק֣וֹל זִמְרָֽה׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 14,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "בַּ֭חֲצֹ֣צְרוֹת וְק֣וֹל שׁוֹפָ֑ר הָ֝רִ֗יעוּ לִפְנֵ֤י ׀ הַמֶּ֬לֶךְ ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 6,
+     "start": 66,
+     "end": 68,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "יִרְעַ֣ם הַ֭יָּם וּמְלֹא֑וֹ תֵּ֝בֵ֗ל וְיֹ֣שְׁבֵי בָֽהּ׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "נְהָר֥וֹת יִמְחֲאוּ־כָ֑ף יַ֝֗חַד הָרִ֥ים יְרַנֵּֽנוּ׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "לִ֥פְֽנֵי־ה' כִּ֥י בָא֮ לִשְׁפֹּ֢ט הָ֫אָ֥רֶץ יִשְׁפֹּֽט־תֵּבֵ֥ל בְּצֶ֑דֶק וְ֝עַמִּ֗ים בְּמֵישָׁרִֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  9
+ ],
+ "names_count": {
+  "HAVAYAH": 6,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 6
+  },
+  "ELOKIM": {
+   "ינו": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.98",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.98?lang=he"
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "n": 95,
+ "book": 4,
+ "heading": null,
+ "verse_count": 11,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לְ֭כוּ נְרַנְּנָ֣ה לַה' נָ֝רִ֗יעָה לְצ֣וּר יִשְׁעֵֽנוּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 19,
+     "end": 23,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "נְקַדְּמָ֣ה פָנָ֣יו בְּתוֹדָ֑ה בִּ֝זְמִר֗וֹת נָרִ֥יעַֽ לֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "כִּ֤י אֵ֣-ל גָּד֣וֹל ה' וּמֶ֥לֶךְ גָּ֝ד֗וֹל עַל־כׇּל־אֱ-לֹהִֽים׃",
+   "names": [
+    {
+     "type": "EL",
+     "word": 1,
+     "start": 6,
+     "end": 11,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 21,
+     "end": 23,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 8,
+     "start": 53,
+     "end": 63,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "אֲשֶׁ֣ר בְּ֭יָדוֹ מֶחְקְרֵי־אָ֑רֶץ וְתוֹעֲפֹ֖ת הָרִ֣ים לֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "אֲשֶׁר־ל֣וֹ הַ֭יָּם וְה֣וּא עָשָׂ֑הוּ וְ֝יַבֶּ֗שֶׁת יָדָ֥יו יָצָֽרוּ׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "בֹּ֭אוּ נִשְׁתַּחֲוֶ֣ה וְנִכְרָ֑עָה נִ֝בְרְכָ֗ה לִֽפְנֵי־ה' עֹשֵֽׂנוּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 57,
+     "end": 59,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "כִּ֘י־ה֤וּא אֱ-לֹהֵ֗ינוּ וַאֲנַ֤חְנוּ עַ֣ם מַ֭רְעִיתוֹ וְצֹ֣אן יָד֑וֹ הַ֝יּ֗וֹם אִֽם־בְּקֹל֥וֹ תִשְׁמָֽעוּ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 12,
+     "end": 24,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 8,
+   "text": "אַל־תַּקְשׁ֣וּ לְ֭בַבְכֶם כִּמְרִיבָ֑ה כְּי֥וֹם מַ֝סָּ֗ה בַּמִּדְבָּֽר׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "אֲשֶׁ֣ר נִ֭סּוּנִי אֲבֽוֹתֵיכֶ֑ם בְּ֝חָנ֗וּנִי גַּם־רָא֥וּ פׇעֳלִֽי׃",
+   "names": []
+  },
+  {
+   "v": 10,
+   "text": "אַרְבָּ֘עִ֤ים שָׁנָ֨ה ׀ אָ֘ק֤וּט בְּד֗וֹר וָאֹמַ֗ר עַ֤ם תֹּעֵ֣י לֵבָ֣ב הֵ֑ם וְ֝הֵ֗ם לֹא־יָדְע֥וּ דְרָכָֽי׃",
+   "names": []
+  },
+  {
+   "v": 11,
+   "text": "אֲשֶׁר־נִשְׁבַּ֥עְתִּי בְאַפִּ֑י אִם־יְ֝בֹא֗וּן אֶל־מְנוּחָתִֽי׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  11
+ ],
+ "names_count": {
+  "HAVAYAH": 3,
+  "ELOKIM": 2,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 3
+  },
+  "ELOKIM": {
+   "ים": 1,
+   "ינו": 1
+  },
+  "EL": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.95",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.95?lang=he"
+ }
+}

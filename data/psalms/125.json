@@ -1,0 +1,123 @@
+{
+ "n": 125,
+ "book": 5,
+ "heading": {
+  "text": "שִׁ֗יר הַֽמַּ֫עֲל֥וֹת",
+  "end": {
+   "v": 1,
+   "offset": 21
+  },
+  "attribution": [],
+  "types": [
+   "שיר המעלות"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 5,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֗יר הַֽמַּ֫עֲל֥וֹת הַבֹּטְחִ֥ים בַּה' כְּֽהַר־צִיּ֥וֹן לֹא־יִ֝מּ֗וֹט לְעוֹלָ֥ם יֵשֵֽׁב׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 35,
+     "end": 40,
+     "prefix": "ב",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "יְֽרוּשָׁלַ֗͏ִם הָרִים֮ סָבִ֢יב לָ֥֫הּ וַ֭ה' סָבִ֣יב לְעַמּ֑וֹ מֵ֝עַתָּ֗ה וְעַד־עוֹלָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 39,
+     "end": 44,
+     "prefix": "ו",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "כִּ֤י לֹ֪א יָנ֡וּחַ שֵׁ֤בֶט הָרֶ֗שַׁע עַל֮ גּוֹרַ֢ל הַֽצַּדִּ֫יקִ֥ים לְמַ֡עַן לֹא־יִשְׁלְח֖וּ הַצַּדִּיקִ֨ים בְּעַוְלָ֬תָה יְדֵיהֶֽם׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "הֵיטִ֣יבָה ה' לַטּוֹבִ֑ים וְ֝לִישָׁרִ֗ים בְּלִבּוֹתָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 11,
+     "end": 13,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "וְהַמַּטִּ֤ים עֲֽקַלְקַלּוֹתָ֗ם יוֹלִיכֵ֣ם ה' אֶת־פֹּעֲלֵ֣י הָאָ֑וֶן שָׁ֝ל֗וֹם עַל־יִשְׂרָאֵֽל׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 43,
+     "end": 45,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  5
+ ],
+ "names_count": {
+  "HAVAYAH": 4,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 4
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.125",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.125?lang=he"
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "n": 26,
+ "book": 1,
+ "heading": {
+  "text": "לְדָוִ֨ד",
+  "end": {
+   "v": 1,
+   "offset": 8
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 12,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לְדָוִ֨ד ׀ שׇׁפְטֵ֤נִי ה' כִּֽי־אֲ֭נִי בְּתֻמִּ֣י הָלַ֑כְתִּי וּבַה' בָּ֝טַ֗חְתִּי לֹ֣א אֶמְעָֽד׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 23,
+     "end": 25,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 7,
+     "start": 62,
+     "end": 68,
+     "prefix": "וב",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "בְּחָנֵ֣נִי ה' וְנַסֵּ֑נִי (צרופה) [צׇרְפָ֖ה] כִלְיוֹתַ֣י וְלִבִּֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 12,
+     "end": 14,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "כִּֽי־חַ֭סְדְּךָ לְנֶ֣גֶד עֵינָ֑י וְ֝הִתְהַלַּ֗כְתִּי בַּאֲמִתֶּֽךָ׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "לֹֽא־יָ֭שַׁבְתִּי עִם־מְתֵי־שָׁ֑וְא וְעִ֥ם נַ֝עֲלָמִ֗ים לֹ֣א אָבֽוֹא׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "שָׂ֭נֵאתִי קְהַ֣ל מְרֵעִ֑ים וְעִם־רְ֝שָׁעִ֗ים לֹ֣א אֵשֵֽׁב׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "אֶרְחַ֣ץ בְּנִקָּי֣וֹן כַּפָּ֑י וַאֲסֹבְבָ֖ה אֶת־מִזְבַּחֲךָ֣ ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 6,
+     "start": 62,
+     "end": 64,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "לַ֭שְׁמִעַ בְּק֣וֹל תּוֹדָ֑ה וּ֝לְסַפֵּ֗ר כׇּל־נִפְלְאוֹתֶֽיךָ׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "ה' אָ֭הַבְתִּי מְע֣וֹן בֵּיתֶ֑ךָ וּ֝מְק֗וֹם מִשְׁכַּ֥ן כְּבוֹדֶֽךָ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "אַל־תֶּאֱסֹ֣ף עִם־חַטָּאִ֣ים נַפְשִׁ֑י וְעִם־אַנְשֵׁ֖י דָמִ֣ים חַיָּֽי׃",
+   "names": []
+  },
+  {
+   "v": 10,
+   "text": "אֲשֶׁר־בִּידֵיהֶ֥ם זִמָּ֑ה וִ֝ימִינָ֗ם מָ֣לְאָה שֹּֽׁחַד׃",
+   "names": []
+  },
+  {
+   "v": 11,
+   "text": "וַ֭אֲנִי בְּתֻמִּ֥י אֵלֵ֗ךְ פְּדֵ֣נִי וְחׇנֵּֽנִי׃",
+   "names": []
+  },
+  {
+   "v": 12,
+   "text": "רַ֭גְלִי עָמְדָ֣ה בְמִישׁ֑וֹר בְּ֝מַקְהֵלִ֗ים אֲבָרֵ֥ךְ ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 56,
+     "end": 58,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  12
+ ],
+ "names_count": {
+  "HAVAYAH": 6,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 6
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.26",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.26?lang=he"
+ }
+}

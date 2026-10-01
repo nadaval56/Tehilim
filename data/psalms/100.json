@@ -1,0 +1,139 @@
+{
+ "n": 100,
+ "book": 4,
+ "heading": {
+  "text": "מִזְמ֥וֹר לְתוֹדָ֑ה",
+  "end": {
+   "v": 1,
+   "offset": 19
+  },
+  "attribution": [],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [
+   "לתודה"
+  ],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 5,
+ "verses": [
+  {
+   "v": 1,
+   "text": "מִזְמ֥וֹר לְתוֹדָ֑ה הָרִ֥יעוּ לַ֝ה' כׇּל־הָאָֽרֶץ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 30,
+     "end": 35,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "עִבְד֣וּ אֶת־ה' בְּשִׂמְחָ֑ה בֹּ֥אוּ לְ֝פָנָ֗יו בִּרְנָנָֽה׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 13,
+     "end": 15,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "דְּע֗וּ כִּֽי־ה' ה֤וּא אֱ-לֹ֫הִ֥ים הֽוּא־עָ֭שָׂנוּ (ולא) [וְל֣וֹ] אֲנַ֑חְנוּ עַ֝מּ֗וֹ וְצֹ֣אן מַרְעִיתֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 14,
+     "end": 16,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 4,
+     "start": 23,
+     "end": 34,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "בֹּ֤אוּ שְׁעָרָ֨יו ׀ בְּתוֹדָ֗ה חֲצֵרֹתָ֥יו בִּתְהִלָּ֑ה הוֹדוּ־ל֝֗וֹ בָּרְכ֥וּ שְׁמֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "כִּי־ט֣וֹב ה' לְעוֹלָ֣ם חַסְדּ֑וֹ וְעַד־דֹּ֥ר וָ֝דֹ֗ר אֱמוּנָתֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 11,
+     "end": 13,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  5
+ ],
+ "names_count": {
+  "HAVAYAH": 4,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 4
+  },
+  "ELOKIM": {
+   "ים": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.100",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.100?lang=he"
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "n": 129,
+ "book": 5,
+ "heading": {
+  "text": "שִׁ֗יר הַֽמַּ֫עֲל֥וֹת",
+  "end": {
+   "v": 1,
+   "offset": 21
+  },
+  "attribution": [],
+  "types": [
+   "שיר המעלות"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 8,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֗יר הַֽמַּ֫עֲל֥וֹת רַ֭בַּת צְרָר֣וּנִי מִנְּעוּרַ֑י יֹאמַר־נָ֝֗א יִשְׂרָאֵֽל׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "רַ֭בַּת צְרָר֣וּנִי מִנְּעוּרָ֑י גַּ֝֗ם לֹא־יָ֥כְלוּ לִֽי׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "עַל־גַּ֭בִּי חָרְשׁ֣וּ חֹרְשִׁ֑ים הֶ֝אֱרִ֗יכוּ (למענותם) [לְמַעֲנִיתָֽם]׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "ה' צַדִּ֑יק קִ֝צֵּ֗ץ עֲב֣וֹת רְשָׁעִֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "יֵ֭בֹשׁוּ וְיִסֹּ֣גוּ אָח֑וֹר כֹּ֝֗ל שֹׂנְאֵ֥י צִיּֽוֹן׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "יִ֭הְיוּ כַּחֲצִ֣יר גַּגּ֑וֹת שֶׁקַּדְמַ֖ת שָׁלַ֣ף יָבֵֽשׁ׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "שֶׁלֹּ֤א מִלֵּ֖א כַפּ֥וֹ קוֹצֵ֗ר וְחִצְנ֥וֹ מְעַמֵּֽר׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "וְלֹ֤א אָמְר֨וּ ׀ הָעֹבְרִ֗ים בִּרְכַּֽת־ה' אֲלֵיכֶ֑ם בֵּרַ֥כְנוּ אֶ֝תְכֶ֗ם בְּשֵׁ֣ם ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 41,
+     "end": 43,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 9,
+     "start": 85,
+     "end": 87,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  8
+ ],
+ "names_count": {
+  "HAVAYAH": 3,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 3
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.129",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.129?lang=he"
+ }
+}

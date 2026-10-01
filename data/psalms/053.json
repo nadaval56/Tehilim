@@ -1,0 +1,172 @@
+{
+ "n": 53,
+ "book": 2,
+ "heading": {
+  "text": "לַמְנַצֵּ֥חַ עַֽל־מָחֲלַ֗ת מַשְׂכִּ֥יל לְדָוִֽד׃",
+  "end": {
+   "v": 1,
+   "offset": 48
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "משכיל"
+  ],
+  "musical_terms": [
+   "למנצח",
+   "על מחלת"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 7,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֥חַ עַֽל־מָחֲלַ֗ת מַשְׂכִּ֥יל לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "אָ֘מַ֤ר נָבָ֣ל בְּ֭לִבּוֹ אֵ֣ין אֱ-לֹהִ֑ים הִֽ֝שְׁחִ֗יתוּ וְהִֽתְעִ֥יבוּ עָ֝֗וֶל אֵ֣ין עֹֽשֵׂה־טֽוֹב׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 4,
+     "start": 32,
+     "end": 42,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "אֱֽ-לֹהִ֗ים מִשָּׁמַיִם֮ הִשְׁקִ֢יף עַֽל־בְּנֵי־אָ֫דָ֥ם לִ֭רְאוֹת הֲיֵ֣שׁ מַשְׂכִּ֑יל דֹּ֝רֵ֗שׁ אֶת־אֱ-לֹהִֽים׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 0,
+     "start": 0,
+     "end": 11,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 11,
+     "start": 100,
+     "end": 110,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "כֻּלּ֥וֹ סָג֮ יַחְדָּ֢ו נֶ֫אֱלָ֥חוּ אֵ֤ין עֹֽשֵׂה־ט֑וֹב אֵ֝֗ין גַּם־אֶחָֽד׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "הֲלֹ֥א יָדְעוּ֮ פֹּ֤עֲלֵ֫י אָ֥וֶן אֹכְלֵ֣י עַ֭מִּי אָ֣כְלוּ לֶ֑חֶם אֱ֝-לֹהִ֗ים לֹ֣א קָרָֽאוּ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 8,
+     "start": 67,
+     "end": 78,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "שָׁ֤ם ׀ פָּ֥חֲדוּ פַחַד֮ לֹא־הָ֢יָ֫ה פָ֥חַד כִּֽי־אֱ-לֹהִ֗ים פִּ֭זַּר עַצְמ֣וֹת חֹנָ֑ךְ הֱ֝בִשֹׁ֗תָה כִּֽי־אֱ-לֹהִ֥ים מְאָסָֽם׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 7,
+     "start": 50,
+     "end": 60,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 13,
+     "start": 107,
+     "end": 117,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "מִ֥י־יִתֵּ֣ן מִצִּיּוֹן֮ יְשֻׁע֢וֹת יִשְׂרָ֫אֵ֥ל בְּשׁ֣וּב אֱ֭-לֹהִים שְׁב֣וּת עַמּ֑וֹ יָגֵ֥ל יַ֝עֲקֹ֗ב יִשְׂמַ֥ח יִשְׂרָאֵֽל׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 6,
+     "start": 59,
+     "end": 69,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  7
+ ],
+ "names_count": {
+  "HAVAYAH": 0,
+  "ELOKIM": 7,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "ELOKIM": {
+   "ים": 7
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.53",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.53?lang=he"
+ }
+}

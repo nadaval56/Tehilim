@@ -1,0 +1,154 @@
+{
+ "n": 141,
+ "book": 5,
+ "heading": {
+  "text": "מִזְמ֗וֹר לְדָ֫וִ֥ד",
+  "end": {
+   "v": 1,
+   "offset": 19
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 10,
+ "verses": [
+  {
+   "v": 1,
+   "text": "מִזְמ֗וֹר לְדָ֫וִ֥ד ה' קְ֭רָאתִיךָ ח֣וּשָׁה לִּ֑י הַאֲזִ֥ינָה ק֝וֹלִ֗י בְּקׇרְאִי־לָֽךְ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 20,
+     "end": 22,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "תִּכּ֤וֹן תְּפִלָּתִ֣י קְטֹ֣רֶת לְפָנֶ֑יךָ מַֽשְׂאַ֥ת כַּ֝פַּ֗י מִנְחַת־עָֽרֶב׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "שִׁיתָ֣ה ה' שׇׁמְרָ֣ה לְפִ֑י נִ֝צְּרָ֗ה עַל־דַּ֥ל שְׂפָתָֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 9,
+     "end": 11,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "אַל־תַּט־לִבִּ֨י לְדָבָ֪ר ׀ רָ֡ע לְהִתְע֘וֹלֵ֤ל עֲלִל֨וֹת ׀ בְּרֶ֗שַׁע אֶת־אִישִׁ֥ים פֹּעֲלֵי־אָ֑וֶן וּבַל־אֶ֝לְחַ֗ם בְּמַנְעַמֵּיהֶֽם׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "יֶ֥הֶלְמֵֽנִי־צַדִּ֨יק ׀ חֶ֡סֶד וְֽיוֹכִיחֵ֗נִי שֶׁ֣מֶן רֹ֭אשׁ אַל־יָנִ֣י רֹאשִׁ֑י כִּי־ע֥וֹד וּ֝תְפִלָּתִ֗י בְּרָעוֹתֵיהֶֽם׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "נִשְׁמְט֣וּ בִֽידֵי־סֶ֭לַע שֹׁפְטֵיהֶ֑ם וְשָׁמְע֥וּ אֲ֝מָרַ֗י כִּ֣י נָעֵֽמוּ׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "כְּמ֤וֹ פֹלֵ֣חַ וּבֹקֵ֣עַ בָּאָ֑רֶץ נִפְזְר֥וּ עֲ֝צָמֵ֗ינוּ לְפִ֣י שְׁאֽוֹל׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "כִּ֤י אֵלֶ֨יךָ ׀ ה' אֲ-דֹנָ֣י עֵינָ֑י בְּכָ֥ה חָ֝סִ֗יתִי אַל־תְּעַ֥ר נַפְשִֽׁי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 17,
+     "end": 19,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ADNI",
+     "word": 3,
+     "start": 20,
+     "end": 29,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "שׇׁמְרֵ֗נִי מִ֣ידֵי פַ֭ח יָ֣קְשׁוּ לִ֑י וּ֝מֹקְשׁ֗וֹת פֹּ֣עֲלֵי אָֽוֶן׃",
+   "names": []
+  },
+  {
+   "v": 10,
+   "text": "יִפְּל֣וּ בְמַכְמֹרָ֣יו רְשָׁעִ֑ים יַ֥חַד אָ֝נֹכִ֗י עַֽד־אֶעֱבֽוֹר׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  10
+ ],
+ "names_count": {
+  "HAVAYAH": 3,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 1,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 3
+  },
+  "ADNI": {
+   "base": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ADNI": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.141",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.141?lang=he"
+ }
+}

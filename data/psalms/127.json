@@ -1,0 +1,112 @@
+{
+ "n": 127,
+ "book": 5,
+ "heading": {
+  "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לִשְׁלֹ֫מֹ֥ה",
+  "end": {
+   "v": 1,
+   "offset": 33
+  },
+  "attribution": [
+   "שלמה"
+  ],
+  "types": [
+   "שיר המעלות"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 5,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לִשְׁלֹ֫מֹ֥ה אִם־ה' ׀ לֹא־יִבְנֶ֬ה בַ֗יִת שָׁ֤וְא עָמְל֣וּ בוֹנָ֣יו בּ֑וֹ אִם־ה' לֹא־יִשְׁמׇר־עִ֝֗יר שָׁ֤וְא ׀ שָׁקַ֬ד שׁוֹמֵֽר׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 38,
+     "end": 40,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 13,
+     "start": 99,
+     "end": 101,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "שָׁ֤וְא לָכֶ֨ם מַשְׁכִּ֪ימֵֽי ק֡וּם מְאַחֲרֵי־שֶׁ֗בֶת אֹ֭כְלֵי לֶ֣חֶם הָעֲצָבִ֑ים כֵּ֤ן יִתֵּ֖ן לִידִיד֣וֹ שֵׁנָֽא׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "הִנֵּ֤ה נַחֲלַ֣ת ה' בָּנִ֑ים שָׂ֝כָ֗ר פְּרִ֣י הַבָּֽטֶן׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 17,
+     "end": 19,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "כְּחִצִּ֥ים בְּיַד־גִּבּ֑וֹר כֵּ֝֗ן בְּנֵ֣י הַנְּעוּרִֽים׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "אַשְׁרֵ֤י הַגֶּ֗בֶר אֲשֶׁ֤ר מִלֵּ֥א אֶת־אַשְׁפָּת֗וֹ מֵ֫הֶ֥ם לֹֽא־יֵבֹ֑שׁוּ כִּֽי־יְדַבְּר֖וּ אֶת־אוֹיְבִ֣ים בַּשָּֽׁעַר׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  5
+ ],
+ "names_count": {
+  "HAVAYAH": 3,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 3
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.127",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.127?lang=he"
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "n": 11,
+ "book": 1,
+ "heading": {
+  "text": "לַמְנַצֵּ֗חַ לְדָ֫וִ֥ד",
+  "end": {
+   "v": 1,
+   "offset": 22
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [],
+  "musical_terms": [
+   "למנצח"
+  ],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 7,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֗חַ לְדָ֫וִ֥ד בַּֽה' ׀ חָסִ֗יתִי אֵ֭יךְ תֹּאמְר֣וּ לְנַפְשִׁ֑י (נודו) [נ֝֗וּדִי] הַרְכֶ֥ם צִפּֽוֹר׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 23,
+     "end": 29,
+     "prefix": "ב",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "כִּ֤י הִנֵּ֪ה הָרְשָׁעִ֡ים יִדְרְכ֬וּן קֶ֗שֶׁת כּוֹנְנ֣וּ חִצָּ֣ם עַל־יֶ֑תֶר לִיר֥וֹת בְּמוֹ־אֹ֝֗פֶל לְיִשְׁרֵי־לֵֽב׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "כִּ֣י הַ֭שָּׁתוֹת יֵהָרֵס֑וּן צַ֝דִּ֗יק מַה־פָּעָֽל׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "ה' ׀ בְּֽהֵ֘יכַ֤ל קׇדְשׁ֗וֹ ה' בַּשָּׁמַ֢יִם כִּ֫סְא֥וֹ עֵינָ֥יו יֶחֱז֑וּ עַפְעַפָּ֥יו יִ֝בְחֲנ֗וּ בְּנֵ֣י אָדָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 28,
+     "end": 30,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "ה' צַדִּ֢יק יִ֫בְחָ֥ן וְ֭רָשָׁע וְאֹהֵ֣ב חָמָ֑ס שָֽׂנְאָ֥ה נַפְשֽׁוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "יַמְטֵ֥ר עַל־רְשָׁעִ֗ים פַּ֫חִ֥ים אֵ֣שׁ וְ֭גׇפְרִית וְר֥וּחַ זִלְעָפ֗וֹת מְנָ֣ת כּוֹסָֽם׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "כִּֽי־צַדִּ֣יק ה' צְדָק֣וֹת אָהֵ֑ב יָ֝שָׁ֗ר יֶחֱז֥וּ פָנֵֽימוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 15,
+     "end": 17,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  7
+ ],
+ "names_count": {
+  "HAVAYAH": 5,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 5
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.11",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.11?lang=he"
+ }
+}

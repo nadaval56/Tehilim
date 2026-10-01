@@ -1,0 +1,138 @@
+{
+ "n": 110,
+ "book": 5,
+ "heading": {
+  "text": "לְדָוִ֗ד מִ֫זְמ֥וֹר",
+  "end": {
+   "v": 1,
+   "offset": 19
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 7,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לְדָוִ֗ד מִ֫זְמ֥וֹר נְאֻ֤ם ה' ׀ לַֽאדֹנִ֗י שֵׁ֥ב לִֽימִינִ֑י עַד־אָשִׁ֥ית אֹ֝יְבֶ֗יךָ הֲדֹ֣ם לְרַגְלֶֽיךָ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 27,
+     "end": 29,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "מַטֵּֽה־עֻזְּךָ֗ יִשְׁלַ֣ח ה' מִצִּיּ֑וֹן רְ֝דֵ֗ה בְּקֶ֣רֶב אֹיְבֶֽיךָ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 27,
+     "end": 29,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "עַמְּךָ֣ נְדָבֹת֮ בְּי֢וֹם חֵ֫ילֶ֥ךָ בְּֽהַדְרֵי־קֹ֭דֶשׁ מֵרֶ֣חֶם מִשְׁחָ֑ר לְ֝ךָ֗ טַ֣ל יַלְדֻתֶֽיךָ׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "נִשְׁבַּ֤ע ה' ׀ וְלֹ֥א יִנָּחֵ֗ם אַתָּֽה־כֹהֵ֥ן לְעוֹלָ֑ם עַל־דִּ֝בְרָתִ֗י מַלְכִּי־צֶֽדֶק׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 11,
+     "end": 13,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "אֲ-דֹנָ֥י עַל־יְמִֽינְךָ֑ מָחַ֖ץ בְּיוֹם־אַפּ֣וֹ מְלָכִֽים׃",
+   "names": [
+    {
+     "type": "ADNI",
+     "word": 0,
+     "start": 0,
+     "end": 9,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "יָדִ֣ין בַּ֭גּוֹיִם מָלֵ֣א גְוִיּ֑וֹת מָ֥חַץ רֹ֝֗אשׁ עַל־אֶ֥רֶץ רַבָּֽה׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "מִ֭נַּחַל בַּדֶּ֣רֶךְ יִשְׁתֶּ֑ה עַל־כֵּ֝֗ן יָרִ֥ים רֹֽאשׁ׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  7
+ ],
+ "names_count": {
+  "HAVAYAH": 3,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 1,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 3
+  },
+  "ADNI": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.110",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.110?lang=he"
+ }
+}

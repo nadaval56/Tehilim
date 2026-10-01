@@ -1,0 +1,318 @@
+{
+ "n": 33,
+ "book": 1,
+ "heading": null,
+ "verse_count": 22,
+ "verses": [
+  {
+   "v": 1,
+   "text": "רַנְּנ֣וּ צַ֭דִּיקִים בַּֽה' לַ֝יְשָׁרִ֗ים נָאוָ֥ה תְהִלָּֽה׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 22,
+     "end": 28,
+     "prefix": "ב",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "הוֹד֣וּ לַה' בְּכִנּ֑וֹר בְּנֵ֥בֶל עָ֝שׂ֗וֹר זַמְּרוּ־לֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 8,
+     "end": 12,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "שִֽׁירוּ־ל֭וֹ שִׁ֣יר חָדָ֑שׁ הֵיטִ֥יבוּ נַ֝גֵּ֗ן בִּתְרוּעָֽה׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "כִּֽי־יָשָׁ֥ר דְּבַר־ה' וְכׇל־מַ֝עֲשֵׂ֗הוּ בֶּאֱמוּנָֽה׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 21,
+     "end": 23,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "אֹ֭הֵב צְדָקָ֣ה וּמִשְׁפָּ֑ט חֶ֥סֶד ה' מָלְאָ֥ה הָאָֽרֶץ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 36,
+     "end": 38,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "בִּדְבַ֣ר ה' שָׁמַ֣יִם נַעֲשׂ֑וּ וּבְר֥וּחַ פִּ֝֗יו כׇּל־צְבָאָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "כֹּנֵ֣ס כַּ֭נֵּד מֵ֣י הַיָּ֑ם נֹתֵ֖ן בְּאוֹצָר֣וֹת תְּהוֹמֽוֹת׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "יִֽירְא֣וּ מֵ֭ה' כׇּל־הָאָ֑רֶץ מִמֶּ֥נּוּ יָ֝ג֗וּרוּ כׇּל־יֹשְׁבֵ֥י תֵבֵֽל׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 11,
+     "end": 16,
+     "prefix": "מ",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "כִּ֤י ה֣וּא אָמַ֣ר וַיֶּ֑הִי הֽוּא־צִ֝וָּ֗ה וַֽיַּעֲמֹֽד׃",
+   "names": []
+  },
+  {
+   "v": 10,
+   "text": "ה' הֵפִ֥יר עֲצַת־גּוֹיִ֑ם הֵ֝נִ֗יא מַחְשְׁב֥וֹת עַמִּֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 11,
+   "text": "עֲצַ֣ת ה' לְעוֹלָ֣ם תַּעֲמֹ֑ד מַחְשְׁב֥וֹת לִ֝בּ֗וֹ לְדֹ֣ר וָדֹֽר׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 7,
+     "end": 9,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 12,
+   "text": "אַשְׁרֵ֣י הַ֭גּוֹי אֲשֶׁר־ה' אֱ-לֹהָ֑יו הָעָ֓ם ׀ בָּחַ֖ר לְנַחֲלָ֣ה לֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 26,
+     "end": 28,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 4,
+     "start": 29,
+     "end": 39,
+     "prefix": "",
+     "suffix": "יו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 13,
+   "text": "מִ֭שָּׁמַיִם הִבִּ֣יט ה' רָ֝אָ֗ה אֶֽת־כׇּל־בְּנֵ֥י הָאָדָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 22,
+     "end": 24,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 14,
+   "text": "מִֽמְּכוֹן־שִׁבְתּ֥וֹ הִשְׁגִּ֑יחַ אֶ֖ל כׇּל־יֹשְׁבֵ֣י הָאָֽרֶץ׃",
+   "names": []
+  },
+  {
+   "v": 15,
+   "text": "הַיֹּצֵ֣ר יַ֣חַד לִבָּ֑ם הַ֝מֵּבִ֗ין אֶל־כׇּל־מַעֲשֵׂיהֶֽם׃",
+   "names": []
+  },
+  {
+   "v": 16,
+   "text": "אֵֽין־הַ֭מֶּלֶךְ נוֹשָׁ֣ע בְּרׇב־חָ֑יִל גִּ֝בּ֗וֹר לֹא־יִנָּצֵ֥ל בְּרׇב־כֹּֽחַ׃",
+   "names": []
+  },
+  {
+   "v": 17,
+   "text": "שֶׁ֣קֶר הַ֭סּוּס לִתְשׁוּעָ֑ה וּבְרֹ֥ב חֵ֝יל֗וֹ לֹ֣א יְמַלֵּֽט׃",
+   "names": []
+  },
+  {
+   "v": 18,
+   "text": "הִנֵּ֤ה עֵ֣ין ה' אֶל־יְרֵאָ֑יו לַֽמְיַחֲלִ֥ים לְחַסְדּֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 14,
+     "end": 16,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 19,
+   "text": "לְהַצִּ֣יל מִמָּ֣וֶת נַפְשָׁ֑ם וּ֝לְחַיּוֹתָ֗ם בָּרָעָֽב׃",
+   "names": []
+  },
+  {
+   "v": 20,
+   "text": "נַ֭פְשֵׁנוּ חִכְּתָ֣ה לַֽה' עֶזְרֵ֖נוּ וּמָגִנֵּ֣נוּ הֽוּא׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 22,
+     "end": 27,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 21,
+   "text": "כִּי־ב֭וֹ יִשְׂמַ֣ח לִבֵּ֑נוּ כִּ֤י בְשֵׁ֖ם קׇדְשׁ֣וֹ בָטָֽחְנוּ׃",
+   "names": []
+  },
+  {
+   "v": 22,
+   "text": "יְהִי־חַסְדְּךָ֣ ה' עָלֵ֑ינוּ כַּ֝אֲשֶׁ֗ר יִחַ֥לְנוּ לָֽךְ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 17,
+     "end": 19,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  22
+ ],
+ "names_count": {
+  "HAVAYAH": 13,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 13
+  },
+  "ELOKIM": {
+   "יו": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ELOKIM": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.33",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.33?lang=he"
+ }
+}

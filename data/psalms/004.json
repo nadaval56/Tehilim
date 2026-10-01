@@ -1,0 +1,174 @@
+{
+ "n": 4,
+ "book": 1,
+ "heading": {
+  "text": "לַמְנַצֵּ֥חַ בִּנְגִינ֗וֹת מִזְמ֥וֹר לְדָוִֽד׃",
+  "end": {
+   "v": 1,
+   "offset": 46
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [
+   "למנצח",
+   "בנגינות"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 9,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֥חַ בִּנְגִינ֗וֹת מִזְמ֥וֹר לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "בְּקׇרְאִ֡י עֲנֵ֤נִי ׀ אֱ-לֹ֘הֵ֤י צִדְקִ֗י בַּ֭צָּר הִרְחַ֣בְתָּ לִּ֑י חׇ֝נֵּ֗נִי וּשְׁמַ֥ע תְּפִלָּתִֽי׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 23,
+     "end": 33,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "בְּנֵ֥י אִ֡ישׁ עַד־מֶ֬ה כְבוֹדִ֣י לִ֭כְלִמָּה תֶּאֱהָב֣וּן רִ֑יק תְּבַקְשׁ֖וּ כָזָ֣ב סֶֽלָה׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "וּדְע֗וּ כִּֽי־הִפְלָ֣ה ה' חָסִ֣יד ל֑וֹ ה' יִ֝שְׁמַ֗ע בְּקׇרְאִ֥י אֵלָֽיו׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 24,
+     "end": 26,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 6,
+     "start": 40,
+     "end": 42,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "רִגְז֗וּ וְֽאַל־תֶּ֫חֱטָ֥אוּ אִמְר֣וּ בִ֭לְבַבְכֶם עַֽל־מִשְׁכַּבְכֶ֗ם וְדֹ֣מּוּ סֶֽלָה׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "זִבְח֥וּ זִבְחֵי־צֶ֑דֶק וּ֝בִטְח֗וּ אֶל־ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 40,
+     "end": 42,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "רַבִּ֥ים אֹמְרִים֮ מִֽי־יַרְאֵ֢נ֫וּ ט֥וֹב נְֽסָה־עָ֭לֵינוּ א֨וֹר פָּנֶ֬יךָ ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 9,
+     "start": 75,
+     "end": 77,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 8,
+   "text": "נָתַ֣תָּה שִׂמְחָ֣ה בְלִבִּ֑י מֵעֵ֬ת דְּגָנָ֖ם וְתִירוֹשָׁ֣ם רָֽבּוּ׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "בְּשָׁל֣וֹם יַחְדָּו֮ אֶשְׁכְּבָ֢ה וְאִ֫ישָׁ֥ן כִּֽי־אַתָּ֣ה ה' לְבָדָ֑ד לָ֝בֶ֗טַח תּוֹשִׁיבֵֽנִי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 6,
+     "start": 61,
+     "end": 63,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  9
+ ],
+ "names_count": {
+  "HAVAYAH": 5,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 5
+  },
+  "ELOKIM": {
+   "י": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 2,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.4",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.4?lang=he"
+ }
+}

@@ -1,0 +1,223 @@
+{
+ "n": 5,
+ "book": 1,
+ "heading": {
+  "text": "לַמְנַצֵּ֥חַ אֶֽל־הַנְּחִיל֗וֹת מִזְמ֥וֹר לְדָוִֽד׃",
+  "end": {
+   "v": 1,
+   "offset": 51
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [
+   "למנצח",
+   "אל הנחילות"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 13,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֥חַ אֶֽל־הַנְּחִיל֗וֹת מִזְמ֥וֹר לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "אֲמָרַ֖י הַאֲזִ֥ינָה ׀ ה' בִּ֣ינָה הֲגִיגִֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 23,
+     "end": 25,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "הַקְשִׁ֤יבָה ׀ לְק֬וֹל שַׁוְעִ֗י מַלְכִּ֥י וֵא-לֹהָ֑י כִּֽי־אֵ֝לֶ֗יךָ אֶתְפַּלָּֽל׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 4,
+     "start": 43,
+     "end": 53,
+     "prefix": "ו",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "ה' בֹּ֭קֶר תִּשְׁמַ֣ע קוֹלִ֑י בֹּ֥קֶר אֶעֱרׇךְ־לְ֝ךָ֗ וַאֲצַפֶּֽה׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "כִּ֤י ׀ לֹ֤א אֵֽ-ל־חָפֵ֘ץ־רֶ֥שַׁע ׀ אָ֑תָּה לֹ֖א יְגֻרְךָ֣ רָֽע׃",
+   "names": [
+    {
+     "type": "EL",
+     "word": 2,
+     "start": 13,
+     "end": 18,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "לֹֽא־יִתְיַצְּב֣וּ ה֭וֹלְלִים לְנֶ֣גֶד עֵינֶ֑יךָ שָׂ֝נֵ֗אתָ כׇּל־פֹּ֥עֲלֵי אָֽוֶן׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "תְּאַבֵּד֮ דֹּבְרֵ֢י כָ֫זָ֥ב אִישׁ־דָּמִ֥ים וּמִרְמָ֗ה יְתָ֘עֵ֥ב ׀ ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 7,
+     "start": 67,
+     "end": 69,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 8,
+   "text": "וַאֲנִ֗י בְּרֹ֣ב חַ֭סְדְּךָ אָב֣וֹא בֵיתֶ֑ךָ אֶשְׁתַּחֲוֶ֥ה אֶל־הֵֽיכַל־קׇ֝דְשְׁךָ֗ בְּיִרְאָתֶֽךָ׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "ה' ׀ נְחֵ֬נִי בְצִדְקָתֶ֗ךָ לְמַ֥עַן שׁוֹרְרָ֑י (הושר) [הַיְשַׁ֖ר] לְפָנַ֣י דַּרְכֶּֽךָ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "כִּ֤י אֵ֪ין בְּפִ֡יהוּ נְכוֹנָה֮ קִרְבָּ֢ם הַ֫וּ֥וֹת קֶֽבֶר־פָּת֥וּחַ גְּרֹנָ֑ם לְ֝שׁוֹנָ֗ם יַחֲלִיקֽוּן׃",
+   "names": []
+  },
+  {
+   "v": 11,
+   "text": "הַ֥אֲשִׁימֵ֨ם ׀ אֱֽ-לֹהִ֗ים יִפְּלוּ֮ מִֽמֹּעֲצ֢וֹתֵ֫יהֶ֥ם בְּרֹ֣ב פִּ֭שְׁעֵיהֶם הַדִּיחֵ֑מוֹ כִּי־מָ֥רוּ בָֽךְ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 16,
+     "end": 27,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 12,
+   "text": "וְיִשְׂמְח֨וּ כׇל־ח֪וֹסֵי בָ֡ךְ לְעוֹלָ֣ם יְ֭רַנֵּנוּ וְתָסֵ֣ךְ עָלֵ֑ימוֹ וְֽיַעְלְצ֥וּ בְ֝ךָ֗ אֹהֲבֵ֥י שְׁמֶֽךָ׃",
+   "names": []
+  },
+  {
+   "v": 13,
+   "text": "כִּֽי־אַתָּה֮ תְּבָרֵ֢ךְ צַ֫דִּ֥יק ה' כַּ֝צִּנָּ֗ה רָצ֥וֹן תַּעְטְרֶֽנּוּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 35,
+     "end": 37,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  13
+ ],
+ "names_count": {
+  "HAVAYAH": 5,
+  "ELOKIM": 2,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 5
+  },
+  "ELOKIM": {
+   "י": 1,
+   "ים": 1
+  },
+  "EL": {
+   "base": 1
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.5",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.5?lang=he"
+ }
+}

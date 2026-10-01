@@ -1,0 +1,110 @@
+{
+ "n": 123,
+ "book": 5,
+ "heading": {
+  "text": "שִׁ֗יר הַֽמַּ֫עֲל֥וֹת",
+  "end": {
+   "v": 1,
+   "offset": 21
+  },
+  "attribution": [],
+  "types": [
+   "שיר המעלות"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 4,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֗יר הַֽמַּ֫עֲל֥וֹת אֵ֭לֶיךָ נָשָׂ֣אתִי אֶת־עֵינַ֑י הַ֝יֹּשְׁבִ֗י בַּשָּׁמָֽיִם׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "הִנֵּ֨ה כְעֵינֵ֪י עֲבָדִ֡ים אֶל־יַ֤ד אֲֽדוֹנֵיהֶ֗ם כְּעֵינֵ֣י שִׁפְחָה֮ אֶל־יַ֢ד גְּבִ֫רְתָּ֥הּ כֵּ֣ן עֵ֭ינֵינוּ אֶל־ה' אֱ-לֹהֵ֑ינוּ עַ֝֗ד שֶׁיְּחׇנֵּֽנוּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 14,
+     "start": 117,
+     "end": 119,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 15,
+     "start": 120,
+     "end": 132,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "חׇנֵּ֣נוּ ה' חׇנֵּ֑נוּ כִּי־רַ֝֗ב שָׂבַ֥עְנוּ בֽוּז׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "רַבַּת֮ שָֽׂבְעָה־לָּ֢הּ נַ֫פְשֵׁ֥נוּ הַלַּ֥עַג הַשַּֽׁאֲנַנִּ֑ים הַ֝בּ֗וּז (לגאיונים) [לִגְאֵ֥י יוֹנִֽים]׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  4
+ ],
+ "names_count": {
+  "HAVAYAH": 2,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 2
+  },
+  "ELOKIM": {
+   "ינו": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ELOKIM": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.123",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.123?lang=he"
+ }
+}

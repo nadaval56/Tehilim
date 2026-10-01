@@ -1,0 +1,265 @@
+{
+ "n": 48,
+ "book": 2,
+ "heading": {
+  "text": "שִׁ֥יר מִ֝זְמ֗וֹר לִבְנֵי־קֹֽרַח׃",
+  "end": {
+   "v": 1,
+   "offset": 33
+  },
+  "attribution": [
+   "בני קרח"
+  ],
+  "types": [
+   "מזמור",
+   "שיר"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 15,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֥יר מִ֝זְמ֗וֹר לִבְנֵי־קֹֽרַח׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "גָּ֘ד֤וֹל ה' וּמְהֻלָּ֣ל מְאֹ֑ד בְּעִ֥יר אֱ֝-לֹהֵ֗ינוּ הַר־קׇדְשֽׁוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 5,
+     "start": 41,
+     "end": 54,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "יְפֵ֥ה נוֹף֮ מְשׂ֢וֹשׂ כׇּל־הָ֫אָ֥רֶץ הַר־צִ֭יּוֹן יַרְכְּתֵ֣י צָפ֑וֹן קִ֝רְיַ֗ת מֶ֣לֶךְ רָֽב׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "אֱ-לֹהִ֥ים בְּאַרְמְנוֹתֶ֗יהָ נוֹדַ֥ע לְמִשְׂגָּֽב׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 0,
+     "start": 0,
+     "end": 10,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "כִּֽי־הִנֵּ֣ה הַ֭מְּלָכִים נ֥וֹעֲד֑וּ עָבְר֥וּ יַחְדָּֽו׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "הֵ֣מָּה רָ֭אוּ כֵּ֣ן תָּמָ֑הוּ נִבְהֲל֥וּ נֶחְפָּֽזוּ׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "רְ֭עָדָה אֲחָזָ֣תַם שָׁ֑ם חִ֝֗יל כַּיּוֹלֵדָֽה׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "בְּר֥וּחַ קָדִ֑ים תְּ֝שַׁבֵּ֗ר אֳנִיּ֥וֹת תַּרְשִֽׁישׁ׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "כַּאֲשֶׁ֤ר שָׁמַ֨עְנוּ ׀ כֵּ֤ן רָאִ֗ינוּ בְּעִיר־ה' צְ֭-בָאוֹת בְּעִ֣יר אֱ-לֹהֵ֑ינוּ אֱ-לֹ֘הִ֤ים יְכוֹנְנֶ֖הָ עַד־עוֹלָ֣ם סֶֽלָה׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 49,
+     "end": 51,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "TZVAOT",
+     "word": 6,
+     "start": 52,
+     "end": 62,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 8,
+     "start": 72,
+     "end": 84,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 9,
+     "start": 85,
+     "end": 96,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "דִּמִּ֣ינוּ אֱ-לֹהִ֣ים חַסְדֶּ֑ךָ בְּ֝קֶ֗רֶב הֵיכָלֶֽךָ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 12,
+     "end": 22,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 11,
+   "text": "כְּשִׁמְךָ֤ אֱ-לֹהִ֗ים כֵּ֣ן תְּ֭הִלָּתְךָ עַל־קַצְוֵי־אֶ֑רֶץ צֶ֝֗דֶק מָלְאָ֥ה יְמִינֶֽךָ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 12,
+     "end": 22,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 12,
+   "text": "יִשְׂמַ֤ח ׀ הַר־צִיּ֗וֹן תָּ֭גֵלְנָה בְּנ֣וֹת יְהוּדָ֑ה לְ֝מַ֗עַן מִשְׁפָּטֶֽיךָ׃",
+   "names": []
+  },
+  {
+   "v": 13,
+   "text": "סֹ֣בּוּ צִ֭יּוֹן וְהַקִּיפ֑וּהָ סִ֝פְר֗וּ מִגְדָּלֶֽיהָ׃",
+   "names": []
+  },
+  {
+   "v": 14,
+   "text": "שִׁ֤יתוּ לִבְּכֶ֨ם ׀ לְֽחֵילָ֗הֿ פַּסְּג֥וּ אַרְמְנוֹתֶ֑יהָ לְמַ֥עַן תְּ֝סַפְּר֗וּ לְד֣וֹר אַחֲרֽוֹן׃",
+   "names": []
+  },
+  {
+   "v": 15,
+   "text": "כִּ֤י זֶ֨ה ׀ אֱ-לֹהִ֣ים אֱ֭-לֹהֵינוּ עוֹלָ֣ם וָעֶ֑ד ה֖וּא יְנַהֲגֵ֣נוּ עַל־מֽוּת׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 13,
+     "end": 23,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 3,
+     "start": 24,
+     "end": 36,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  15
+ ],
+ "names_count": {
+  "HAVAYAH": 2,
+  "ELOKIM": 8,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 1
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 2
+  },
+  "ELOKIM": {
+   "ינו": 3,
+   "ים": 5
+  },
+  "TZVAOT": {
+   "base": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+TZVAOT": 1,
+  "ELOKIM+ELOKIM": 2
+ },
+ "selah_count": 1,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.48",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.48?lang=he"
+ }
+}

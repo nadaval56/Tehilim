@@ -1,0 +1,128 @@
+{
+ "n": 142,
+ "book": 5,
+ "heading": {
+  "text": "מַשְׂכִּ֥יל לְדָוִ֑ד בִּֽהְיוֹת֖וֹ בַמְּעָרָ֣ה תְפִלָּֽה׃",
+  "end": {
+   "v": 1,
+   "offset": 57
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "משכיל",
+   "תפלה"
+  ],
+  "musical_terms": [],
+  "historical_event": "בִּֽהְיוֹת֖וֹ בַמְּעָרָ֣ה תְפִלָּֽה׃",
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 8,
+ "verses": [
+  {
+   "v": 1,
+   "text": "מַשְׂכִּ֥יל לְדָוִ֑ד בִּֽהְיוֹת֖וֹ בַמְּעָרָ֣ה תְפִלָּֽה׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "ק֭וֹלִי אֶל־ה' אֶזְעָ֑ק ק֝וֹלִ֗י אֶל־ה' אֶתְחַנָּֽן׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 12,
+     "end": 14,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 6,
+     "start": 37,
+     "end": 39,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "אֶשְׁפֹּ֣ךְ לְפָנָ֣יו שִׂיחִ֑י צָ֝רָתִ֗י לְפָנָ֥יו אַגִּֽיד׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "בְּהִתְעַטֵּ֬ף עָלַ֨י ׀ רוּחִ֗י וְאַתָּה֮ יָדַ֢עְתָּ נְֽתִיבָ֫תִ֥י בְּאֹֽרַח־ז֥וּ אֲהַלֵּ֑ךְ טָמְנ֖וּ פַ֣ח לִֽי׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "הַבֵּ֤יט יָמִ֨ין ׀ וּרְאֵה֮ וְאֵֽין־לִ֢י מַ֫כִּ֥יר אָבַ֣ד מָנ֣וֹס מִמֶּ֑נִּי אֵ֖ין דּוֹרֵ֣שׁ לְנַפְשִֽׁי׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "זָעַ֥קְתִּי אֵלֶ֗יךָ ה' אָ֭מַרְתִּי אַתָּ֣ה מַחְסִ֑י חֶ֝לְקִ֗י בְּאֶ֣רֶץ הַחַיִּֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 21,
+     "end": 23,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "הַקְשִׁ֤יבָה ׀ אֶֽל־רִנָּתִי֮ כִּֽי־דַלּ֢וֹתִ֫י מְאֹ֥ד הַצִּילֵ֥נִי מֵרֹדְפַ֑י כִּ֖י אָמְצ֣וּ מִמֶּֽנִּי׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "ה֘וֹצִ֤יאָה מִמַּסְגֵּ֨ר ׀ נַפְשִׁי֮ לְהוֹד֢וֹת אֶת־שְׁ֫מֶ֥ךָ בִּ֭י יַכְתִּ֣רוּ צַדִּיקִ֑ים כִּ֖י תִגְמֹ֣ל עָלָֽי׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  8
+ ],
+ "names_count": {
+  "HAVAYAH": 3,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 3
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.142",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.142?lang=he"
+ }
+}

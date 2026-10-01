@@ -1,0 +1,227 @@
+{
+ "n": 99,
+ "book": 4,
+ "heading": null,
+ "verse_count": 9,
+ "verses": [
+  {
+   "v": 1,
+   "text": "ה' מָ֭לָךְ יִרְגְּז֣וּ עַמִּ֑ים יֹשֵׁ֥ב כְּ֝רוּבִ֗ים תָּנ֥וּט הָאָֽרֶץ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "ה' בְּצִיּ֣וֹן גָּד֑וֹל וְרָ֥ם ה֝֗וּא עַל־כׇּל־הָעַמִּֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "יוֹד֣וּ שִׁ֭מְךָ גָּד֥וֹל וְנוֹרָ֗א קָד֥וֹשׁ הֽוּא׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "וְעֹ֥ז מֶלֶךְ֮ מִשְׁפָּ֢ט אָ֫הֵ֥ב אַ֭תָּה כּוֹנַ֣נְתָּ מֵישָׁרִ֑ים מִשְׁפָּ֥ט וּ֝צְדָקָ֗ה בְּיַעֲקֹ֤ב ׀ אַתָּ֬ה עָשִֽׂיתָ׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "רוֹמְמ֡וּ ה' אֱ-לֹהֵ֗ינוּ וְֽ֭הִשְׁתַּחֲווּ לַהֲדֹ֥ם רַגְלָ֗יו קָד֥וֹשׁ הֽוּא׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 13,
+     "end": 25,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "מֹ֘שֶׁ֤ה וְאַהֲרֹ֨ן ׀ בְּֽכֹהֲנָ֗יו וּ֭שְׁמוּאֵל בְּקֹרְאֵ֣י שְׁמ֑וֹ קֹרִ֥אים אֶל־ה' וְה֣וּא יַעֲנֵֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 8,
+     "start": 82,
+     "end": 84,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "בְּעַמּ֣וּד עָ֭נָן יְדַבֵּ֣ר אֲלֵיהֶ֑ם שָׁמְר֥וּ עֵ֝דֹתָ֗יו וְחֹ֣ק נָֽתַן־לָֽמוֹ׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "ה' אֱ-לֹהֵינוּ֮ אַתָּ֢ה עֲנִ֫יתָ֥ם אֵ֣-ל נֹ֭שֵׂא הָיִ֣יתָ לָהֶ֑ם וְ֝נֹקֵ֗ם עַל־עֲלִילוֹתָֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 3,
+     "end": 15,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "EL",
+     "word": 4,
+     "start": 35,
+     "end": 40,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "רוֹמְמ֡וּ ה' אֱ-לֹהֵ֗ינוּ וְֽ֭הִשְׁתַּחֲווּ לְהַ֣ר קׇדְשׁ֑וֹ כִּי־קָ֝ד֗וֹשׁ ה' אֱ-לֹהֵֽינוּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 13,
+     "end": 25,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 8,
+     "start": 76,
+     "end": 78,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 9,
+     "start": 79,
+     "end": 91,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  9
+ ],
+ "names_count": {
+  "HAVAYAH": 7,
+  "ELOKIM": 4,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 7
+  },
+  "ELOKIM": {
+   "ינו": 4
+  },
+  "EL": {
+   "base": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ELOKIM": 4
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.99",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.99?lang=he"
+ }
+}

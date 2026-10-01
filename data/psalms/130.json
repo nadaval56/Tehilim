@@ -1,0 +1,192 @@
+{
+ "n": 130,
+ "book": 5,
+ "heading": {
+  "text": "שִׁ֥יר הַֽמַּעֲל֑וֹת",
+  "end": {
+   "v": 1,
+   "offset": 20
+  },
+  "attribution": [],
+  "types": [
+   "שיר המעלות"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 8,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֥יר הַֽמַּעֲל֑וֹת מִמַּעֲמַקִּ֖ים קְרָאתִ֣יךָ ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 49,
+     "end": 51,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "אֲ-דֹנָי֮ שִׁמְעָ֢ה בְק֫וֹלִ֥י תִּהְיֶ֣ינָה אׇ֭זְנֶיךָ קַשֻּׁב֑וֹת לְ֝ק֗וֹל תַּחֲנוּנָֽי׃",
+   "names": [
+    {
+     "type": "ADNI",
+     "word": 0,
+     "start": 0,
+     "end": 9,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "אִם־עֲוֺנ֥וֹת תִּשְׁמׇר־יָ֑-הּ אֲ֝-דֹנָ֗י מִ֣י יַעֲמֹֽד׃",
+   "names": [
+    {
+     "type": "YAH",
+     "word": 3,
+     "start": 24,
+     "end": 30,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ADNI",
+     "word": 4,
+     "start": 31,
+     "end": 41,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "כִּֽי־עִמְּךָ֥ הַסְּלִיחָ֑ה לְ֝מַ֗עַן תִּוָּרֵֽא׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "קִוִּ֣יתִי ה' קִוְּתָ֣ה נַפְשִׁ֑י וְֽלִדְבָר֥וֹ הוֹחָֽלְתִּי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 11,
+     "end": 13,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "נַפְשִׁ֥י לַא-דֹנָ֑י מִשֹּׁמְרִ֥ים לַ֝בֹּ֗קֶר שֹׁמְרִ֥ים לַבֹּֽקֶר׃",
+   "names": [
+    {
+     "type": "ADNI",
+     "word": 1,
+     "start": 10,
+     "end": 20,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "text": "יַחֵ֥ל יִשְׂרָאֵ֗ל אֶל־ה' כִּֽי־עִם־ה' הַחֶ֑סֶד וְהַרְבֵּ֖ה עִמּ֣וֹ פְדֽוּת׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 23,
+     "end": 25,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 6,
+     "start": 36,
+     "end": 38,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 8,
+   "text": "וְ֭הוּא יִפְדֶּ֣ה אֶת־יִשְׂרָאֵ֑ל מִ֝כֹּ֗ל עֲוֺנֹתָֽיו׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  8
+ ],
+ "names_count": {
+  "HAVAYAH": 4,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 1,
+  "ADNI": 3,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 4
+  },
+  "YAH": {
+   "base": 1
+  },
+  "ADNI": {
+   "base": 3
+  }
+ },
+ "names_combos": {
+  "YAH+ADNI": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.130",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.130?lang=he"
+ }
+}

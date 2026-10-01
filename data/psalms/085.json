@@ -1,0 +1,203 @@
+{
+ "n": 85,
+ "book": 3,
+ "heading": {
+  "text": "לַמְנַצֵּ֬חַ ׀ לִבְנֵי־קֹ֬רַח מִזְמֽוֹר׃",
+  "end": {
+   "v": 1,
+   "offset": 40
+  },
+  "attribution": [
+   "בני קרח"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [
+   "למנצח"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 14,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֬חַ ׀ לִבְנֵי־קֹ֬רַח מִזְמֽוֹר׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "רָצִ֣יתָ ה' אַרְצֶ֑ךָ שַׁ֝֗בְתָּ (שבות) [שְׁבִ֣ית] יַעֲקֹֽב׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 9,
+     "end": 11,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "נָ֭שָׂאתָ עֲוֺ֣ן עַמֶּ֑ךָ כִּסִּ֖יתָ כׇל־חַטָּאתָ֣ם סֶֽלָה׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "אָסַ֥פְתָּ כׇל־עֶבְרָתֶ֑ךָ הֱ֝שִׁיב֗וֹתָ מֵחֲר֥וֹן אַפֶּֽךָ׃",
+   "names": []
+  },
+  {
+   "v": 5,
+   "text": "שׁ֭וּבֵנוּ אֱ-לֹהֵ֣י יִשְׁעֵ֑נוּ וְהָפֵ֖ר כַּעַסְךָ֣ עִמָּֽנוּ׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 11,
+     "end": 20,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "הַלְעוֹלָ֥ם תֶּאֱנַף־בָּ֑נוּ תִּמְשֹׁ֥ךְ אַ֝פְּךָ֗ לְדֹ֣ר וָדֹֽר׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "הֲֽלֹא־אַ֭תָּה תָּשׁ֣וּב תְּחַיֵּ֑נוּ וְ֝עַמְּךָ֗ יִשְׂמְחוּ־בָֽךְ׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "הַרְאֵ֣נוּ ה' חַסְדֶּ֑ךָ וְ֝יֶשְׁעֲךָ֗ תִּתֶּן־לָֽנוּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 11,
+     "end": 13,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "אֶשְׁמְעָ֗ה מַה־יְדַבֵּר֮ הָאֵ֢-ל ׀ ה' כִּ֤י ׀ יְדַבֵּ֬ר שָׁל֗וֹם אֶל־עַמּ֥וֹ וְאֶל־חֲסִידָ֑יו וְאַל־יָשׁ֥וּבוּ לְכִסְלָֽה׃",
+   "names": [
+    {
+     "type": "EL",
+     "word": 3,
+     "start": 26,
+     "end": 33,
+     "prefix": "ה",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 36,
+     "end": 38,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "אַ֤ךְ קָר֣וֹב לִירֵאָ֣יו יִשְׁע֑וֹ לִשְׁכֹּ֖ן כָּב֣וֹד בְּאַרְצֵֽנוּ׃",
+   "names": []
+  },
+  {
+   "v": 11,
+   "text": "חֶסֶד־וֶאֱמֶ֥ת נִפְגָּ֑שׁוּ צֶ֖דֶק וְשָׁל֣וֹם נָשָֽׁקוּ׃",
+   "names": []
+  },
+  {
+   "v": 12,
+   "text": "אֱ֭מֶת מֵאֶ֣רֶץ תִּצְמָ֑ח וְ֝צֶ֗דֶק מִשָּׁמַ֥יִם נִשְׁקָֽף׃",
+   "names": []
+  },
+  {
+   "v": 13,
+   "text": "גַּם־ה' יִתֵּ֣ן הַטּ֑וֹב וְ֝אַרְצֵ֗נוּ תִּתֵּ֥ן יְבוּלָֽהּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 5,
+     "end": 7,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 14,
+   "text": "צֶ֭דֶק לְפָנָ֣יו יְהַלֵּ֑ךְ וְיָשֵׂ֖ם לְדֶ֣רֶךְ פְּעָמָֽיו׃",
+   "names": []
+  }
+ ],
+ "paragraph_after": [
+  14
+ ],
+ "names_count": {
+  "HAVAYAH": 4,
+  "ELOKIM": 1,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 4
+  },
+  "ELOKIM": {
+   "י": 1
+  },
+  "EL": {
+   "base": 1
+  }
+ },
+ "names_combos": {
+  "EL+HAVAYAH": 1
+ },
+ "selah_count": 1,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.85",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.85?lang=he"
+ }
+}

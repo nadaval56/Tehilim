@@ -1,0 +1,314 @@
+{
+ "n": 7,
+ "book": 1,
+ "heading": {
+  "text": "שִׁגָּי֗וֹן לְדָ֫וִ֥ד אֲשֶׁר־שָׁ֥ר לַֽה' עַל־דִּבְרֵי־כ֝֗וּשׁ בֶּן־יְמִינִֽי׃",
+  "end": {
+   "v": 1,
+   "offset": 77
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "שגיון"
+  ],
+  "musical_terms": [],
+  "historical_event": "אֲשֶׁר־שָׁ֥ר לַֽה' עַל־דִּבְרֵי־כ֝֗וּשׁ בֶּן־יְמִינִֽי׃",
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 18,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁגָּי֗וֹן לְדָ֫וִ֥ד אֲשֶׁר־שָׁ֥ר לַֽה' עַל־דִּבְרֵי־כ֝֗וּשׁ בֶּן־יְמִינִֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 35,
+     "end": 40,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "ה' אֱ֭-לֹהַי בְּךָ֣ חָסִ֑יתִי הוֹשִׁיעֵ֥נִי מִכׇּל־רֹ֝דְפַ֗י וְהַצִּילֵֽנִי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 3,
+     "end": 12,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "פֶּן־יִטְרֹ֣ף כְּאַרְיֵ֣ה נַפְשִׁ֑י פֹּ֝רֵ֗ק וְאֵ֣ין מַצִּֽיל׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "ה' אֱ֭-לֹהַי אִם־עָשִׂ֣יתִי זֹ֑את אִֽם־יֶשׁ־עָ֥וֶל בְּכַפָּֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 3,
+     "end": 12,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "אִם־גָּ֭מַלְתִּי שֽׁוֹלְמִ֥י רָ֑ע וָאֲחַלְּצָ֖ה צֽוֹרְרִ֣י רֵיקָֽם׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "יִ֥רַדֹּֽף־אוֹיֵ֨ב ׀ נַפְשִׁ֡י וְיַשֵּׂ֗ג וְיִרְמֹ֣ס לָאָ֣רֶץ חַיָּ֑י וּכְבוֹדִ֓י ׀ לֶעָפָ֖ר יַשְׁכֵּ֣ן סֶֽלָה׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "ק֘וּמָ֤ה ה' ׀ בְּאַפֶּ֗ךָ הִ֭נָּשֵׂא בְּעַבְר֣וֹת צוֹרְרָ֑י וְע֥וּרָה אֵ֝לַ֗י מִשְׁפָּ֥ט צִוִּֽיתָ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 9,
+     "end": 11,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 8,
+   "text": "וַעֲדַ֣ת לְ֭אֻמִּים תְּסֽוֹבְבֶ֑ךָּ וְ֝עָלֶ֗יהָ לַמָּר֥וֹם שֽׁוּבָה׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "ה' יָדִ֢ין עַ֫מִּ֥ים שׇׁפְטֵ֥נִי ה' כְּצִדְקִ֖י וּכְתֻמִּ֣י עָלָֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 4,
+     "start": 33,
+     "end": 35,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "יִגְמׇר־נָ֬א רַ֨ע ׀ רְשָׁעִים֮ וּתְכוֹנֵ֢ן צַ֫דִּ֥יק וּבֹחֵ֣ן לִ֭בּוֹת וּכְלָי֗וֹת אֱ-לֹהִ֥ים צַדִּֽיק׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 9,
+     "start": 83,
+     "end": 93,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 11,
+   "text": "מָגִנִּ֥י עַל־אֱ-לֹהִ֑ים מ֝וֹשִׁ֗יעַ יִשְׁרֵי־לֵֽב׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 14,
+     "end": 24,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 12,
+   "text": "אֱ֭-לֹהִים שׁוֹפֵ֣ט צַדִּ֑יק וְ֝אֵ֗-ל זֹעֵ֥ם בְּכׇל־יֽוֹם׃",
+   "names": [
+    {
+     "type": "ELOKIM",
+     "word": 0,
+     "start": 0,
+     "end": 10,
+     "prefix": "",
+     "suffix": "ים",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "EL",
+     "word": 3,
+     "start": 29,
+     "end": 37,
+     "prefix": "ו",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 13,
+   "text": "אִם־לֹ֣א יָ֭שׁוּב חַרְבּ֣וֹ יִלְט֑וֹשׁ קַשְׁתּ֥וֹ דָ֝רַ֗ךְ וַֽיְכוֹנְנֶֽהָ׃",
+   "names": []
+  },
+  {
+   "v": 14,
+   "text": "וְ֭לוֹ הֵכִ֣ין כְּלֵי־מָ֑וֶת חִ֝צָּ֗יו לְֽדֹלְקִ֥ים יִפְעָֽל׃",
+   "names": []
+  },
+  {
+   "v": 15,
+   "text": "הִנֵּ֥ה יְחַבֶּל־אָ֑וֶן וְהָרָ֥ה עָ֝מָ֗ל וְיָ֣לַד שָֽׁקֶר׃",
+   "names": []
+  },
+  {
+   "v": 16,
+   "text": "בּ֣וֹר כָּ֭רָה וַֽיַּחְפְּרֵ֑הוּ וַ֝יִּפֹּ֗ל בְּשַׁ֣חַת יִפְעָֽל׃",
+   "names": []
+  },
+  {
+   "v": 17,
+   "text": "יָשׁ֣וּב עֲמָל֣וֹ בְרֹאשׁ֑וֹ וְעַ֥ל קׇ֝דְקֳד֗וֹ חֲמָס֥וֹ יֵרֵֽד׃",
+   "names": []
+  },
+  {
+   "v": 18,
+   "text": "אוֹדֶ֣ה ה' כְּצִדְק֑וֹ וַ֝אֲזַמְּרָ֗ה שֵֽׁם־ה' עֶלְיֽוֹן׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 8,
+     "end": 10,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 44,
+     "end": 46,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  18
+ ],
+ "names_count": {
+  "HAVAYAH": 8,
+  "ELOKIM": 5,
+  "EL": 1,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 8
+  },
+  "ELOKIM": {
+   "י": 2,
+   "ים": 3
+  },
+  "EL": {
+   "base": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ELOKIM": 2
+ },
+ "selah_count": 1,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.7",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.7?lang=he"
+ }
+}

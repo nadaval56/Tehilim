@@ -1,0 +1,210 @@
+{
+ "n": 41,
+ "book": 1,
+ "heading": {
+  "text": "לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃",
+  "end": {
+   "v": 1,
+   "offset": 32
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [
+   "למנצח"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 14,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "אַ֭שְׁרֵי מַשְׂכִּ֣יל אֶל־דָּ֑ל בְּי֥וֹם רָ֝עָ֗ה יְֽמַלְּטֵ֥הוּ ה'׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 7,
+     "start": 64,
+     "end": 66,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "ה' ׀ יִשְׁמְרֵ֣הוּ וִ֭יחַיֵּהוּ (יאשר) [וְאֻשַּׁ֣ר] בָּאָ֑רֶץ וְאַֽל־תִּ֝תְּנֵ֗הוּ בְּנֶ֣פֶשׁ אֹיְבָֽיו׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "ה' יִ֭סְעָדֶנּוּ עַל־עֶ֣רֶשׂ דְּוָ֑י כׇּל־מִ֝שְׁכָּב֗וֹ הָפַ֥כְתָּ בְחׇלְיֽוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "אֲֽנִי־אָ֭מַרְתִּי ה' חׇנֵּ֑נִי רְפָאָ֥ה נַ֝פְשִׁ֗י כִּי־חָטָ֥אתִי לָֽךְ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 19,
+     "end": 21,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "אוֹיְבַ֗י יֹאמְר֣וּ רַ֣ע לִ֑י מָתַ֥י יָ֝מ֗וּת וְאָבַ֥ד שְׁמֽוֹ׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "וְאִם־בָּ֤א לִרְא֨וֹת ׀ שָׁ֤וְא יְדַבֵּ֗ר לִבּ֗וֹ יִקְבׇּץ־אָ֥וֶן ל֑וֹ יֵצֵ֖א לַח֣וּץ יְדַבֵּֽר׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "יַ֗חַד עָלַ֣י יִ֭תְלַחֲשׁוּ כׇּל־שֹׂנְאָ֑י עָלַ֓י ׀ יַחְשְׁב֖וּ רָעָ֣ה לִֽי׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "דְּֽבַר־בְּ֭לִיַּעַל יָצ֣וּק בּ֑וֹ וַאֲשֶׁ֥ר שָׁ֝כַ֗ב לֹא־יוֹסִ֥יף לָקֽוּם׃",
+   "names": []
+  },
+  {
+   "v": 10,
+   "text": "גַּם־אִ֤ישׁ שְׁלוֹמִ֨י ׀ אֲשֶׁר־בָּטַ֣חְתִּי ב֭וֹ אוֹכֵ֣ל לַחְמִ֑י הִגְדִּ֖יל עָלַ֣י עָקֵֽב׃",
+   "names": []
+  },
+  {
+   "v": 11,
+   "text": "וְאַתָּ֤ה ה' חׇנֵּ֥נִי וַהֲקִימֵ֑נִי וַאֲשַׁלְּמָ֥ה לָהֶֽם׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 12,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 12,
+   "text": "בְּזֹ֣את יָ֭דַעְתִּי כִּֽי־חָפַ֣צְתָּ בִּ֑י כִּ֤י לֹֽא־יָרִ֖יעַ אֹיְבִ֣י עָלָֽי׃",
+   "names": []
+  },
+  {
+   "v": 13,
+   "text": "וַאֲנִ֗י בְּ֭תֻמִּי תָּמַ֣כְתָּ בִּ֑י וַתַּצִּיבֵ֖נִי לְפָנֶ֣יךָ לְעוֹלָֽם׃",
+   "names": []
+  },
+  {
+   "v": 14,
+   "text": "בָּ֘ר֤וּךְ ה' ׀ אֱ-לֹ֘הֵ֤י יִשְׂרָאֵ֗ל מֵֽ֭הָעוֹלָם וְעַ֥ד הָעוֹלָ֗ם אָ֘מֵ֥ן ׀ וְאָמֵֽן׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 11,
+     "end": 13,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 2,
+     "start": 16,
+     "end": 26,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [],
+ "names_count": {
+  "HAVAYAH": 6,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 6
+  },
+  "ELOKIM": {
+   "י": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ELOKIM": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.41",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.41?lang=he"
+ }
+}

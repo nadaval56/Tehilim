@@ -1,0 +1,136 @@
+{
+ "n": 13,
+ "book": 1,
+ "heading": {
+  "text": "לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃",
+  "end": {
+   "v": 1,
+   "offset": 32
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור"
+  ],
+  "musical_terms": [
+   "למנצח"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 6,
+ "verses": [
+  {
+   "v": 1,
+   "text": "לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "עַד־אָ֣נָה ה' תִּשְׁכָּחֵ֣נִי נֶ֑צַח עַד־אָ֓נָה ׀ תַּסְתִּ֖יר אֶת־פָּנֶ֣יךָ מִמֶּֽנִּי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 11,
+     "end": 13,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "עַד־אָ֨נָה אָשִׁ֪ית עֵצ֡וֹת בְּנַפְשִׁ֗י יָג֣וֹן בִּלְבָבִ֣י יוֹמָ֑ם עַד־אָ֓נָה ׀ יָר֖וּם אֹיְבִ֣י עָלָֽי׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "הַבִּ֣יטָֽה עֲ֭נֵנִי ה' אֱ-לֹהָ֑י הָאִ֥ירָה עֵ֝ינַ֗י פֶּן־אִישַׁ֥ן הַמָּֽוֶת׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 21,
+     "end": 23,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 3,
+     "start": 24,
+     "end": 33,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "פֶּן־יֹאמַ֣ר אֹיְבִ֣י יְכׇלְתִּ֑יו צָרַ֥י יָ֝גִ֗ילוּ כִּ֣י אֶמּֽוֹט׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "וַאֲנִ֤י ׀ בְּחַסְדְּךָ֣ בָטַחְתִּי֮ יָ֤גֵ֥ל לִבִּ֗י בִּישׁוּעָ֫תֶ֥ךָ אָשִׁ֥ירָה לַֽה' כִּ֖י גָמַ֣ל עָלָֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 7,
+     "start": 81,
+     "end": 86,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  6
+ ],
+ "names_count": {
+  "HAVAYAH": 3,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 3
+  },
+  "ELOKIM": {
+   "י": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ELOKIM": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.13",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.13?lang=he"
+ }
+}

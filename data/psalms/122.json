@@ -1,0 +1,163 @@
+{
+ "n": 122,
+ "book": 5,
+ "heading": {
+  "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד",
+  "end": {
+   "v": 1,
+   "offset": 30
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "שיר המעלות"
+  ],
+  "musical_terms": [],
+  "historical_event": null,
+  "own_verse": false,
+  "review": "auto"
+ },
+ "verse_count": 9,
+ "verses": [
+  {
+   "v": 1,
+   "text": "שִׁ֥יר הַֽמַּעֲל֗וֹת לְדָ֫וִ֥ד שָׂ֭מַחְתִּי בְּאֹמְרִ֣ים לִ֑י בֵּ֖ית ה' נֵלֵֽךְ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 7,
+     "start": 69,
+     "end": 71,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "עֹ֭מְדוֹת הָי֣וּ רַגְלֵ֑ינוּ בִּ֝שְׁעָרַ֗יִךְ יְרוּשָׁלָֽ͏ִם׃",
+   "names": []
+  },
+  {
+   "v": 3,
+   "text": "יְרוּשָׁלַ֥͏ִם הַבְּנוּיָ֑ה כְּ֝עִ֗יר שֶׁחֻבְּרָה־לָּ֥הּ יַחְדָּֽו׃",
+   "names": []
+  },
+  {
+   "v": 4,
+   "text": "שֶׁשָּׁ֨ם עָל֪וּ שְׁבָטִ֡ים שִׁבְטֵי־יָ֭-הּ עֵד֣וּת לְיִשְׂרָאֵ֑ל לְ֝הֹד֗וֹת לְשֵׁ֣ם ה'׃",
+   "names": [
+    {
+     "type": "YAH",
+     "word": 4,
+     "start": 37,
+     "end": 43,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 9,
+     "start": 85,
+     "end": 87,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "כִּ֤י שָׁ֨מָּה ׀ יָשְׁב֣וּ כִסְא֣וֹת לְמִשְׁפָּ֑ט כִּ֝סְא֗וֹת לְבֵ֣ית דָּוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 6,
+   "text": "שַׁ֭אֲלוּ שְׁל֣וֹם יְרוּשָׁלָ֑͏ִם יִ֝שְׁלָ֗יוּ אֹהֲבָֽיִךְ׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "יְהִי־שָׁל֥וֹם בְּחֵילֵ֑ךְ שַׁ֝לְוָ֗ה בְּאַרְמְנוֹתָֽיִךְ׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "לְ֭מַעַן אַחַ֣י וְרֵעָ֑י אֲדַבְּרָה־נָּ֖א שָׁל֣וֹם בָּֽךְ׃",
+   "names": []
+  },
+  {
+   "v": 9,
+   "text": "לְ֭מַעַן בֵּית־ה' אֱ-לֹהֵ֑ינוּ אֲבַקְשָׁ֖ה ט֣וֹב לָֽךְ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 15,
+     "end": 17,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 3,
+     "start": 18,
+     "end": 30,
+     "prefix": "",
+     "suffix": "ינו",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  9
+ ],
+ "names_count": {
+  "HAVAYAH": 3,
+  "ELOKIM": 1,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 1,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 3
+  },
+  "ELOKIM": {
+   "ינו": 1
+  },
+  "YAH": {
+   "base": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ELOKIM": 1
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.122",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.122?lang=he"
+ }
+}

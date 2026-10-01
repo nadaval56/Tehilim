@@ -1,0 +1,70 @@
+{
+ "n": 117,
+ "book": 5,
+ "heading": null,
+ "verse_count": 2,
+ "verses": [
+  {
+   "v": 1,
+   "text": "הַֽלְל֣וּ אֶת־ה' כׇּל־גּוֹיִ֑ם שַׁ֝בְּח֗וּהוּ כׇּל־הָאֻמִּֽים׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 2,
+     "start": 14,
+     "end": 16,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "text": "כִּ֥י־גָ֘בַ֤ר עָלֵ֨ינוּ ׀ חַסְדּ֗וֹ וֶאֱמֶת־ה' לְעוֹלָ֗ם הַֽלְלוּ־יָֽהּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 44,
+     "end": 46,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  2
+ ],
+ "names_count": {
+  "HAVAYAH": 2,
+  "ELOKIM": 0,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 0,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 2
+  }
+ },
+ "names_combos": {},
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.117",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.117?lang=he"
+ }
+}

@@ -1,0 +1,268 @@
+{
+ "n": 30,
+ "book": 1,
+ "heading": {
+  "text": "מִזְמ֡וֹר שִׁיר־חֲנֻכַּ֖ת הַבַּ֣יִת לְדָוִֽד׃",
+  "end": {
+   "v": 1,
+   "offset": 45
+  },
+  "attribution": [
+   "דוד"
+  ],
+  "types": [
+   "מזמור",
+   "שיר"
+  ],
+  "musical_terms": [
+   "חנכת הבית"
+  ],
+  "historical_event": null,
+  "own_verse": true,
+  "review": "auto"
+ },
+ "verse_count": 13,
+ "verses": [
+  {
+   "v": 1,
+   "text": "מִזְמ֡וֹר שִׁיר־חֲנֻכַּ֖ת הַבַּ֣יִת לְדָוִֽד׃",
+   "names": []
+  },
+  {
+   "v": 2,
+   "text": "אֲרוֹמִמְךָ֣ ה' כִּ֣י דִלִּיתָ֑נִי וְלֹֽא־שִׂמַּ֖חְתָּ אֹיְבַ֣י לִֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 13,
+     "end": 15,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "text": "ה' אֱ-לֹהָ֑י שִׁוַּ֥עְתִּי אֵ֝לֶ֗יךָ וַתִּרְפָּאֵֽנִי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 1,
+     "start": 3,
+     "end": 12,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "text": "ה' הֶעֱלִ֣יתָ מִן־שְׁא֣וֹל נַפְשִׁ֑י חִ֝יִּיתַ֗נִי (מיורדי) [מִיׇּֽרְדִי־]בֽוֹר׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "text": "זַמְּר֣וּ לַה' חֲסִידָ֑יו וְ֝הוֹד֗וּ לְזֵ֣כֶר קׇדְשֽׁוֹ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 10,
+     "end": 14,
+     "prefix": "ל",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "text": "כִּ֤י רֶ֨גַע ׀ בְּאַפּוֹ֮ חַיִּ֢ים בִּרְצ֫וֹנ֥וֹ בָּ֭עֶרֶב יָלִ֥ין בֶּ֗כִי וְלַבֹּ֥קֶר רִנָּֽה׃",
+   "names": []
+  },
+  {
+   "v": 7,
+   "text": "וַ֭אֲנִי אָמַ֣רְתִּי בְשַׁלְוִ֑י בַּל־אֶמּ֥וֹט לְעוֹלָֽם׃",
+   "names": []
+  },
+  {
+   "v": 8,
+   "text": "ה' בִּרְצוֹנְךָ֮ הֶעֱמַ֢דְתָּה לְֽהַרְרִ֫י־עֹ֥ז הִסְתַּ֥רְתָּ פָנֶ֗יךָ הָיִ֥יתִי נִבְהָֽל׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 0,
+     "start": 0,
+     "end": 2,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 9,
+   "text": "אֵלֶ֣יךָ ה' אֶקְרָ֑א וְאֶל־אֲ֝-דֹנָ֗י אֶתְחַנָּֽן׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 9,
+     "end": 11,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ADNI",
+     "word": 4,
+     "start": 27,
+     "end": 37,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 10,
+   "text": "מַה־בֶּ֥צַע בְּדָמִי֮ בְּרִדְתִּ֢י אֶ֫ל־שָׁ֥חַת הֲיוֹדְךָ֥ עָפָ֑ר הֲיַגִּ֥יד אֲמִתֶּֽךָ׃",
+   "names": []
+  },
+  {
+   "v": 11,
+   "text": "שְׁמַע־ה' וְחׇנֵּ֑נִי ה' הֱֽיֵה־עֹזֵ֥ר לִֽי׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 1,
+     "start": 7,
+     "end": 9,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "HAVAYAH",
+     "word": 3,
+     "start": 22,
+     "end": 24,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  },
+  {
+   "v": 12,
+   "text": "הָפַ֣כְתָּ מִסְפְּדִי֮ לְמָח֢וֹל לִ֥֫י פִּתַּ֥חְתָּ שַׂקִּ֑י וַֽתְּאַזְּרֵ֥נִי שִׂמְחָֽה׃",
+   "names": []
+  },
+  {
+   "v": 13,
+   "text": "לְמַ֤עַן ׀ יְזַמֶּרְךָ֣ כָ֭בוֹד וְלֹ֣א יִדֹּ֑ם ה' אֱ֝-לֹהַ֗י לְעוֹלָ֥ם אוֹדֶֽךָּ׃",
+   "names": [
+    {
+     "type": "HAVAYAH",
+     "word": 5,
+     "start": 47,
+     "end": 49,
+     "prefix": "",
+     "suffix": "",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    },
+    {
+     "type": "ELOKIM",
+     "word": 6,
+     "start": 50,
+     "end": 60,
+     "prefix": "",
+     "suffix": "י",
+     "chol": false,
+     "ktiv": false,
+     "counted": true
+    }
+   ]
+  }
+ ],
+ "paragraph_after": [
+  13
+ ],
+ "names_count": {
+  "HAVAYAH": 9,
+  "ELOKIM": 2,
+  "EL": 0,
+  "ELOAH": 0,
+  "YAH": 0,
+  "ADNI": 1,
+  "SHADDAI": 0,
+  "TZVAOT": 0
+ },
+ "names_forms": {
+  "HAVAYAH": {
+   "base": 9
+  },
+  "ELOKIM": {
+   "י": 2
+  },
+  "ADNI": {
+   "base": 1
+  }
+ },
+ "names_combos": {
+  "HAVAYAH+ELOKIM": 2
+ },
+ "selah_count": 0,
+ "doublet_of": null,
+ "liturgy": [],
+ "sources": {
+  "text": "sefaria:Psalms.30",
+  "version": "Miqra according to the Masorah",
+  "license": "CC-BY-SA",
+  "url": "https://www.sefaria.org/Psalms.30?lang=he"
+ }
+}
