@@ -310,7 +310,20 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "selichot",
+   "section": "סידור נוסח עדות המזרח, מנחה לימי החול, וידוי",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Vidui_7?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "selichot",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, וידוי",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Vidui_7?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.25",
   "version": "Miqra according to the Masorah",

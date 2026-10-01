@@ -350,7 +350,50 @@
  },
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "rosh_chodesh",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, ברכי נפשי",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Barchi_Nafshi_3?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "weekday",
+   "section": "סידור נוסח עדות המזרח, ערבית לימי החול, ברכו",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Arvit%2C_Barchu_3?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, יוצרות, יוצר לפרשת החודש",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_HaChodesh_83?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, יוצרות, יוצר לפרשת שקלים",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_Sekalim_89?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "rosh_chodesh",
+   "section": "סידור ספרד, לראש חודש, ברכי נפשי",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Barchi_Nafshi_3?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, מנחה לשבת קודש, תפילת עמידה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_70?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, שחרית של שבת, תפילת עמידה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Amidah_68?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.104",
   "version": "Miqra according to the Masorah",

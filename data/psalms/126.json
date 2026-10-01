@@ -118,7 +118,44 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "birkat_hamazon",
+   "section": "סידור אשכנז, ברכות, ברכת המזון",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Berachot%2C_Birkat_HaMazon_4?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, חודש ניסן, סדר ברכת האילנות",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Nissan%2C_Blessing_of_the_Trees_4?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "tikkun_chatzot",
+   "section": "סידור נוסח עדות המזרח, סדר תיקון חצות, תיקון לאה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_15?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "birkat_hamazon",
+   "section": "סידור ספרד, סדר ברכת המזון, ברכת המזון",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Birchat_HaMazon%2C_Birchat_HaMazon_4?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, הגדה של פסח, ברך",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Barech_4?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, מנחה לשבת קודש, תפילת עמידה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_77?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.126",
   "version": "Miqra according to the Masorah",

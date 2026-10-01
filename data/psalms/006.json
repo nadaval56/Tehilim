@@ -195,7 +195,32 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "tachanun",
+   "section": "סידור אשכנז, ימי חול, תפילת מנחה, אחר העמידה, תחנון, נפילת אפים",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Minchah%2C_Post_Amidah%2C_Tachanun%2C_Nefilat_Appayim_2?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "tachanun",
+   "section": "סידור אשכנז, ימי חול, תפילת שחרית, אחר העמידה, תחנון, נפילת אפיים",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Post_Amidah%2C_Tachanun%2C_Nefilat_Apayim_2?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "tachanun",
+   "section": "סידור ספרד, מנחה לימות החול, תחנון",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Mincha%2C_Tachanun_12?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "tachanun",
+   "section": "סידור ספרד, שחרית לימות החול, תחנון",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Tachanun_14?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.6",
   "version": "Miqra according to the Masorah",

@@ -237,7 +237,14 @@
  },
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "tikkun_chatzot",
+   "section": "סידור נוסח עדות המזרח, סדר תיקון חצות, תיקון לאה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_9?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.51",
   "version": "Miqra according to the Masorah",

@@ -549,7 +549,20 @@
  },
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "hallel",
+   "section": "סידור אשכנז, חגים, ראש חודש, הלל",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_118_8?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "hallel",
+   "section": "סידור ספרד, לראש חודש, סדר הלל",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_21?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.118",
   "version": "Miqra according to the Masorah",

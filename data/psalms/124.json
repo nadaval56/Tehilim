@@ -130,7 +130,56 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_13?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "rosh_chodesh",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, ובא לציון גואל",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Uva_LeSion_5?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "selichot",
+   "section": "סידור נוסח עדות המזרח, תעניות ואבילות, סליחות לתענית אסתר",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Fast_Days_and_Mourning%2C_Fast_of_Esther_10?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "weekday",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, בית יעקב",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Beit_Yaakov_5?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_21?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "rosh_chodesh",
+   "section": "סידור ספרד, לראש חודש, החזרת ספר תורה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Returning_Sefer_Torah_4?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, מנחה לשבת קודש, תפילת עמידה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_75?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "weekday",
+   "section": "סידור ספרד, שחרית לימות החול, בית יעקב",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Beit_Yaakov_4?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.124",
   "version": "Miqra according to the Masorah",

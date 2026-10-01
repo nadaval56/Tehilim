@@ -129,7 +129,38 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, ימי חול, תפילת שחרית, פסוקי דזמרה, מזמור לתודה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Mizmor_Letoda_2?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "kabbalat_shabbat",
+   "section": "סידור נוסח עדות המזרח, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_7?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_3?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "kabbalat_shabbat",
+   "section": "סידור ספרד, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_6?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית לימות החול, הודו",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_15?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.100",
   "version": "Miqra according to the Masorah",

@@ -131,6 +131,34 @@ def chida(psalms: list[dict]) -> dict:
     }
 
 
+DAYS = [("ביום הראשון", "ראשון"), ("בשני", "שני"), ("בשלישי", "שלישי"), ("ברביעי", "רביעי"),
+        ("בחמישי", "חמישי"), ("בששי", "שישי"), ("בשבת", "שבת")]
+
+
+def shir_shel_yom(psalms: list[dict]) -> list[dict]:
+    """Day -> psalm, derived from the verse each day's clause quotes in Mishnah Tamid 7:4."""
+    src = json.loads((DATA / "sources.json").read_text(encoding="utf-8"))["shir_shel_yom"]
+    text = " ".join(s["text"] for s in src["segments"])
+    starts = [(text.index(k + " היו אומרים"), k, label) for k, label in DAYS]
+    out = []
+    for i, (pos, key, label) in enumerate(starts):
+        end = starts[i + 1][0] if i + 1 < len(starts) else len(text)
+        clause = text[pos:end]
+        quote = clause.split(")", 1)[1] if ")" in clause else clause
+        q = [w.skeleton for w in tokenize(quote)][:3]
+        found = None
+        for p in psalms:
+            for v in p["verses"][:2]:
+                ws = [w.skeleton for w in tokenize(v["text"])]
+                if any(ws[j:j + 3] == q for j in range(len(ws))):
+                    found = p["n"]
+                    break
+            if found:
+                break
+        out.append({"day": label, "psalm": found, "source": "shir_shel_yom"})
+    return out
+
+
 def main() -> int:
     psalms = load_psalms()
 
@@ -194,6 +222,20 @@ def main() -> int:
     dump("names_stats.json", stats)
     dump("doublets.json", doublets)
     dump("chida.json", chida(psalms))
+    lit_path = DATA / "liturgy.json"
+    if lit_path.exists():
+        lit = json.loads(lit_path.read_text(encoding="utf-8"))
+        lit["shir_shel_yom_mishnah"] = shir_shel_yom(psalms)
+        dump("liturgy.json", lit)
+        by_psalm = {}
+        for e in lit["entries"]:
+            by_psalm.setdefault(e["psalm"], []).append({k: e[k] for k in ("nusach", "context", "section", "url")})
+        for p in psalms:
+            new = by_psalm.get(p["n"], [])
+            if p["liturgy"] != new:
+                p["liturgy"] = new
+                (DATA / "psalms" / f"{p['n']:03d}.json").write_text(
+                    json.dumps(p, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     for p in psalms:  # back-link doublets into the psalm files
         new = doublet_of.get(p["n"])

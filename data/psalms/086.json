@@ -342,7 +342,14 @@
  },
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "sefard",
+   "context": "weekday",
+   "section": "סידור ספרד, שחרית לימות החול, בית יעקב",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Beit_Yaakov_2?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.86",
   "version": "Miqra according to the Masorah",

@@ -347,7 +347,14 @@
  },
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "shir_shel_yom",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, שיר של יום",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_22?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.22",
   "version": "Miqra according to the Masorah",

@@ -158,7 +158,44 @@
  },
  "selah_count": 2,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "festivals",
+   "section": "סידור אשכנז, שבת, מעריב, ספירת העומר",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Maariv%2C_Sefirat_HaOmer_9?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "birkat_hamazon",
+   "section": "סידור נוסח עדות המזרח, ברכת המזון",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Post_Meal_Blessing_3?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, ספירת העומר",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Counting_of_the_Omer_153?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, הודו",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_15?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "selichot",
+   "section": "סידור נוסח עדות המזרח, מנחה לימי החול, וידוי",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Vidui_17?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "tikkun_chatzot",
+   "section": "סידור נוסח עדות המזרח, סדר תיקון חצות, תיקון לאה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_7?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.67",
   "version": "Miqra according to the Masorah",

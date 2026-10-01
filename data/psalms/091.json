@@ -159,7 +159,62 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "bedtime",
+   "section": "סידור אשכנז, ימי חול, מעריב, קריאת שמע על המיטה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri'at_Shema_al_Hamita_11?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "motzaei_shabbat",
+   "section": "סידור אשכנז, ימי חול, מעריב, תוספות למוצאי שבת, ויהי נעם",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Additions_for_Motza'ei_Shabbat%2C_Viyehi_Noam_2?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_91_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_7?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "weekday",
+   "section": "סידור נוסח עדות המזרח, ערבית לימי החול, עמידה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Arvit%2C_Amidah_59?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "bedtime",
+   "section": "סידור ספרד, קריאת שמע שעל המיטה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema_10?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, חנוכה, סדר הדלקת נרות חנוכה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_25?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "motzaei_shabbat",
+   "section": "סידור ספרד, ערבית לימות החול, ערבית למוצאי שבת",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Motzaei_Shabbat_5?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_16?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.91",
   "version": "Miqra according to the Masorah",

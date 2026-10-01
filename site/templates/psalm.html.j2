@@ -52,6 +52,20 @@
 {% if p.selah_count %}<p class="note">"סלה" במזמור: {{ p.selah_count }}.</p>{% endif %}
 <p class="note">המספרים לפי <a href="{{ root }}shita/#counting">כללי הספירה</a>. הללויה ושמות חול שאושרו אינם נספרים.</p>
 
+<h2>בתפילה</h2>
+{% if p.liturgy %}
+<ul class="lit-list">
+  {% for e in p.liturgy %}
+  <li><span class="tag neutral">{{ lit.nusachim[e.nusach] }}</span> {{ litv.ctx_label[e.context] }} · <a href="{{ e.url }}" class="small">{{ e.section }}</a></li>
+  {% endfor %}
+</ul>
+<p class="note">לפי הקישורים שבספריא; טרם אומת ידנית. <a href="{{ root }}tefila/">עוד על העדשה</a>.</p>
+{% else %}
+<p class="muted">לא נמצא קישור בסידורים שבספריא (מה שאינו אומר בהכרח שהמזמור אינו נאמר).</p>
+{% endif %}
+{% if n in tikkun %}<p>המזמור הוא אחד מעשרת מזמורי <a href="{{ root }}tefila/#tikkun-haklali">התיקון הכללי</a>.</p>{% endif %}
+{% for r in lit.shir_shel_yom_mishnah if r.psalm == n %}<p>שיר של יום {{ r.day }}, לפי <a href="{{ root }}tefila/#shir-shel-yom">משנה תמיד ז, ד</a>.</p>{% endfor %}
+
 {% if pair_ids %}
 <h2>מזמור כפול</h2>
 <ul>

@@ -186,7 +186,20 @@
  "names_combos": {},
  "selah_count": 3,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "bedtime",
+   "section": "סידור אשכנז, ימי חול, מעריב, קריאת שמע על המיטה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri'at_Shema_al_Hamita_12?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "bedtime",
+   "section": "סידור ספרד, קריאת שמע שעל המיטה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema_11?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.3",
   "version": "Miqra according to the Masorah",

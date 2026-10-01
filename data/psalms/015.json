@@ -91,7 +91,14 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "selichot",
+   "section": "סידור נוסח עדות המזרח, תעניות ואבילות, אבלות",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Fast_Days_and_Mourning%2C_Mourning_8?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.15",
   "version": "Miqra according to the Masorah",

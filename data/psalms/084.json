@@ -342,7 +342,20 @@
  },
  "selah_count": 2,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "shabbat",
+   "section": "סידור נוסח עדות המזרח, מנחה של שבת, קרבנות",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Mincha%2C_Offerings_3?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "weekday",
+   "section": "סידור נוסח עדות המזרח, מנחה לימי החול, קרבנות",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Offerings_3?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.84",
   "version": "Miqra according to the Masorah",

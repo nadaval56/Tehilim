@@ -128,6 +128,44 @@ def alphabetic(psalms: dict) -> list[dict]:
     return out
 
 
+# --- liturgy -----------------------------------------------------------------
+_NUM = {c: v for v, c in [(1, "א"), (2, "ב"), (3, "ג"), (4, "ד"), (5, "ה"), (6, "ו"), (7, "ז"), (8, "ח"), (9, "ט"),
+                          (10, "י"), (20, "כ"), (30, "ל"), (40, "מ"), (50, "נ"), (60, "ס"), (70, "ע"), (80, "פ"),
+                          (90, "צ"), (100, "ק")]}
+
+
+def parse_heb_numbers(text: str) -> list[int]:
+    """'ט"ז. ל"ב. צ'.' -> [16, 32, 90]"""
+    out = []
+    for tok in re.findall(r"[\u05D0-\u05EA]+[\"'][\u05D0-\u05EA]?", text):
+        letters = re.sub(r"[\"']", "", tok)
+        if all(c in _NUM for c in letters):
+            out.append(sum(_NUM[c] for c in letters))
+    return [n for n in out if 1 <= n <= 150]
+
+
+def liturgy_view(lit: dict) -> dict:
+    nus = list(lit["nusachim"])
+    ctx_label = {c["id"]: c["label"] for c in lit["contexts"]}
+    per = {n: {k: set() for k in nus} for n in range(1, 151)}
+    table = {c["id"]: {k: [] for k in nus} for c in lit["contexts"]}
+    for e in lit["entries"]:
+        per[e["psalm"]][e["nusach"]].add(e["context"])
+        if e["psalm"] not in table[e["context"]][e["nusach"]]:
+            table[e["context"]][e["nusach"]].append(e["psalm"])
+    cells = []
+    for n in range(1, 151):
+        counts = {k: len(per[n][k]) for k in nus}
+        all_ctx = set().union(*per[n].values())
+        counts["all"] = len(all_ctx)
+        cells.append({"n": n, "heb": heb(n), "counts": counts,
+                      "bucket": {k: min(v, 5) for k, v in counts.items()},
+                      "ctx": sorted(all_ctx),
+                      "label": f"מזמור {heb(n)} · " + (", ".join(ctx_label[c] for c in sorted(all_ctx)) or "לא נמצא בסידורים")})
+    used = [c for c in lit["contexts"] if any(table[c["id"]][k] for k in nus)]
+    return {"cells": cells, "table": table, "contexts": used, "nusach_ids": nus, "ctx_label": ctx_label}
+
+
 # --- doublet diff ------------------------------------------------------------
 def space_tokens(v: dict) -> list[tuple[str, str, str | None]]:
     """[(display, key, name_type)] split on spaces; key normalizes names to their type."""
@@ -203,6 +241,7 @@ def main() -> int:
     doublets = json.loads((DATA / "doublets.json").read_text(encoding="utf-8"))
     sources = json.loads((DATA / "sources.json").read_text(encoding="utf-8"))
     chida = json.loads((DATA / "chida.json").read_text(encoding="utf-8"))
+    lit = json.loads((DATA / "liturgy.json").read_text(encoding="utf-8"))
     chol = json.loads((DATA / "annotations" / "chol_names.json").read_text(encoding="utf-8"))
 
     if OUT.exists():
@@ -276,7 +315,8 @@ def main() -> int:
 
     common = dict(psalms=psalms, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
                   pairs=pairs, doublets=doublets, AUTHOR_LEGEND=AUTHOR_LEGEND, TYPE_LEGEND=TYPE_LEGEND,
-                  chart_max=chart_max, kinuyim=KINUYIM, alpha=alphabetic(psalms), chida=chida,
+                  chart_max=chart_max, kinuyim=KINUYIM, alpha=alphabetic(psalms), chida=chida, lit=lit, litv=liturgy_view(lit),
+                  tikkun=parse_heb_numbers(" ".join(x["text"] for x in sources["tikkun_haklali"]["segments"])),
                   chida_total=sum(l["count"] for l in chida["letters"]))
 
     page("", "index.html.j2", **common)
@@ -284,6 +324,7 @@ def main() -> int:
     page("shemot", "shemot.html.j2", **common)
     for pr in pairs:
         page(f"kfulim/{pr['id']}", "pair.html.j2", pair=pr, **common)
+    page("tefila", "tefila.html.j2", **common)
     page("chida", "chida.html.j2", **common)
     L = chida["letters"]
     for i, l in enumerate(L):
