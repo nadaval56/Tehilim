@@ -11,7 +11,7 @@
   <div class="book-map" data-dim="{{ default }}" id="{{ id }}">
     {% for c in cells %}
     <a class="cell" href="{{ root }}mizmor/{{ c.n }}/" data-book="{{ c.book }}" data-author="{{ c.author }}" data-type="{{ c.type }}"
-       data-names="{{ c.names }}" style="--k: {{ c.k }}%"{% if c.strong %} data-strong{% endif %}
+       data-names="{{ c.names }}" style="--k: {{ c.k }}%{% if c.author2 %}; --a1: var(--c{{ c.author }}); --a2: var(--c{{ c.author2 }}){% endif %}"{% if c.author2 %} data-author2="{{ c.author2 }}"{% endif %}{% if c.strong %} data-strong{% endif %}
        aria-label="{{ c.labels[default] }}"{% for key, _ in dims %} data-label-{{ key }}="{{ c.labels[key] }}"{% endfor %}>{{ c.heb }}</a>
     {% endfor %}
   </div>

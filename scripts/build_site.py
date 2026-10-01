@@ -34,8 +34,9 @@ NAME_LABELS["HAVAYAH"] = "שם הויה"
 NAME_SHORT = {t: v["label"] for t, v in KINUYIM["types"].items()}
 NAME_SHORT["HAVAYAH"] = "ה'"
 BOOK_NAMES = {1: "ספר ראשון", 2: "ספר שני", 3: "ספר שלישי", 4: "ספר רביעי", 5: "ספר חמישי"}
-AUTHOR_SLOTS = {"דוד": 1, "בני קרח": 2, "אסף": 3, "משה": 4, "שלמה": 5, "הימן": 6, "איתן": 6}
-AUTHOR_LEGEND = [(1, "דוד"), (2, "בני קרח"), (3, "אסף"), (4, "משה"), (5, "שלמה"), (6, "הימן / איתן"), (0, "ללא מחבר בכותרת")]
+AUTHOR_SLOTS = {"דוד": 1, "בני קרח": 2, "אסף": 3, "משה": 4, "שלמה": 5, "הימן": 6, "איתן": 7, "ידותון": 8}
+AUTHOR_LEGEND = [(1, "דוד"), (2, "בני קרח"), (3, "אסף"), (4, "משה"), (5, "שלמה"), (6, "הימן"), (7, "איתן"),
+                 (8, "ידותון"), (0, "ללא מחבר בכותרת")]
 TYPE_SLOTS = {"מזמור": 1, "שיר": 2, "שיר המעלות": 3, "משכיל": 4, "מכתם": 5, "תפלה": 6, "תהלה": 6, "שגיון": 6}
 TYPE_LEGEND = [(1, "מזמור"), (2, "שיר"), (3, "שיר המעלות"), (4, "משכיל"), (5, "מכתם"), (6, "תפלה / תהלה / שגיון"), (0, "ללא כינוי סוג")]
 CGJ = "͏"
@@ -339,10 +340,11 @@ def main() -> int:
             k = round(abs(share - .5) * 200)
             strong = k >= 50
         a_slot = AUTHOR_SLOTS.get(att[0], 0) if att else 0
+        a_slot2 = AUTHOR_SLOTS.get(att[1], 0) if len(att) > 1 else 0
         t_slot = TYPE_SLOTS.get(typ[0], 0) if typ else 0
         base = f"מזמור {heb(n)}"
         cells.append({
-            "n": n, "heb": heb(n), "book": p["book"], "author": a_slot, "type": t_slot, "names": nm, "k": k,
+            "n": n, "heb": heb(n), "book": p["book"], "author": a_slot, "author2": a_slot2, "type": t_slot, "names": nm, "k": k,
             "strong": strong,
             "labels": {
                 "book": f"{base} · {BOOK_NAMES[p['book']]}",
