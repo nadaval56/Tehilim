@@ -1,11 +1,18 @@
 {% extends "base.html.j2" %}
+{% macro src_quote(s) %}
+<blockquote class="source-quote">
+  {% for seg in s.segments %}{{ seg.text }}{% if not loop.last %} {% endif %}{% endfor %}
+  <cite>{{ s.title }} · <a href="{{ s.url }}">{{ s.version }}</a> ({{ s.license }})</cite>
+</blockquote>
+{% endmacro %}
 {% block title %}תהלים החיד"א — פסוקי הספר לפי אותיות | {{ site.name }}{% endblock %}
-{% block description %}כל פסוקי ספר תהילים מסודרים לפי האות הראשונה של כל פסוק, מאל"ף ועד תי"ו.{% endblock %}
+{% block description %}כל פסוקי ספר תהילים מסודרים לפי האות הראשונה של כל פסוק, מאל"ף ועד תי"ו, וקריאת הפסוקים לפי אותיות השם, כדברי החיד"א.{% endblock %}
 {% block content %}
 <section class="read">
   <h1>תהלים החיד"א</h1>
   <p>כל {{ chida_total }} פסוקי הספר, מסודרים לפי האות שבה פותח כל פסוק. בתוך כל אות, הפסוקים מופיעים לפי סדרם בספר.</p>
 </section>
+
 <nav aria-label="אותיות">
   <ul class="letter-grid">
     {% for l in chida.letters %}
@@ -13,5 +20,42 @@
     {% endfor %}
   </ul>
 </nav>
-<p class="note">כלל הסידור: האות הראשונה של הפסוק כפי שהוא כתוב, כולל פסוקים שהם כותרת בלבד. פסוק שפותח בשם הויה נמנה באות שבה פותח השם, ולא באות של הכינוי. <a href="{{ root }}shita/#chida">פירוט</a>.</p>
+
+<h2 id="by-name">לפי אותיות השם</h2>
+<form class="name-tool" id="name-tool" role="search" onsubmit="return false">
+  <label for="name-input">שם</label>
+  <input id="name-input" type="text" inputmode="text" autocomplete="off" dir="rtl" lang="he" maxlength="40" placeholder="למשל: חיים">
+</form>
+<ol class="name-letters" id="name-letters" aria-live="polite"></ol>
+<p class="note">השם אינו נשמר ואינו נשלח לשום מקום. אותיות סופיות נקראות כרגילות (ך = כ).</p>
+<script>
+  (function () {
+    var L = {{ chida.letters|map(attribute='letter')|list|tojson }};
+    var S = {{ chida.letters|map(attribute='slug')|list|tojson }};
+    var FIN = { 'ך': 'כ', 'ם': 'מ', 'ן': 'נ', 'ף': 'פ', 'ץ': 'צ' };
+    var input = document.getElementById('name-input'), out = document.getElementById('name-letters');
+    input.addEventListener('input', function () {
+      out.textContent = '';
+      Array.from(input.value).forEach(function (ch) {
+        ch = FIN[ch] || ch;
+        var i = L.indexOf(ch);
+        if (i < 0) return;
+        var li = document.createElement('li'), a = document.createElement('a');
+        a.href = '{{ root }}chida/' + S[i] + '/'; a.textContent = 'אות ' + ch;
+        li.appendChild(a); out.appendChild(li);
+      });
+    });
+  })();
+</script>
+
+<h2 id="sources">המקור</h2>
+<p class="read">החיד"א מונה, בין הדברים המועילים לרפואה, את קריאת פסוקי התהלים לפי אותיות השם:</p>
+{{ src_quote(sources.chida_sansan) }}
+<p class="read">ובספרו "כף אחת" הביא תפילה לאומרה אחרי הפסוקים:</p>
+{{ src_quote(sources.chida_kaf_achat) }}
+
+<div class="summary-box read">
+  במקורות שהובאו כאן החיד"א מפנה לספר בשם "ליקוטי תהלים", ואינו מפרט בהם מי סידר את הפסוקים לפי אותיות. לא נמצא בהם גם פירוט של אופן הסידור. הסידור שבאתר נעשה בחישוב מתוך הטקסט, לפי הכלל שבהערה למטה.
+</div>
+<p class="note">כלל הסידור באתר: האות הראשונה של הפסוק כפי שהוא כתוב, כולל פסוקים שהם כותרת בלבד. פסוק שפותח בשם הויה נמנה באות שבה פותח השם, ולא באות של הכינוי. <a href="{{ root }}shita/#chida">פירוט</a>.</p>
 {% endblock %}

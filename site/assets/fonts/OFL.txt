@@ -1,15 +1,10 @@
-The fonts in this directory — Frank Ruhl Libre, Heebo and Noto Sans Coptic — are Copyright
+The fonts in this directory — Heebo and Noto Sans Hebrew — are Copyright
 their respective authors and are licensed under the SIL Open Font License,
 Version 1.1.
 
-  Frank Ruhl Libre: https://fonts.google.com/specimen/Frank+Ruhl+Libre
-  Noto Sans Coptic: https://github.com/notofonts/coptic (Copyright 2022 The Noto Project Authors)
   Heebo:            https://fonts.google.com/specimen/Heebo
+  Noto Sans Hebrew: https://fonts.google.com/noto/specimen/Noto+Sans+Hebrew (Copyright The Noto Project Authors)
 
 The full text of the SIL Open Font License 1.1 is available at:
   https://openfontlicense.org/
   https://scripts.sil.org/OFL
-
-The .woff2 files here are the unmodified subsetted builds served by Google
-Fonts, hosted locally so that visitors' IP addresses are never sent to a
-third-party font CDN.
