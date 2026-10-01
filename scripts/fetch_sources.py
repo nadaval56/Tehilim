@@ -18,19 +18,19 @@ import sefaria  # noqa: E402
 from hebrew import strip_marks  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-TALMUD = "Wikisource Talmud Bavli"
+TALMUD = "William Davidson Edition - Vocalized Aramaic"  # punctuated; niqqud is stripped
 
 SOURCES = {
     "ten_elders": {
         "title": "בבא בתרא יד ע\"ב – טו ע\"א",
         "segments": ["Bava_Batra.14b.12", "Bava_Batra.15a.1"],
-        "version": TALMUD,
+        "version": "William Davidson Edition - Vocalized Aramaic",  # punctuated; niqqud is stripped
         "topic": "עשרה זקנים שעל ידם נכתב ספר תהלים",
     },
     "eitan_avraham": {
         "title": "בבא בתרא טו ע\"א",
         "segments": ["Bava_Batra.15a.9"],
-        "version": TALMUD,
+        "version": "William Davidson Edition - Vocalized Aramaic",
         "topic": "איתן האזרחי",
     },
     "ashrei_nun": {

@@ -66,7 +66,7 @@
         box.querySelectorAll('.seg button').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
         btn.setAttribute('aria-pressed', 'true');
         map.setAttribute('data-dim', btn.value);
-        box.querySelectorAll('.legend').forEach(function (l) { l.hidden = l.getAttribute('data-for') !== btn.value; });
+        box.querySelectorAll('[data-for]').forEach(function (l) { l.hidden = l.getAttribute('data-for') !== btn.value; });
         map.querySelectorAll('.cell').forEach(function (c) {
           c.setAttribute('aria-label', c.getAttribute('data-label-' + btn.value) || c.getAttribute('aria-label'));
         });

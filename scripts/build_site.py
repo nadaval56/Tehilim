@@ -137,6 +137,51 @@ def alphabetic(psalms: dict) -> list[dict]:
     return out
 
 
+# --- charts ------------------------------------------------------------------
+def hbar(items: list[tuple[str, int, str]], title: str, unit: str = "") -> Markup:
+    """Horizontal bar chart (inline SVG): [(label, value, css colour)]. Labels on the right (RTL)."""
+    W, row, lab, pad = 640, 30, 150, 46
+    vmax = max(v for _, v, _ in items) or 1
+    scale = (W - lab - pad) / vmax
+    h = row * len(items) + 8
+    parts = [f'<svg class="chart" style="direction: ltr" viewBox="0 0 {W} {h}" role="img" aria-label="{html.escape(title)}">']
+    desc = "; ".join(f"{l}: {v}{unit}" for l, v, _ in items)
+    parts.append(f"<title>{html.escape(title)}</title><desc>{html.escape(desc)}</desc>")
+    for i, (label, v, color) in enumerate(items):
+        y = i * row + 4
+        w = max(v * scale, 2)
+        x = W - lab - w
+        parts.append(f'<text x="{W - 4}" y="{y + 17}" text-anchor="end">{html.escape(label)}</text>')
+        parts.append(f'<rect x="{x:.1f}" y="{y + 3}" width="{w:.1f}" height="18" rx="4" style="fill: {color}"/>')
+        parts.append(f'<text class="val" x="{x - 6:.1f}" y="{y + 17}" text-anchor="end">{v}</text>')
+    parts.append(f'<line class="grid" x1="{W - lab}" x2="{W - lab}" y1="0" y2="{h}"/></svg>')
+    return Markup("".join(parts))
+
+
+def structure_charts(psalms: dict, books: list) -> dict:
+    b = hbar([(BOOK_NAMES[x["n"]], x["count"], f"var(--b{x['n']})") for x in books], "מזמורים בכל ספר")
+    bv = hbar([(BOOK_NAMES[x["n"]], x["verses"], f"var(--b{x['n']})") for x in books], "פסוקים בכל ספר")
+    a_counts = []
+    for slot, label in AUTHOR_LEGEND:
+        names_ = [k for k, v in AUTHOR_SLOTS.items() if v == slot] if slot else []
+        if slot:
+            n = sum(1 for p in psalms.values() if p["heading"] and any(a in p["heading"]["attribution"] for a in names_))
+        else:
+            n = sum(1 for p in psalms.values() if not p["heading"] or not p["heading"]["attribution"])
+        a_counts.append((label, n, f"var(--c{slot})" if slot else "var(--c-none)"))
+    t_counts = []
+    for slot, label in TYPE_LEGEND:
+        names_ = [k for k, v in TYPE_SLOTS.items() if v == slot] if slot else []
+        if slot:
+            n = sum(1 for p in psalms.values() if p["heading"] and any(t in p["heading"]["types"] for t in names_))
+        else:
+            n = sum(1 for p in psalms.values() if not p["heading"] or not p["heading"]["types"])
+        t_counts.append((label, n, f"var(--c{slot})" if slot else "var(--c-none)"))
+    return {"book": b, "book_verses": bv,
+            "author": hbar(a_counts, "מזמורים לפי המחבר שבכותרת"),
+            "type": hbar(t_counts, "מזמורים לפי כינוי הסוג שבכותרת")}
+
+
 # --- liturgy -----------------------------------------------------------------
 _NUM = {c: v for v, c in [(1, "א"), (2, "ב"), (3, "ג"), (4, "ד"), (5, "ה"), (6, "ו"), (7, "ז"), (8, "ח"), (9, "ט"),
                           (10, "י"), (20, "כ"), (30, "ל"), (40, "מ"), (50, "נ"), (60, "ס"), (70, "ע"), (80, "פ"),
@@ -325,7 +370,7 @@ def main() -> int:
 
     common = dict(psalms=psalms, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
                   pairs=pairs, doublets=doublets, AUTHOR_LEGEND=AUTHOR_LEGEND, TYPE_LEGEND=TYPE_LEGEND,
-                  chart_max=chart_max, kinuyim=KINUYIM, alpha=alphabetic(psalms), chida=chida, lit=lit, litv=liturgy_view(lit),
+                  chart_max=chart_max, kinuyim=KINUYIM, alpha=alphabetic(psalms), chida=chida, lit=lit, charts=structure_charts(psalms, books), litv=liturgy_view(lit),
                   tikkun=parse_heb_numbers(" ".join(x["text"] for x in sources["tikkun_haklali"]["segments"])),
                   chida_total=sum(l["count"] for l in chida["letters"]))
 
