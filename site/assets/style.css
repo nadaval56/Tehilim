@@ -243,6 +243,7 @@ td.n, th.n { text-align: end; font-variant-numeric: tabular-nums; }
 .book-map[data-dim="book"] .cell[data-book="3"] { background: var(--b3); color: var(--b3-ink); }
 .book-map[data-dim="book"] .cell[data-book="4"] { background: var(--b4); color: var(--b4-ink); }
 .book-map[data-dim="book"] .cell[data-book="5"] { background: var(--b5); color: var(--b5-ink); }
+.book-map[data-dim="alpha"] .cell[data-alpha] { background: var(--b4); color: var(--b4-ink); }
 /* שני מחברים בכותרת: צבע הראשון, ופינה בצבע השני */
 .book-map[data-dim="author"] .cell[data-author2] { background: linear-gradient(135deg, var(--a1) 62%, var(--a2) 62%); }
 .book-map[data-dim="names"] .cell[data-names="h"] { background: color-mix(in oklab, var(--hav) var(--k), var(--mid)); }
