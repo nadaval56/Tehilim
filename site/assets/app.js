@@ -29,25 +29,19 @@
     save(prefs); applyTheme();
   });
 
-  /* ── טעמים / ניקוד בלבד ──
-     הטקסט נשלח עם טעמים. במצב "ניקוד בלבד" מסירים את סימני הטעמים
-     (U+0591–U+05AF) מצמתי הטקסט, ושומרים את המקור כדי להחזירו. */
-  var TEAMIM = /[֑-֯]/g;
-  var originals = [];
+  /* ── טעמים ──
+     ברירת המחדל: ניקוד בלבד. הדף נבנה כך מראש, והנוסח המלא (עם טעמים)
+     שמור בתכונה data-t של כל פסוק; המתג מחליף ביניהם. */
   function setTeamim(on) {
-    var areas = document.querySelectorAll('.psalm-text, .pair-text');
-    if (!areas.length) return;
-    if (!on && !originals.length) {
-      areas.forEach(function (a) {
-        var w = document.createTreeWalker(a, NodeFilter.SHOW_TEXT);
-        var n;
-        while ((n = w.nextNode())) { originals.push([n, n.nodeValue]); n.nodeValue = n.nodeValue.replace(TEAMIM, ''); }
-      });
-    } else if (on && originals.length) {
-      originals.forEach(function (p) { p[0].nodeValue = p[1]; });
-      originals = [];
-    }
-    root.classList.toggle('plain-text', !on);
+    document.querySelectorAll('.vt').forEach(function (el) {
+      if (on && !el.hasAttribute('data-plain')) {
+        el.setAttribute('data-plain', el.innerHTML);
+        el.innerHTML = el.getAttribute('data-t');
+      } else if (!on && el.hasAttribute('data-plain')) {
+        el.innerHTML = el.getAttribute('data-plain');
+        el.removeAttribute('data-plain');
+      }
+    });
   }
 
   function bindToggle(sel, key, def, apply) {
@@ -61,7 +55,7 @@
       b.setAttribute('aria-pressed', String(val)); apply(val);
     });
   }
-  bindToggle('#tg-teamim', 'teamim', true, setTeamim);
+  bindToggle('#tg-teamim', 'teamim', false, setTeamim);
   bindToggle('#tg-names', 'names', false, function (v) { root.classList.toggle('show-names', v); });
 
   /* ── מפת הספר: בחירת ממד ── */

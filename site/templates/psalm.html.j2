@@ -13,7 +13,7 @@
 </div>
 
 <div class="text-tools" role="group" aria-label="תצוגת הטקסט">
-  <button type="button" class="toggle" id="tg-teamim" aria-pressed="true">טעמי המקרא</button>
+  <button type="button" class="toggle" id="tg-teamim" aria-pressed="false">טעמי המקרא</button>
   <button type="button" class="toggle" id="tg-names" aria-pressed="false">סימון השמות</button>
 </div>
 
@@ -30,7 +30,7 @@
   <div class="fact"><dt>מחבר לפי הכותרת</dt><dd>{{ h.attribution|join(', ') or '—' }}</dd></div>
   <div class="fact"><dt>סוג לפי לשון הכותרת</dt><dd>{{ h.types|join(', ') or '—' }}</dd></div>
   {% if h.musical_terms %}<div class="fact"><dt>מונחי נגינה וייעוד</dt><dd>{{ h.musical_terms|join(' · ') }}</dd></div>{% endif %}
-  {% if h.historical_event %}<div class="fact" style="grid-column: 1 / -1"><dt>אירוע הנזכר בכותרת</dt><dd style="font-family: var(--font-plain); font-weight: 500; font-size: 1.125rem">{{ h.historical_event }}</dd></div>{% endif %}
+  {% if h.historical_event %}<div class="fact" style="grid-column: 1 / -1"><dt>אירוע הנזכר בכותרת</dt><dd style="font-family: var(--font-plain); font-weight: 500; font-size: 1.125rem">{{ h.historical_event|plain }}</dd></div>{% endif %}
 </dl>
 <p class="note">הכותרת {% if h.own_verse %}היא פסוק בפני עצמו{% if h.end.v > 1 %} (פסוקים {{ 1|heb }}–{{ h.end.v|heb }}){% endif %}{% else %}היא תחילת פסוק {{ 1|heb }}{% endif %}. הניתוח נעשה לפי לשון הכותרת בלבד; <a href="{{ root }}shita/#headings">איך</a>.</p>
 {% else %}
