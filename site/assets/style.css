@@ -418,3 +418,28 @@ details { margin: var(--sp-3) 0; }
 details > summary {
   cursor: pointer; min-height: 2.75rem; display: flex; align-items: center; color: var(--link); font-weight: 500;
 }
+
+/* ── השוואת קטעים מקבילים (חלון צף) ── */
+.cmp-row:hover { background: var(--bg-card-h); }
+.cmp-btn {
+  min-height: 2.5rem; padding: 0 var(--sp-3); border: 1px solid var(--border-2); border-radius: var(--radius-sm);
+  background: var(--bg-card); cursor: pointer; font-size: .8125rem; color: var(--link);
+}
+.cmp-btn[aria-expanded="true"] { background: var(--gold-soft); border-color: var(--gold); }
+.cmp-pop {
+  position: fixed; z-index: 10050; max-height: 70vh; overflow: auto;
+  background: var(--bg-card); border: 1px solid var(--border-2); border-radius: var(--radius);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .14); padding: var(--sp-10) var(--sp-5) var(--sp-3);
+}
+.cmp-pop[hidden] { display: none; }
+.cmp-body { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-4); }
+@media (max-width: 40rem) { .cmp-body { grid-template-columns: 1fr; } }
+.cmp-col h4 { margin: 0 0 var(--sp-1); font-size: .875rem; color: var(--text-2); }
+.cmp-col p { margin: 0; font-family: var(--font-text); font-size: 1.125rem; line-height: 1.95; }
+.cmp-x {
+  position: absolute; top: var(--sp-2); inset-inline-start: var(--sp-2); width: 2.25rem; height: 2.25rem;
+  border: 1px solid var(--border); border-radius: 50%; background: var(--bg-card); cursor: pointer; font-size: 1.125rem; color: var(--text-2);
+}
+.cmp-legend { margin: var(--sp-3) 0 0; display: flex; gap: var(--sp-3); color: var(--text-2); }
+/* בטלפון, כשחלון ההשוואה פתוח, כפתור הנגישות מוסתר זמנית כדי שלא יכסה את הטקסט */
+@media (max-width: 40rem) { body.cmp-open .a11y-fab { visibility: hidden; } }

@@ -368,7 +368,17 @@ def main() -> int:
         pairs.append({**d, "title": title, "html_a": dual(ha), "html_b": dual(hb), "diffs": ndiff,
                       "name_diffs": name_diffs, "count_a": count(d["a"]), "count_b": count(d["b"])})
 
-    common = dict(psalms=psalms, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
+    # side-by-side comparisons for the computed (candidate) parallels
+    cand_cmp = []
+    for r in doublets["computed"]:
+        if r["status"] != "candidate":
+            continue
+        a = side_stream(psalms, [{"psalm": r["a"], "from": r["a_from"], "to": r["a_to"]}])
+        b = side_stream(psalms, [{"psalm": r["b"], "from": r["b_from"], "to": r["b_to"]}])
+        ha, hb, _, _ = diff_sides(a, b)
+        cand_cmp.append({**r, "html_a": Markup(TEAMIM.sub("", str(ha))), "html_b": Markup(TEAMIM.sub("", str(hb)))})
+
+    common = dict(psalms=psalms, cand_cmp=cand_cmp, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
                   pairs=pairs, doublets=doublets, AUTHOR_LEGEND=AUTHOR_LEGEND, TYPE_LEGEND=TYPE_LEGEND,
                   chart_max=chart_max, kinuyim=KINUYIM, alpha=alphabetic(psalms), chida=chida, lit=lit, charts=structure_charts(psalms, books), litv=liturgy_view(lit),
                   tikkun=parse_heb_numbers(" ".join(x["text"] for x in sources["tikkun_haklali"]["segments"])),
