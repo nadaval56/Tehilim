@@ -134,6 +134,18 @@ class Liturgy(unittest.TestCase):
         self.assertEqual(quotes.mask_quoted(el + " " + HE + "x").split()[0], el)
 
 
+class David(unittest.TestCase):
+    def test_events(self):
+        doc = json.loads((ROOT / "data" / "david_events.json").read_text(encoding="utf-8"))
+        self.assertEqual(sorted(e["psalm"] for e in doc["events"]),
+                         [3, 7, 18, 34, 51, 52, 54, 56, 57, 59, 60, 63, 142])
+        places = {p["id"] for p in json.loads((ROOT / "data" / "places.json").read_text(encoding="utf-8"))["places"]}
+        for e in doc["events"]:
+            self.assertTrue(set(e["places"]) <= places)
+            if e["order"]:
+                self.assertIsNotNone(e["samuel_placement"])
+
+
 class Chida(unittest.TestCase):
     def test_every_verse_once(self):
         doc = json.loads((ROOT / "data" / "chida.json").read_text(encoding="utf-8"))

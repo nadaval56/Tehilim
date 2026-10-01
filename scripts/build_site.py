@@ -138,6 +138,20 @@ def alphabetic(psalms: dict) -> list[dict]:
     return out
 
 
+def he_samuel(ref: str) -> str:
+    """'I Samuel 21:14' -> 'שמואל א כא:יד'"""
+    m = re.match(r"(I+) Samuel (\d+)(?::(\d+))?(?:-(\d+))?(?::(\d+))?", ref)
+    if not m:
+        return ref
+    book = "שמואל " + ("א" if m[1] == "I" else "ב")
+    out = f"{book} {heb(int(m[2]))}"
+    if m[3]:
+        out += f":{heb(int(m[3]))}"
+    if m[4]:
+        out += f"–{heb(int(m[4]))}" + (f":{heb(int(m[5]))}" if m[5] else "")
+    return out
+
+
 # --- charts ------------------------------------------------------------------
 def hbar(items: list[tuple[str, int, str]], title: str, unit: str = "") -> Markup:
     """Horizontal bar chart (inline SVG): [(label, value, css colour)]. Labels on the right (RTL)."""
@@ -297,6 +311,8 @@ def main() -> int:
     sources = json.loads((DATA / "sources.json").read_text(encoding="utf-8"))
     chida = json.loads((DATA / "chida.json").read_text(encoding="utf-8"))
     lit = json.loads((DATA / "liturgy.json").read_text(encoding="utf-8"))
+    david = json.loads((DATA / "david_events.json").read_text(encoding="utf-8"))
+    places = {p_["id"]: p_ for p_ in json.loads((DATA / "places.json").read_text(encoding="utf-8"))["places"]}
     chol = json.loads((DATA / "annotations" / "chol_names.json").read_text(encoding="utf-8"))
 
     if OUT.exists():
@@ -381,7 +397,26 @@ def main() -> int:
         ha, hb, _, _ = diff_sides(a, b)
         cand_cmp.append({**r, "html_a": Markup(TEAMIM.sub("", str(ha))), "html_b": Markup(TEAMIM.sub("", str(hb)))})
 
-    common = dict(psalms=psalms, cand_cmp=cand_cmp, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
+    # David lens: timeline in the order of the books of Samuel
+    def plain_verses(vs):
+        return [{"v": v["v"], "heb": heb(v["v"]), "text": TEAMIM.sub("", v["text"]).replace(CGJ, "")} for v in vs]
+
+    dav = []
+    for e in david["events"]:
+        p = psalms[e["psalm"]]
+        dav.append({**e, "heading_text": TEAMIM.sub("", (p["heading"] or {}).get("text", "")).replace(CGJ, ""),
+                    "passages_v": [{**x, "verses_p": plain_verses(x["verses"])} for x in e["passages"]],
+                    "places_v": [places[i] for i in e["places"]],
+                    "placement_he": he_samuel(e["samuel_placement"]) if e["samuel_placement"] else None})
+    timeline = sorted([d for d in dav if d["order"]], key=lambda d: (d["order"], d["psalm"]))
+    unplaced = [d for d in dav if not d["order"]]
+    map_points = []
+    for pid, pl in places.items():
+        ps = [d["psalm"] for d in dav if pid in d["places"]]
+        if ps:
+            map_points.append({**pl, "psalms": [{"n": n, "heb": heb(n)} for n in ps]})
+
+    common = dict(psalms=psalms, cand_cmp=cand_cmp, timeline=timeline, unplaced=unplaced, map_points=map_points, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
                   pairs=pairs, doublets=doublets, AUTHOR_LEGEND=AUTHOR_LEGEND, TYPE_LEGEND=TYPE_LEGEND,
                   chart_max=chart_max, kinuyim=KINUYIM, alpha=alphabetic(psalms), chida=chida, lit=lit, charts=structure_charts(psalms, books), litv=liturgy_view(lit),
                   tikkun=parse_heb_numbers(" ".join(x["text"] for x in sources["tikkun_haklali"]["segments"])),
@@ -393,6 +428,7 @@ def main() -> int:
     for pr in pairs:
         page(f"kfulim/{pr['id']}", "pair.html.j2", pair=pr, **common)
     page("tefila", "tefila.html.j2", **common)
+    page("david", "david.html.j2", **common)
     page("chida", "chida.html.j2", **common)
     L = chida["letters"]
     for i, l in enumerate(L):

@@ -1,0 +1,121 @@
+{% extends "base.html.j2" %}
+{% block title %}דוד בתהילים — מזמורים שכותרתם מזכירה אירוע מחייו | {{ site.name }}{% endblock %}
+{% block description %}שלושה עשר מזמורים שכותרתם מזכירה אירוע מחיי דוד, לצד הקטע המקביל בספר שמואל, על ציר זמן ועל מפה.{% endblock %}
+{% macro event_body(d) %}
+<div class="pair">
+  <section class="pair-text" lang="he">
+    <h2>תהילים {{ d.psalm|heb }}, הכותרת</h2>
+    <p>{{ d.heading_text }}</p>
+    <p class="small"><a href="{{ root }}mizmor/{{ d.psalm }}/">למזמור המלא</a></p>
+  </section>
+  <section class="pair-text" lang="he">
+    {% if d.passages_v %}
+      {% set ps = d.passages_v[0] %}
+      <h2>{{ ps.he_ref|default(ps.ref) }}</h2>
+      <p>{% for v in ps.verses_p %}<span class="vnum">{{ v.heb }}</span>{{ v.text }} {% endfor %}</p>
+      <p class="small"><a href="{{ ps.url }}">בספריא</a></p>
+    {% else %}
+      <h2>ספר שמואל</h2>
+      <p class="no-source">לא נמצא קישור בין כותרת המזמור לספר שמואל{% if d.placement_he %}; לפי {{ d.samuel_origin.split(':')[1] }} ({{ d.placement_he }}), ראו בפירוש למטה{% endif %}.</p>
+    {% endif %}
+  </section>
+</div>
+{% if d.passages_v|length > 1 %}
+<p class="note">קישורים נוספים מספריא לפסוקי הכותרת: {% for x in d.passages_v[1:] %}<a href="{{ x.url }}">{{ x.he_ref }}</a>{% if not loop.last %} · {% endif %}{% endfor %}.</p>
+{% endif %}
+{% if d.comments %}
+<details>
+  <summary>הפירושים על הכותרת (רש"י, רד"ק)</summary>
+  {% for c in d.comments %}
+  <blockquote class="source-quote">{{ c.text }}<cite>{{ c.commentator }} · <a href="{{ c.url }}">ספריא</a>, {{ c.version }}{% if c.license and c.license != 'unknown' %} ({{ c.license }}){% endif %}</cite></blockquote>
+  {% endfor %}
+</details>
+{% endif %}
+{% endmacro %}
+{% block content %}
+<section class="read">
+  <h1>דוד</h1>
+  <p>שלושה עשר מזמורים שבכותרתם נזכר אירוע מחיי דוד. כאן הם מסודרים לפי סדר האירועים בספר שמואל. לחיצה על תחנה פותחת את כותרת המזמור ואת הקטע משמואל זה לצד זה.</p>
+</section>
+
+<h2 id="timeline">ציר הזמן</h2>
+<ol class="timeline">
+  {% for d in timeline %}
+  <li class="tl-item">
+    <details>
+      <summary>
+        <span class="tl-ref">{{ d.placement_he }}</span>
+        <span class="tl-title">מזמור {{ d.psalm|heb }}{% if d.heading_event %} · {{ d.heading_event|plain }}{% endif %}</span>
+        {% for pl in d.places_v %}<span class="tag neutral">{{ pl.name }}</span>{% endfor %}
+        {% if d.samuel_origin and d.samuel_origin.startswith('commentary') %}<span class="tag">לפי {{ d.samuel_origin.split(':')[1] }}</span>{% endif %}
+      </summary>
+      {{ event_body(d) }}
+    </details>
+  </li>
+  {% endfor %}
+</ol>
+
+{% if unplaced %}
+<h3>מזמורים שלא נמצא להם מקום אחד בספר שמואל</h3>
+<p class="note">אין קישור בין כותרת המזמור לספר שמואל, או שהפירושים מזכירים יותר ממקום אחד. הפירושים מובאים כלשונם.</p>
+<ol class="timeline">
+  {% for d in unplaced %}
+  <li class="tl-item">
+    <details>
+      <summary><span class="tl-ref">—</span><span class="tl-title">מזמור {{ d.psalm|heb }}{% if d.heading_event %} · {{ d.heading_event|plain }}{% endif %}</span></summary>
+      {{ event_body(d) }}
+    </details>
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}
+
+<h2 id="map">מפה</h2>
+<p class="read">המפה משתמשת באריחי OpenStreetMap, שנטענים משרת חיצוני. לכן היא נטענת רק אחרי לחיצה, ובלחיצה כתובת ה-IP שלך נחשפת לשרת המפות. <a href="{{ root }}privacy/">פרטים</a>.</p>
+<button type="button" class="toggle" id="map-load">הצגת המפה</button>
+<div id="david-map" class="david-map" hidden></div>
+<div class="table-wrap read" style="margin-top: var(--sp-4)"><table>
+  <thead><tr><th>מקום</th><th>זיהוי</th><th>מזמורים</th></tr></thead>
+  <tbody>
+  {% for pl in map_points %}
+  <tr><td>{{ pl.name }}</td><td>{{ pl.certainty }}</td><td>{% for x in pl.psalms %}<a href="{{ root }}mizmor/{{ x.n }}/">{{ x.heb }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+<p class="note">המקום נקבע לפי לשון הכותרת, ואם אין בה מקום, לפי הקטע המקביל בשמואל. הזיהוי הגאוגרפי הוא הזיהוי המקובל, ובשדה "זיהוי" מצוינת מידת הוודאות.</p>
+
+<h2 id="method">איך נבנה הדף</h2>
+<div class="summary-box read">
+  ההתאמה לספר שמואל לקוחה מהקישורים שבספריא לפסוקי הכותרת. כשיש כמה קישורים, הקטע העיקרי הוא זה שלשונו קרובה ביותר ללשון הכותרת, והשאר מוצגים כ"קישורים נוספים". כשאין קישור, נבדקים הקישורים של פירושי רש"י ורד"ק על הכותרת, ואירוע ממוקם על הציר רק כשהפירוש מפנה למקום אחד. כל הנתונים מסומנים כ"טרם אומתו ידנית".
+</div>
+
+<script>
+  (function () {
+    var POINTS = {{ map_points|tojson }};
+    var btn = document.getElementById('map-load'), box = document.getElementById('david-map');
+    function load(src, css) {
+      return new Promise(function (ok, bad) {
+        var el = document.createElement(css ? 'link' : 'script');
+        if (css) { el.rel = 'stylesheet'; el.href = src; } else { el.src = src; }
+        el.onload = ok; el.onerror = bad; document.head.appendChild(el);
+      });
+    }
+    btn.addEventListener('click', function () {
+      btn.disabled = true;
+      Promise.all([load('{{ root }}assets/vendor/leaflet/leaflet.css', true), load('{{ root }}assets/vendor/leaflet/leaflet.js')]).then(function () {
+        box.hidden = false; btn.hidden = true;
+        L.Icon.Default.imagePath = '{{ root }}assets/vendor/leaflet/images/';
+        var map = L.map(box, { scrollWheelZoom: false }).setView([31.6, 35.15], 8);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 13, attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+        POINTS.forEach(function (p) {
+          var links = p.psalms.map(function (x) { return '<a href="{{ root }}mizmor/' + x.n + '/">' + x.heb + '</a>'; }).join(' · ');
+          L.marker([p.lat, p.lon], { title: p.name, alt: p.name }).addTo(map)
+            .bindPopup('<div dir="rtl"><b>' + p.name + '</b> (' + p.certainty + ')<br>מזמורים: ' + links + '</div>');
+        });
+      }, function () { btn.disabled = false; });
+    });
+  })();
+</script>
+{% endblock %}
