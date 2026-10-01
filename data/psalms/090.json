@@ -210,7 +210,20 @@
  },
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_90_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_6?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.90",
   "version": "Miqra according to the Masorah",

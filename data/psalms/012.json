@@ -150,7 +150,14 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, תפילה לשלש רגלים, מזמור לשמיני עצרת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Song_for_Shemini_Atzeret_2?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.12",
   "version": "Miqra according to the Masorah",

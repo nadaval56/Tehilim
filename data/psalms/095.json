@@ -158,7 +158,20 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "kabbalat_shabbat",
+   "section": "סידור אשכנז, שבת, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_95_2?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "kabbalat_shabbat",
+   "section": "סידור ספרד, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_1?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.95",
   "version": "Miqra according to the Masorah",

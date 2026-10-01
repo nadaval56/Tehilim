@@ -763,7 +763,14 @@
  },
  "selah_count": 3,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, תפילה לשלש רגלים, מזמור לשבועות",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Song_for_Shavuot_2?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.68",
   "version": "Miqra according to the Masorah",

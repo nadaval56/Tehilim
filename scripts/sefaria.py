@@ -15,6 +15,22 @@ UA = "tehillim-study-site/0.1 (static educational site; contact via GitHub)"
 MAM = "Miqra according to the Masorah"
 
 
+def get_text(url: str, tries: int = 6) -> str:
+    """GET a URL with retries (also used for Wikisource)."""
+    delay = 2.0
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return r.read().decode("utf-8")
+        except Exception:
+            if attempt == tries - 1:
+                raise
+            time.sleep(delay)
+            delay *= 2
+    raise RuntimeError("unreachable")
+
+
 def get_json(path: str, params: dict | None = None, tries: int = 6) -> dict | list:
     url = f"{BASE}/{path}"
     if params:

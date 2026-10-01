@@ -221,7 +221,80 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "kabbalat_shabbat",
+   "section": "סידור אשכנז, שבת, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_92_1?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, שבת, מוסף לשבת, מזמור שיר ליום השבת",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Musaf_LeShabbat%2C_Mizmor_Shir_L'Yom_HaShabbat_2?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_92_1?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, יוצרות, יוצר לפרשת החודש",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_HaChodesh_78?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, יוצרות, יוצר לפרשת זכור",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_Zachor_71?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, יוצרות, יוצר לפרשת פרה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_Parah_67?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, יוצרות, יוצר לפרשת שקלים",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_Sekalim_84?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, יוצרות, יוצר לשבת הגדול",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Shabbat_HaGadol_90?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "kabbalat_shabbat",
+   "section": "סידור ספרד, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_40?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_73?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, סעודת ליל שבת, זמירות לליל שבת",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Evening_Meal%2C_Zemirot_94?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, שחרית של שבת, תפילת עמידה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Amidah_63?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.92",
   "version": "Miqra according to the Masorah",

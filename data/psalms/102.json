@@ -311,7 +311,26 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "selichot",
+   "section": "סידור אשכנז, חגים, סליחות, יום כיפור קטן",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Selichot%2C_Yom_Kippur_Katan_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "selichot",
+   "section": "סידור נוסח עדות המזרח, מנחה לימי החול, וידוי",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Vidui_21?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "selichot",
+   "section": "סידור ספרד, תעניות ואבלות, סדר יום כיפור קטן",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Fast_Days%2C_Yom_Kippur_Katan_3?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.102",
   "version": "Miqra according to the Masorah",

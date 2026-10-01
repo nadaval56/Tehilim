@@ -249,6 +249,7 @@ td.n, th.n { text-align: end; font-variant-numeric: tabular-nums; }
 }
 .legend { display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-4); margin: var(--sp-3) 0 0; padding: 0; list-style: none; font-size: .8125rem; color: var(--text-2); }
 .legend li { display: inline-flex; align-items: center; gap: var(--sp-2); }
+.legend[hidden] { display: none; }
 .legend i { width: .9rem; height: .9rem; border-radius: 3px; display: inline-block; flex: none; }
 .tooltip {
   position: fixed; z-index: 50; pointer-events: none; background: var(--bg-card); color: var(--text);
@@ -379,3 +380,33 @@ html.show-names .nm-ELOKIM { box-shadow: inset 0 -.18em 0 color-mix(in srgb, var
   display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 var(--sp-4);
   border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg-card); text-decoration: none; color: var(--text);
 }
+
+/* ── עדשת התפילה ── */
+.lit-map[data-nusach="all"] .cell[data-all="1"] { background: var(--b1); color: var(--b1-ink); }
+.lit-map[data-nusach="all"] .cell[data-all="2"] { background: var(--b2); color: var(--b2-ink); }
+.lit-map[data-nusach="all"] .cell[data-all="3"] { background: var(--b3); color: var(--b3-ink); }
+.lit-map[data-nusach="all"] .cell[data-all="4"] { background: var(--b4); color: var(--b4-ink); }
+.lit-map[data-nusach="all"] .cell[data-all="5"] { background: var(--b5); color: var(--b5-ink); }
+.lit-map[data-nusach="ashkenaz"] .cell[data-ashkenaz="1"] { background: var(--b1); color: var(--b1-ink); }
+.lit-map[data-nusach="ashkenaz"] .cell[data-ashkenaz="2"] { background: var(--b2); color: var(--b2-ink); }
+.lit-map[data-nusach="ashkenaz"] .cell[data-ashkenaz="3"] { background: var(--b3); color: var(--b3-ink); }
+.lit-map[data-nusach="ashkenaz"] .cell[data-ashkenaz="4"] { background: var(--b4); color: var(--b4-ink); }
+.lit-map[data-nusach="ashkenaz"] .cell[data-ashkenaz="5"] { background: var(--b5); color: var(--b5-ink); }
+.lit-map[data-nusach="sefard"] .cell[data-sefard="1"] { background: var(--b1); color: var(--b1-ink); }
+.lit-map[data-nusach="sefard"] .cell[data-sefard="2"] { background: var(--b2); color: var(--b2-ink); }
+.lit-map[data-nusach="sefard"] .cell[data-sefard="3"] { background: var(--b3); color: var(--b3-ink); }
+.lit-map[data-nusach="sefard"] .cell[data-sefard="4"] { background: var(--b4); color: var(--b4-ink); }
+.lit-map[data-nusach="sefard"] .cell[data-sefard="5"] { background: var(--b5); color: var(--b5-ink); }
+.lit-map[data-nusach="edot"] .cell[data-edot="1"] { background: var(--b1); color: var(--b1-ink); }
+.lit-map[data-nusach="edot"] .cell[data-edot="2"] { background: var(--b2); color: var(--b2-ink); }
+.lit-map[data-nusach="edot"] .cell[data-edot="3"] { background: var(--b3); color: var(--b3-ink); }
+.lit-map[data-nusach="edot"] .cell[data-edot="4"] { background: var(--b4); color: var(--b4-ink); }
+.lit-map[data-nusach="edot"] .cell[data-edot="5"] { background: var(--b5); color: var(--b5-ink); }
+.lit-map .cell.dim { opacity: .18; }
+.ctx-select {
+  min-height: 2.5rem; padding: 0 var(--sp-3); border: 1px solid var(--border-2); border-radius: var(--radius-sm);
+  background: var(--bg-card); font-size: .9375rem;
+}
+.lit-list { padding: 0; list-style: none; margin: 0; }
+.lit-list li { padding: var(--sp-2) 0; border-bottom: 1px solid var(--border); }
+.lit-list li:last-child { border-bottom: 0; }

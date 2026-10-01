@@ -8,12 +8,12 @@ import json
 import re
 import sys
 import urllib.parse
-import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import names  # noqa: E402
+import quotes  # noqa: E402
 import sefaria  # noqa: E402
 from hebrew import strip_marks  # noqa: E402
 
@@ -38,6 +38,18 @@ SOURCES = {
         "segments": ["Berakhot.4b.21", "Berakhot.4b.22"],
         "version": TALMUD,
         "topic": "האות נו\"ן החסרה במזמור קמה",
+    },
+    "shir_shel_yom": {
+        "title": "משנה תמיד ז, ד",
+        "segments": ["Mishnah_Tamid.7.4"],
+        "version": "Torat Emet 357",
+        "topic": "השיר שהיו הלוים אומרים במקדש",
+    },
+    "tikkun_haklali": {
+        "title": "שיחות הר\"ן, סימן קמא",
+        "segments": ["Sichot_HaRan.141.26"],
+        "version": "rabenubook",
+        "topic": "עשרת המזמורים של התיקון הכללי",
     },
     "psalms_1_2": {
         "title": "ברכות ט ע\"ב – י ע\"א",
@@ -69,14 +81,12 @@ WIKISOURCE = {
 
 def wikisource(src: dict) -> dict:
     url = "https://he.wikisource.org/w/index.php?" + urllib.parse.urlencode({"title": src["page"], "action": "raw"})
-    req = urllib.request.Request(url, headers={"User-Agent": sefaria.UA})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        raw = strip_marks(r.read().decode("utf-8"))
+    raw = strip_marks(sefaria.get_text(url))
     raw = re.sub(r"\{\{ש\}\}|=+|\[\[|\]\]|'{2,}", " ", raw)
     a = raw.index(src["start"])
     b = raw.index(src["end"], a) + len(src["end"])
     text = re.sub(r"\s+", " ", raw[a:b]).strip()
-    masked, _ = names.mask(text, names.detect(text))
+    masked = quotes.mask_quoted(text)
     del raw, text
     return {"title": src["title"], "topic": src["topic"], "version": "ויקיטקסט", "license": "CC-BY-SA",
             "segments": [{"ref": src["page"], "he_ref": src["page"], "text": masked}],
@@ -96,7 +106,7 @@ def main() -> int:
             d = sefaria.get_json(f"v3/texts/{ref}", {"version": f"hebrew|{src['version']}"})
             v = d["versions"][0]
             raw = clean(v["text"] if isinstance(v["text"], str) else " ".join(v["text"]))
-            masked, _ = names.mask(raw, names.detect(raw))
+            masked = quotes.mask_quoted(raw)
             del raw
             segs.append({"ref": ref, "he_ref": d.get("heRef", ""), "text": masked})
             license_ = v.get("license", "")

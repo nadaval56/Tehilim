@@ -144,7 +144,44 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_148_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, חודש ניסן, סדר ברכת האילנות",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Nissan%2C_Blessing_of_the_Trees_5?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_10?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_10?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית לימות החול, הודו",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_25?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_79?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.148",
   "version": "Miqra according to the Masorah",

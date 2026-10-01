@@ -184,7 +184,26 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "kabbalat_shabbat",
+   "section": "סידור אשכנז, שבת, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_97_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "kabbalat_shabbat",
+   "section": "סידור נוסח עדות המזרח, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_4?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "kabbalat_shabbat",
+   "section": "סידור ספרד, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_3?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.97",
   "version": "Miqra according to the Masorah",

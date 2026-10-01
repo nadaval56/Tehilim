@@ -239,7 +239,26 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_147_1?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית לימות החול, הודו",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_23?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_78?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.147",
   "version": "Miqra according to the Masorah",

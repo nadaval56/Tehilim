@@ -24,7 +24,7 @@
     {% for c in b.closing %}
     <p class="small muted" style="margin-bottom: .25rem">חתימת הספר — {{ c.psalm|heb }}:{% for v in c.verses %}{{ v|heb }}{% if not loop.last %}–{% endif %}{% endfor %}</p>
     <blockquote class="source-quote" style="font-family: var(--font-text)">
-      {% for v in c.verses %}{{ psalms[c.psalm].verses[v - 1].text }}{% if not loop.last %} {% endif %}{% endfor %}
+      {% for v in c.verses %}{{ psalms[c.psalm].verses[v - 1].text|plain }}{% if not loop.last %} {% endif %}{% endfor %}
       <cite><a href="{{ root }}mizmor/{{ c.psalm }}/#v{{ c.verses[0] }}">תהילים {{ c.psalm|heb_p }}</a></cite>
     </blockquote>
     {% endfor %}

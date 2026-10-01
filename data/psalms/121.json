@@ -139,7 +139,68 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "levana",
+   "section": "סידור נוסח עדות המזרח, ברכת הלבנה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon_17?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "motzaei_shabbat",
+   "section": "סידור נוסח עדות המזרח, מוצאי שבת, ויתן לך",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Havdalah%2C_Veyiten_Lecha_20?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_10?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "weekday",
+   "section": "סידור נוסח עדות המזרח, ערבית לימי החול, עמידה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Arvit%2C_Amidah_67?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "levana",
+   "section": "סידור ספרד, קידוש לבנה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kiddush_Levanah_17?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "life",
+   "section": "סידור ספרד, ברכות הנהנין, תפלת הדרך",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Blessings%2C_Traveler's_Prayer_20?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "motzaei_shabbat",
+   "section": "סידור ספרד, למוצאי שבת, זמירות לסעודת מלוה מלכה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Motzaei_Shabbat_%2C_Melava_Malka_Zemirot_81?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_18?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, מנחה לשבת קודש, תפילת עמידה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_72?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "weekday",
+   "section": "סידור ספרד, ערבית לימות החול, עמידה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Amidah_105?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.121",
   "version": "Miqra according to the Masorah",

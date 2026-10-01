@@ -215,7 +215,32 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_19_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "levana",
+   "section": "סידור נוסח עדות המזרח, ברכת הלבנה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon_2?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_3?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_12?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.19",
   "version": "Miqra according to the Masorah",

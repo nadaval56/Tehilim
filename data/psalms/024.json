@@ -193,7 +193,80 @@
  },
  "selah_count": 2,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "shabbat",
+   "section": "סידור אשכנז, שבת, שחרית, הכנסת ספר תורה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Returning_Sefer_to_Aron_5?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "shir_shel_yom",
+   "section": "סידור אשכנז, ימי חול, תפילת שחרית, סיום תפילה, שיר של יום",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_Song_of_the_Day_4?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "weekday",
+   "section": "סידור אשכנז, ימי חול, תפילת שחרית, קריאת התורה, הכנסת ספר תורה, לדוד מזמור",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Torah_Reading%2C_Returning_Sefer_to_Aron%2C_LeDavid_Mizmor_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "shir_shel_yom",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, שיר של יום",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Song_of_the_Day_3?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "shir_shel_yom",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, שיר של יום",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_4?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "tikkun_chatzot",
+   "section": "סידור נוסח עדות המזרח, סדר תיקון חצות, תיקון לאה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_6?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, לשלש רגלים, סדר הזכרת נשמות",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Holidays%2C_Yizkor_34?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "rosh_chodesh",
+   "section": "סידור ספרד, לראש חודש, החזרת ספר תורה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Returning_Sefer_Torah_9?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, מנחה לשבת קודש, קרבנות",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Korbanot_60?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, שחרית של שבת, אב הרחמים",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Av_HaRachamim_11?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shir_shel_yom",
+   "section": "סידור ספרד, לראש חודש, שיר של יום",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Song_of_the_Day_4?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shir_shel_yom",
+   "section": "סידור ספרד, שחרית לימות החול, שיר של יום",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Song_of_the_Day_4?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.24",
   "version": "Miqra according to the Masorah",

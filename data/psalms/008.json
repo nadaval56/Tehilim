@@ -161,7 +161,20 @@
  },
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "selichot",
+   "section": "סידור אשכנז, חגים, סליחות, יום כיפור קטן",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Selichot%2C_Yom_Kippur_Katan_112?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "selichot",
+   "section": "סידור ספרד, תעניות ואבלות, סדר יום כיפור קטן",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Fast_Days%2C_Yom_Kippur_Katan_114?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.8",
   "version": "Miqra according to the Masorah",

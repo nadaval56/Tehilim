@@ -319,7 +319,56 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "kabbalat_shabbat",
+   "section": "סידור אשכנז, שבת, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_29_1?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "shabbat",
+   "section": "סידור אשכנז, שבת, שחרית, הכנסת ספר תורה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Returning_Sefer_to_Aron_4?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "ashrei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, אשרי",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Ashrei_8?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, חודש ניסן, סדר ברכת האילנות",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Nissan%2C_Blessing_of_the_Trees_3?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "kabbalat_shabbat",
+   "section": "סידור נוסח עדות המזרח, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_8?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, לשלש רגלים, סדר הזכרת נשמות",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Holidays%2C_Yizkor_32?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "kabbalat_shabbat",
+   "section": "סידור ספרד, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_8?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, שחרית של שבת, אב הרחמים",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Av_HaRachamim_9?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.29",
   "version": "Miqra according to the Masorah",

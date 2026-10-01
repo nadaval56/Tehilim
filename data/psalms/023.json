@@ -96,7 +96,62 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, תפילה לשלש רגלים, עמידה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Amidah_62?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "shabbat",
+   "section": "סידור נוסח עדות המזרח, סדר ליל שבת, קידוש ליל שבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Evening%2C_Kiddush_8?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "shabbat",
+   "section": "סידור נוסח עדות המזרח, סדר סעודה שניה, קידוש היום",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Daytime_Meal%2C_Kiddush_3?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "shabbat",
+   "section": "סידור נוסח עדות המזרח, ערבית של שבת, תפילת שבע",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Arvit%2C_Magen_Avot_44?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "life",
+   "section": "סידור ספרד, תוספות אחרי שחרית, בקשות לאחר התפילה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Additional_Prayers_%2C_Supplications_After_Prayers_5?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "motzaei_shabbat",
+   "section": "סידור ספרד, למוצאי שבת, זמירות לסעודת מלוה מלכה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Motzaei_Shabbat_%2C_Melava_Malka_Zemirot_3?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "other",
+   "section": "סידור ספרד, סעודה שלישית, זמירות לסעודה שלישית",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Third_Meal%2C_Zemirot_17?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, סעודת שבת, קידוש ליום השבת",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Day_Meal%2C_Shabbat_Day_Kiddush_23?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, ערבית של שבת, ויכולו",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Eve_Maariv%2C_Vayechulu_10?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.23",
   "version": "Miqra according to the Masorah",

@@ -115,6 +115,25 @@ class Data(unittest.TestCase):
         self.assertEqual(hebrew_numeral(23, punctuate=True), 'כ"ג')
 
 
+class Liturgy(unittest.TestCase):
+    def test_shir_shel_yom_found_for_every_day(self):
+        doc = json.loads((ROOT / "data" / "liturgy.json").read_text(encoding="utf-8"))
+        days = doc["shir_shel_yom_mishnah"]
+        self.assertEqual(len(days), 7)
+        self.assertTrue(all(d["psalm"] for d in days))
+
+    def test_quoted_verse_masks_short_names(self):
+        import quotes
+        from hebrew import ALEF, LAMED, NUN, QOF, MEM, VAV, TAV, HE
+        el, nqmwt = ALEF + LAMED, NUN + QOF + MEM + VAV + TAV
+        text = " ".join([el, nqmwt, HE + "'", el, nqmwt])  # unvocalized quote of 94:1
+        words = quotes.mask_quoted(text).split()
+        self.assertEqual(words[0], ALEF + "-" + LAMED)
+        self.assertEqual(words[3], ALEF + "-" + LAMED)
+        # an unrelated "el" (the preposition) stays as written
+        self.assertEqual(quotes.mask_quoted(el + " " + HE + "x").split()[0], el)
+
+
 class Chida(unittest.TestCase):
     def test_every_verse_once(self):
         doc = json.loads((ROOT / "data" / "chida.json").read_text(encoding="utf-8"))
