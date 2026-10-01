@@ -161,7 +161,9 @@
  },
  "names_combos": {},
  "selah_count": 0,
- "doublet_of": null,
+ "doublet_of": [
+  "14-53"
+ ],
  "liturgy": [],
  "sources": {
   "text": "sefaria:Psalms.53",

@@ -1,0 +1,17 @@
+{% extends "base.html.j2" %}
+{% block title %}תהלים החיד"א — פסוקי הספר לפי אותיות | {{ site.name }}{% endblock %}
+{% block description %}כל פסוקי ספר תהילים מסודרים לפי האות הראשונה של כל פסוק, מאל"ף ועד תי"ו.{% endblock %}
+{% block content %}
+<section class="read">
+  <h1>תהלים החיד"א</h1>
+  <p>כל {{ chida_total }} פסוקי הספר, מסודרים לפי האות שבה פותח כל פסוק. בתוך כל אות, הפסוקים מופיעים לפי סדרם בספר.</p>
+</section>
+<nav aria-label="אותיות">
+  <ul class="letter-grid">
+    {% for l in chida.letters %}
+    <li><a href="{{ root }}chida/{{ l.slug }}/"><span class="letter">{{ l.letter }}</span><span class="num muted small">{{ l.count }} פסוקים</span></a></li>
+    {% endfor %}
+  </ul>
+</nav>
+<p class="note">כלל הסידור: האות הראשונה של הפסוק כפי שהוא כתוב, כולל פסוקים שהם כותרת בלבד. פסוק שפותח בשם הויה נמנה באות שבה פותח השם, ולא באות של הכינוי. <a href="{{ root }}shita/#chida">פירוט</a>.</p>
+{% endblock %}

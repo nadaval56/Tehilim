@@ -198,7 +198,9 @@
  },
  "names_combos": {},
  "selah_count": 0,
- "doublet_of": null,
+ "doublet_of": [
+  "108-57-60"
+ ],
  "liturgy": [],
  "sources": {
   "text": "sefaria:Psalms.108",

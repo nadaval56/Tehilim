@@ -115,5 +115,16 @@ class Data(unittest.TestCase):
         self.assertEqual(hebrew_numeral(23, punctuate=True), 'כ"ג')
 
 
+class Chida(unittest.TestCase):
+    def test_every_verse_once(self):
+        doc = json.loads((ROOT / "data" / "chida.json").read_text(encoding="utf-8"))
+        refs = [(r["psalm"], r["verse"]) for l in doc["letters"] for r in l["verses"]]
+        self.assertEqual(len(refs), len(set(refs)))
+        total = sum(json.loads(f.read_text(encoding="utf-8"))["verse_count"]
+                    for f in (ROOT / "data" / "psalms").glob("*.json"))
+        self.assertEqual(len(refs), total)
+        self.assertEqual(len(doc["letters"]), 22)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,330 @@
+/* ── נגישות ופרטיות — מצבי תצוגה, תפריט הנגישות והודעת הפרטיות ─────────────
+ *
+ * נטען בכל דף אחרי assets/style.css, כדי שהדריסות כאן ינצחו.
+ *
+ * שלושה חלקים:
+ *   1. מצבי התצוגה — מחלקות על <html> שהתפריט מדליק ומכבה.
+ *   2. עיצוב כפתור הנגישות והתפריט.
+ *   3. עיצוב הודעת הפרטיות.
+ *
+ * כלל אחד שקובע את כל השאר: מצבי הצבע מיושמים בדריסת משתני הפלטה של
+ * :root, ולא ב-filter על <html>. filter על אלמנט השורש הופך אותו
+ * ל-containing block, וכל position:fixed בדף — כפתור הנגישות והודעת
+ * הפרטיות בכלל זה — מפסיק להיצמד למסך ומתחיל לגלול עם הדף. תקלה
+ * שנראית תקינה בצילום מסך ומתגלה רק בגלילה.
+ * ────────────────────────────────────────────────────────────────────────── */
+
+/* ── 0. גודל טקסט ────────────────────────────────────────────────────────────
+ * שלוש מדרגות ב-font-size של השורש, באחוזים ולא ב-px: אחוזים מכפילים את
+ * גודל הבסיס שהמשתמש הגדיר בדפדפן שלו במקום לדרוס אותו. עובד רק על מידות
+ * ב-rem — כל font-size שמוגדר ב-px באתר מתעלם מהפקד הזה לחלוטין. */
+html              { font-size: 100%; }
+html[data-fs="m"] { font-size: 112.5%; }
+html[data-fs="l"] { font-size: 125%; }
+
+/* ── 1. מצבי תצוגה ──────────────────────────────────────────────────────── */
+
+/* ---- ניגודיות גבוהה: שחור על לבן ---- */
+html.a11y-contrast {
+  --bg:           #ffffff;
+  --bg-2:         #ffffff;
+  --bg-card:      #ffffff;
+  --bg-card-h:    #f0f0f0;
+  --bg-input:     #ffffff;
+  --text:         #000000;
+  --text-2:       #000000;
+  --text-3:       #1c1c1c;
+  --text-faint:   #1c1c1c;
+  --gold:         #5a3300;
+  --gold-light:   #7a3e0e;
+  --gold-dark:    #000000;
+  --link:         #00307a;
+  --link-hover:   #000000;
+  --border:       #000000;
+  --border-2:     #000000;
+  --divider:      #000000;
+  --badge-letter: #ffffff;
+  --badge-legal:  #ffffff;
+  --badge-lit:    #ffffff;
+  --badge-rel:    #ffffff;
+  --badge-para:   #ffffff;
+  --badge-other:  #ffffff;
+  --shadow:       none;
+  --shadow-lg:    none;
+}
+
+/* ---- ניגודיות הפוכה: לבן על שחור ---- */
+html.a11y-invert {
+  --bg:           #000000;
+  /* --bg-2 חייב להיות שחור מלא ולא כמעט-שחור: עמודי המסמכים ודפי
+     המסמכים המשפטיים נושאים body.fragment-body, שרקעו --bg-2 ולא --bg.
+     בגוון כמעט-שחור הם היו הדפים היחידים באתר שלא הופכים באמת. */
+  --bg-2:         #000000;
+  --bg-card:      #121212;
+  --bg-card-h:    #1e1e1e;
+  --bg-input:     #121212;
+  --text:         #ffffff;
+  --text-2:       #e2e2e2;
+  --text-3:       #c9c9c9;
+  --text-faint:   #c9c9c9;
+  --gold:         #e9a45c;
+  --gold-light:   #ffc98a;
+  --gold-dark:    #ffd9a8;
+  --link:         #8fc6f2;
+  --link-hover:   #c9e4fa;
+  --border:       #5a5a5a;
+  --border-2:     #6e6e6e;
+  --divider:      #5a5a5a;
+  --badge-letter: #20203a;
+  --badge-legal:  #10281c;
+  --badge-lit:    #2e1414;
+  --badge-rel:    #1a2610;
+  --badge-para:   #12202e;
+  --badge-other:  #232323;
+  --shadow:       none;
+  --shadow-lg:    none;
+}
+
+/* קישור הדילוג צבוע #fff על --gold-dark. בניגודיות הפוכה --gold-dark
+   הופך לגוון בהיר, ולבן עליו הוא 1.33:1 — הקישור הראשון בכל דף, בדיוק
+   במצב שמשתמש לקוי ראייה מדליק. הצבע נקבע לפי הרקע של כל מצב. */
+html.a11y-invert .skip-link,
+html.a11y-invert .skip-link:focus { color: #000 !important; }
+html.a11y-contrast .skip-link,
+html.a11y-contrast .skip-link:focus {
+  background: #000 !important;
+  color: #fff !important;
+}
+/* התצלומים והמפה נשארים בצבעם — עמעום קל מונע מהם לזהור מול רקע שחור. */
+html.a11y-invert img,
+html.a11y-invert .leaflet-tile { filter: brightness(.85); }
+
+/* ---- גווני אפור ----
+ * filter על ילדי body ולא על body או html עצמם — ראו הערת הפתיחה.
+ * הרכיבים שלנו מוחרגים כדי שהתפריט יישאר קריא בזמן שמסתכלים בו. */
+html.a11y-mono body > *:not(.a11y-panel):not(.a11y-fab):not(.consent) {
+  filter: grayscale(1);
+}
+
+/* ---- הדגשת קישורים ---- */
+html.a11y-links a {
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px !important;
+  font-weight: 600;
+}
+html.a11y-links a:hover,
+html.a11y-links a:focus-visible { background: #fff3a8; color: #000; }
+html.a11y-invert.a11y-links a:hover,
+html.a11y-invert.a11y-links a:focus-visible { background: #4a3d00; color: #fff; }
+
+/* ---- פונט קריא ----
+ * גופני תצוגה (משיכות משתנות, ליגטורות) קשים בדיסלקציה ובראייה ירודה.
+ * Frank Ruhl Libre הוא בדיוק גופן כזה, ובאתר הזה הוא נושא את רוב הטקסט. */
+html.a11y-readable body,
+html.a11y-readable body * {
+  font-family: Arial, 'Segoe UI', system-ui, 'Noto Sans Coptic', sans-serif !important;
+  font-variant-ligatures: none !important;
+}
+
+/* ---- ריווח מוגדל — הערכים של קריטריון 1.4.12 ---- */
+html.a11y-spacing body,
+html.a11y-spacing p,
+html.a11y-spacing li,
+html.a11y-spacing dd,
+html.a11y-spacing dt,
+html.a11y-spacing td,
+html.a11y-spacing blockquote {
+  line-height: 1.9 !important;
+  letter-spacing: .12em !important;
+  word-spacing: .16em !important;
+}
+html.a11y-spacing p { margin-bottom: 2em !important; }
+html.a11y-spacing .a11y-panel *,
+html.a11y-spacing .gmap-pin * { letter-spacing: normal !important; word-spacing: normal !important; }
+
+/* ---- עצירת אנימציות ---- */
+html.a11y-still *,
+html.a11y-still *::before,
+html.a11y-still *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+
+/* ---- סמן גדול (SVG מוטבע — עובד גם בלי רשת) ---- */
+html.a11y-cursor,
+html.a11y-cursor * {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 32 32'><path d='M6 2l0 24 6-6 4 9 5-2-4-9 9 0z' fill='%23fff' stroke='%23000' stroke-width='2' stroke-linejoin='round'/></svg>") 4 2, auto !important;
+}
+html.a11y-cursor a,
+html.a11y-cursor button,
+html.a11y-cursor summary,
+html.a11y-cursor [role="button"] {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 32 32'><path d='M12 2c-1.7 0-3 1.3-3 3v11l-2-2c-1.2-1.2-3-1.2-4 0-1 1.2-1 2.8 0 4l7 10h14l2-13c.2-1.6-1-3-2.6-3-1 0-1.9.6-2.3 1.4-.2-1.3-1.3-2.4-2.7-2.4-1 0-1.9.6-2.4 1.4V5c0-1.7-1.3-3-3-3z' fill='%23fff' stroke='%23000' stroke-width='2' stroke-linejoin='round'/></svg>") 10 2, pointer !important;
+}
+
+/* ---- הדגשת מיקוד ----
+ * טבעת כפולה, כתום על שחור: הכתום לבדו נותן 1.8:1 על לבן ואינו עומד
+ * ב-1.4.11. הטבעת השחורה שסביבו היא שמבטיחה ניגודיות על כל רקע. */
+html.a11y-focus :focus,
+html.a11y-focus :focus-visible {
+  outline: 4px solid #ffb300 !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 0 3px #000 !important;
+  border-radius: 2px;
+}
+
+/* ── 2. כפתור הנגישות והתפריט ────────────────────────────────────────────
+ * הצבעים נלקחים מהפלטה של האתר, עם ערכי גיבוי לכל משתנה — כך התפריט
+ * מתחלף יחד עם מצבי התצוגה בלי כלל נפרד לכל מצב, וממשיך להיראות נכון
+ * גם אם הקובץ הזה נטען בדף בלי style.css. */
+
+:root { --a11y-consent-h: 0px; }
+
+.a11y-sr {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+.a11y-fab {
+  position: fixed; z-index: 2147483000;
+  inset-inline-start: 12px;
+  bottom: calc(var(--a11y-consent-h) + 12px);
+  width: 48px; height: 48px; border-radius: 50%;
+  background: var(--gold-dark, #7a3e0e); color: #fff;
+  border: 2px solid var(--bg-card, #fff);
+  box-shadow: 0 2px 10px rgba(30,20,10,.35);
+  display: flex; align-items: center; justify-content: center;
+  padding: 0; cursor: pointer; transition: bottom var(--dur-fast, .15s) var(--ease, ease),
+              background var(--dur-fast, .15s) var(--ease, ease);
+}
+.a11y-fab svg { width: 26px; height: 26px; fill: currentColor; }
+.a11y-fab:hover, .a11y-fab[aria-expanded="true"] { background: var(--gold, #b5621e); }
+
+.a11y-panel {
+  position: fixed; z-index: 2147483001;
+  inset-inline-start: 12px;
+  bottom: calc(var(--a11y-consent-h) + 68px);
+  width: min(21rem, calc(100vw - 24px));
+  max-height: min(38rem, calc(100vh - var(--a11y-consent-h) - 96px));
+  overflow-y: auto; overscroll-behavior: contain;
+  background: var(--bg-card, #fff); color: var(--text, #1e1b17);
+  border: 1px solid var(--border-2, #d4c6b8); border-radius: 6px;
+  box-shadow: 0 6px 28px rgba(30,20,10,.28);
+  padding: 14px 15px 16px;
+  font-family: var(--font-ui, system-ui), Arial, sans-serif;
+  text-align: start;
+}
+.a11y-panel[hidden] { display: none; }
+
+.a11y-hd {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  border-bottom: 1px solid var(--border, #e6ddd2); padding-bottom: 9px; margin-bottom: 11px;
+}
+.a11y-hd h2 { font-size: 1rem; line-height: 1.3; margin: 0; font-family: inherit; }
+.a11y-x {
+  background: none; border: 1px solid var(--border-2, #d4c6b8); border-radius: 3px;
+  width: 30px; height: 30px; line-height: 1; font-size: 1.125rem; color: var(--text-2, #5c5044);
+  display: flex; align-items: center; justify-content: center; flex: 0 0 auto; cursor: pointer;
+}
+.a11y-x:hover { border-color: var(--text, #1e1b17); color: var(--text, #1e1b17); }
+
+.a11y-grp { margin-bottom: 14px; }
+.a11y-grp > h3 {
+  font-size: .6875rem; letter-spacing: .14em;
+  color: var(--text-3, #806d60); font-weight: 500; margin: 0 0 7px;
+}
+
+.a11y-seg { display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px; }
+.a11y-seg.three { grid-template-columns: repeat(3, 1fr); }
+.a11y-seg button {
+  background: var(--bg-2, #f2ede4); border: 1px solid var(--border-2, #d4c6b8); border-radius: 3px;
+  padding: 9px 4px; font-weight: 500; color: var(--text-2, #5c5044);
+  min-height: 44px; line-height: 1.25; cursor: pointer; font-family: inherit;
+  font-size: 12.5px;   /* a11y-allow-px — סרגל בחירת הגודל עצמו נשאר יציב */
+}
+.a11y-seg button[aria-pressed="true"] {
+  background: var(--gold-dark, #7a3e0e); color: #fff;
+  border-color: var(--gold-dark, #7a3e0e); font-weight: 700;
+}
+html.a11y-invert .a11y-seg button[aria-pressed="true"] { color: #000; }
+.a11y-seg .sz-s { font-size: 12px; }    /* a11y-allow-px */
+.a11y-seg .sz-m { font-size: 15px; }    /* a11y-allow-px */
+.a11y-seg .sz-l { font-size: 18px; }    /* a11y-allow-px */
+
+/* המתג חייב להיות ניתן לזיהוי גם כשהוא כבוי (1.4.11 — 3:1 לרכיבי ממשק),
+ * ולכן המסגרת והידית כהות ולא בגוון בהיר. מלבד הצבע גם מיקום הידית
+ * משתנה, כדי שהמצב לא ייקרא מהצבע לבדו (1.4.1). */
+.a11y-tog {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  width: 100%; background: none; border: none;
+  border-bottom: 1px solid var(--border, #e6ddd2);
+  padding: 10px 2px; text-align: start; font-size: .84375rem; color: var(--text, #1e1b17);
+  min-height: 44px; cursor: pointer; font-family: inherit;
+}
+.a11y-tog:last-child { border-bottom: none; }
+.a11y-tog:hover { color: var(--link, #a05418); }
+.a11y-tog .sw {
+  flex: 0 0 auto; width: 38px; height: 22px; border-radius: 11px;
+  background: var(--bg-2, #f2ede4); border: 1px solid var(--text-2, #5c5044); position: relative;
+  transition: background var(--dur-fast, .15s) var(--ease, ease);
+}
+.a11y-tog .sw::after {
+  content: ''; position: absolute; top: 2px; inset-inline-start: 2px;
+  width: 16px; height: 16px; border-radius: 50%; background: var(--text-2, #5c5044);
+  transition: transform var(--dur-fast, .15s) var(--ease, ease),
+              background var(--dur-fast, .15s) var(--ease, ease);
+}
+.a11y-tog[aria-pressed="true"] .sw {
+  background: var(--gold-dark, #7a3e0e); border-color: var(--gold-dark, #7a3e0e);
+}
+.a11y-tog[aria-pressed="true"] .sw::after {
+  background: var(--bg-card, #fff); transform: translateX(-16px);
+}
+html[dir="ltr"] .a11y-tog[aria-pressed="true"] .sw::after { transform: translateX(16px); }
+
+.a11y-foot { border-top: 1px solid var(--border, #e6ddd2); padding-top: 11px; margin-top: 4px; }
+.a11y-reset {
+  width: 100%; background: transparent; border: 1.5px solid var(--text, #1e1b17);
+  border-radius: 3px; padding: 10px; font-size: .8125rem; font-weight: 700;
+  color: var(--text, #1e1b17); min-height: 44px; cursor: pointer; font-family: inherit;
+}
+.a11y-reset:hover { background: var(--text, #1e1b17); color: var(--bg-card, #fff); }
+.a11y-links-row { margin: 10px 0 0; font-size: .75rem; line-height: 1.7; color: var(--text-2, #5c5044); }
+.a11y-links-row a { color: var(--link, #a05418); text-decoration: underline; text-underline-offset: 2px; }
+.a11y-kbd { margin: 9px 0 0; font-size: .6875rem; color: var(--text-2, #5c5044); line-height: 1.6; }
+
+@media print { .a11y-fab, .a11y-panel, .consent { display: none !important; } }
+
+/* ── 3. הודעת הפרטיות ──────────────────────────────────────────────────── */
+
+.consent {
+  position: fixed; z-index: 2147482999; inset-inline: 0; bottom: 0;
+  background: #2b1d12; color: #f7f2ea;
+  border-top: 3px solid var(--gold, #b5621e);
+  padding: 14px 0;
+  box-shadow: 0 -3px 18px rgba(30,20,10,.3);
+  font-family: var(--font-ui, system-ui), Arial, sans-serif;
+}
+.consent[hidden] { display: none; }
+.consent .wrap {
+  max-width: 860px; margin: 0 auto; padding: 0 16px;
+  display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap;
+}
+.consent-txt { flex: 1 1 15rem; min-width: 0; }
+.consent-txt b { display: block; font-size: .875rem; margin-bottom: 4px; }
+.consent-txt p { margin: 0; font-size: .78125rem; line-height: 1.65; color: #e6dbcd; }
+.consent-txt a { color: #ffc98a; text-decoration: underline; text-underline-offset: 2px; }
+.consent-act { display: flex; gap: 8px; flex: 0 0 auto; flex-wrap: wrap; align-items: center; }
+.consent-act button {
+  border-radius: 3px; padding: 10px 16px; font-size: .8125rem; font-weight: 700;
+  min-height: 44px; border: 1.5px solid; cursor: pointer; font-family: inherit;
+}
+.consent-ok { background: #b5621e; border-color: #b5621e; color: #fff; }
+.consent-no { background: transparent; border-color: #c3ac95; color: #ede2d4; }
+.consent-no:hover { border-color: #fff; color: #fff; }
+@media (max-width: 520px) {
+  .consent-act { width: 100%; }
+  .consent-act button { flex: 1 1 auto; }
+}

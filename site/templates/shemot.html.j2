@@ -1,0 +1,91 @@
+{% extends "base.html.j2" %}
+{% from "_map.html.j2" import book_map %}
+{% block title %}שמות הקודש בספר תהילים — פיזור ומזמורים כפולים | {{ site.name }}{% endblock %}
+{% block description %}מניין שמות הקודש בכל מזמור ובכל ספר בתהילים, מפת חום של יחס השמות, והמזמורים הכפולים זה לצד זה.{% endblock %}
+{% block content %}
+{% set seg = stats.segments %}
+{% set in_h, in_e = seg['42-83'].HAVAYAH, seg['42-83'].ELOKIM %}
+{% set out_h, out_e = seg['rest'].HAVAYAH, seg['rest'].ELOKIM %}
+<section class="read">
+  <h1>השמות</h1>
+  <p>מניין שמות הקודש בספר, לפי מזמור ולפי ספר. כל המספרים חושבו מהטקסט עצמו, לפי <a href="{{ root }}shita/#counting">כללי הספירה</a>.</p>
+</section>
+
+<dl class="facts">
+  <div class="fact"><dt>מזמורים מב–פג</dt><dd class="num">ה' {{ in_h }} · א-להים {{ in_e }}</dd></div>
+  <div class="fact"><dt>שאר הספר</dt><dd class="num">ה' {{ out_h }} · א-להים {{ out_e }}</dd></div>
+  <div class="fact"><dt>בכל הספר</dt><dd class="num">ה' {{ stats.totals.HAVAYAH }} · א-להים {{ stats.totals.ELOKIM }}</dd></div>
+</dl>
+
+<h2 id="heatmap">מפת חום: יחס בין שם הויה לא-להים</h2>
+<p class="read muted small">כל תא הוא מזמור. כחול: רוב שם הויה; טרקוטה: רוב א-להים; ככל שהגוון עמוק יותר, הרוב גדול יותר. הנתונים המלאים בטבלה שבתחתית הדף.</p>
+{{ book_map(cells, root, [('names', 'שמות'), ('book', 'ספר')], 'names', AUTHOR_LEGEND, TYPE_LEGEND, BOOK_NAMES, id='heat') }}
+
+<h2 id="by-book">לפי ספרים</h2>
+{% set W, rowh, lab = 640, 56, 96 %}
+{% set scale = (W - lab - 60) / chart_max %}
+<svg class="chart" style="direction: ltr" viewBox="0 0 {{ W }} {{ rowh * 5 + 30 }}" role="img" aria-labelledby="chart-t chart-d">
+  <title id="chart-t">שם הויה וא-להים בכל אחד מחמשת הספרים</title>
+  <desc id="chart-d">{% for b in stats.per_book %}{{ BOOK_NAMES[b.book] }}: ה' {{ b.counts.HAVAYAH }}, א-להים {{ b.counts.ELOKIM }}. {% endfor %}</desc>
+  {% for b in stats.per_book %}
+  {% set y = loop.index0 * rowh + 6 %}
+  <text x="{{ W - 4 }}" y="{{ y + 24 }}" text-anchor="end">{{ BOOK_NAMES[b.book] }}</text>
+  <rect class="bar-hav" x="{{ W - lab - b.counts.HAVAYAH * scale }}" y="{{ y + 4 }}" width="{{ b.counts.HAVAYAH * scale }}" height="18" rx="4"/>
+  <text class="val" x="{{ W - lab - b.counts.HAVAYAH * scale - 6 }}" y="{{ y + 18 }}" text-anchor="end">{{ b.counts.HAVAYAH }}</text>
+  <rect class="bar-elo" x="{{ W - lab - b.counts.ELOKIM * scale }}" y="{{ y + 26 }}" width="{{ b.counts.ELOKIM * scale }}" height="18" rx="4"/>
+  <text class="val" x="{{ W - lab - b.counts.ELOKIM * scale - 6 }}" y="{{ y + 40 }}" text-anchor="end">{{ b.counts.ELOKIM }}</text>
+  {% endfor %}
+  <line class="grid" x1="{{ W - lab }}" x2="{{ W - lab }}" y1="0" y2="{{ rowh * 5 + 4 }}"/>
+</svg>
+<ul class="legend"><li><i style="background: var(--hav)"></i>שם הויה (ה')</li><li><i style="background: var(--elo)"></i>א-להים</li></ul>
+
+<h3>כל השמות לפי ספר</h3>
+<div class="table-wrap"><table>
+  <thead><tr><th>ספר</th>{% for t in kinuyim.types %}<th class="n">{{ NAME_SHORT[t] }}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for b in stats.per_book %}
+  <tr><td>{{ BOOK_NAMES[b.book] }}</td>{% for t in kinuyim.types %}<td class="n">{{ b.counts[t] }}</td>{% endfor %}</tr>
+  {% endfor %}
+  <tr><td><b>סך הכול</b></td>{% for t in kinuyim.types %}<td class="n"><b>{{ stats.totals[t] }}</b></td>{% endfor %}</tr>
+  </tbody>
+</table></div>
+
+<h2 id="doublets">מזמורים כפולים</h2>
+<p class="read">קטעים שמופיעים בספר פעמיים, כמעט מילה במילה. בדף של כל זוג הם מוצגים זה לצד זה, וההבדלים מודגשים.</p>
+<div class="cards">
+  {% for pr in pairs %}
+  <a class="card lens-card" href="{{ root }}kfulim/{{ pr.id }}/">
+    <h3>{{ pr.title }}</h3>
+    <p class="num">ה' {{ pr.count_a.HAVAYAH }}/{{ pr.count_b.HAVAYAH }} · א-להים {{ pr.count_a.ELOKIM }}/{{ pr.count_b.ELOKIM }}</p>
+  </a>
+  {% endfor %}
+</div>
+{% set cands = doublets.computed|selectattr('status', 'equalto', 'candidate')|list %}
+<h3>קטעים מקבילים נוספים שנמצאו חישובית <span class="tag neutral">ממתין לאישור</span></h3>
+<p class="note">פסוקים רצופים שדומים זה לזה לפחות ב-70%, כשכל שם נחשב שווה לכל שם. הרשימה ממתינה לבדיקת בעל האתר.</p>
+<div class="table-wrap"><table>
+  <thead><tr><th>מקום א</th><th>מקום ב</th><th class="n">פסוקים</th><th class="n">דמיון</th></tr></thead>
+  <tbody>
+  {% for r in cands %}
+  <tr>
+    <td><a href="{{ root }}mizmor/{{ r.a }}/#v{{ r.a_from }}">{{ r.a|heb }}:{{ r.a_from|heb }}{% if r.a_to != r.a_from %}–{{ r.a_to|heb }}{% endif %}</a></td>
+    <td><a href="{{ root }}mizmor/{{ r.b }}/#v{{ r.b_from }}">{{ r.b|heb }}:{{ r.b_from|heb }}{% if r.b_to != r.b_from %}–{{ r.b_to|heb }}{% endif %}</a></td>
+    <td class="n">{{ r.verses }}</td><td class="n">{{ (r.mean_similarity * 100)|round|int }}%</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+<h2 id="explanations">הסברים</h2>
+<p class="no-source">ההסברים לבחירת השם יובאו מהפרשנים בשלב הבא, רק כפי שהם נמצאים במקורות שנשלפו. עד אז: לא נמצא מקור.</p>
+
+<h2 id="table">הנתונים לכל מזמור</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>מזמור</th><th>ספר</th>{% for t in kinuyim.types %}<th class="n">{{ NAME_SHORT[t] }}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for r in stats.per_psalm %}
+  <tr><td><a href="{{ root }}mizmor/{{ r.n }}/">{{ r.n|heb }}</a></td><td>{{ r.book|heb }}</td>{% for t in kinuyim.types %}<td class="n">{{ r.counts[t] or '' }}</td>{% endfor %}</tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% endblock %}

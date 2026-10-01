@@ -1,0 +1,415 @@
+{
+ "_note": "known = מופיע באפיון. candidate = נמצא חישובית לפי דמיון של פסוקים רצופים; ממתין לאישור.",
+ "known": [
+  {
+   "id": "14-53",
+   "a": [
+    {
+     "psalm": 14,
+     "from": 1,
+     "to": 7
+    }
+   ],
+   "b": [
+    {
+     "psalm": 53,
+     "from": 1,
+     "to": 7
+    }
+   ]
+  },
+  {
+   "id": "40-70",
+   "a": [
+    {
+     "psalm": 40,
+     "from": 14,
+     "to": 18
+    }
+   ],
+   "b": [
+    {
+     "psalm": 70,
+     "from": 1,
+     "to": 6
+    }
+   ]
+  },
+  {
+   "id": "108-57-60",
+   "a": [
+    {
+     "psalm": 108,
+     "from": 1,
+     "to": 14
+    }
+   ],
+   "b": [
+    {
+     "psalm": 57,
+     "from": 8,
+     "to": 12
+    },
+    {
+     "psalm": 60,
+     "from": 7,
+     "to": 14
+    }
+   ]
+  }
+ ],
+ "computed": [
+  {
+   "a": 60,
+   "b": 108,
+   "a_from": 7,
+   "a_to": 14,
+   "b_from": 7,
+   "b_to": 14,
+   "verses": 8,
+   "mean_similarity": 0.923,
+   "status": "known"
+  },
+  {
+   "a": 40,
+   "b": 70,
+   "a_from": 14,
+   "a_to": 18,
+   "b_from": 2,
+   "b_to": 6,
+   "verses": 5,
+   "mean_similarity": 0.852,
+   "status": "known"
+  },
+  {
+   "a": 14,
+   "b": 53,
+   "a_from": 1,
+   "a_to": 4,
+   "b_from": 2,
+   "b_to": 5,
+   "verses": 4,
+   "mean_similarity": 0.877,
+   "status": "known"
+  },
+  {
+   "a": 115,
+   "b": 135,
+   "a_from": 4,
+   "a_to": 5,
+   "b_from": 15,
+   "b_to": 16,
+   "verses": 2,
+   "mean_similarity": 0.885,
+   "status": "candidate"
+  },
+  {
+   "a": 57,
+   "b": 108,
+   "a_from": 11,
+   "a_to": 12,
+   "b_from": 5,
+   "b_to": 6,
+   "verses": 2,
+   "mean_similarity": 0.812,
+   "status": "known"
+  },
+  {
+   "a": 57,
+   "b": 108,
+   "a_from": 8,
+   "a_to": 9,
+   "b_from": 2,
+   "b_to": 3,
+   "verses": 2,
+   "mean_similarity": 0.774,
+   "status": "known"
+  },
+  {
+   "a": 42,
+   "b": 43,
+   "a_from": 12,
+   "a_to": 12,
+   "b_from": 5,
+   "b_to": 5,
+   "verses": 1,
+   "mean_similarity": 1.0,
+   "status": "candidate"
+  },
+  {
+   "a": 115,
+   "b": 135,
+   "a_from": 8,
+   "a_to": 8,
+   "b_from": 18,
+   "b_to": 18,
+   "verses": 1,
+   "mean_similarity": 1.0,
+   "status": "candidate"
+  },
+  {
+   "a": 118,
+   "b": 136,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 1.0,
+   "status": "candidate"
+  },
+  {
+   "a": 118,
+   "b": 136,
+   "a_from": 29,
+   "a_to": 29,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 1.0,
+   "status": "candidate"
+  },
+  {
+   "a": 14,
+   "b": 53,
+   "a_from": 7,
+   "a_to": 7,
+   "b_from": 7,
+   "b_to": 7,
+   "verses": 1,
+   "mean_similarity": 0.923,
+   "status": "known"
+  },
+  {
+   "a": 106,
+   "b": 118,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 0.875,
+   "status": "candidate"
+  },
+  {
+   "a": 106,
+   "b": 118,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 29,
+   "b_to": 29,
+   "verses": 1,
+   "mean_similarity": 0.875,
+   "status": "candidate"
+  },
+  {
+   "a": 106,
+   "b": 136,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 0.875,
+   "status": "candidate"
+  },
+  {
+   "a": 31,
+   "b": 71,
+   "a_from": 2,
+   "a_to": 2,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 0.857,
+   "status": "candidate"
+  },
+  {
+   "a": 107,
+   "b": 118,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 0.857,
+   "status": "candidate"
+  },
+  {
+   "a": 107,
+   "b": 118,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 29,
+   "b_to": 29,
+   "verses": 1,
+   "mean_similarity": 0.857,
+   "status": "candidate"
+  },
+  {
+   "a": 107,
+   "b": 136,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 0.857,
+   "status": "candidate"
+  },
+  {
+   "a": 44,
+   "b": 79,
+   "a_from": 14,
+   "a_to": 14,
+   "b_from": 4,
+   "b_to": 4,
+   "verses": 1,
+   "mean_similarity": 0.833,
+   "status": "candidate"
+  },
+  {
+   "a": 96,
+   "b": 98,
+   "a_from": 13,
+   "a_to": 13,
+   "b_from": 9,
+   "b_to": 9,
+   "verses": 1,
+   "mean_similarity": 0.833,
+   "status": "candidate"
+  },
+  {
+   "a": 104,
+   "b": 146,
+   "a_from": 33,
+   "a_to": 33,
+   "b_from": 2,
+   "b_to": 2,
+   "verses": 1,
+   "mean_similarity": 0.833,
+   "status": "candidate"
+  },
+  {
+   "a": 79,
+   "b": 89,
+   "a_from": 5,
+   "a_to": 5,
+   "b_from": 47,
+   "b_to": 47,
+   "verses": 1,
+   "mean_similarity": 0.778,
+   "status": "candidate"
+  },
+  {
+   "a": 66,
+   "b": 100,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 0.769,
+   "status": "candidate"
+  },
+  {
+   "a": 118,
+   "b": 136,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 2,
+   "b_to": 2,
+   "verses": 1,
+   "mean_similarity": 0.769,
+   "status": "candidate"
+  },
+  {
+   "a": 118,
+   "b": 136,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 26,
+   "b_to": 26,
+   "verses": 1,
+   "mean_similarity": 0.769,
+   "status": "candidate"
+  },
+  {
+   "a": 118,
+   "b": 136,
+   "a_from": 29,
+   "a_to": 29,
+   "b_from": 2,
+   "b_to": 2,
+   "verses": 1,
+   "mean_similarity": 0.769,
+   "status": "candidate"
+  },
+  {
+   "a": 118,
+   "b": 136,
+   "a_from": 29,
+   "a_to": 29,
+   "b_from": 26,
+   "b_to": 26,
+   "verses": 1,
+   "mean_similarity": 0.769,
+   "status": "candidate"
+  },
+  {
+   "a": 56,
+   "b": 118,
+   "a_from": 12,
+   "a_to": 12,
+   "b_from": 6,
+   "b_to": 6,
+   "verses": 1,
+   "mean_similarity": 0.75,
+   "status": "candidate"
+  },
+  {
+   "a": 57,
+   "b": 108,
+   "a_from": 6,
+   "a_to": 6,
+   "b_from": 6,
+   "b_to": 6,
+   "verses": 1,
+   "mean_similarity": 0.75,
+   "status": "known"
+  },
+  {
+   "a": 106,
+   "b": 107,
+   "a_from": 1,
+   "a_to": 1,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 0.75,
+   "status": "candidate"
+  },
+  {
+   "a": 135,
+   "b": 147,
+   "a_from": 3,
+   "a_to": 3,
+   "b_from": 1,
+   "b_to": 1,
+   "verses": 1,
+   "mean_similarity": 0.737,
+   "status": "candidate"
+  },
+  {
+   "a": 86,
+   "b": 103,
+   "a_from": 15,
+   "a_to": 15,
+   "b_from": 8,
+   "b_to": 8,
+   "verses": 1,
+   "mean_similarity": 0.706,
+   "status": "candidate"
+  }
+ ]
+}

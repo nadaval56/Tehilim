@@ -1,0 +1,71 @@
+{% extends "base.html.j2" %}
+{% set h = p.heading %}
+{% block title %}תהילים {{ n|heb_p }}{% if h %} — {{ h.attribution|join(', ') or h.types|join(', ') }}{% endif %} | {{ site.name }}{% endblock %}
+{% block description %}מזמור {{ n|heb_p }} בספר תהילים ({{ BOOK_NAMES[p.book] }}), {{ p.verse_count|heb }} פסוקים: נוסח המסורה עם ניקוד וטעמים, ניתוח הכותרת ומניין השמות.{% endblock %}
+{% block head %}
+  <script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "CreativeWork", "name": "תהילים " ~ n|heb_p, "isPartOf": {"@type": "Book", "name": "תהילים"}, "position": n, "inLanguage": "he", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "isBasedOn": p.sources.url}|tojson }}</script>
+{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{{ root }}">תהילים</a> › <a href="{{ root }}sefer/#book-{{ p.book }}">{{ BOOK_NAMES[p.book] }}</a></p>
+<div class="psalm-head">
+  <h1>מזמור {{ n|heb }}</h1>
+  <span class="muted num">{{ p.verse_count|heb }} פסוקים</span>
+</div>
+
+<div class="text-tools" role="group" aria-label="תצוגת הטקסט">
+  <button type="button" class="toggle" id="tg-teamim" aria-pressed="true">טעמי המקרא</button>
+  <button type="button" class="toggle" id="tg-names" aria-pressed="false">סימון השמות</button>
+</div>
+
+<article class="psalm-text" lang="he" aria-label="נוסח המזמור">
+  {% for v in verses %}
+  <p class="verse" id="v{{ v.v }}"><span class="vnum" aria-label="פסוק {{ v.heb }}">{{ v.heb }}</span>{{ v.html }}</p>
+  {% if v.para and not loop.last %}<span class="para-break" aria-hidden="true"></span>{% endif %}
+  {% endfor %}
+</article>
+
+<h2>הכותרת</h2>
+{% if h %}
+<dl class="facts">
+  <div class="fact"><dt>מחבר לפי הכותרת</dt><dd>{{ h.attribution|join(', ') or '—' }}</dd></div>
+  <div class="fact"><dt>סוג לפי לשון הכותרת</dt><dd>{{ h.types|join(', ') or '—' }}</dd></div>
+  {% if h.musical_terms %}<div class="fact"><dt>מונחי נגינה וייעוד</dt><dd>{{ h.musical_terms|join(' · ') }}</dd></div>{% endif %}
+  {% if h.historical_event %}<div class="fact" style="grid-column: 1 / -1"><dt>אירוע הנזכר בכותרת</dt><dd style="font-family: var(--font-plain); font-weight: 500; font-size: 1.125rem">{{ h.historical_event }}</dd></div>{% endif %}
+</dl>
+<p class="note">הכותרת {% if h.own_verse %}היא פסוק בפני עצמו{% if h.end.v > 1 %} (פסוקים {{ 1|heb }}–{{ h.end.v|heb }}){% endif %}{% else %}היא תחילת פסוק {{ 1|heb }}{% endif %}. הניתוח נעשה לפי לשון הכותרת בלבד; <a href="{{ root }}shita/#headings">איך</a>.</p>
+{% else %}
+<p class="muted">למזמור זה אין כותרת.</p>
+{% endif %}
+
+<h2>השמות במזמור</h2>
+{% set total = p.names_count.values()|sum %}
+{% if total %}
+<div class="names-row">
+  {% for t, c in p.names_count.items() if c %}
+  <span class="name-chip">{{ NAME_SHORT[t] }} <b>{{ c }}</b></span>
+  {% endfor %}
+</div>
+{% if p.names_combos %}<p class="note">צירופים סמוכים: {% for k, c in p.names_combos.items() %}{% for part in k.split('+') %}{{ NAME_SHORT[part] }}{% if not loop.last %} {% endif %}{% endfor %} ({{ c }}){% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+{% else %}
+<p class="muted">במזמור זה אין שמות קודש לפי כללי הספירה.</p>
+{% endif %}
+{% if p.selah_count %}<p class="note">"סלה" במזמור: {{ p.selah_count }}.</p>{% endif %}
+<p class="note">המספרים לפי <a href="{{ root }}shita/#counting">כללי הספירה</a>. הללויה ושמות חול שאושרו אינם נספרים.</p>
+
+{% if pair_ids %}
+<h2>מזמור כפול</h2>
+<ul>
+  {% for pr in pairs if pr.id in pair_ids %}
+  <li><a href="{{ root }}kfulim/{{ pr.id }}/">{{ pr.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<h2>מקור</h2>
+<p class="small">נוסח: <a href="{{ p.sources.url }}">מקרא על פי המסורה, תהילים {{ n|heb_p }}</a> (ספריא, CC-BY-SA). שמות הקודש הוחלפו בכינוי; כתיב מוצג בסוגריים עגולים וקרי בסוגריים מרובעים.</p>
+
+<nav class="pager" aria-label="מזמור קודם והבא">
+  {% if prev %}<a href="{{ root }}mizmor/{{ prev }}/" rel="prev">→ מזמור {{ prev|heb }}</a>{% else %}<span></span>{% endif %}
+  {% if next %}<a href="{{ root }}mizmor/{{ next }}/" rel="next">מזמור {{ next|heb }} ←</a>{% endif %}
+</nav>
+{% endblock %}
