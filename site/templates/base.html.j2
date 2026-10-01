@@ -25,7 +25,7 @@
       <a class="brand" href="{{ root }}">{{ site.name }}</a>
       <nav class="site-nav" aria-label="ניווט ראשי">
         <ul>
-          {% set nav = [('sefer', 'מבנה הספר'), ('shemot', 'השמות'), ('tefila', 'בחיים היהודיים'), ('chida', 'תהלים החיד"א'), ('shita', 'שיטה'), ('about', 'אודות')] %}
+          {% set nav = [('sefer', 'מבנה הספר'), ('shemot', 'השמות'), ('david', 'דוד'), ('tefila', 'בחיים היהודיים'), ('chida', 'תהלים החיד"א'), ('shita', 'שיטה'), ('about', 'אודות')] %}
           {% for slug, label in nav %}
           <li><a href="{{ root }}{{ slug }}/"{% if path == slug or path.startswith(slug ~ '/') %} aria-current="page"{% endif %}>{{ label }}</a></li>
           {% endfor %}

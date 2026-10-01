@@ -448,3 +448,17 @@ details > summary {
 .cmp-legend { margin: var(--sp-3) 0 0; display: flex; gap: var(--sp-3); color: var(--text-2); }
 /* בטלפון, כשחלון ההשוואה פתוח, כפתור הנגישות מוסתר זמנית כדי שלא יכסה את הטקסט */
 @media (max-width: 40rem) { body.cmp-open .a11y-fab { visibility: hidden; } }
+
+/* ── עדשת דוד ── */
+.timeline { list-style: none; margin: 0; padding: 0; border-inline-start: 2px solid var(--border-2); }
+.tl-item { position: relative; padding-inline-start: var(--sp-5); margin: 0 0 var(--sp-2); }
+.tl-item::before {
+  content: ""; position: absolute; inset-inline-start: -7px; top: 1.05rem; width: 12px; height: 12px;
+  border-radius: 50%; background: var(--gold); border: 2px solid var(--bg);
+}
+.tl-item > details { margin: 0; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0 var(--sp-4); }
+.tl-item > details[open] { padding-bottom: var(--sp-4); }
+.tl-item summary { gap: var(--sp-3); flex-wrap: wrap; color: var(--text); padding: var(--sp-2) 0; }
+.tl-ref { font-variant-numeric: tabular-nums; color: var(--text-2); font-size: .875rem; min-width: 7.5rem; }
+.tl-title { font-weight: 600; }
+.david-map { height: 28rem; border: 1px solid var(--border); border-radius: var(--radius); margin-top: var(--sp-3); }

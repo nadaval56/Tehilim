@@ -11,12 +11,12 @@
 ## מבנה
 ```
 config/      kinuyim.json (צורות הכינוי), site.json
-scripts/     fetch_psalms.py, fetch_sources.py, fetch_liturgy.py — שליפה מספריא ומוויקיטקסט (רשת)
+scripts/     fetch_psalms.py, fetch_sources.py, fetch_liturgy.py, fetch_david.py — שליפה מספריא ומוויקיטקסט (רשת)
              build_data.py                       — נתונים נגזרים (ללא רשת)
              build_site.py                       — בניית האתר ל-build/ (ללא רשת)
              check_names.py, names.py, hebrew.py, heading_vocab.py, a11y_snippets.py
 data/        psalms/001–150.json, books.json, names_stats.json, doublets.json,
-             chida.json, liturgy.json, sources.json, annotations/chol_names.json
+             chida.json, liturgy.json, david_events.json, places.json, sources.json, annotations/chol_names.json
 site/        templates/ (Jinja2), assets/ (CSS, JS, גופנים)
 tests/       בדיקות יחידה וקבלה
 ```
@@ -40,6 +40,7 @@ python -m unittest discover -s tests
 - `data/doublets.json`: קטעים כפולים שנמצאו חישובית (`status: candidate`).
 - `data/chida.json`: כלל הסידור של תהלים החיד"א.
 - כותרות המזמורים (`heading.review: "auto"`).
+- `data/places.json`: זיהוי המקומות ומידת הוודאות; `data/david_events.json`: ההתאמה לשמואל (`status: auto`).
 - `data/liturgy.json`: כל הפריטים נגזרו מקישורי ספריא לסידורים (`status: auto`).
 
 ## רישוי
