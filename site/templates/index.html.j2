@@ -1,6 +1,11 @@
 {% extends "base.html.j2" %}
 {% from "_map.html.j2" import book_map %}
 {% block title %}{{ site.name }} — {{ site.tagline }}{% endblock %}
+{% block head %}
+  <script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "WebSite", "name": site.name, "url": site.base_url, "inLanguage": "he",
+    "description": site.tagline,
+    "potentialAction": {"@type": "SearchAction", "target": site.base_url ~ "search/?q={query}", "query-input": "required name=query"}}|tojson }}</script>
+{% endblock %}
 {% block content %}
 <section class="read">
   <h1>ספר תהילים</h1>

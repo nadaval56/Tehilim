@@ -31,13 +31,16 @@
           {% endfor %}
         </ul>
       </nav>
+      <a class="theme-btn search-link" href="{{ root }}search/" aria-label="חיפוש באתר" title="חיפוש באתר">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      </a>
       <button type="button" class="theme-btn" aria-label="ערכת נושא: לפי המכשיר">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor"/></svg>
       </button>
     </div>
   </header>
   <main id="main" tabindex="-1">
-    <div class="wrap">
+    <div class="wrap"{% if pagefind %} data-pagefind-body{% endif %}>
 {% block content %}{% endblock %}
     </div>
   </main>

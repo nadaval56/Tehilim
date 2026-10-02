@@ -46,7 +46,7 @@
   <div class="book-map lit-map" data-nusach="all" data-ctx="">
     {% for c in litv.cells %}
     <a class="cell" href="{{ root }}mizmor/{{ c.n }}/" aria-label="{{ c.label }}"
-       {% for k, b in c.bucket.items() %}data-{{ k }}="{{ b }}" {% endfor %}data-ctxs=" {{ c.ctx|join(' ') }} ">{{ c.heb }}</a>
+       {% for k, b in c.bucket.items() %}data-{{ k }}="{{ b }}" {% endfor %}data-ctxs=" {{ c.ctx|join(' ') }} "><span class="cl">{{ c.heb }}</span></a>
     {% endfor %}
   </div>
   <ul class="legend">

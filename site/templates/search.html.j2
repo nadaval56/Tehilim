@@ -1,0 +1,19 @@
+{% extends "base.html.j2" %}
+{% block title %}חיפוש | {{ site.name }}{% endblock %}
+{% block head %}<link rel="stylesheet" href="{{ root }}pagefind/pagefind-ui.css">{% endblock %}
+{% block content %}
+<section class="read">
+  <h1>חיפוש</h1>
+  <p class="muted">אפשר לחפש מילים מהמזמורים בלי ניקוד, וגם מונחים מהעדשות (למשל "שיר המעלות" או "קבלת שבת"). שמות הקודש מופיעים בכינוי, למשל ה'.</p>
+  <div id="search"></div>
+</section>
+<script src="{{ root }}pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    new PagefindUI({ element: '#search', showSubResults: true, showImages: false, resetStyles: false,
+                     translations: { placeholder: 'חיפוש בתהילים', zero_results: 'לא נמצאו תוצאות עבור [SEARCH_TERM]' } });
+    var q = new URLSearchParams(location.search).get('q');
+    if (q) { var i = document.querySelector('#search input'); if (i) { i.value = q; i.dispatchEvent(new Event('input')); } }
+  });
+</script>
+{% endblock %}
