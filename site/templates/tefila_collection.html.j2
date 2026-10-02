@@ -50,10 +50,14 @@
   {% for x in (col.by_nusach if multi else col.by_nusach[:1]) %}
   <div class="tab-panel" data-panel="{{ x.nusach }}"{% if multi %} role="tabpanel"{% endif %}{% if multi and not loop.first %} hidden{% endif %}>
     <p class="muted">
-      {% if not multi and x.nusach %}בכל הנוסחים שבספריא{% if col.by_nusach|length < 3 %} ({% for y in col.by_nusach %}{{ y.label }}{% if not loop.last %}, {% endif %}{% endfor %}){% endif %}: {% endif %}
-      {% for n in x.psalms %}<a href="#m{{ x.nusach }}-{{ n }}">מזמור {{ n|heb }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+      {% if not multi and x.nusach %}{% if col.by_nusach|length < 3 %}בנוסח {% for y in col.by_nusach %}{{ y.label }}{% if not loop.last %} ו{% endif %}{% endfor %} שבספריא{% else %}בכל הנוסחים שבספריא{% endif %}: {% endif %}
+      {% for n in x.psalms %}<a href="#m{{ x.nusach }}-{{ n }}">מזמור {{ n|heb }}</a>{% if (x.rubrics or {}).get(n) %}*{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}
     </p>
-    {% for n in x.psalms %}<div id="m{{ x.nusach }}-{{ n }}">{{ psalm_block(n) }}</div>{% endfor %}
+    {% if x.rubrics %}<p class="note">* לא בכל יום. הוראת הסידור מובאת לפני המזמור.</p>{% endif %}
+    {% for n in x.psalms %}<div id="m{{ x.nusach }}-{{ n }}">
+      {% set r = (x.rubrics or {}).get(n) %}
+      {% if r %}<p class="rubric">בסידור, לפני המזמור: "{{ r.text }}" <a href="{{ r.url }}" class="small">ספריא</a></p>{% endif %}
+      {{ psalm_block(n) }}</div>{% endfor %}
     {% if x.sections %}<p class="note">בסידור: {% for sec, url in x.sections %}<a href="{{ url }}">{{ sec }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
   </div>
   {% endfor %}

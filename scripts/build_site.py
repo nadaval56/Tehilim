@@ -284,14 +284,30 @@ COLLECTIONS = [
     {"slug": "birkat-halevana", "title": "ברכת הלבנה", "contexts": ["levana"], "mode": "largest"},
     {"slug": "rosh-chodesh", "title": "ראש חודש", "contexts": ["rosh_chodesh"], "mode": "all"},
     {"slug": "motzaei-shabbat", "title": "מוצאי שבת", "contexts": ["motzaei_shabbat"], "mode": "all"},
-    {"slug": "tachanun", "title": "תחנון", "contexts": ["tachanun"], "mode": "all"},
+    {"slug": "tachanun", "title": "תחנון (נפילת אפיים)", "contexts": ["tachanun"], "mode": "all"},
 ]
 
 
-def build_collections(lit: dict, tikkun: list[int]) -> list[dict]:
+def build_collections(lit: dict, tikkun: list[int], orders: dict | None = None) -> list[dict]:
+    """Orders read from the siddur text (data/orders.json) come first; the rest from the links."""
+    orders = (orders or {}).get("orders", {})
     out = []
     for col in COLLECTIONS:
         c = {**col, "by_nusach": []}
+        if col["slug"] in orders:
+            for nus, label in lit["nusachim"].items():
+                o = orders[col["slug"]].get(nus)
+                if not o or not o["psalms"]:
+                    continue
+                c["by_nusach"].append({
+                    "nusach": nus, "label": label, "psalms": [x["psalm"] for x in o["psalms"]],
+                    "rubrics": {x["psalm"]: {"text": x["rubric"].rstrip(": "), "url": x["url"]} for x in o["psalms"] if x.get("rubric")},
+                    "sections": [(f"סידור {label} בספריא", s["url"]) for s in o["sections"][:1]]})
+            if c["by_nusach"]:
+                c["same_everywhere"] = len({(tuple(x["psalms"]), str(x["rubrics"])) for x in c["by_nusach"]}) == 1
+                c["count"] = max(len(x["psalms"]) for x in c["by_nusach"])
+                out.append(c)
+            continue
         if col.get("special") == "shir_shel_yom":
             c["days"] = [d for d in lit["shir_shel_yom_mishnah"] if d["psalm"]]
             c["count"] = len(c["days"])
@@ -546,7 +562,9 @@ def main() -> int:
     page("shemot", "shemot.html.j2", **common)
     for pr in pairs:
         page(f"kfulim/{pr['id']}", "pair.html.j2", pair=pr, **common)
-    collections = build_collections(lit, common["tikkun"])
+    orders_path = DATA / "orders.json"
+    orders = json.loads(orders_path.read_text(encoding="utf-8")) if orders_path.exists() else None
+    collections = build_collections(lit, common["tikkun"], orders)
     verses_html = {}
     for col in collections:
         ns = [d["psalm"] for d in col.get("days", [])] + [n for x in col["by_nusach"] for n in x["psalms"]]

@@ -1,0 +1,1025 @@
+{
+ "_note": "נקרא מנוסח הסידורים שבספריא: מזמור נמנה רק כשהוא נאמר במלואו. rubric: ההוראה שבסידור לפני המזמור, כלשונה.",
+ "orders": {
+  "kabbalat-shabbat": {
+   "ashkenaz": {
+    "sections": [
+     {
+      "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 95,
+      "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 95 2",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_95_2?lang=he"
+     },
+     {
+      "psalm": 96,
+      "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 96 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_96_1?lang=he"
+     },
+     {
+      "psalm": 97,
+      "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 97 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_97_1?lang=he"
+     },
+     {
+      "psalm": 98,
+      "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 98 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_98_1?lang=he"
+     },
+     {
+      "psalm": 99,
+      "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 99 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_99_1?lang=he"
+     },
+     {
+      "psalm": 29,
+      "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 29 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_29_1?lang=he"
+     },
+     {
+      "psalm": 92,
+      "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 92 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_92_1?lang=he"
+     },
+     {
+      "psalm": 93,
+      "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 93 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_93_1?lang=he"
+     }
+    ]
+   },
+   "sefard": {
+    "sections": [
+     {
+      "ref": "Siddur Sefard, Kabbalat Shabbat",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 95,
+      "ref": "Siddur Sefard, Kabbalat Shabbat 1",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_1?lang=he"
+     },
+     {
+      "psalm": 96,
+      "ref": "Siddur Sefard, Kabbalat Shabbat 2",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_2?lang=he"
+     },
+     {
+      "psalm": 97,
+      "ref": "Siddur Sefard, Kabbalat Shabbat 3",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_3?lang=he"
+     },
+     {
+      "psalm": 98,
+      "ref": "Siddur Sefard, Kabbalat Shabbat 4",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_4?lang=he"
+     },
+     {
+      "psalm": 99,
+      "ref": "Siddur Sefard, Kabbalat Shabbat 5",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_5?lang=he"
+     },
+     {
+      "psalm": 29,
+      "ref": "Siddur Sefard, Kabbalat Shabbat 7",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_7?lang=he"
+     },
+     {
+      "psalm": 92,
+      "ref": "Siddur Sefard, Kabbalat Shabbat 39",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_39?lang=he"
+     },
+     {
+      "psalm": 93,
+      "ref": "Siddur Sefard, Kabbalat Shabbat 40",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_40?lang=he"
+     }
+    ]
+   },
+   "edot": {
+    "sections": [
+     {
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 95,
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 2",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_2?lang=he"
+     },
+     {
+      "psalm": 96,
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 3",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_3?lang=he"
+     },
+     {
+      "psalm": 97,
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 4",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_4?lang=he"
+     },
+     {
+      "psalm": 98,
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 5",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_5?lang=he"
+     },
+     {
+      "psalm": 99,
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 6",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_6?lang=he"
+     },
+     {
+      "psalm": 100,
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 7",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_7?lang=he"
+     },
+     {
+      "psalm": 29,
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 8",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_8?lang=he"
+     },
+     {
+      "psalm": 92,
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 25",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_25?lang=he"
+     },
+     {
+      "psalm": 93,
+      "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 26",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_26?lang=he"
+     }
+    ]
+   }
+  },
+  "pesukei-dezimra": {
+   "ashkenaz": {
+    "sections": [
+     {
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 30,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Introductory Psalm 2",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Introductory_Psalm_2?lang=he"
+     },
+     {
+      "psalm": 100,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Mizmor Letoda 2",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Mizmor_Letoda_2?lang=he",
+      "rubric": "מזמור לתודה יש לאומרו בנגינה שכל השירות עתידות ליבטל חוץ ממזמור לתודה (ראה ויק\"ר ט,ז). ואין אומרים מזמור לתודה בשבת ויו\"ט, או בימי פסח שאין תודה קריבה בהם משום חמץ, ולא בערב פסח."
+     },
+     {
+      "psalm": 145,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Ashrei 2",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Ashrei_2?lang=he"
+     },
+     {
+      "psalm": 146,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 146 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_146_1?lang=he"
+     },
+     {
+      "psalm": 147,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 147 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_147_1?lang=he"
+     },
+     {
+      "psalm": 148,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 148 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_148_1?lang=he"
+     },
+     {
+      "psalm": 149,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 149 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_149_1?lang=he"
+     },
+     {
+      "psalm": 150,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 150 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_150_1?lang=he"
+     },
+     {
+      "psalm": 130,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 130 2",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_130_2?lang=he",
+      "rubric": "בעשרת ימי תשובה מוסיפין:"
+     }
+    ]
+   },
+   "sefard": {
+    "sections": [
+     {
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu?lang=he"
+     },
+     {
+      "ref": "Siddur Sefard, Weekday Shacharit, Yishtabach",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Yishtabach?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 30,
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu 8",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_8?lang=he"
+     },
+     {
+      "psalm": 67,
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu 11",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_11?lang=he"
+     },
+     {
+      "psalm": 100,
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu 15",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_15?lang=he",
+      "rubric": "מזמור לתודה יש לאומרו בנגינה שכל השירות עתידות ליבטל חוץ ממזמור לתודה (ראה ויק\"ר ט,ז). ואין אומרים מזמור לתודה בשבת ויו\"ט, או בימי פסח שאין תודה קריבה בהם משום חמץ, ולא בערב פסח."
+     },
+     {
+      "psalm": 145,
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu 19",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_19?lang=he"
+     },
+     {
+      "psalm": 146,
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu 21",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_21?lang=he"
+     },
+     {
+      "psalm": 147,
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu 23",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_23?lang=he"
+     },
+     {
+      "psalm": 148,
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu 25",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_25?lang=he"
+     },
+     {
+      "psalm": 149,
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu 27",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_27?lang=he"
+     },
+     {
+      "psalm": 150,
+      "ref": "Siddur Sefard, Weekday Shacharit, Hodu 29",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_29?lang=he"
+     },
+     {
+      "psalm": 130,
+      "ref": "Siddur Sefard, Weekday Shacharit, Yishtabach 4",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Yishtabach_4?lang=he",
+      "rubric": "בעשרת ימי תשובה מוסיפין:"
+     }
+    ]
+   },
+   "edot": {
+    "sections": [
+     {
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Hodu",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu?lang=he"
+     },
+     {
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 30,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Hodu 6",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_6?lang=he"
+     },
+     {
+      "psalm": 67,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Hodu 15",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_15?lang=he"
+     },
+     {
+      "psalm": 100,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 3",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_3?lang=he"
+     },
+     {
+      "psalm": 145,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 7",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_7?lang=he"
+     },
+     {
+      "psalm": 146,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 8",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_8?lang=he"
+     },
+     {
+      "psalm": 147,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 9",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_9?lang=he"
+     },
+     {
+      "psalm": 148,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 10",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_10?lang=he"
+     },
+     {
+      "psalm": 149,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 11",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_11?lang=he"
+     },
+     {
+      "psalm": 150,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 12",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_12?lang=he"
+     },
+     {
+      "psalm": 130,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 21",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_21?lang=he",
+      "rubric": "בעשרת ימי תשובה מוסיפים"
+     }
+    ]
+   }
+  },
+  "pesukei-dezimra-shabbat": {
+   "ashkenaz": {
+    "sections": [
+     {
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 30,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Mizmor Shir 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Mizmor_Shir_1?lang=he"
+     },
+     {
+      "psalm": 19,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 19 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_19_1?lang=he"
+     },
+     {
+      "psalm": 34,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 34 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_34_1?lang=he"
+     },
+     {
+      "psalm": 90,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 90 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_90_1?lang=he"
+     },
+     {
+      "psalm": 91,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 91 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_91_1?lang=he"
+     },
+     {
+      "psalm": 135,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 135 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_135_1?lang=he"
+     },
+     {
+      "psalm": 136,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 136 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_136_1?lang=he"
+     },
+     {
+      "psalm": 33,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 33 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_33_1?lang=he"
+     },
+     {
+      "psalm": 92,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 92 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_92_1?lang=he"
+     },
+     {
+      "psalm": 93,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 93 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_93_1?lang=he"
+     },
+     {
+      "psalm": 145,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Ashrei 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Ashrei_1?lang=he"
+     },
+     {
+      "psalm": 146,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 146 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_146_1?lang=he"
+     },
+     {
+      "psalm": 147,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 147 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_147_1?lang=he"
+     },
+     {
+      "psalm": 148,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 148 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_148_1?lang=he"
+     },
+     {
+      "psalm": 149,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 149 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_149_1?lang=he"
+     },
+     {
+      "psalm": 150,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 150 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_150_1?lang=he"
+     },
+     {
+      "psalm": 130,
+      "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 130 1",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_130_1?lang=he",
+      "rubric": "בשבת תשובה אומרים מזמור זה פסוק בפסוק:"
+     }
+    ]
+   },
+   "sefard": {
+    "sections": [
+     {
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 30,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 6",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_6?lang=he"
+     },
+     {
+      "psalm": 19,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 12",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_12?lang=he"
+     },
+     {
+      "psalm": 33,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 13",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_13?lang=he"
+     },
+     {
+      "psalm": 34,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 14",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_14?lang=he"
+     },
+     {
+      "psalm": 90,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 15",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_15?lang=he"
+     },
+     {
+      "psalm": 91,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 16",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_16?lang=he"
+     },
+     {
+      "psalm": 98,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 17",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_17?lang=he"
+     },
+     {
+      "psalm": 121,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 18",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_18?lang=he"
+     },
+     {
+      "psalm": 122,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 19",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_19?lang=he"
+     },
+     {
+      "psalm": 124,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 21",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_21?lang=he"
+     },
+     {
+      "psalm": 135,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 22",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_22?lang=he"
+     },
+     {
+      "psalm": 136,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 23",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_23?lang=he"
+     },
+     {
+      "psalm": 92,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 73",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_73?lang=he"
+     },
+     {
+      "psalm": 93,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 74",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_74?lang=he"
+     },
+     {
+      "psalm": 145,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 76",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_76?lang=he"
+     },
+     {
+      "psalm": 146,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 77",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_77?lang=he"
+     },
+     {
+      "psalm": 147,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 78",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_78?lang=he"
+     },
+     {
+      "psalm": 148,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 79",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_79?lang=he"
+     },
+     {
+      "psalm": 149,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 80",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_80?lang=he"
+     },
+     {
+      "psalm": 150,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 81",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_81?lang=he"
+     },
+     {
+      "psalm": 130,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 100",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_100?lang=he",
+      "rubric": "בשבת שובה אומרים קודם חצי קדיש מזמור זה פסוק בפסוק"
+     }
+    ]
+   },
+   "edot": {
+    "sections": [
+     {
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat?lang=he"
+     },
+     {
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 19,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 3",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_3?lang=he"
+     },
+     {
+      "psalm": 33,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 4",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_4?lang=he"
+     },
+     {
+      "psalm": 34,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 5",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_5?lang=he"
+     },
+     {
+      "psalm": 90,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 6",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_6?lang=he"
+     },
+     {
+      "psalm": 91,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 7",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_7?lang=he"
+     },
+     {
+      "psalm": 98,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 9",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_9?lang=he"
+     },
+     {
+      "psalm": 121,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 10",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_10?lang=he"
+     },
+     {
+      "psalm": 122,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 11",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_11?lang=he"
+     },
+     {
+      "psalm": 124,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 13",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_13?lang=he"
+     },
+     {
+      "psalm": 135,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 14",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_14?lang=he"
+     },
+     {
+      "psalm": 136,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 15",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_15?lang=he"
+     },
+     {
+      "psalm": 92,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 3",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_3?lang=he"
+     },
+     {
+      "psalm": 93,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 4",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_4?lang=he"
+     },
+     {
+      "psalm": 145,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 7",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_7?lang=he"
+     },
+     {
+      "psalm": 146,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 8",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_8?lang=he"
+     },
+     {
+      "psalm": 147,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 9",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_9?lang=he"
+     },
+     {
+      "psalm": 148,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 10",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_10?lang=he"
+     },
+     {
+      "psalm": 149,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 11",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_11?lang=he"
+     },
+     {
+      "psalm": 150,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 12",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_12?lang=he"
+     },
+     {
+      "psalm": 130,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 32",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_32?lang=he",
+      "rubric": "בשבת תשובה אומרים"
+     }
+    ]
+   }
+  },
+  "tachanun": {
+   "ashkenaz": {
+    "sections": [
+     {
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Tachanun, Nefilat Apayim",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Post_Amidah%2C_Tachanun%2C_Nefilat_Apayim?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 6,
+      "ref": "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Tachanun, Nefilat Apayim 2",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Post_Amidah%2C_Tachanun%2C_Nefilat_Apayim_2?lang=he"
+     }
+    ]
+   },
+   "sefard": {
+    "sections": [
+     {
+      "ref": "Siddur Sefard, Weekday Shacharit, Tachanun",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Tachanun?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 6,
+      "ref": "Siddur Sefard, Weekday Shacharit, Tachanun 14",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Tachanun_14?lang=he"
+     }
+    ]
+   },
+   "edot": {
+    "sections": [
+     {
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Vidui",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Vidui?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 25,
+      "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Vidui 7",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Vidui_7?lang=he"
+     }
+    ]
+   }
+  },
+  "kriat-shema-al-hamita": {
+   "ashkenaz": {
+    "sections": [
+     {
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Keri'at Shema al Hamita",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri%27at_Shema_al_Hamita?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 91,
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Keri'at Shema al Hamita 11",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri%27at_Shema_al_Hamita_11?lang=he"
+     },
+     {
+      "psalm": 3,
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Keri'at Shema al Hamita 12",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri%27at_Shema_al_Hamita_12?lang=he"
+     },
+     {
+      "psalm": 128,
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Keri'at Shema al Hamita 25",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri%27at_Shema_al_Hamita_25?lang=he"
+     }
+    ]
+   },
+   "sefard": {
+    "sections": [
+     {
+      "ref": "Siddur Sefard, Bedtime Shema",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 91,
+      "ref": "Siddur Sefard, Bedtime Shema 10",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema_10?lang=he"
+     },
+     {
+      "psalm": 3,
+      "ref": "Siddur Sefard, Bedtime Shema 11",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema_11?lang=he"
+     },
+     {
+      "psalm": 128,
+      "ref": "Siddur Sefard, Bedtime Shema 24",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema_24?lang=he"
+     }
+    ]
+   },
+   "edot": {
+    "sections": [
+     {
+      "ref": "Siddur Edot HaMizrach, Bedtime Shema",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Bedtime_Shema?lang=he"
+     }
+    ],
+    "psalms": []
+   }
+  },
+  "birkat-hamazon": {
+   "ashkenaz": {
+    "sections": [
+     {
+      "ref": "Siddur Ashkenaz, Berachot, Birkat HaMazon",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Berachot%2C_Birkat_HaMazon?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 137,
+      "ref": "Siddur Ashkenaz, Berachot, Birkat HaMazon 2",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Berachot%2C_Birkat_HaMazon_2?lang=he",
+      "rubric": "בחול קודם ברכת המזון אומרים:"
+     },
+     {
+      "psalm": 126,
+      "ref": "Siddur Ashkenaz, Berachot, Birkat HaMazon 4",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Berachot%2C_Birkat_HaMazon_4?lang=he",
+      "rubric": "בשבת קודם ברכת המזון אומרים:"
+     }
+    ]
+   },
+   "sefard": {
+    "sections": [
+     {
+      "ref": "Siddur Sefard, Birchat HaMazon, Birchat HaMazon",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Birchat_HaMazon%2C_Birchat_HaMazon?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 137,
+      "ref": "Siddur Sefard, Birchat HaMazon, Birchat HaMazon 2",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Birchat_HaMazon%2C_Birchat_HaMazon_2?lang=he"
+     },
+     {
+      "psalm": 126,
+      "ref": "Siddur Sefard, Birchat HaMazon, Birchat HaMazon 4",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Birchat_HaMazon%2C_Birchat_HaMazon_4?lang=he"
+     }
+    ]
+   },
+   "edot": {
+    "sections": [
+     {
+      "ref": "Siddur Edot HaMizrach, Post Meal Blessing",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Post_Meal_Blessing?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 67,
+      "ref": "Siddur Edot HaMizrach, Post Meal Blessing 3",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Post_Meal_Blessing_3?lang=he"
+     }
+    ]
+   }
+  },
+  "birkat-halevana": {
+   "ashkenaz": {
+    "sections": [
+     {
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Birkat HaLevana",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Birkat_HaLevana?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 121,
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Birkat HaLevana 14",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Birkat_HaLevana_14?lang=he"
+     },
+     {
+      "psalm": 150,
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Birkat HaLevana 15",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Birkat_HaLevana_15?lang=he"
+     },
+     {
+      "psalm": 67,
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Birkat HaLevana 17",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Birkat_HaLevana_17?lang=he"
+     }
+    ]
+   },
+   "sefard": {
+    "sections": [
+     {
+      "ref": "Siddur Sefard, Kiddush Levanah",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kiddush_Levanah?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 121,
+      "ref": "Siddur Sefard, Kiddush Levanah 17",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kiddush_Levanah_17?lang=he"
+     },
+     {
+      "psalm": 150,
+      "ref": "Siddur Sefard, Kiddush Levanah 18",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kiddush_Levanah_18?lang=he"
+     },
+     {
+      "psalm": 67,
+      "ref": "Siddur Sefard, Kiddush Levanah 20",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kiddush_Levanah_20?lang=he"
+     }
+    ]
+   },
+   "edot": {
+    "sections": [
+     {
+      "ref": "Siddur Edot HaMizrach, Blessing of the Moon",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 19,
+      "ref": "Siddur Edot HaMizrach, Blessing of the Moon 2",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon_2?lang=he"
+     },
+     {
+      "psalm": 121,
+      "ref": "Siddur Edot HaMizrach, Blessing of the Moon 17",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon_17?lang=he"
+     },
+     {
+      "psalm": 150,
+      "ref": "Siddur Edot HaMizrach, Blessing of the Moon 18",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon_18?lang=he"
+     }
+    ]
+   }
+  },
+  "motzaei-shabbat": {
+   "ashkenaz": {
+    "sections": [
+     {
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Additions for Motza'ei Shabbat",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Additions_for_Motza%27ei_Shabbat?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 91,
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Additions for Motza'ei Shabbat, Viyehi Noam 2",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Additions_for_Motza%27ei_Shabbat%2C_Viyehi_Noam_2?lang=he"
+     },
+     {
+      "psalm": 128,
+      "ref": "Siddur Ashkenaz, Weekday, Maariv, Additions for Motza'ei Shabbat, Veyiten Lekha 10",
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Additions_for_Motza%27ei_Shabbat%2C_Veyiten_Lekha_10?lang=he"
+     }
+    ]
+   },
+   "sefard": {
+    "sections": [
+     {
+      "ref": "Siddur Sefard, Weekday Maariv, Motzaei Shabbat",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Motzaei_Shabbat?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 91,
+      "ref": "Siddur Sefard, Weekday Maariv, Motzaei Shabbat 5",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Motzaei_Shabbat_5?lang=he"
+     }
+    ]
+   }
+  },
+  "tikkun-chatzot": {
+   "edot": {
+    "sections": [
+     {
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 137,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Rachel 2",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Rachel_2?lang=he"
+     },
+     {
+      "psalm": 79,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Rachel 3",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Rachel_3?lang=he"
+     },
+     {
+      "psalm": 42,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 2",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_2?lang=he"
+     },
+     {
+      "psalm": 43,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 3",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_3?lang=he"
+     },
+     {
+      "psalm": 20,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 5",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_5?lang=he",
+      "rubric": "בימים שאין אומרים תחנון לא יאמר מזמור זה"
+     },
+     {
+      "psalm": 24,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 6",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_6?lang=he"
+     },
+     {
+      "psalm": 67,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 7",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_7?lang=he"
+     },
+     {
+      "psalm": 111,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 8",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_8?lang=he"
+     },
+     {
+      "psalm": 51,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 9",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_9?lang=he"
+     },
+     {
+      "psalm": 126,
+      "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 15",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_15?lang=he"
+     }
+    ]
+   }
+  }
+ }
+}

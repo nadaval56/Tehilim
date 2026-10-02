@@ -116,6 +116,18 @@ class Data(unittest.TestCase):
 
 
 class Liturgy(unittest.TestCase):
+    def test_orders_read_from_the_siddur(self):
+        doc = json.loads((ROOT / "data" / "orders.json").read_text(encoding="utf-8"))["orders"]
+        self.assertEqual([x["psalm"] for x in doc["tachanun"]["ashkenaz"]["psalms"]], [6])
+        self.assertEqual([x["psalm"] for x in doc["tachanun"]["sefard"]["psalms"]], [6])
+        self.assertEqual([x["psalm"] for x in doc["tachanun"]["edot"]["psalms"]], [25])
+        for slug in ("pesukei-dezimra", "pesukei-dezimra-shabbat"):
+            for nus, o in doc[slug].items():
+                p130 = [x for x in o["psalms"] if x["psalm"] == 130]
+                self.assertTrue(p130 and p130[0].get("rubric"), (slug, nus))
+        self.assertEqual([x["psalm"] for x in doc["kabbalat-shabbat"]["ashkenaz"]["psalms"]],
+                         [95, 96, 97, 98, 99, 29, 92, 93])
+
     def test_hallel_is_113_to_118_in_every_nusach(self):
         doc = json.loads((ROOT / "data" / "liturgy.json").read_text(encoding="utf-8"))
         for nus in doc["nusachim"]:

@@ -187,6 +187,7 @@ td.n, th.n { text-align: end; font-variant-numeric: tabular-nums; }
 .summary-box::before { content: "סיכום"; display: block; font-size: .75rem; font-weight: 600; color: var(--text-2); margin-bottom: var(--sp-1); }
 .no-source { color: var(--text-2); font-style: italic; }
 .note { font-size: .875rem; color: var(--text-2); }
+.rubric { font-size: .9375rem; margin: 1.5rem 0 -.5rem; padding-inline-start: .75rem; border-inline-start: 3px solid var(--diff); }
 
 /* ── מפת הספר ומפת החום ── */
 .map-controls { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: center; margin: 0 0 var(--sp-3); }
