@@ -832,7 +832,17 @@
       "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Bedtime_Shema?lang=he"
      }
     ],
-    "psalms": []
+    "psalms": [
+     {
+      "psalm": 91,
+      "ref": "Siddur Edot HaMizrach, Bedtime Shema 18",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Bedtime_Shema_18?lang=he",
+      "until": {
+       "v": 9,
+       "words": 3
+      }
+     }
+    ]
    }
   },
   "birkat-hamazon": {

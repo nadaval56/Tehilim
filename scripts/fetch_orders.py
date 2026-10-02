@@ -59,6 +59,10 @@ ORDERS = {
     "tikkun-chatzot": {"edot": [f"{E}, The Midnight Rite"]},
 }
 
+# Orders where a psalm is said only in part by custom, as the siddur prints it:
+# (order, nusach) -> psalms to read as an opening run of verses.
+PARTIAL = {("kriat-shema-al-hamita", "edot"): {91}}
+
 NIQQUD = re.compile(r"[֑-ׇ]")
 # Names (and their look-alikes, such as the preposition) are left out on both sides,
 # so a name written in full, abbreviated or as a kinui compares the same.
@@ -156,7 +160,7 @@ def covered(psalm_words: list[str], window: list[str]) -> float:
     return sum(w in have for w in psalm_words) / max(len(psalm_words), 1)
 
 
-def scan(refs: list, keys, verses: dict[int, list[list[str]]] | None = None) -> list[dict]:
+def scan(refs: list, keys, verses: dict[int, list[list[str]]] | None = None, partial: set[int] | None = None) -> list[dict]:
     refs = list(refs)
     verses = verses or VERSES
     stream: list[tuple[str, int, int, str]] = []   # (word, leaf index, segment index, ref)
@@ -196,6 +200,24 @@ def scan(refs: list, keys, verses: dict[int, list[list[str]]] | None = None) -> 
                     if hit:
                         found.append((i, n))
                         break
+    until: dict[int, dict] = {}
+    for n in partial or ():
+        starts = keys[n][0][:1]
+        for i in range(len(W) - 2):
+            if W[i:i + 3] != starts[0]:
+                continue
+            k, v = i, 0
+            vs = verses[n]
+            while v < len(vs) and W[k:k + len(vs[v])] == vs[v]:
+                k += len(vs[v])
+                v += 1
+            if v < len(vs) and v >= 3:  # an opening run, ending inside verse v+1
+                m = 0
+                while m < len(vs[v]) and k + m < len(W) and W[k + m] == vs[v][m]:
+                    m += 1
+                found.append((i, n))
+                until[n] = {"v": v + 1 if m else v, "words": m or None}
+            break
     found.sort()
     out, seen = [], set()
     for i, n in found:
@@ -209,6 +231,8 @@ def scan(refs: list, keys, verses: dict[int, list[list[str]]] | None = None) -> 
         rub = re.sub(r"\s+", " ", plain_before(leaf_segs[li], si, seg[:first])).strip()
         item = {"psalm": n, "ref": f"{ref} {si + 1}",
                 "url": "https://www.sefaria.org/" + urllib.parse.quote(f"{ref} {si + 1}".replace(" ", "_")) + "?lang=he"}
+        if n in until:
+            item["until"] = until[n]
         if 4 <= len(rub) <= 200 and CONDITION.search(rub) and SAYS.search(rub) and not OTHER.search(rub):
             item["rubric"] = names.mask(rub, names.detect(rub))[0]
         # closing verses of the psalm before it, said as its opening ("ויהי נעם" before 91)
@@ -238,7 +262,7 @@ def main() -> int:
             refs = [p if not isinstance(p, str) else l for p in prefixes
                     for l in (all_leaves[nus] if isinstance(p, str) else [p[0]])
                     if not isinstance(p, str) or l == p or l.startswith(p + ",")]
-            items = scan(refs, keys)
+            items = scan(refs, keys, partial=PARTIAL.get((slug, nus)))
             doc["orders"][slug][nus] = {"sections": [{"ref": p, "url": "https://www.sefaria.org/" + urllib.parse.quote(p.replace(" ", "_")) + "?lang=he"} for p in (x if isinstance(x, str) else x[0] for x in prefixes)],
                                         "psalms": items}
             print(slug, nus, [(x["psalm"], x.get("rubric", "")[:40]) for x in items])
