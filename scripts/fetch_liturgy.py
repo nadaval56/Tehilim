@@ -51,8 +51,27 @@ CONTEXTS = [
 ]
 
 
-def context_of(section: str) -> str:
+# Contexts that belong to fixed psalms in every nusach: Hallel is 113-118
+# (Pesachim 117a), the Rosh Chodesh psalm is Barchi Nafshi (104). Other psalms
+# that Sefaria files under such a section (Ashrei after Hallel, the daily psalms
+# inside the Rosh Chodesh service) fall through to the next matching context.
+# Nefilat Apayim is psalm 6 in Ashkenaz and Sefard and psalm 25 in Edot HaMizrach,
+# whose siddur on Sefaria files it under the weekday Vidui section.
+FIXED = {"hallel": set(range(113, 119)), "rosh_chodesh": {104}, "tachanun": {6, 25}}
+FIRST = [("tachanun", {6, 25}, r"(ימי החול|לימות החול|ימי חול).*(תחנון|נפילת אפ|וידוי)")]
+# Pesukei Dezimra is part of Shacharit; "ליום השבת" alone also names Kiddush and Musaf.
+REQUIRE = {"pesukei": "שחרית"}
+
+
+def context_of(section: str, psalm: int) -> str:
+    for cid, psalms, pattern in FIRST:
+        if psalm in psalms and re.search(pattern, section):
+            return cid
     for cid, _, kws in CONTEXTS:
+        if cid in FIXED and psalm not in FIXED[cid]:
+            continue
+        if cid in REQUIRE and REQUIRE[cid] not in section:
+            continue
         if any(re.search(k, section) for k in kws):
             return cid
     return "other"
@@ -149,7 +168,7 @@ def main() -> int:
         if cov < MIN_COVERAGE:
             continue
         best[(c, nus, sec)] = {
-            "psalm": c, "nusach": nus, "context": context_of(sec), "section": sec,
+            "psalm": c, "nusach": nus, "context": context_of(sec, c), "section": sec,
             "from": min(g["verses"]), "to": max(g["verses"]), "coverage": round(cov, 2), "ref": g["ref"],
             "order": list(g["pos"]),
             "url": "https://www.sefaria.org/" + g["ref"].replace(" ", "_").replace(",", "%2C") + "?lang=he",

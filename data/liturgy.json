@@ -579,7 +579,7 @@
   {
    "psalm": 23,
    "nusach": "sefard",
-   "context": "pesukei",
+   "context": "shabbat",
    "section": "סידור ספרד, סעודת שבת, קידוש ליום השבת",
    "from": 1,
    "to": 6,
@@ -739,7 +739,7 @@
   {
    "psalm": 24,
    "nusach": "sefard",
-   "context": "rosh_chodesh",
+   "context": "other",
    "section": "סידור ספרד, לראש חודש, החזרת ספר תורה",
    "from": 1,
    "to": 10,
@@ -819,7 +819,7 @@
   {
    "psalm": 25,
    "nusach": "edot",
-   "context": "selichot",
+   "context": "tachanun",
    "section": "סידור נוסח עדות המזרח, מנחה לימי החול, וידוי",
    "from": 1,
    "to": 22,
@@ -835,7 +835,7 @@
   {
    "psalm": 25,
    "nusach": "edot",
-   "context": "selichot",
+   "context": "tachanun",
    "section": "סידור נוסח עדות המזרח, שחרית לימי החול, וידוי",
    "from": 1,
    "to": 22,
@@ -963,7 +963,7 @@
   {
    "psalm": 27,
    "nusach": "sefard",
-   "context": "tachanun",
+   "context": "weekday",
    "section": "סידור ספרד, מנחה לימות החול, תחנון",
    "from": 1,
    "to": 14,
@@ -1539,7 +1539,7 @@
   {
    "psalm": 49,
    "nusach": "sefard",
-   "context": "tachanun",
+   "context": "weekday",
    "section": "סידור ספרד, מנחה לימות החול, תחנון",
    "from": 1,
    "to": 21,
@@ -2260,22 +2260,6 @@
    "psalm": 92,
    "nusach": "ashkenaz",
    "context": "pesukei",
-   "section": "סידור אשכנז, שבת, מוסף לשבת, מזמור שיר ליום השבת",
-   "from": 1,
-   "to": 16,
-   "coverage": 1.0,
-   "ref": "Siddur Ashkenaz, Shabbat, Musaf LeShabbat, Mizmor Shir L'Yom HaShabbat 1",
-   "order": [
-    334,
-    1
-   ],
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Musaf_LeShabbat%2C_Mizmor_Shir_L'Yom_HaShabbat_1?lang=he",
-   "status": "auto"
-  },
-  {
-   "psalm": 92,
-   "nusach": "ashkenaz",
-   "context": "pesukei",
    "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
    "from": 1,
    "to": 16,
@@ -2286,6 +2270,22 @@
     0
    ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_92_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 92,
+   "nusach": "ashkenaz",
+   "context": "shabbat",
+   "section": "סידור אשכנז, שבת, מוסף לשבת, מזמור שיר ליום השבת",
+   "from": 1,
+   "to": 16,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Shabbat, Musaf LeShabbat, Mizmor Shir L'Yom HaShabbat 1",
+   "order": [
+    334,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Musaf_LeShabbat%2C_Mizmor_Shir_L'Yom_HaShabbat_1?lang=he",
    "status": "auto"
   },
   {
@@ -4035,6 +4035,22 @@
   {
    "psalm": 124,
    "nusach": "edot",
+   "context": "other",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, ובא לציון גואל",
+   "from": 1,
+   "to": 8,
+   "coverage": 1.0,
+   "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Uva LeSion 5",
+   "order": [
+    85,
+    5
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Uva_LeSion_5?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 124,
+   "nusach": "edot",
    "context": "pesukei",
    "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
    "from": 1,
@@ -4046,22 +4062,6 @@
     13
    ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_13?lang=he",
-   "status": "auto"
-  },
-  {
-   "psalm": 124,
-   "nusach": "edot",
-   "context": "rosh_chodesh",
-   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, ובא לציון גואל",
-   "from": 1,
-   "to": 8,
-   "coverage": 1.0,
-   "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Uva LeSion 5",
-   "order": [
-    85,
-    5
-   ],
-   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Uva_LeSion_5?lang=he",
    "status": "auto"
   },
   {
@@ -4099,6 +4099,22 @@
   {
    "psalm": 124,
    "nusach": "sefard",
+   "context": "other",
+   "section": "סידור ספרד, לראש חודש, החזרת ספר תורה",
+   "from": 1,
+   "to": 8,
+   "coverage": 1.0,
+   "ref": "Siddur Sefard, Rosh Chodesh, Returning Sefer Torah 4",
+   "order": [
+    136,
+    4
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Returning_Sefer_Torah_4?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 124,
+   "nusach": "sefard",
    "context": "pesukei",
    "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
    "from": 1,
@@ -4110,22 +4126,6 @@
     21
    ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_21?lang=he",
-   "status": "auto"
-  },
-  {
-   "psalm": 124,
-   "nusach": "sefard",
-   "context": "rosh_chodesh",
-   "section": "סידור ספרד, לראש חודש, החזרת ספר תורה",
-   "from": 1,
-   "to": 8,
-   "coverage": 1.0,
-   "ref": "Siddur Sefard, Rosh Chodesh, Returning Sefer Torah 4",
-   "order": [
-    136,
-    4
-   ],
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Returning_Sefer_Torah_4?lang=he",
    "status": "auto"
   },
   {
@@ -4691,7 +4691,7 @@
   {
    "psalm": 136,
    "nusach": "sefard",
-   "context": "hallel",
+   "context": "festivals",
    "section": "סידור ספרד, הגדה של פסח, הלל",
    "from": 2,
    "to": 26,
@@ -4915,7 +4915,7 @@
   {
    "psalm": 145,
    "nusach": "edot",
-   "context": "hallel",
+   "context": "other",
    "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",
    "from": 1,
    "to": 21,
@@ -4996,6 +4996,22 @@
    "psalm": 145,
    "nusach": "sefard",
    "context": "ashrei",
+   "section": "סידור ספרד, לראש חודש, אשרי ובא לציון",
+   "from": 1,
+   "to": 21,
+   "coverage": 1.0,
+   "ref": "Siddur Sefard, Rosh Chodesh, Ashrei Uva L'Tziyon 2",
+   "order": [
+    135,
+    2
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Ashrei_Uva_L'Tziyon_2?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "sefard",
+   "context": "ashrei",
    "section": "סידור ספרד, שחרית לימות החול, אשרי",
    "from": 1,
    "to": 21,
@@ -5054,22 +5070,6 @@
     76
    ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_76?lang=he",
-   "status": "auto"
-  },
-  {
-   "psalm": 145,
-   "nusach": "sefard",
-   "context": "rosh_chodesh",
-   "section": "סידור ספרד, לראש חודש, אשרי ובא לציון",
-   "from": 1,
-   "to": 21,
-   "coverage": 1.0,
-   "ref": "Siddur Sefard, Rosh Chodesh, Ashrei Uva L'Tziyon 2",
-   "order": [
-    135,
-    2
-   ],
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Ashrei_Uva_L'Tziyon_2?lang=he",
    "status": "auto"
   },
   {
