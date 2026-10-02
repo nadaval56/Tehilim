@@ -181,7 +181,12 @@
      {
       "psalm": 145,
       "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Ashrei 2",
-      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Ashrei_2?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Ashrei_2?lang=he",
+      "lead": {
+       "psalm": 144,
+       "from": 15,
+       "to": 15
+      }
      },
      {
       "psalm": 146,
@@ -247,7 +252,12 @@
      {
       "psalm": 145,
       "ref": "Siddur Sefard, Weekday Shacharit, Hodu 19",
-      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_19?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_19?lang=he",
+      "lead": {
+       "psalm": 144,
+       "from": 15,
+       "to": 15
+      }
      },
      {
       "psalm": 146,
@@ -312,7 +322,12 @@
      {
       "psalm": 145,
       "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 7",
-      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_7?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D%27Zimra_7?lang=he",
+      "lead": {
+       "psalm": 144,
+       "from": 15,
+       "to": 15
+      }
      },
      {
       "psalm": 146,
@@ -410,7 +425,12 @@
      {
       "psalm": 145,
       "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Ashrei 1",
-      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Ashrei_1?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Ashrei_1?lang=he",
+      "lead": {
+       "psalm": 144,
+       "from": 15,
+       "to": 15
+      }
      },
      {
       "psalm": 146,
@@ -499,6 +519,11 @@
       "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_19?lang=he"
      },
      {
+      "psalm": 123,
+      "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 20",
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_20?lang=he"
+     },
+     {
       "psalm": 124,
       "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 21",
       "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_21?lang=he"
@@ -526,7 +551,12 @@
      {
       "psalm": 145,
       "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 76",
-      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_76?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D%27Zimrah_76?lang=he",
+      "lead": {
+       "psalm": 144,
+       "from": 15,
+       "to": 15
+      }
      },
      {
       "psalm": 146,
@@ -614,6 +644,11 @@
       "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_11?lang=he"
      },
      {
+      "psalm": 123,
+      "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 12",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_12?lang=he"
+     },
+     {
       "psalm": 124,
       "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 13",
       "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_13?lang=he"
@@ -641,7 +676,12 @@
      {
       "psalm": 145,
       "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 7",
-      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_7?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D%27Zimra_7?lang=he",
+      "lead": {
+       "psalm": 144,
+       "from": 15,
+       "to": 15
+      }
      },
      {
       "psalm": 146,
@@ -736,7 +776,12 @@
      {
       "psalm": 91,
       "ref": "Siddur Ashkenaz, Weekday, Maariv, Keri'at Shema al Hamita 11",
-      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri%27at_Shema_al_Hamita_11?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri%27at_Shema_al_Hamita_11?lang=he",
+      "lead": {
+       "psalm": 90,
+       "from": 17,
+       "to": 17
+      }
      },
      {
       "psalm": 3,
@@ -761,7 +806,12 @@
      {
       "psalm": 91,
       "ref": "Siddur Sefard, Bedtime Shema 10",
-      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema_10?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema_10?lang=he",
+      "lead": {
+       "psalm": 90,
+       "from": 17,
+       "to": 17
+      }
      },
      {
       "psalm": 3,
@@ -933,7 +983,12 @@
      {
       "psalm": 91,
       "ref": "Siddur Ashkenaz, Weekday, Maariv, Additions for Motza'ei Shabbat, Viyehi Noam 2",
-      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Additions_for_Motza%27ei_Shabbat%2C_Viyehi_Noam_2?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Additions_for_Motza%27ei_Shabbat%2C_Viyehi_Noam_2?lang=he",
+      "lead": {
+       "psalm": 90,
+       "from": 17,
+       "to": 17
+      }
      },
      {
       "psalm": 128,
@@ -953,7 +1008,32 @@
      {
       "psalm": 91,
       "ref": "Siddur Sefard, Weekday Maariv, Motzaei Shabbat 5",
-      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Motzaei_Shabbat_5?lang=he"
+      "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Motzaei_Shabbat_5?lang=he",
+      "lead": {
+       "psalm": 90,
+       "from": 17,
+       "to": 17
+      }
+     }
+    ]
+   },
+   "edot": {
+    "sections": [
+     {
+      "ref": "Siddur Edot HaMizrach, Weekday Arvit, Amidah",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Arvit%2C_Amidah?lang=he"
+     }
+    ],
+    "psalms": [
+     {
+      "psalm": 91,
+      "ref": "Siddur Edot HaMizrach, Weekday Arvit, Amidah 59",
+      "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Arvit%2C_Amidah_59?lang=he",
+      "lead": {
+       "psalm": 90,
+       "from": 13,
+       "to": 17
+      }
      }
     ]
    }

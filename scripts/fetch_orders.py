@@ -53,7 +53,9 @@ ORDERS = {
                         "sefard": [f"{S}, Kiddush Levanah"],
                         "edot": [f"{E}, Blessing of the Moon"]},
     "motzaei-shabbat": {"ashkenaz": [f"{A}, Weekday, Maariv, Additions for Motza'ei Shabbat"],
-                        "sefard": [f"{S}, Weekday Maariv, Motzaei Shabbat"]},
+                        "sefard": [f"{S}, Weekday Maariv, Motzaei Shabbat"],
+                        # inside weekday Arvit, from the rubric for Motzaei Shabbat to the Kaddish after it
+                        "edot": [(f"{E}, Weekday Arvit, Amidah", "במוצאי שבת אומרים", "קדיש תתקבל")]},
     "tikkun-chatzot": {"edot": [f"{E}, The Midnight Rite"]},
 }
 
@@ -116,11 +118,15 @@ def words(text: str) -> list[str]:
     return out
 
 
+VERSES: dict[int, list[list[str]]] = {}
+
+
 def psalm_keys() -> dict[int, tuple]:
     keys = {}
     for n in range(1, 151):
         p = json.loads((ROOT / "data" / "psalms" / f"{n:03d}.json").read_text(encoding="utf-8"))
         vs = [words(v["text"]) for v in p["verses"]]
+        VERSES[n] = vs
         total = sum(len(v) for v in vs)
         starts = [v[:3] for v in vs[:2] if len(v) >= 3]
         # the end of the last verse, or of the one before it (a kri the siddur writes as ktiv)
@@ -150,17 +156,26 @@ def covered(psalm_words: list[str], window: list[str]) -> float:
     return sum(w in have for w in psalm_words) / max(len(psalm_words), 1)
 
 
-def scan(refs: list[str], keys) -> list[dict]:
+def scan(refs: list, keys, verses: dict[int, list[list[str]]] | None = None) -> list[dict]:
+    refs = list(refs)
+    verses = verses or VERSES
     stream: list[tuple[str, int, int, str]] = []   # (word, leaf index, segment index, ref)
     leaf_segs: list[list[str]] = []
-    for li, ref in enumerate(refs):
+    for li, spec in enumerate(refs):
+        ref, begin, stop = (spec, None, None) if isinstance(spec, str) else spec
+        refs[li] = ref
         try:
             segs = segments(ref)
         except Exception as ex:
             print("  skip", ref, ex)
             segs = []
         leaf_segs.append(segs)
+        plain = [NIQQUD.sub("", s) for s in segs]
+        lo = next((i for i, s in enumerate(plain) if begin in s), 0) if begin else 0
+        hi = next((i for i, s in enumerate(plain) if i > lo and stop in s), len(segs)) if stop else len(segs)
         for si, s in enumerate(segs):
+            if not lo <= si < hi:
+                continue
             for w in words(s):
                 stream.append((w, li, si, ref))
     W = [x[0] for x in stream]
@@ -196,7 +211,19 @@ def scan(refs: list[str], keys) -> list[dict]:
                 "url": "https://www.sefaria.org/" + urllib.parse.quote(f"{ref} {si + 1}".replace(" ", "_")) + "?lang=he"}
         if 4 <= len(rub) <= 200 and CONDITION.search(rub) and SAYS.search(rub) and not OTHER.search(rub):
             item["rubric"] = names.mask(rub, names.detect(rub))[0]
+        # closing verses of the psalm before it, said as its opening ("ויהי נעם" before 91)
+        if n > 1:
+            prev = verses[n - 1]
+            k, v = i, len(prev)
+            while v >= 1 and prev[v - 1] and W[max(k - len(prev[v - 1]), 0):k] == prev[v - 1]:
+                k -= len(prev[v - 1])
+                v -= 1
+            if v < len(prev):
+                item["lead"] = {"psalm": n - 1, "from": v + 1, "to": len(prev)}
         out.append(item)
+    for item in out:  # a psalm said in full before it is not an opening
+        if item.get("lead", {}).get("psalm") in seen:
+            del item["lead"]
     return out
 
 
@@ -208,9 +235,11 @@ def main() -> int:
     for slug, by_nus in ORDERS.items():
         doc["orders"][slug] = {}
         for nus, prefixes in by_nus.items():
-            refs = [l for p in prefixes for l in all_leaves[nus] if l == p or l.startswith(p + ",")]
+            refs = [p if not isinstance(p, str) else l for p in prefixes
+                    for l in (all_leaves[nus] if isinstance(p, str) else [p[0]])
+                    if not isinstance(p, str) or l == p or l.startswith(p + ",")]
             items = scan(refs, keys)
-            doc["orders"][slug][nus] = {"sections": [{"ref": p, "url": "https://www.sefaria.org/" + urllib.parse.quote(p.replace(" ", "_")) + "?lang=he"} for p in prefixes],
+            doc["orders"][slug][nus] = {"sections": [{"ref": p, "url": "https://www.sefaria.org/" + urllib.parse.quote(p.replace(" ", "_")) + "?lang=he"} for p in (x if isinstance(x, str) else x[0] for x in prefixes)],
                                         "psalms": items}
             print(slug, nus, [(x["psalm"], x.get("rubric", "")[:40]) for x in items])
     (ROOT / "data" / "orders.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
