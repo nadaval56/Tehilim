@@ -278,7 +278,20 @@
  },
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, תפילה לשלש רגלים, מזמור לסוכות",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Song_for_Sukkot_2?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "tikkun_chatzot",
+   "section": "סידור נוסח עדות המזרח, סדר תיקון חצות, תיקון לאה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_2?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.42",
   "version": "Miqra according to the Masorah",

@@ -78,6 +78,43 @@ def section_of(he_ref: str) -> str:
     return re.sub(r"\s+", " ", s).strip(" ,")
 
 
+SCHEMA_PSALMS: list[dict] = []  # leaves of a siddur's structure that are a whole psalm ("Psalm 96")
+
+
+def schema_order(title: str) -> dict[str, int]:
+    """Position of every leaf node of a siddur in reading order ('Siddur Ashkenaz, Shabbat, ...' -> n).
+    Also records leaves named 'Psalm N', which say outright that the whole psalm is said there."""
+    d = sefaria.get_json("v2/index/" + title.replace(" ", "_"))
+    order: dict[str, int] = {}
+
+    def name(n, lang):
+        return next((x["text"] for x in n.get("titles", []) if x["lang"] == lang and x.get("primary")), n.get("key", ""))
+
+    def walk(n, path, hepath):
+        t, h = name(n, "en"), name(n, "he")
+        p = path + [t] if t else path
+        hp = hepath + [h] if h else hepath
+        if "nodes" in n:
+            for c in n["nodes"]:
+                walk(c, p, hp)
+        else:
+            order[", ".join(p)] = len(order)
+            m = re.fullmatch(r"Psalms? (\d+)", t or "")
+            if m:
+                SCHEMA_PSALMS.append({"psalm": int(m[1]), "siddur": title, "ref": ", ".join(p),
+                                      "section": ", ".join(hp[:-1]), "pos": (order[", ".join(p)], 0)})
+
+    walk(d["schema"], [], [])
+    return order
+
+
+def position(ref: str, order: dict[str, int]) -> tuple[int, int]:
+    """(node index, segment) of a siddur ref, for sorting psalms in the order they are said."""
+    m = re.match(r"^(.*?)\s+(\d+)(?::\d+)?(?:-\d+(?::\d+)?)?$", ref)
+    node, seg = (m[1], int(m[2])) if m else (ref, 0)
+    return order.get(node, 99999), seg
+
+
 def main() -> int:
     shape = sefaria.get_json("shape/Psalms")
     lengths = (shape[0] if isinstance(shape, list) else shape)["chapters"]
@@ -85,27 +122,39 @@ def main() -> int:
     def fetch(n):
         return n, sefaria.get_json(f"links/Psalms.{n}", {"with_text": 0})
 
-    best: dict[tuple, dict] = {}
+    orders = {t: schema_order(t) for t in SIDDURIM}
+    groups: dict[tuple, dict] = {}
     with cf.ThreadPoolExecutor(3) as ex:
         for n, links in ex.map(fetch, range(1, 151)):
             for l in links:
                 nus = SIDDURIM.get(l.get("index_title", ""))
                 if l.get("category") != "Liturgy" or not nus:
                     continue
+                sec = section_of(l.get("sourceHeRef") or "")
+                pos = position(l["ref"], orders[l["index_title"]])
                 for c, a, b in spans(l.get("anchorRef", "")):
                     b = min(b, lengths[c - 1])
-                    cov = (b - a + 1) / lengths[c - 1]
-                    if cov < MIN_COVERAGE:
-                        continue
-                    sec = section_of(l.get("sourceHeRef") or "")
-                    key = (c, nus, sec)
-                    if key not in best or cov > best[key]["coverage"]:
-                        best[key] = {
-                            "psalm": c, "nusach": nus, "context": context_of(sec), "section": sec,
-                            "from": a, "to": b, "coverage": round(cov, 2), "ref": l["ref"],
-                            "url": "https://www.sefaria.org/" + l["ref"].replace(" ", "_").replace(",", "%2C") + "?lang=he",
-                            "status": "auto",
-                        }
+                    g = groups.setdefault((c, nus, sec), {"verses": set(), "pos": pos, "ref": l["ref"]})
+                    g["verses"].update(range(a, b + 1))  # a psalm may be linked in several pieces
+                    if pos < g["pos"]:
+                        g["pos"], g["ref"] = pos, l["ref"]
+    for sp in SCHEMA_PSALMS:  # the siddur's own structure names the psalm: the whole psalm is said there
+        g = groups.setdefault((sp["psalm"], SIDDURIM[sp["siddur"]], sp["section"]),
+                              {"verses": set(), "pos": sp["pos"], "ref": sp["ref"]})
+        g["verses"].update(range(1, lengths[sp["psalm"] - 1] + 1))
+        g["pos"] = min(g["pos"], sp["pos"])
+    best: dict[tuple, dict] = {}
+    for (c, nus, sec), g in groups.items():
+        cov = len(g["verses"]) / lengths[c - 1]
+        if cov < MIN_COVERAGE:
+            continue
+        best[(c, nus, sec)] = {
+            "psalm": c, "nusach": nus, "context": context_of(sec), "section": sec,
+            "from": min(g["verses"]), "to": max(g["verses"]), "coverage": round(cov, 2), "ref": g["ref"],
+            "order": list(g["pos"]),
+            "url": "https://www.sefaria.org/" + g["ref"].replace(" ", "_").replace(",", "%2C") + "?lang=he",
+            "status": "auto",
+        }
     entries = sorted(best.values(), key=lambda e: (e["psalm"], e["nusach"], e["context"], e["section"]))
     doc = {
         "_note": ("נבנה מקישורי ספריא (קטגוריית Liturgy) בין תהילים לשלושה סידורים. נכלל רק קישור שמכסה לפחות "

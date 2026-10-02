@@ -163,7 +163,13 @@
    "nusach": "ashkenaz",
    "context": "kabbalat_shabbat",
    "section": "סידור אשכנז, שבת, קבלת שבת",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_95_2?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_95_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "kabbalat_shabbat",
+   "section": "סידור נוסח עדות המזרח, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_2?lang=he"
   },
   {
    "nusach": "sefard",

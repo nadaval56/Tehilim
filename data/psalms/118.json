@@ -554,13 +554,25 @@
    "nusach": "ashkenaz",
    "context": "hallel",
    "section": "סידור אשכנז, חגים, ראש חודש, הלל",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_118_8?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_118_4?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "hallel",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_15?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "hallel",
+   "section": "סידור ספרד, הגדה של פסח, הלל",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Hallel_10?lang=he"
   },
   {
    "nusach": "sefard",
    "context": "hallel",
    "section": "סידור ספרד, לראש חודש, סדר הלל",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_21?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_14?lang=he"
   }
  ],
  "sources": {

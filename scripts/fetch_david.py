@@ -135,6 +135,43 @@ def context_ref(ref: str) -> str:
     return f"{m[1]} {m[2]}:{max(1, v - 4)}-{v}"
 
 
+_SAM_INDEX: dict | None = None
+
+
+def samuel_index() -> dict:
+    """Trigram index of the books of Samuel (masked text, letters only): trigram -> refs."""
+    global _SAM_INDEX
+    if _SAM_INDEX is None:
+        _SAM_INDEX = {}
+        for book in SAMUEL:
+            shape = sefaria.get_json(f"shape/{book.replace(' ', '_')}")
+            chapters = (shape[0] if isinstance(shape, list) else shape)["chapters"]
+            for ch in range(1, len(chapters) + 1):
+                for v in samuel_text(f"{book} {ch}"):
+                    sk = [w.skeleton for w in tokenize(v["text"])]
+                    for tri in zip(sk, sk[1:], sk[2:]):
+                        _SAM_INDEX.setdefault(" ".join(tri), set()).add(f"{book} {ch}:{v['v']}")
+    return _SAM_INDEX
+
+
+def quoted_verse(text: str) -> tuple[str, str] | None:
+    """The single Samuel verse whose wording a commentary quotes (three words in a row, rare in Samuel)."""
+    idx = samuel_index()
+    sk = [w.skeleton for w in tokenize(text)]
+    hits: dict[str, list[str]] = {}
+    for tri in zip(sk, sk[1:], sk[2:]):
+        key = " ".join(tri)
+        refs = idx.get(key, set())
+        if 0 < len(refs) <= 2 and all(len(t) > 1 for t in tri):
+            for r in refs:
+                hits.setdefault(r, []).append(key)
+    if not hits:
+        return None
+    best = max(hits.values(), key=len)
+    winners = [r for r, h in hits.items() if len(h) == len(best)]
+    return (winners[0], best[0]) if len(winners) == 1 else None
+
+
 def find_places(text: str, places: list[dict]) -> list[str]:
     """Place ids whose name (one or two words, letters only) occurs in the text."""
     skels = [w.skeleton for w in tokenize(text)]
@@ -192,14 +229,25 @@ def main() -> int:
         origin = "sefaria-link" if primary else None
         placement = primary[0] if primary else None
         if not primary:
-            # no direct link: a commentary that points to exactly one place in Samuel
+            # no direct link: a commentary whose links all point to one chapter of Samuel
             for c in comments:
-                ok = [r for r in c["samuel"] if valid(r)]
-                if len(ok) == 1:
+                ok = sorted((r for r in c["samuel"] if valid(r)), key=ref_key)
+                if ok and len({ref_key(r)[:2] for r in ok}) == 1:
                     placement, origin = ok[0], f"commentary:{c['commentator']}"
+                    break
+        if not placement:
+            # still nothing: a commentary that quotes the wording of a verse in Samuel
+            for c in comments:
+                hit = quoted_verse(c["text"])
+                if hit:
+                    placement, origin = hit[0], f"commentary-quote:{c['commentator']}"
+                    c["quotes_samuel"] = {"ref": hit[0], "phrase": hit[1]}
                     break
         passages = [{"ref": r, "he_ref": he_ref(r), "verses": texts[r], "score": overlap(heading_words, texts[r]),
                      "url": "https://www.sefaria.org/" + r.replace(" ", "_") + "?lang=he"} for r in scored]
+        if not passages and placement and ":" in placement:
+            passages = [{"ref": placement, "he_ref": he_ref(placement), "verses": samuel_text(placement), "score": 0,
+                         "url": "https://www.sefaria.org/" + placement.replace(" ", "_") + "?lang=he"}]
         # places: from the heading's wording, else from the linked Samuel passage
         where, where_from = find_places(h["historical_event"] or "", places), "heading"
         if not where and passages:

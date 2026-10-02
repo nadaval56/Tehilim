@@ -247,7 +247,26 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "ashkenaz",
+   "context": "kabbalat_shabbat",
+   "section": "סידור אשכנז, שבת, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_96_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "kabbalat_shabbat",
+   "section": "סידור נוסח עדות המזרח, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_3?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, הודו",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_3?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.96",
   "version": "Miqra according to the Masorah",

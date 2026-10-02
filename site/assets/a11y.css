@@ -98,8 +98,7 @@ html.a11y-contrast .skip-link:focus {
   color: #fff !important;
 }
 /* התצלומים והמפה נשארים בצבעם — עמעום קל מונע מהם לזהור מול רקע שחור. */
-html.a11y-invert img,
-html.a11y-invert .leaflet-tile { filter: brightness(.85); }
+html.a11y-invert img { filter: brightness(.85); }
 
 /* ---- גווני אפור ----
  * filter על ילדי body ולא על body או html עצמם — ראו הערת הפתיחה.

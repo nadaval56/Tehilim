@@ -98,6 +98,12 @@
  "doublet_of": null,
  "liturgy": [
   {
+   "nusach": "ashkenaz",
+   "context": "shabbat",
+   "section": "סידור אשכנז, שבת, סעודת שלישית, מזמור לדוד",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Third_Meal%2C_Mizmor_LeDavid_1?lang=he"
+  },
+  {
    "nusach": "edot",
    "context": "festivals",
    "section": "סידור נוסח עדות המזרח, תפילה לשלש רגלים, עמידה",
@@ -143,7 +149,7 @@
    "nusach": "sefard",
    "context": "pesukei",
    "section": "סידור ספרד, סעודת שבת, קידוש ליום השבת",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Day_Meal%2C_Shabbat_Day_Kiddush_23?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Day_Meal%2C_Shabbat_Day_Kiddush_16?lang=he"
   },
   {
    "nusach": "sefard",

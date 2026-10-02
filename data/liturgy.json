@@ -89,6 +89,10 @@
    "to": 9,
    "coverage": 0.89,
    "ref": "Siddur Ashkenaz, Weekday, Maariv, Keri'at Shema al Hamita 12",
+   "order": [
+    173,
+    12
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri'at_Shema_al_Hamita_12?lang=he",
    "status": "auto"
   },
@@ -101,6 +105,10 @@
    "to": 9,
    "coverage": 0.89,
    "ref": "Siddur Sefard, Bedtime Shema 11",
+   "order": [
+    42,
+    11
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema_11?lang=he",
    "status": "auto"
   },
@@ -113,6 +121,10 @@
    "to": 11,
    "coverage": 0.91,
    "ref": "Siddur Ashkenaz, Weekday, Minchah, Post Amidah, Tachanun, Nefilat Appayim 2",
+   "order": [
+    131,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Minchah%2C_Post_Amidah%2C_Tachanun%2C_Nefilat_Appayim_2?lang=he",
    "status": "auto"
   },
@@ -125,6 +137,10 @@
    "to": 11,
    "coverage": 0.91,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Post Amidah, Tachanun, Nefilat Apayim 2",
+   "order": [
+    72,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Post_Amidah%2C_Tachanun%2C_Nefilat_Apayim_2?lang=he",
    "status": "auto"
   },
@@ -137,6 +153,10 @@
    "to": 11,
    "coverage": 0.91,
    "ref": "Siddur Sefard, Weekday Mincha, Tachanun 12",
+   "order": [
+    35,
+    12
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Mincha%2C_Tachanun_12?lang=he",
    "status": "auto"
   },
@@ -149,6 +169,10 @@
    "to": 11,
    "coverage": 0.91,
    "ref": "Siddur Sefard, Weekday Shacharit, Tachanun 14",
+   "order": [
+    14,
+    14
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Tachanun_14?lang=he",
    "status": "auto"
   },
@@ -161,6 +185,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Festivals, Selichot, Yom Kippur Katan 112",
+   "order": [
+    437,
+    112
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Selichot%2C_Yom_Kippur_Katan_112?lang=he",
    "status": "auto"
   },
@@ -173,6 +201,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Fast Days, Yom Kippur Katan 114",
+   "order": [
+    190,
+    114
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Fast_Days%2C_Yom_Kippur_Katan_114?lang=he",
    "status": "auto"
   },
@@ -185,6 +217,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Prayers for Three Festivals, Song for Shemini Atzeret 2",
+   "order": [
+    96,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Song_for_Shemini_Atzeret_2?lang=he",
    "status": "auto"
   },
@@ -197,6 +233,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Fast Days and Mourning, Mourning 8",
+   "order": [
+    123,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Fast_Days_and_Mourning%2C_Mourning_8?lang=he",
    "status": "auto"
   },
@@ -209,6 +249,10 @@
    "to": 11,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Fast Days and Mourning, Mourning 8",
+   "order": [
+    123,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Fast_Days_and_Mourning%2C_Mourning_8?lang=he",
    "status": "auto"
   },
@@ -221,6 +265,10 @@
    "to": 11,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, L'David Hashem 8",
+   "order": [
+    22,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_L'David_Hashem_8?lang=he",
    "status": "auto"
   },
@@ -233,6 +281,10 @@
    "to": 15,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 19 1",
+   "order": [
+    250,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_19_1?lang=he",
    "status": "auto"
   },
@@ -241,10 +293,14 @@
    "nusach": "edot",
    "context": "levana",
    "section": "סידור נוסח עדות המזרח, ברכת הלבנה",
-   "from": 2,
+   "from": 1,
    "to": 15,
-   "coverage": 0.93,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Blessing of the Moon 2",
+   "order": [
+    35,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon_2?lang=he",
    "status": "auto"
   },
@@ -253,11 +309,31 @@
    "nusach": "edot",
    "context": "pesukei",
    "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
-   "from": 2,
+   "from": 1,
    "to": 15,
-   "coverage": 0.93,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 3",
+   "order": [
+    55,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_3?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 19,
+   "nusach": "sefard",
+   "context": "other",
+   "section": "סידור ספרד, שמחת תורה, הקפות לשמחת תורה",
+   "from": 1,
+   "to": 15,
+   "coverage": 0.87,
+   "ref": "Siddur Sefard, Simchat Torah, Hakafot 11",
+   "order": [
+    171,
+    11
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Simchat_Torah%2C_Hakafot_11?lang=he",
    "status": "auto"
   },
   {
@@ -269,6 +345,10 @@
    "to": 15,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 12",
+   "order": [
+    101,
+    12
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_12?lang=he",
    "status": "auto"
   },
@@ -281,6 +361,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Festivals, Selichot, Yom Kippur Katan 15",
+   "order": [
+    437,
+    15
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Selichot%2C_Yom_Kippur_Katan_15?lang=he",
    "status": "auto"
   },
@@ -292,8 +376,12 @@
    "from": 1,
    "to": 10,
    "coverage": 1.0,
-   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Lamenatze'ach 2",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_Lamenatze'ach_2?lang=he",
+   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Lamenatze'ach 1",
+   "order": [
+    91,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_Lamenatze'ach_1?lang=he",
    "status": "auto"
   },
   {
@@ -301,10 +389,14 @@
    "nusach": "edot",
    "context": "ashrei",
    "section": "סידור נוסח עדות המזרח, שחרית לימי החול, אשרי",
-   "from": 2,
+   "from": 1,
    "to": 10,
-   "coverage": 0.9,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Ashrei 6",
+   "order": [
+    18,
+    6
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Ashrei_6?lang=he",
    "status": "auto"
   },
@@ -313,10 +405,14 @@
    "nusach": "edot",
    "context": "tikkun_chatzot",
    "section": "סידור נוסח עדות המזרח, סדר תיקון חצות, תיקון לאה",
-   "from": 2,
+   "from": 1,
    "to": 10,
-   "coverage": 0.9,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 5",
+   "order": [
+    5,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_5?lang=he",
    "status": "auto"
   },
@@ -329,6 +425,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Fast Days, Yom Kippur Katan 10",
+   "order": [
+    190,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Fast_Days%2C_Yom_Kippur_Katan_10?lang=he",
    "status": "auto"
   },
@@ -341,7 +441,27 @@
    "to": 32,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 22",
+   "order": [
+    21,
+    22
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_22?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 23,
+   "nusach": "ashkenaz",
+   "context": "shabbat",
+   "section": "סידור אשכנז, שבת, סעודת שלישית, מזמור לדוד",
+   "from": 1,
+   "to": 6,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Shabbat, Third Meal, Mizmor LeDavid 1",
+   "order": [
+    377,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Third_Meal%2C_Mizmor_LeDavid_1?lang=he",
    "status": "auto"
   },
   {
@@ -353,6 +473,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Prayers for Three Festivals, Amidah 62",
+   "order": [
+    97,
+    62
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Amidah_62?lang=he",
    "status": "auto"
   },
@@ -365,6 +489,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Evening, Kiddush 8",
+   "order": [
+    47,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Evening%2C_Kiddush_8?lang=he",
    "status": "auto"
   },
@@ -377,6 +505,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Daytime Meal, Kiddush 3",
+   "order": [
+    72,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Daytime_Meal%2C_Kiddush_3?lang=he",
    "status": "auto"
   },
@@ -389,6 +521,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Arvit, Magen Avot 44",
+   "order": [
+    42,
+    44
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Arvit%2C_Magen_Avot_44?lang=he",
    "status": "auto"
   },
@@ -401,6 +537,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Additional Prayers , Supplications After Prayers 5",
+   "order": [
+    30,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Additional_Prayers_%2C_Supplications_After_Prayers_5?lang=he",
    "status": "auto"
   },
@@ -413,6 +553,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Motzaei Shabbat , Melava Malka Zemirot 3",
+   "order": [
+    129,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Motzaei_Shabbat_%2C_Melava_Malka_Zemirot_3?lang=he",
    "status": "auto"
   },
@@ -425,6 +569,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Third Meal, Zemirot 17",
+   "order": [
+    124,
+    17
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Third_Meal%2C_Zemirot_17?lang=he",
    "status": "auto"
   },
@@ -436,8 +584,12 @@
    "from": 1,
    "to": 6,
    "coverage": 1.0,
-   "ref": "Siddur Sefard, Shabbat Day Meal, Shabbat Day Kiddush 23",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Day_Meal%2C_Shabbat_Day_Kiddush_23?lang=he",
+   "ref": "Siddur Sefard, Shabbat Day Meal, Shabbat Day Kiddush 16",
+   "order": [
+    119,
+    16
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Day_Meal%2C_Shabbat_Day_Kiddush_16?lang=he",
    "status": "auto"
   },
   {
@@ -449,7 +601,27 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Eve Maariv, Vayechulu 10",
+   "order": [
+    94,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Eve_Maariv%2C_Vayechulu_10?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 24,
+   "nusach": "ashkenaz",
+   "context": "shabbat",
+   "section": "סידור אשכנז, שבת, מנחה, קריאת התורה, הכנסת התורה, לדוד מזמור",
+   "from": 1,
+   "to": 10,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Shabbat, Minchah, Torah Reading, Returning Sefer to Aron, LeDavid 1",
+   "order": [
+    358,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Minchah%2C_Torah_Reading%2C_Returning_Sefer_to_Aron%2C_LeDavid_1?lang=he",
    "status": "auto"
   },
   {
@@ -461,6 +633,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Returning Sefer to Aron 5",
+   "order": [
+    314,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Returning_Sefer_to_Aron_5?lang=he",
    "status": "auto"
   },
@@ -473,6 +649,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Song of the Day 4",
+   "order": [
+    96,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_Song_of_the_Day_4?lang=he",
    "status": "auto"
   },
@@ -485,6 +665,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Torah Reading, Returning Sefer to Aron, LeDavid Mizmor 1",
+   "order": [
+    88,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Torah_Reading%2C_Returning_Sefer_to_Aron%2C_LeDavid_Mizmor_1?lang=he",
    "status": "auto"
   },
@@ -497,6 +681,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Song of the Day 3",
+   "order": [
+    86,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Song_of_the_Day_3?lang=he",
    "status": "auto"
   },
@@ -509,6 +697,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 4",
+   "order": [
+    21,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_4?lang=he",
    "status": "auto"
   },
@@ -521,6 +713,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 6",
+   "order": [
+    5,
+    6
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_6?lang=he",
    "status": "auto"
   },
@@ -533,6 +729,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Holidays, Yizkor 34",
+   "order": [
+    141,
+    34
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Holidays%2C_Yizkor_34?lang=he",
    "status": "auto"
   },
@@ -545,6 +745,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Returning Sefer Torah 9",
+   "order": [
+    136,
+    9
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Returning_Sefer_Torah_9?lang=he",
    "status": "auto"
   },
@@ -557,6 +761,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Korbanot 60",
+   "order": [
+    121,
+    60
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Korbanot_60?lang=he",
    "status": "auto"
   },
@@ -569,6 +777,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Av HaRachamim 11",
+   "order": [
+    116,
+    11
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Av_HaRachamim_11?lang=he",
    "status": "auto"
   },
@@ -581,6 +793,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Song of the Day 4",
+   "order": [
+    132,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Song_of_the_Day_4?lang=he",
    "status": "auto"
   },
@@ -593,6 +809,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Song of the Day 4",
+   "order": [
+    20,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Song_of_the_Day_4?lang=he",
    "status": "auto"
   },
@@ -604,8 +824,12 @@
    "from": 1,
    "to": 22,
    "coverage": 1.0,
-   "ref": "Siddur Edot HaMizrach, Weekday Mincha, Vidui 7",
-   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Vidui_7?lang=he",
+   "ref": "Siddur Edot HaMizrach, Weekday Mincha, Vidui 3",
+   "order": [
+    28,
+    3
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Vidui_3?lang=he",
    "status": "auto"
   },
   {
@@ -616,8 +840,12 @@
    "from": 1,
    "to": 22,
    "coverage": 1.0,
-   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Vidui 7",
-   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Vidui_7?lang=he",
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Vidui 3",
+   "order": [
+    16,
+    3
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Vidui_3?lang=he",
    "status": "auto"
   },
   {
@@ -629,6 +857,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Musaf LeShabbat, LeDavid 1",
+   "order": [
+    335,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Musaf_LeShabbat%2C_LeDavid_1?lang=he",
    "status": "auto"
   },
@@ -641,6 +873,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Maariv, LeDavid 1",
+   "order": [
+    210,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Maariv%2C_LeDavid_1?lang=he",
    "status": "auto"
   },
@@ -652,8 +888,12 @@
    "from": 1,
    "to": 14,
    "coverage": 1.0,
-   "ref": "Siddur Ashkenaz, Weekday, Maariv, LeDavid 2",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_LeDavid_2?lang=he",
+   "ref": "Siddur Ashkenaz, Weekday, Maariv, LeDavid 1",
+   "order": [
+    171,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_LeDavid_1?lang=he",
    "status": "auto"
   },
   {
@@ -664,8 +904,12 @@
    "from": 1,
    "to": 14,
    "coverage": 1.0,
-   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, LeDavid 2",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_LeDavid_2?lang=he",
+   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, LeDavid 1",
+   "order": [
+    98,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_LeDavid_1?lang=he",
    "status": "auto"
   },
   {
@@ -676,8 +920,12 @@
    "from": 1,
    "to": 14,
    "coverage": 1.0,
-   "ref": "Siddur Sefard, Shabbat Eve Mincha, Amidah 86",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Eve_Mincha%2C_Amidah_86?lang=he",
+   "ref": "Siddur Sefard, Shabbat Eve Mincha, Amidah 24",
+   "order": [
+    89,
+    24
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Eve_Mincha%2C_Amidah_24?lang=he",
    "status": "auto"
   },
   {
@@ -689,6 +937,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 65",
+   "order": [
+    122,
+    65
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_65?lang=he",
    "status": "auto"
   },
@@ -701,6 +953,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Amidah 73",
+   "order": [
+    103,
+    73
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Amidah_73?lang=he",
    "status": "auto"
   },
@@ -712,8 +968,12 @@
    "from": 1,
    "to": 14,
    "coverage": 1.0,
-   "ref": "Siddur Sefard, Weekday Mincha, Tachanun 34",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Mincha%2C_Tachanun_34?lang=he",
+   "ref": "Siddur Sefard, Weekday Mincha, Tachanun 33",
+   "order": [
+    35,
+    33
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Mincha%2C_Tachanun_33?lang=he",
    "status": "auto"
   },
   {
@@ -724,8 +984,12 @@
    "from": 1,
    "to": 14,
    "coverage": 1.0,
-   "ref": "Siddur Sefard, Weekday Shacharit, L'David Hashem 2",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_L'David_Hashem_2?lang=he",
+   "ref": "Siddur Sefard, Weekday Shacharit, L'David Hashem 1",
+   "order": [
+    22,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_L'David_Hashem_1?lang=he",
    "status": "auto"
   },
   {
@@ -737,6 +1001,10 @@
    "to": 11,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 29 1",
+   "order": [
+    180,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_29_1?lang=he",
    "status": "auto"
   },
@@ -749,6 +1017,10 @@
    "to": 11,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Returning Sefer to Aron 4",
+   "order": [
+    314,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Returning_Sefer_to_Aron_4?lang=he",
    "status": "auto"
   },
@@ -757,10 +1029,14 @@
    "nusach": "edot",
    "context": "ashrei",
    "section": "סידור נוסח עדות המזרח, שחרית של שבת, אשרי",
-   "from": 3,
+   "from": 1,
    "to": 11,
-   "coverage": 0.82,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Ashrei 8",
+   "order": [
+    67,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Ashrei_8?lang=he",
    "status": "auto"
   },
@@ -769,10 +1045,14 @@
    "nusach": "edot",
    "context": "festivals",
    "section": "סידור נוסח עדות המזרח, חודש ניסן, סדר ברכת האילנות",
-   "from": 3,
+   "from": 1,
    "to": 11,
-   "coverage": 0.82,
+   "coverage": 0.91,
    "ref": "Siddur Edot HaMizrach, Nissan, Blessing of the Trees 3",
+   "order": [
+    104,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Nissan%2C_Blessing_of_the_Trees_3?lang=he",
    "status": "auto"
   },
@@ -781,10 +1061,14 @@
    "nusach": "edot",
    "context": "kabbalat_shabbat",
    "section": "סידור נוסח עדות המזרח, קבלת שבת",
-   "from": 3,
+   "from": 1,
    "to": 11,
-   "coverage": 0.82,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 8",
+   "order": [
+    39,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_8?lang=he",
    "status": "auto"
   },
@@ -797,6 +1081,10 @@
    "to": 11,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Holidays, Yizkor 32",
+   "order": [
+    141,
+    32
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Holidays%2C_Yizkor_32?lang=he",
    "status": "auto"
   },
@@ -809,7 +1097,27 @@
    "to": 11,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Kabbalat Shabbat 8",
+   "order": [
+    90,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_8?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 29,
+   "nusach": "sefard",
+   "context": "other",
+   "section": "סידור ספרד, שמחת תורה, הקפות לשמחת תורה",
+   "from": 1,
+   "to": 11,
+   "coverage": 1.0,
+   "ref": "Siddur Sefard, Simchat Torah, Hakafot 4",
+   "order": [
+    171,
+    4
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Simchat_Torah%2C_Hakafot_4?lang=he",
    "status": "auto"
   },
   {
@@ -821,6 +1129,10 @@
    "to": 11,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Av HaRachamim 9",
+   "order": [
+    116,
+    9
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Av_HaRachamim_9?lang=he",
    "status": "auto"
   },
@@ -832,8 +1144,12 @@
    "from": 1,
    "to": 13,
    "coverage": 1.0,
-   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Introductory Psalm 2",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Introductory_Psalm_2?lang=he",
+   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Introductory Psalm 1",
+   "order": [
+    23,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Introductory_Psalm_1?lang=he",
    "status": "auto"
   },
   {
@@ -845,6 +1161,10 @@
    "to": 13,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Mizmor Shir 1",
+   "order": [
+    245,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Mizmor_Shir_1?lang=he",
    "status": "auto"
   },
@@ -857,6 +1177,10 @@
    "to": 13,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Hanukkah, Menorah Lighting 10",
+   "order": [
+    99,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Hanukkah%2C_Menorah_Lighting_10?lang=he",
    "status": "auto"
   },
@@ -869,6 +1193,10 @@
    "to": 13,
    "coverage": 0.92,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Hodu 6",
+   "order": [
+    12,
+    6
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_6?lang=he",
    "status": "auto"
   },
@@ -881,6 +1209,10 @@
    "to": 13,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Song of the Day 14",
+   "order": [
+    86,
+    14
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Song_of_the_Day_14?lang=he",
    "status": "auto"
   },
@@ -893,6 +1225,10 @@
    "to": 13,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 20",
+   "order": [
+    21,
+    20
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_20?lang=he",
    "status": "auto"
   },
@@ -904,8 +1240,12 @@
    "from": 1,
    "to": 13,
    "coverage": 1.0,
-   "ref": "Siddur Sefard, Chanukah, Menorah Lighting 21",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_21?lang=he",
+   "ref": "Siddur Sefard, Chanukah, Menorah Lighting 13",
+   "order": [
+    182,
+    13
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_13?lang=he",
    "status": "auto"
   },
   {
@@ -917,6 +1257,10 @@
    "to": 13,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Hodu 8",
+   "order": [
+    10,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_8?lang=he",
    "status": "auto"
   },
@@ -929,6 +1273,10 @@
    "to": 13,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 6",
+   "order": [
+    101,
+    6
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_6?lang=he",
    "status": "auto"
   },
@@ -941,6 +1289,10 @@
    "to": 22,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 33 1",
+   "order": [
+    256,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_33_1?lang=he",
    "status": "auto"
   },
@@ -949,10 +1301,14 @@
    "nusach": "edot",
    "context": "pesukei",
    "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
-   "from": 3,
+   "from": 1,
    "to": 22,
-   "coverage": 0.91,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 4",
+   "order": [
+    55,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_4?lang=he",
    "status": "auto"
   },
@@ -965,6 +1321,10 @@
    "to": 22,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Chanukah, Menorah Lighting 36",
+   "order": [
+    182,
+    36
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_36?lang=he",
    "status": "auto"
   },
@@ -976,8 +1336,12 @@
    "from": 1,
    "to": 22,
    "coverage": 1.0,
-   "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 13",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_13?lang=he",
+   "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 4",
+   "order": [
+    101,
+    4
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_4?lang=he",
    "status": "auto"
   },
   {
@@ -989,6 +1353,10 @@
    "to": 23,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 34 1",
+   "order": [
+    251,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_34_1?lang=he",
    "status": "auto"
   },
@@ -1001,6 +1369,10 @@
    "to": 23,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 5",
+   "order": [
+    55,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_5?lang=he",
    "status": "auto"
   },
@@ -1013,7 +1385,43 @@
    "to": 23,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 14",
+   "order": [
+    101,
+    14
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_14?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 42,
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, תפילה לשלש רגלים, מזמור לסוכות",
+   "from": 1,
+   "to": 12,
+   "coverage": 0.92,
+   "ref": "Siddur Edot HaMizrach, Prayers for Three Festivals, Song for Sukkot 2",
+   "order": [
+    95,
+    2
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Song_for_Sukkot_2?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 42,
+   "nusach": "edot",
+   "context": "tikkun_chatzot",
+   "section": "סידור נוסח עדות המזרח, סדר תיקון חצות, תיקון לאה",
+   "from": 1,
+   "to": 12,
+   "coverage": 0.92,
+   "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 2",
+   "order": [
+    5,
+    2
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_2?lang=he",
    "status": "auto"
   },
   {
@@ -1025,6 +1433,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 3",
+   "order": [
+    5,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_3?lang=he",
    "status": "auto"
   },
@@ -1037,6 +1449,10 @@
    "to": 15,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Song of the Day 7",
+   "order": [
+    96,
+    7
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_Song_of_the_Day_7?lang=he",
    "status": "auto"
   },
@@ -1049,6 +1465,10 @@
    "to": 15,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Song of the Day 5",
+   "order": [
+    86,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Song_of_the_Day_5?lang=he",
    "status": "auto"
   },
@@ -1061,6 +1481,10 @@
    "to": 15,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 6",
+   "order": [
+    21,
+    6
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_6?lang=he",
    "status": "auto"
   },
@@ -1073,6 +1497,10 @@
    "to": 15,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Song of the Day 11",
+   "order": [
+    132,
+    11
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Song_of_the_Day_11?lang=he",
    "status": "auto"
   },
@@ -1085,6 +1513,10 @@
    "to": 15,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Song of the Day 8",
+   "order": [
+    20,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Song_of_the_Day_8?lang=he",
    "status": "auto"
   },
@@ -1093,10 +1525,14 @@
    "nusach": "edot",
    "context": "shir_shel_yom",
    "section": "סידור נוסח עדות המזרח, שחרית לימי החול, שיר של יום",
-   "from": 2,
+   "from": 1,
    "to": 21,
-   "coverage": 0.95,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 26",
+   "order": [
+    21,
+    26
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_26?lang=he",
    "status": "auto"
   },
@@ -1109,6 +1545,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Mincha, Tachanun 37",
+   "order": [
+    35,
+    37
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Mincha%2C_Tachanun_37?lang=he",
    "status": "auto"
   },
@@ -1121,6 +1561,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, L'David Hashem 5",
+   "order": [
+    22,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_L'David_Hashem_5?lang=he",
    "status": "auto"
   },
@@ -1129,11 +1573,31 @@
    "nusach": "edot",
    "context": "tikkun_chatzot",
    "section": "סידור נוסח עדות המזרח, סדר תיקון חצות, תיקון לאה",
-   "from": 2,
+   "from": 1,
    "to": 21,
-   "coverage": 0.95,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 9",
+   "order": [
+    5,
+    9
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_9?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 67,
+   "nusach": "ashkenaz",
+   "context": "festivals",
+   "section": "סידור אשכנז, ימי חול, מעריב, ספירת העומר",
+   "from": 1,
+   "to": 8,
+   "coverage": 0.88,
+   "ref": "Siddur Ashkenaz, Weekday, Maariv, Sefirat HaOmer 56",
+   "order": [
+    168,
+    56
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Sefirat_HaOmer_56?lang=he",
    "status": "auto"
   },
   {
@@ -1145,7 +1609,27 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Maariv, Sefirat HaOmer 9",
+   "order": [
+    207,
+    9
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Maariv%2C_Sefirat_HaOmer_9?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 67,
+   "nusach": "ashkenaz",
+   "context": "levana",
+   "section": "סידור אשכנז, ימי חול, מעריב, ברכת הלבנה",
+   "from": 1,
+   "to": 8,
+   "coverage": 0.88,
+   "ref": "Siddur Ashkenaz, Weekday, Maariv, Birkat HaLevana 17",
+   "order": [
+    172,
+    17
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Birkat_HaLevana_17?lang=he",
    "status": "auto"
   },
   {
@@ -1157,6 +1641,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Post Meal Blessing 3",
+   "order": [
+    52,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Post_Meal_Blessing_3?lang=he",
    "status": "auto"
   },
@@ -1169,6 +1657,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Counting of the Omer 153",
+   "order": [
+    34,
+    153
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Counting_of_the_Omer_153?lang=he",
    "status": "auto"
   },
@@ -1180,8 +1672,12 @@
    "from": 1,
    "to": 8,
    "coverage": 1.0,
-   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Hodu 15",
-   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_15?lang=he",
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Hodu 14",
+   "order": [
+    12,
+    14
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_14?lang=he",
    "status": "auto"
   },
   {
@@ -1193,6 +1689,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Mincha, Vidui 17",
+   "order": [
+    28,
+    17
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Vidui_17?lang=he",
    "status": "auto"
   },
@@ -1205,7 +1705,123 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 7",
+   "order": [
+    5,
+    7
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_7?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 67,
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, הגדה של פסח, נרצה",
+   "from": 1,
+   "to": 8,
+   "coverage": 0.88,
+   "ref": "Siddur Sefard, Pesach Haggadah, Nirtzah 15",
+   "order": [
+    165,
+    15
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Nirtzah_15?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 67,
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, חנוכה, סדר הדלקת נרות חנוכה",
+   "from": 1,
+   "to": 8,
+   "coverage": 0.88,
+   "ref": "Siddur Sefard, Chanukah, Menorah Lighting 26",
+   "order": [
+    182,
+    26
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_26?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 67,
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, ערבית לימות החול, ספירת העומר",
+   "from": 1,
+   "to": 8,
+   "coverage": 0.88,
+   "ref": "Siddur Sefard, Weekday Maariv, Sefirat HaOmer 55",
+   "order": [
+    40,
+    55
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Sefirat_HaOmer_55?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 67,
+   "nusach": "sefard",
+   "context": "levana",
+   "section": "סידור ספרד, קידוש לבנה",
+   "from": 1,
+   "to": 8,
+   "coverage": 0.88,
+   "ref": "Siddur Sefard, Kiddush Levanah 20",
+   "order": [
+    41,
+    20
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kiddush_Levanah_20?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 67,
+   "nusach": "sefard",
+   "context": "life",
+   "section": "סידור ספרד, תוספות אחרי שחרית, בקשות לאחר התפילה",
+   "from": 1,
+   "to": 8,
+   "coverage": 0.88,
+   "ref": "Siddur Sefard, Additional Prayers , Supplications After Prayers 4",
+   "order": [
+    30,
+    4
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Additional_Prayers_%2C_Supplications_After_Prayers_4?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 67,
+   "nusach": "sefard",
+   "context": "other",
+   "section": "סידור ספרד, שמחת תורה, הקפות לשמחת תורה",
+   "from": 1,
+   "to": 8,
+   "coverage": 1.0,
+   "ref": "Siddur Sefard, Simchat Torah, Hakafot 11",
+   "order": [
+    171,
+    11
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Simchat_Torah%2C_Hakafot_11?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 67,
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית לימות החול, הודו",
+   "from": 1,
+   "to": 8,
+   "coverage": 0.88,
+   "ref": "Siddur Sefard, Weekday Shacharit, Hodu 11",
+   "order": [
+    10,
+    11
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_11?lang=he",
    "status": "auto"
   },
   {
@@ -1213,10 +1829,14 @@
    "nusach": "edot",
    "context": "festivals",
    "section": "סידור נוסח עדות המזרח, תפילה לשלש רגלים, מזמור לשבועות",
-   "from": 2,
+   "from": 1,
    "to": 36,
-   "coverage": 0.97,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Prayers for Three Festivals, Song for Shavuot 2",
+   "order": [
+    94,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Song_for_Shavuot_2?lang=he",
    "status": "auto"
   },
@@ -1229,6 +1849,10 @@
    "to": 17,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Song of the Day 11",
+   "order": [
+    86,
+    11
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Song_of_the_Day_11?lang=he",
    "status": "auto"
   },
@@ -1241,6 +1865,10 @@
    "to": 17,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 12",
+   "order": [
+    21,
+    12
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_12?lang=he",
    "status": "auto"
   },
@@ -1253,6 +1881,10 @@
    "to": 17,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Song of the Day 32",
+   "order": [
+    132,
+    32
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Song_of_the_Day_32?lang=he",
    "status": "auto"
   },
@@ -1265,6 +1897,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Song of the Day 10",
+   "order": [
+    96,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_Song_of_the_Day_10?lang=he",
    "status": "auto"
   },
@@ -1277,6 +1913,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Song of the Day 7",
+   "order": [
+    86,
+    7
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Song_of_the_Day_7?lang=he",
    "status": "auto"
   },
@@ -1289,6 +1929,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 8",
+   "order": [
+    21,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_8?lang=he",
    "status": "auto"
   },
@@ -1301,6 +1945,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Song of the Day 18",
+   "order": [
+    132,
+    18
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Song_of_the_Day_18?lang=he",
    "status": "auto"
   },
@@ -1313,7 +1961,27 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Song of the Day 12",
+   "order": [
+    20,
+    12
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Song_of_the_Day_12?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 83,
+   "nusach": "edot",
+   "context": "shir_shel_yom",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, שיר של יום",
+   "from": 1,
+   "to": 19,
+   "coverage": 0.95,
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 16",
+   "order": [
+    21,
+    16
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_16?lang=he",
    "status": "auto"
   },
   {
@@ -1325,6 +1993,10 @@
    "to": 13,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Mincha, Offerings 3",
+   "order": [
+    73,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Mincha%2C_Offerings_3?lang=he",
    "status": "auto"
   },
@@ -1337,6 +2009,10 @@
    "to": 13,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Mincha, Offerings 3",
+   "order": [
+    26,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Offerings_3?lang=he",
    "status": "auto"
   },
@@ -1345,11 +2021,31 @@
    "nusach": "edot",
    "context": "shir_shel_yom",
    "section": "סידור נוסח עדות המזרח, שחרית לימי החול, שיר של יום",
-   "from": 2,
+   "from": 1,
    "to": 14,
-   "coverage": 0.93,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 18",
+   "order": [
+    21,
+    18
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_18?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 86,
+   "nusach": "edot",
+   "context": "weekday",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, בית יעקב",
+   "from": 1,
+   "to": 17,
+   "coverage": 0.94,
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Beit Yaakov 3",
+   "order": [
+    20,
+    3
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Beit_Yaakov_3?lang=he",
    "status": "auto"
   },
   {
@@ -1361,6 +2057,10 @@
    "to": 17,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Beit Yaakov 2",
+   "order": [
+    19,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Beit_Yaakov_2?lang=he",
    "status": "auto"
   },
@@ -1373,6 +2073,10 @@
    "to": 17,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 90 1",
+   "order": [
+    252,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_90_1?lang=he",
    "status": "auto"
   },
@@ -1385,6 +2089,10 @@
    "to": 17,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 6",
+   "order": [
+    55,
+    6
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_6?lang=he",
    "status": "auto"
   },
@@ -1397,6 +2105,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Maariv, Keri'at Shema al Hamita 11",
+   "order": [
+    173,
+    11
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Keri'at_Shema_al_Hamita_11?lang=he",
    "status": "auto"
   },
@@ -1409,6 +2121,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Maariv, Additions for Motza'ei Shabbat, Viyehi Noam 2",
+   "order": [
+    166,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Additions_for_Motza'ei_Shabbat%2C_Viyehi_Noam_2?lang=he",
    "status": "auto"
   },
@@ -1421,6 +2137,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 91 1",
+   "order": [
+    253,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_91_1?lang=he",
    "status": "auto"
   },
@@ -1433,6 +2153,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 7",
+   "order": [
+    55,
+    7
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_7?lang=he",
    "status": "auto"
   },
@@ -1445,6 +2169,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Arvit, Amidah 59",
+   "order": [
+    32,
+    59
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Arvit%2C_Amidah_59?lang=he",
    "status": "auto"
   },
@@ -1457,6 +2185,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Bedtime Shema 10",
+   "order": [
+    42,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Bedtime_Shema_10?lang=he",
    "status": "auto"
   },
@@ -1469,6 +2201,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Chanukah, Menorah Lighting 25",
+   "order": [
+    182,
+    25
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_25?lang=he",
    "status": "auto"
   },
@@ -1481,6 +2217,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Maariv, Motzaei Shabbat 5",
+   "order": [
+    39,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Motzaei_Shabbat_5?lang=he",
    "status": "auto"
   },
@@ -1493,6 +2233,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 16",
+   "order": [
+    101,
+    16
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_16?lang=he",
    "status": "auto"
   },
@@ -1505,6 +2249,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 92 1",
+   "order": [
+    183,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_92_1?lang=he",
    "status": "auto"
   },
@@ -1513,11 +2261,15 @@
    "nusach": "ashkenaz",
    "context": "pesukei",
    "section": "סידור אשכנז, שבת, מוסף לשבת, מזמור שיר ליום השבת",
-   "from": 2,
+   "from": 1,
    "to": 16,
-   "coverage": 0.94,
-   "ref": "Siddur Ashkenaz, Shabbat, Musaf LeShabbat, Mizmor Shir L'Yom HaShabbat 2",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Musaf_LeShabbat%2C_Mizmor_Shir_L'Yom_HaShabbat_2?lang=he",
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Shabbat, Musaf LeShabbat, Mizmor Shir L'Yom HaShabbat 1",
+   "order": [
+    334,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Musaf_LeShabbat%2C_Mizmor_Shir_L'Yom_HaShabbat_1?lang=he",
    "status": "auto"
   },
   {
@@ -1529,7 +2281,59 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 92 1",
+   "order": [
+    257,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_92_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 92,
+   "nusach": "edot",
+   "context": "kabbalat_shabbat",
+   "section": "סידור נוסח עדות המזרח, קבלת שבת",
+   "from": 1,
+   "to": 16,
+   "coverage": 0.94,
+   "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 25",
+   "order": [
+    39,
+    25
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_25?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 92,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
+   "from": 1,
+   "to": 16,
+   "coverage": 0.94,
+   "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 3",
+   "order": [
+    56,
+    3
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_3?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 92,
+   "nusach": "edot",
+   "context": "shabbat",
+   "section": "סידור נוסח עדות המזרח, מנחה של שבת, ובא לציון גואל",
+   "from": 1,
+   "to": 16,
+   "coverage": 0.94,
+   "ref": "Siddur Edot HaMizrach, Shabbat Mincha, Uva LeSion 18",
+   "order": [
+    74,
+    18
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Mincha%2C_Uva_LeSion_18?lang=he",
    "status": "auto"
   },
   {
@@ -1541,6 +2345,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Yotzerot, Parashat HaChodesh 78",
+   "order": [
+    178,
+    78
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_HaChodesh_78?lang=he",
    "status": "auto"
   },
@@ -1553,6 +2361,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Yotzerot, Parashat Zachor 71",
+   "order": [
+    176,
+    71
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_Zachor_71?lang=he",
    "status": "auto"
   },
@@ -1565,6 +2377,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Yotzerot, Parashat Parah 67",
+   "order": [
+    177,
+    67
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_Parah_67?lang=he",
    "status": "auto"
   },
@@ -1577,6 +2393,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Yotzerot, Parashat Sekalim 84",
+   "order": [
+    174,
+    84
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_Sekalim_84?lang=he",
    "status": "auto"
   },
@@ -1588,8 +2408,12 @@
    "from": 1,
    "to": 16,
    "coverage": 1.0,
-   "ref": "Siddur Sefard, Yotzerot, Shabbat HaGadol 90",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Shabbat_HaGadol_90?lang=he",
+   "ref": "Siddur Sefard, Yotzerot, Shabbat HaGadol 47",
+   "order": [
+    180,
+    47
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Shabbat_HaGadol_47?lang=he",
    "status": "auto"
   },
   {
@@ -1601,6 +2425,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Kabbalat Shabbat 40",
+   "order": [
+    90,
+    40
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_40?lang=he",
    "status": "auto"
   },
@@ -1613,6 +2441,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 73",
+   "order": [
+    101,
+    73
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_73?lang=he",
    "status": "auto"
   },
@@ -1625,6 +2457,10 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Evening Meal, Zemirot 94",
+   "order": [
+    100,
+    94
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Evening_Meal%2C_Zemirot_94?lang=he",
    "status": "auto"
   },
@@ -1637,7 +2473,27 @@
    "to": 16,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Amidah 63",
+   "order": [
+    103,
+    63
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Amidah_63?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 93,
+   "nusach": "ashkenaz",
+   "context": "kabbalat_shabbat",
+   "section": "סידור אשכנז, שבת, קבלת שבת",
+   "from": 1,
+   "to": 5,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 93",
+   "order": [
+    184,
+    0
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_93?lang=he",
    "status": "auto"
   },
   {
@@ -1649,6 +2505,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 93 1",
+   "order": [
+    258,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_93_1?lang=he",
    "status": "auto"
   },
@@ -1658,9 +2518,13 @@
    "context": "kabbalat_shabbat",
    "section": "סידור נוסח עדות המזרח, קבלת שבת",
    "from": 1,
-   "to": 3,
-   "coverage": 0.6,
+   "to": 5,
+   "coverage": 0.8,
    "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 26",
+   "order": [
+    39,
+    26
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_26?lang=he",
    "status": "auto"
   },
@@ -1670,9 +2534,13 @@
    "context": "pesukei",
    "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
    "from": 1,
-   "to": 3,
-   "coverage": 0.6,
+   "to": 5,
+   "coverage": 0.8,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 4",
+   "order": [
+    56,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_4?lang=he",
    "status": "auto"
   },
@@ -1682,9 +2550,13 @@
    "context": "selichot",
    "section": "סידור נוסח עדות המזרח, מנחה לימי החול, וידוי",
    "from": 1,
-   "to": 3,
-   "coverage": 0.6,
+   "to": 5,
+   "coverage": 0.8,
    "ref": "Siddur Edot HaMizrach, Weekday Mincha, Vidui 19",
+   "order": [
+    28,
+    19
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Vidui_19?lang=he",
    "status": "auto"
   },
@@ -1694,9 +2566,13 @@
    "context": "shir_shel_yom",
    "section": "סידור נוסח עדות המזרח, סדר ראש חודש, שיר של יום",
    "from": 1,
-   "to": 3,
-   "coverage": 0.6,
+   "to": 5,
+   "coverage": 0.8,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Song of the Day 13",
+   "order": [
+    86,
+    13
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Song_of_the_Day_13?lang=he",
    "status": "auto"
   },
@@ -1706,9 +2582,13 @@
    "context": "shir_shel_yom",
    "section": "סידור נוסח עדות המזרח, שחרית לימי החול, שיר של יום",
    "from": 1,
-   "to": 3,
-   "coverage": 0.6,
+   "to": 5,
+   "coverage": 0.8,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 14",
+   "order": [
+    21,
+    14
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_14?lang=he",
    "status": "auto"
   },
@@ -1721,6 +2601,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Song of the Day 39",
+   "order": [
+    132,
+    39
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Song_of_the_Day_39?lang=he",
    "status": "auto"
   },
@@ -1733,6 +2617,10 @@
    "to": 23,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Song of the Day 13",
+   "order": [
+    96,
+    13
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_Song_of_the_Day_13?lang=he",
    "status": "auto"
   },
@@ -1745,6 +2633,10 @@
    "to": 23,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Song of the Day 9",
+   "order": [
+    86,
+    9
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Song_of_the_Day_9?lang=he",
    "status": "auto"
   },
@@ -1757,6 +2649,10 @@
    "to": 23,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Song of the Day 10",
+   "order": [
+    21,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Song_of_the_Day_10?lang=he",
    "status": "auto"
   },
@@ -1769,6 +2665,10 @@
    "to": 23,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Song of the Day 25",
+   "order": [
+    132,
+    25
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Song_of_the_Day_25?lang=he",
    "status": "auto"
   },
@@ -1780,8 +2680,28 @@
    "from": 1,
    "to": 11,
    "coverage": 1.0,
-   "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 95 2",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_95_2?lang=he",
+   "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 95 1",
+   "order": [
+    175,
+    0
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_95_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 95,
+   "nusach": "edot",
+   "context": "kabbalat_shabbat",
+   "section": "סידור נוסח עדות המזרח, קבלת שבת",
+   "from": 1,
+   "to": 11,
+   "coverage": 0.91,
+   "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 2",
+   "order": [
+    39,
+    2
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_2?lang=he",
    "status": "auto"
   },
   {
@@ -1793,7 +2713,59 @@
    "to": 11,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Kabbalat Shabbat 1",
+   "order": [
+    90,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 96,
+   "nusach": "ashkenaz",
+   "context": "kabbalat_shabbat",
+   "section": "סידור אשכנז, שבת, קבלת שבת",
+   "from": 1,
+   "to": 13,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 96 1",
+   "order": [
+    176,
+    0
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_96_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 96,
+   "nusach": "edot",
+   "context": "kabbalat_shabbat",
+   "section": "סידור נוסח עדות המזרח, קבלת שבת",
+   "from": 1,
+   "to": 13,
+   "coverage": 0.69,
+   "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 3",
+   "order": [
+    39,
+    3
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_3?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 96,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, הודו",
+   "from": 2,
+   "to": 12,
+   "coverage": 0.62,
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Hodu 3",
+   "order": [
+    12,
+    3
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_3?lang=he",
    "status": "auto"
   },
   {
@@ -1805,6 +2777,10 @@
    "to": 12,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 97 1",
+   "order": [
+    177,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_97_1?lang=he",
    "status": "auto"
   },
@@ -1817,6 +2793,10 @@
    "to": 11,
    "coverage": 0.92,
    "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 4",
+   "order": [
+    39,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_4?lang=he",
    "status": "auto"
   },
@@ -1829,6 +2809,10 @@
    "to": 12,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Kabbalat Shabbat 3",
+   "order": [
+    90,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_3?lang=he",
    "status": "auto"
   },
@@ -1841,6 +2825,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 98 1",
+   "order": [
+    178,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_98_1?lang=he",
    "status": "auto"
   },
@@ -1853,6 +2841,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Kabbalat Shabbat 4",
+   "order": [
+    90,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_4?lang=he",
    "status": "auto"
   },
@@ -1865,6 +2857,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 17",
+   "order": [
+    101,
+    17
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_17?lang=he",
    "status": "auto"
   },
@@ -1877,6 +2873,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Kabbalat Shabbat, Psalm 99 1",
+   "order": [
+    179,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Kabbalat_Shabbat%2C_Psalm_99_1?lang=he",
    "status": "auto"
   },
@@ -1889,6 +2889,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 6",
+   "order": [
+    39,
+    6
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_6?lang=he",
    "status": "auto"
   },
@@ -1901,6 +2905,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Kabbalat Shabbat 5",
+   "order": [
+    90,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_5?lang=he",
    "status": "auto"
   },
@@ -1912,8 +2920,12 @@
    "from": 1,
    "to": 5,
    "coverage": 1.0,
-   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Mizmor Letoda 2",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Mizmor_Letoda_2?lang=he",
+   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Mizmor Letoda 1",
+   "order": [
+    27,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Mizmor_Letoda_1?lang=he",
    "status": "auto"
   },
   {
@@ -1925,6 +2937,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Kabbalat Shabbat 7",
+   "order": [
+    39,
+    7
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_7?lang=he",
    "status": "auto"
   },
@@ -1937,6 +2953,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 3",
+   "order": [
+    13,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_3?lang=he",
    "status": "auto"
   },
@@ -1949,6 +2969,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Kabbalat Shabbat 6",
+   "order": [
+    90,
+    6
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kabbalat_Shabbat_6?lang=he",
    "status": "auto"
   },
@@ -1961,6 +2985,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Hodu 15",
+   "order": [
+    10,
+    15
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_15?lang=he",
    "status": "auto"
   },
@@ -1973,6 +3001,10 @@
    "to": 29,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Festivals, Selichot, Yom Kippur Katan 1",
+   "order": [
+    437,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Selichot%2C_Yom_Kippur_Katan_1?lang=he",
    "status": "auto"
   },
@@ -1981,10 +3013,14 @@
    "nusach": "edot",
    "context": "selichot",
    "section": "סידור נוסח עדות המזרח, מנחה לימי החול, וידוי",
-   "from": 5,
+   "from": 1,
    "to": 29,
-   "coverage": 0.86,
+   "coverage": 0.97,
    "ref": "Siddur Edot HaMizrach, Weekday Mincha, Vidui 21",
+   "order": [
+    28,
+    21
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Vidui_21?lang=he",
    "status": "auto"
   },
@@ -1997,7 +3033,43 @@
    "to": 29,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Fast Days, Yom Kippur Katan 3",
+   "order": [
+    190,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Fast_Days%2C_Yom_Kippur_Katan_3?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 104,
+   "nusach": "ashkenaz",
+   "context": "rosh_chodesh",
+   "section": "סידור אשכנז, ימי חול, תפילת שחרית, סיום תפילה, ברכי נפשי",
+   "from": 1,
+   "to": 35,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Barchi Nafshi 1",
+   "order": [
+    97,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_Barchi_Nafshi_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 104,
+   "nusach": "ashkenaz",
+   "context": "rosh_chodesh",
+   "section": "סידור אשכנז, שבת, מנחה, ברכי נפשי",
+   "from": 1,
+   "to": 35,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Shabbat, Minchah, Barchi Nafshi 1",
+   "order": [
+    375,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Minchah%2C_Barchi_Nafshi_1?lang=he",
    "status": "auto"
   },
   {
@@ -2006,9 +3078,13 @@
    "context": "rosh_chodesh",
    "section": "סידור נוסח עדות המזרח, סדר ראש חודש, ברכי נפשי",
    "from": 1,
-   "to": 26,
-   "coverage": 0.74,
+   "to": 35,
+   "coverage": 0.97,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Barchi Nafshi 3",
+   "order": [
+    88,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Barchi_Nafshi_3?lang=he",
    "status": "auto"
   },
@@ -2018,9 +3094,13 @@
    "context": "weekday",
    "section": "סידור נוסח עדות המזרח, ערבית לימי החול, ברכו",
    "from": 1,
-   "to": 26,
-   "coverage": 0.74,
+   "to": 35,
+   "coverage": 0.97,
    "ref": "Siddur Edot HaMizrach, Weekday Arvit, Barchu 3",
+   "order": [
+    30,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Arvit%2C_Barchu_3?lang=he",
    "status": "auto"
   },
@@ -2033,6 +3113,10 @@
    "to": 35,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Yotzerot, Parashat HaChodesh 83",
+   "order": [
+    178,
+    83
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_HaChodesh_83?lang=he",
    "status": "auto"
   },
@@ -2045,6 +3129,10 @@
    "to": 35,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Yotzerot, Parashat Sekalim 89",
+   "order": [
+    174,
+    89
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Parashat_Sekalim_89?lang=he",
    "status": "auto"
   },
@@ -2057,7 +3145,27 @@
    "to": 35,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Barchi Nafshi 3",
+   "order": [
+    133,
+    3
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Barchi_Nafshi_3?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 104,
+   "nusach": "sefard",
+   "context": "rosh_chodesh",
+   "section": "סידור ספרד, שחרית לימות החול, ברכי נפשי",
+   "from": 1,
+   "to": 35,
+   "coverage": 1.0,
+   "ref": "Siddur Sefard, Weekday Shacharit, Barchi Nafshi 1",
+   "order": [
+    21,
+    1
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Barchi_Nafshi_1?lang=he",
    "status": "auto"
   },
   {
@@ -2069,6 +3177,10 @@
    "to": 35,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 70",
+   "order": [
+    122,
+    70
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_70?lang=he",
    "status": "auto"
   },
@@ -2081,7 +3193,43 @@
    "to": 35,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Amidah 68",
+   "order": [
+    103,
+    68
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Amidah_68?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 107,
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, תפילה לשלש רגלים, מזמור לפסח",
+   "from": 1,
+   "to": 43,
+   "coverage": 0.84,
+   "ref": "Siddur Edot HaMizrach, Prayers for Three Festivals, Song for Passover 2",
+   "order": [
+    93,
+    2
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Song_for_Passover_2?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 107,
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, מנחה לערב שבת, מנחה לערב שבת",
+   "from": 1,
+   "to": 43,
+   "coverage": 0.88,
+   "ref": "Siddur Sefard, Shabbat Eve Mincha, Mincha 2",
+   "order": [
+    88,
+    2
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Eve_Mincha%2C_Mincha_2?lang=he",
    "status": "auto"
   },
   {
@@ -2093,6 +3241,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Mincha, Amida 45",
+   "order": [
+    75,
+    45
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Mincha%2C_Amida_45?lang=he",
    "status": "auto"
   },
@@ -2105,6 +3257,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 8",
+   "order": [
+    5,
+    8
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_8?lang=he",
    "status": "auto"
   },
@@ -2117,6 +3273,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Chanukah, Menorah Lighting 22",
+   "order": [
+    182,
+    22
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_22?lang=he",
    "status": "auto"
   },
@@ -2129,6 +3289,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Korbanot 54",
+   "order": [
+    121,
+    54
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Korbanot_54?lang=he",
    "status": "auto"
   },
@@ -2141,6 +3305,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Chanukah, Menorah Lighting 23",
+   "order": [
+    182,
+    23
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_23?lang=he",
    "status": "auto"
   },
@@ -2153,6 +3321,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Korbanot 55",
+   "order": [
+    121,
+    55
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Korbanot_55?lang=he",
    "status": "auto"
   },
@@ -2165,7 +3337,43 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Festivals, Rosh Chodesh, Hallel, Psalm 113 1",
+   "order": [
+    381,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_113_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 113,
+   "nusach": "edot",
+   "context": "hallel",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",
+   "from": 1,
+   "to": 9,
+   "coverage": 0.89,
+   "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Hallel 6",
+   "order": [
+    84,
+    6
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_6?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 113,
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, הגדה של פסח, מגיד",
+   "from": 3,
+   "to": 9,
+   "coverage": 0.67,
+   "ref": "Siddur Sefard, Pesach Haggadah, Maggid 89",
+   "order": [
+    156,
+    89
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Maggid_89?lang=he",
    "status": "auto"
   },
   {
@@ -2177,6 +3385,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Hallel 4",
+   "order": [
+    131,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_4?lang=he",
    "status": "auto"
   },
@@ -2189,6 +3401,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Festivals, Rosh Chodesh, Hallel, Psalm 114 1",
+   "order": [
+    382,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_114_1?lang=he",
    "status": "auto"
   },
@@ -2201,6 +3417,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Prayers for Three Festivals, Amidah 64",
+   "order": [
+    97,
+    64
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Amidah_64?lang=he",
    "status": "auto"
   },
@@ -2213,6 +3433,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Hallel 7",
+   "order": [
+    84,
+    7
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_7?lang=he",
    "status": "auto"
   },
@@ -2225,6 +3449,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Pesach Haggadah, Maggid 90",
+   "order": [
+    156,
+    90
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Maggid_90?lang=he",
    "status": "auto"
   },
@@ -2237,6 +3465,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Hallel 5",
+   "order": [
+    131,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_5?lang=he",
    "status": "auto"
   },
@@ -2246,10 +3478,30 @@
    "context": "hallel",
    "section": "סידור אשכנז, חגים, ראש חודש, הלל",
    "from": 1,
-   "to": 11,
-   "coverage": 0.61,
+   "to": 18,
+   "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Festivals, Rosh Chodesh, Hallel, Psalm 115 1",
+   "order": [
+    383,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_115_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 115,
+   "nusach": "edot",
+   "context": "hallel",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",
+   "from": 1,
+   "to": 18,
+   "coverage": 0.78,
+   "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Hallel 9",
+   "order": [
+    84,
+    9
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_9?lang=he",
    "status": "auto"
   },
   {
@@ -2258,9 +3510,13 @@
    "context": "hallel",
    "section": "סידור ספרד, הגדה של פסח, הלל",
    "from": 1,
-   "to": 11,
-   "coverage": 0.61,
+   "to": 18,
+   "coverage": 1.0,
    "ref": "Siddur Sefard, Pesach Haggadah, Hallel 2",
+   "order": [
+    164,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Hallel_2?lang=he",
    "status": "auto"
   },
@@ -2270,10 +3526,94 @@
    "context": "hallel",
    "section": "סידור ספרד, לראש חודש, סדר הלל",
    "from": 1,
-   "to": 11,
-   "coverage": 0.61,
+   "to": 18,
+   "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Hallel 7",
+   "order": [
+    131,
+    7
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_7?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 116,
+   "nusach": "ashkenaz",
+   "context": "hallel",
+   "section": "סידור אשכנז, חגים, ראש חודש, הלל",
+   "from": 1,
+   "to": 19,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Festivals, Rosh Chodesh, Hallel, Psalm 116",
+   "order": [
+    384,
+    0
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_116?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 116,
+   "nusach": "edot",
+   "context": "hallel",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",
+   "from": 1,
+   "to": 19,
+   "coverage": 0.89,
+   "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Hallel 12",
+   "order": [
+    84,
+    12
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_12?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 116,
+   "nusach": "sefard",
+   "context": "hallel",
+   "section": "סידור ספרד, הגדה של פסח, הלל",
+   "from": 1,
+   "to": 19,
+   "coverage": 0.95,
+   "ref": "Siddur Sefard, Pesach Haggadah, Hallel 4",
+   "order": [
+    164,
+    4
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Hallel_4?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 116,
+   "nusach": "sefard",
+   "context": "hallel",
+   "section": "סידור ספרד, לראש חודש, סדר הלל",
+   "from": 1,
+   "to": 19,
+   "coverage": 0.95,
+   "ref": "Siddur Sefard, Rosh Chodesh, Hallel 10",
+   "order": [
+    131,
+    10
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_10?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 117,
+   "nusach": "ashkenaz",
+   "context": "hallel",
+   "section": "סידור אשכנז, חגים, ראש חודש, הלל",
+   "from": 1,
+   "to": 2,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Festivals, Rosh Chodesh, Hallel, Psalm 117",
+   "order": [
+    385,
+    0
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_117?lang=he",
    "status": "auto"
   },
   {
@@ -2285,6 +3625,10 @@
    "to": 2,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Hallel 14",
+   "order": [
+    84,
+    14
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_14?lang=he",
    "status": "auto"
   },
@@ -2297,6 +3641,10 @@
    "to": 2,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Pesach Haggadah, Hallel 6",
+   "order": [
+    164,
+    6
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Hallel_6?lang=he",
    "status": "auto"
   },
@@ -2309,6 +3657,10 @@
    "to": 2,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Hallel 12",
+   "order": [
+    131,
+    12
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_12?lang=he",
    "status": "auto"
   },
@@ -2317,11 +3669,47 @@
    "nusach": "ashkenaz",
    "context": "hallel",
    "section": "סידור אשכנז, חגים, ראש חודש, הלל",
-   "from": 5,
-   "to": 24,
-   "coverage": 0.69,
-   "ref": "Siddur Ashkenaz, Festivals, Rosh Chodesh, Hallel, Psalm 118 8",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_118_8?lang=he",
+   "from": 1,
+   "to": 29,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Festivals, Rosh Chodesh, Hallel, Psalm 118 4",
+   "order": [
+    386,
+    0
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_118_4?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 118,
+   "nusach": "edot",
+   "context": "hallel",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",
+   "from": 1,
+   "to": 28,
+   "coverage": 0.93,
+   "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Hallel 15",
+   "order": [
+    84,
+    15
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_15?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 118,
+   "nusach": "sefard",
+   "context": "hallel",
+   "section": "סידור ספרד, הגדה של פסח, הלל",
+   "from": 2,
+   "to": 28,
+   "coverage": 0.93,
+   "ref": "Siddur Sefard, Pesach Haggadah, Hallel 10",
+   "order": [
+    164,
+    10
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Hallel_10?lang=he",
    "status": "auto"
   },
   {
@@ -2329,11 +3717,15 @@
    "nusach": "sefard",
    "context": "hallel",
    "section": "סידור ספרד, לראש חודש, סדר הלל",
-   "from": 5,
-   "to": 24,
-   "coverage": 0.69,
-   "ref": "Siddur Sefard, Rosh Chodesh, Hallel 21",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_21?lang=he",
+   "from": 2,
+   "to": 28,
+   "coverage": 0.93,
+   "ref": "Siddur Sefard, Rosh Chodesh, Hallel 14",
+   "order": [
+    131,
+    14
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Hallel_14?lang=he",
    "status": "auto"
   },
   {
@@ -2345,6 +3737,10 @@
    "to": 7,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 71",
+   "order": [
+    122,
+    71
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_71?lang=he",
    "status": "auto"
   },
@@ -2353,10 +3749,14 @@
    "nusach": "edot",
    "context": "levana",
    "section": "סידור נוסח עדות המזרח, ברכת הלבנה",
-   "from": 3,
+   "from": 1,
    "to": 8,
-   "coverage": 0.75,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Blessing of the Moon 17",
+   "order": [
+    35,
+    17
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon_17?lang=he",
    "status": "auto"
   },
@@ -2369,6 +3769,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Havdalah, Veyiten Lecha 20",
+   "order": [
+    81,
+    20
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Havdalah%2C_Veyiten_Lecha_20?lang=he",
    "status": "auto"
   },
@@ -2377,10 +3781,14 @@
    "nusach": "edot",
    "context": "pesukei",
    "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
-   "from": 3,
+   "from": 1,
    "to": 8,
-   "coverage": 0.75,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 10",
+   "order": [
+    55,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_10?lang=he",
    "status": "auto"
   },
@@ -2389,10 +3797,14 @@
    "nusach": "edot",
    "context": "weekday",
    "section": "סידור נוסח עדות המזרח, ערבית לימי החול, עמידה",
-   "from": 3,
+   "from": 1,
    "to": 8,
-   "coverage": 0.75,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Arvit, Amidah 67",
+   "order": [
+    32,
+    67
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Arvit%2C_Amidah_67?lang=he",
    "status": "auto"
   },
@@ -2405,6 +3817,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Kiddush Levanah 17",
+   "order": [
+    41,
+    17
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kiddush_Levanah_17?lang=he",
    "status": "auto"
   },
@@ -2417,6 +3833,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Blessings, Traveler's Prayer 20",
+   "order": [
+    83,
+    20
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Blessings%2C_Traveler's_Prayer_20?lang=he",
    "status": "auto"
   },
@@ -2429,6 +3849,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Motzaei Shabbat , Melava Malka Zemirot 81",
+   "order": [
+    129,
+    81
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Motzaei_Shabbat_%2C_Melava_Malka_Zemirot_81?lang=he",
    "status": "auto"
   },
@@ -2441,6 +3865,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 18",
+   "order": [
+    101,
+    18
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_18?lang=he",
    "status": "auto"
   },
@@ -2453,6 +3881,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 72",
+   "order": [
+    122,
+    72
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_72?lang=he",
    "status": "auto"
   },
@@ -2465,6 +3897,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Maariv, Amidah 105",
+   "order": [
+    38,
+    105
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Amidah_105?lang=he",
    "status": "auto"
   },
@@ -2477,6 +3913,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Nissan, Learning of the Day 12",
+   "order": [
+    105,
+    12
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Nissan%2C_Learning_of_the_Day_12?lang=he",
    "status": "auto"
   },
@@ -2489,6 +3929,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Prayers for Three Festivals, Amidah 66",
+   "order": [
+    97,
+    66
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Amidah_66?lang=he",
    "status": "auto"
   },
@@ -2501,6 +3945,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 11",
+   "order": [
+    55,
+    11
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_11?lang=he",
    "status": "auto"
   },
@@ -2513,6 +3961,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 19",
+   "order": [
+    101,
+    19
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_19?lang=he",
    "status": "auto"
   },
@@ -2525,6 +3977,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 73",
+   "order": [
+    122,
+    73
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_73?lang=he",
    "status": "auto"
   },
@@ -2537,6 +3993,10 @@
    "to": 4,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 12",
+   "order": [
+    55,
+    12
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_12?lang=he",
    "status": "auto"
   },
@@ -2549,6 +4009,10 @@
    "to": 4,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 20",
+   "order": [
+    101,
+    20
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_20?lang=he",
    "status": "auto"
   },
@@ -2561,6 +4025,10 @@
    "to": 4,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 74",
+   "order": [
+    122,
+    74
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_74?lang=he",
    "status": "auto"
   },
@@ -2573,6 +4041,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 13",
+   "order": [
+    55,
+    13
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_13?lang=he",
    "status": "auto"
   },
@@ -2585,6 +4057,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Uva LeSion 5",
+   "order": [
+    85,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Uva_LeSion_5?lang=he",
    "status": "auto"
   },
@@ -2596,8 +4072,12 @@
    "from": 1,
    "to": 8,
    "coverage": 1.0,
-   "ref": "Siddur Edot HaMizrach, Fast Days and Mourning, Fast of Esther 10",
-   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Fast_Days_and_Mourning%2C_Fast_of_Esther_10?lang=he",
+   "ref": "Siddur Edot HaMizrach, Fast Days and Mourning, Fast of Esther 9",
+   "order": [
+    121,
+    9
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Fast_Days_and_Mourning%2C_Fast_of_Esther_9?lang=he",
    "status": "auto"
   },
   {
@@ -2609,6 +4089,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Beit Yaakov 5",
+   "order": [
+    20,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Beit_Yaakov_5?lang=he",
    "status": "auto"
   },
@@ -2621,6 +4105,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 21",
+   "order": [
+    101,
+    21
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_21?lang=he",
    "status": "auto"
   },
@@ -2633,6 +4121,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Returning Sefer Torah 4",
+   "order": [
+    136,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Returning_Sefer_Torah_4?lang=he",
    "status": "auto"
   },
@@ -2645,6 +4137,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 75",
+   "order": [
+    122,
+    75
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_75?lang=he",
    "status": "auto"
   },
@@ -2657,6 +4153,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Beit Yaakov 4",
+   "order": [
+    19,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Beit_Yaakov_4?lang=he",
    "status": "auto"
   },
@@ -2669,6 +4169,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 76",
+   "order": [
+    122,
+    76
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_76?lang=he",
    "status": "auto"
   },
@@ -2681,6 +4185,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Berachot, Birkat HaMazon 4",
+   "order": [
+    439,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Berachot%2C_Birkat_HaMazon_4?lang=he",
    "status": "auto"
   },
@@ -2693,6 +4201,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Nissan, Blessing of the Trees 4",
+   "order": [
+    104,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Nissan%2C_Blessing_of_the_Trees_4?lang=he",
    "status": "auto"
   },
@@ -2705,6 +4217,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Leah 15",
+   "order": [
+    5,
+    15
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_15?lang=he",
    "status": "auto"
   },
@@ -2717,6 +4233,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Birchat HaMazon, Birchat HaMazon 4",
+   "order": [
+    60,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Birchat_HaMazon%2C_Birchat_HaMazon_4?lang=he",
    "status": "auto"
   },
@@ -2729,6 +4249,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Pesach Haggadah, Barech 4",
+   "order": [
+    163,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Barech_4?lang=he",
    "status": "auto"
   },
@@ -2741,6 +4265,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 77",
+   "order": [
+    122,
+    77
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_77?lang=he",
    "status": "auto"
   },
@@ -2753,6 +4281,10 @@
    "to": 5,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 78",
+   "order": [
+    122,
+    78
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_78?lang=he",
    "status": "auto"
   },
@@ -2765,6 +4297,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Maariv, Additions for Motza'ei Shabbat, Veyiten Lekha 10",
+   "order": [
+    167,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Additions_for_Motza'ei_Shabbat%2C_Veyiten_Lekha_10?lang=he",
    "status": "auto"
   },
@@ -2777,6 +4313,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Assorted Blessings and Prayers, Brit Mila 40",
+   "order": [
+    108,
+    40
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Assorted_Blessings_and_Prayers%2C_Brit_Mila_40?lang=he",
    "status": "auto"
   },
@@ -2789,6 +4329,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Various Prayers & Segulot, Prayer of the Shelah 11",
+   "order": [
+    210,
+    11
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Various_Prayers_&_Segulot%2C_Prayer_of_the_Shelah_11?lang=he",
    "status": "auto"
   },
@@ -2801,6 +4345,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Third Meal, Motzaei Shabbat Prayers 12",
+   "order": [
+    125,
+    12
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Third_Meal%2C_Motzaei_Shabbat_Prayers_12?lang=he",
    "status": "auto"
   },
@@ -2813,6 +4361,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 79",
+   "order": [
+    122,
+    79
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_79?lang=he",
    "status": "auto"
   },
@@ -2825,6 +4377,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 80",
+   "order": [
+    122,
+    80
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_80?lang=he",
    "status": "auto"
   },
@@ -2837,6 +4393,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 130 2",
+   "order": [
+    40,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_130_2?lang=he",
    "status": "auto"
   },
@@ -2849,6 +4409,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 130 1",
+   "order": [
+    272,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_130_1?lang=he",
    "status": "auto"
   },
@@ -2857,10 +4421,14 @@
    "nusach": "edot",
    "context": "pesukei",
    "section": "סידור נוסח עדות המזרח, שחרית לימי החול, פסוקי דזמרה",
-   "from": 2,
+   "from": 1,
    "to": 8,
-   "coverage": 0.88,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 21",
+   "order": [
+    13,
+    21
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_21?lang=he",
    "status": "auto"
   },
@@ -2869,10 +4437,14 @@
    "nusach": "edot",
    "context": "pesukei",
    "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
-   "from": 2,
+   "from": 1,
    "to": 8,
-   "coverage": 0.88,
+   "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 32",
+   "order": [
+    56,
+    32
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_32?lang=he",
    "status": "auto"
   },
@@ -2885,6 +4457,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Yishtabach 4",
+   "order": [
+    11,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Yishtabach_4?lang=he",
    "status": "auto"
   },
@@ -2897,6 +4473,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 100",
+   "order": [
+    101,
+    100
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_100?lang=he",
    "status": "auto"
   },
@@ -2909,6 +4489,10 @@
    "to": 8,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 81",
+   "order": [
+    122,
+    81
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_81?lang=he",
    "status": "auto"
   },
@@ -2921,6 +4505,10 @@
    "to": 3,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 82",
+   "order": [
+    122,
+    82
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_82?lang=he",
    "status": "auto"
   },
@@ -2933,6 +4521,10 @@
    "to": 18,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 83",
+   "order": [
+    122,
+    83
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_83?lang=he",
    "status": "auto"
   },
@@ -2945,6 +4537,10 @@
    "to": 3,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Chanukah, Menorah Lighting 37",
+   "order": [
+    182,
+    37
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_37?lang=he",
    "status": "auto"
   },
@@ -2957,6 +4553,10 @@
    "to": 3,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Third Meal, Zemirot 28",
+   "order": [
+    124,
+    28
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Third_Meal%2C_Zemirot_28?lang=he",
    "status": "auto"
   },
@@ -2969,7 +4569,27 @@
    "to": 3,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 84",
+   "order": [
+    122,
+    84
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_84?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 134,
+   "nusach": "ashkenaz",
+   "context": "selichot",
+   "section": "סידור אשכנז, חגים, סליחות, צום גדליה",
+   "from": 1,
+   "to": 2,
+   "coverage": 0.67,
+   "ref": "Siddur Ashkenaz, Festivals, Selichot, Fast of Gedalia 71",
+   "order": [
+    433,
+    71
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Selichot%2C_Fast_of_Gedalia_71?lang=he",
    "status": "auto"
   },
   {
@@ -2981,6 +4601,10 @@
    "to": 3,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Amidah 85",
+   "order": [
+    122,
+    85
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Amidah_85?lang=he",
    "status": "auto"
   },
@@ -2993,7 +4617,27 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 135 1",
+   "order": [
+    254,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_135_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 135,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
+   "from": 1,
+   "to": 20,
+   "coverage": 0.81,
+   "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 14",
+   "order": [
+    55,
+    14
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_14?lang=he",
    "status": "auto"
   },
   {
@@ -3005,6 +4649,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 22",
+   "order": [
+    101,
+    22
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_22?lang=he",
    "status": "auto"
   },
@@ -3017,7 +4665,59 @@
    "to": 26,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 136 1",
+   "order": [
+    255,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_136_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 136,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
+   "from": 1,
+   "to": 26,
+   "coverage": 1.0,
+   "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Psalms for Shabbat 15",
+   "order": [
+    55,
+    15
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_15?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 136,
+   "nusach": "sefard",
+   "context": "hallel",
+   "section": "סידור ספרד, הגדה של פסח, הלל",
+   "from": 2,
+   "to": 26,
+   "coverage": 0.96,
+   "ref": "Siddur Sefard, Pesach Haggadah, Hallel 38",
+   "order": [
+    164,
+    38
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Hallel_38?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 136,
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
+   "from": 2,
+   "to": 26,
+   "coverage": 0.96,
+   "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 24",
+   "order": [
+    101,
+    24
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_24?lang=he",
    "status": "auto"
   },
   {
@@ -3029,6 +4729,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Berachot, Birkat HaMazon 2",
+   "order": [
+    439,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Berachot%2C_Birkat_HaMazon_2?lang=he",
    "status": "auto"
   },
@@ -3041,6 +4745,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, The Midnight Rite, Tikkun Rachel 2",
+   "order": [
+    4,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Rachel_2?lang=he",
    "status": "auto"
   },
@@ -3053,6 +4761,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Birchat HaMazon, Birchat HaMazon 2",
+   "order": [
+    60,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Birchat_HaMazon%2C_Birchat_HaMazon_2?lang=he",
    "status": "auto"
   },
@@ -3065,6 +4777,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Minchah, Ashrei 1",
+   "order": [
+    106,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Minchah%2C_Ashrei_1?lang=he",
    "status": "auto"
   },
@@ -3077,6 +4793,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Concluding Prayers, Ashrei 1",
+   "order": [
+    90,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_Ashrei_1?lang=he",
    "status": "auto"
   },
@@ -3089,6 +4809,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Ashrei 2",
+   "order": [
+    29,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Ashrei_2?lang=he",
    "status": "auto"
   },
@@ -3101,6 +4825,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Minchah, Ashrei 1",
+   "order": [
+    345,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Minchah%2C_Ashrei_1?lang=he",
    "status": "auto"
   },
@@ -3113,6 +4841,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Ashrei 1",
+   "order": [
+    313,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Ashrei_1?lang=he",
    "status": "auto"
   },
@@ -3125,7 +4857,139 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Ashrei 1",
+   "order": [
+    260,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Ashrei_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "ashkenaz",
+   "context": "selichot",
+   "section": "סידור אשכנז, חגים, סליחות, צום גדליה",
+   "from": 1,
+   "to": 21,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Festivals, Selichot, Fast of Gedalia 7",
+   "order": [
+    433,
+    7
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Selichot%2C_Fast_of_Gedalia_7?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "edot",
+   "context": "ashrei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, אשרי",
+   "from": 1,
+   "to": 21,
+   "coverage": 0.95,
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Ashrei 4",
+   "order": [
+    18,
+    4
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Ashrei_4?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "edot",
+   "context": "ashrei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, אשרי",
+   "from": 1,
+   "to": 21,
+   "coverage": 0.95,
+   "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Ashrei 4",
+   "order": [
+    67,
+    4
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Ashrei_4?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "edot",
+   "context": "hallel",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",
+   "from": 1,
+   "to": 21,
+   "coverage": 0.95,
+   "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Hallel 25",
+   "order": [
+    84,
+    25
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_25?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, פסוקי דזמרה",
+   "from": 1,
+   "to": 21,
+   "coverage": 0.95,
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 7",
+   "order": [
+    13,
+    7
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_7?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
+   "from": 1,
+   "to": 21,
+   "coverage": 0.95,
+   "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 7",
+   "order": [
+    56,
+    7
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_7?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "edot",
+   "context": "shabbat",
+   "section": "סידור נוסח עדות המזרח, מנחה של שבת, קרבנות",
+   "from": 1,
+   "to": 21,
+   "coverage": 0.95,
+   "ref": "Siddur Edot HaMizrach, Shabbat Mincha, Offerings 13",
+   "order": [
+    73,
+    13
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Mincha%2C_Offerings_13?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "edot",
+   "context": "weekday",
+   "section": "סידור נוסח עדות המזרח, מנחה לימי החול, קרבנות",
+   "from": 1,
+   "to": 21,
+   "coverage": 0.95,
+   "ref": "Siddur Edot HaMizrach, Weekday Mincha, Offerings 13",
+   "order": [
+    26,
+    13
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Mincha%2C_Offerings_13?lang=he",
    "status": "auto"
   },
   {
@@ -3137,6 +5001,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Ashrei 1",
+   "order": [
+    18,
+    1
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Ashrei_1?lang=he",
    "status": "auto"
   },
@@ -3149,6 +5017,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Holidays, Yizkor 27",
+   "order": [
+    141,
+    27
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Holidays%2C_Yizkor_27?lang=he",
    "status": "auto"
   },
@@ -3161,6 +5033,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Hodu 19",
+   "order": [
+    10,
+    19
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_19?lang=he",
    "status": "auto"
   },
@@ -3173,6 +5049,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 76",
+   "order": [
+    101,
+    76
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_76?lang=he",
    "status": "auto"
   },
@@ -3185,6 +5065,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Rosh Chodesh, Ashrei Uva L'Tziyon 2",
+   "order": [
+    135,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Rosh_Chodesh%2C_Ashrei_Uva_L'Tziyon_2?lang=he",
    "status": "auto"
   },
@@ -3197,6 +5081,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Eve Mincha, Mincha 29",
+   "order": [
+    88,
+    29
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Eve_Mincha%2C_Mincha_29?lang=he",
    "status": "auto"
   },
@@ -3209,6 +5097,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Mincha, Korbanot 22",
+   "order": [
+    121,
+    22
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Mincha%2C_Korbanot_22?lang=he",
    "status": "auto"
   },
@@ -3221,6 +5113,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Av HaRachamim 4",
+   "order": [
+    116,
+    4
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Av_HaRachamim_4?lang=he",
    "status": "auto"
   },
@@ -3233,6 +5129,10 @@
    "to": 21,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Mincha, Korbanot 23",
+   "order": [
+    32,
+    23
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Mincha%2C_Korbanot_23?lang=he",
    "status": "auto"
   },
@@ -3245,7 +5145,27 @@
    "to": 6,
    "coverage": 0.6,
    "ref": "Siddur Ashkenaz, Weekday, Maariv, Birkat HaLevana 2",
+   "order": [
+    172,
+    2
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Birkat_HaLevana_2?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 146,
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, ימי חול, תפילת שחרית, פסוקי דזמרה",
+   "from": 1,
+   "to": 10,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 146",
+   "order": [
+    30,
+    0
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_146?lang=he",
    "status": "auto"
   },
   {
@@ -3257,7 +5177,43 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 146 1",
+   "order": [
+    261,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_146_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 146,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, פסוקי דזמרה",
+   "from": 1,
+   "to": 10,
+   "coverage": 0.9,
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 8",
+   "order": [
+    13,
+    8
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_8?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 146,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
+   "from": 1,
+   "to": 10,
+   "coverage": 0.9,
+   "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 8",
+   "order": [
+    56,
+    8
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_8?lang=he",
    "status": "auto"
   },
   {
@@ -3269,6 +5225,10 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Hodu 21",
+   "order": [
+    10,
+    21
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_21?lang=he",
    "status": "auto"
   },
@@ -3281,7 +5241,27 @@
    "to": 10,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 77",
+   "order": [
+    101,
+    77
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_77?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 147,
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, ימי חול, תפילת שחרית, פסוקי דזמרה",
+   "from": 1,
+   "to": 20,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 147",
+   "order": [
+    31,
+    0
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_147?lang=he",
    "status": "auto"
   },
   {
@@ -3293,7 +5273,43 @@
    "to": 20,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 147 1",
+   "order": [
+    262,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_147_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 147,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, פסוקי דזמרה",
+   "from": 1,
+   "to": 20,
+   "coverage": 0.9,
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 9",
+   "order": [
+    13,
+    9
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_9?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 147,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
+   "from": 1,
+   "to": 20,
+   "coverage": 0.9,
+   "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 9",
+   "order": [
+    56,
+    9
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_9?lang=he",
    "status": "auto"
   },
   {
@@ -3305,6 +5321,10 @@
    "to": 20,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Hodu 23",
+   "order": [
+    10,
+    23
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_23?lang=he",
    "status": "auto"
   },
@@ -3317,7 +5337,27 @@
    "to": 20,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 78",
+   "order": [
+    101,
+    78
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_78?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 148,
+   "nusach": "ashkenaz",
+   "context": "pesukei",
+   "section": "סידור אשכנז, ימי חול, תפילת שחרית, פסוקי דזמרה",
+   "from": 1,
+   "to": 14,
+   "coverage": 1.0,
+   "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 148",
+   "order": [
+    32,
+    0
+   ],
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_148?lang=he",
    "status": "auto"
   },
   {
@@ -3329,6 +5369,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 148 1",
+   "order": [
+    263,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_148_1?lang=he",
    "status": "auto"
   },
@@ -3341,6 +5385,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Nissan, Blessing of the Trees 5",
+   "order": [
+    104,
+    5
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Nissan%2C_Blessing_of_the_Trees_5?lang=he",
    "status": "auto"
   },
@@ -3353,6 +5401,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 10",
+   "order": [
+    13,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_10?lang=he",
    "status": "auto"
   },
@@ -3365,6 +5417,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 10",
+   "order": [
+    56,
+    10
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_10?lang=he",
    "status": "auto"
   },
@@ -3377,6 +5433,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Hodu 25",
+   "order": [
+    10,
+    25
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_25?lang=he",
    "status": "auto"
   },
@@ -3389,6 +5449,10 @@
    "to": 14,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 79",
+   "order": [
+    101,
+    79
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_79?lang=he",
    "status": "auto"
   },
@@ -3401,6 +5465,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 149 1",
+   "order": [
+    33,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_149_1?lang=he",
    "status": "auto"
   },
@@ -3413,6 +5481,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 149 1",
+   "order": [
+    264,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_149_1?lang=he",
    "status": "auto"
   },
@@ -3425,6 +5497,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 11",
+   "order": [
+    13,
+    11
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_11?lang=he",
    "status": "auto"
   },
@@ -3437,6 +5513,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 11",
+   "order": [
+    56,
+    11
+   ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_11?lang=he",
    "status": "auto"
   },
@@ -3449,6 +5529,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Weekday Shacharit, Hodu 27",
+   "order": [
+    10,
+    27
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_27?lang=he",
    "status": "auto"
   },
@@ -3461,6 +5545,10 @@
    "to": 9,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 80",
+   "order": [
+    101,
+    80
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_80?lang=he",
    "status": "auto"
   },
@@ -3473,6 +5561,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Weekday, Shacharit, Pesukei Dezimra, Psalm 150 1",
+   "order": [
+    34,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_150_1?lang=he",
    "status": "auto"
   },
@@ -3485,7 +5577,59 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Ashkenaz, Shabbat, Shacharit, Pesukei Dezimra, Psalm 150 1",
+   "order": [
+    265,
+    0
+   ],
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_150_1?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 150,
+   "nusach": "edot",
+   "context": "levana",
+   "section": "סידור נוסח עדות המזרח, ברכת הלבנה",
+   "from": 1,
+   "to": 6,
+   "coverage": 0.83,
+   "ref": "Siddur Edot HaMizrach, Blessing of the Moon 18",
+   "order": [
+    35,
+    18
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon_18?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 150,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, פסוקי דזמרה",
+   "from": 1,
+   "to": 6,
+   "coverage": 0.83,
+   "ref": "Siddur Edot HaMizrach, Weekday Shacharit, Pesukei D'Zimra 12",
+   "order": [
+    13,
+    12
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_12?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 150,
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
+   "from": 1,
+   "to": 6,
+   "coverage": 0.83,
+   "ref": "Siddur Edot HaMizrach, Shabbat Shacharit, Pesukei D'Zimra 12",
+   "order": [
+    56,
+    12
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_12?lang=he",
    "status": "auto"
   },
   {
@@ -3497,6 +5641,10 @@
    "to": 6,
    "coverage": 1.0,
    "ref": "Siddur Sefard, Kiddush Levanah 18",
+   "order": [
+    41,
+    18
+   ],
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kiddush_Levanah_18?lang=he",
    "status": "auto"
   },
@@ -3508,8 +5656,12 @@
    "from": 1,
    "to": 6,
    "coverage": 1.0,
-   "ref": "Siddur Sefard, Weekday Shacharit, Hodu 29",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_29?lang=he",
+   "ref": "Siddur Sefard, Weekday Shacharit, Hodu 10",
+   "order": [
+    10,
+    10
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_10?lang=he",
    "status": "auto"
   },
   {
@@ -3520,8 +5672,12 @@
    "from": 1,
    "to": 6,
    "coverage": 1.0,
-   "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 81",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_81?lang=he",
+   "ref": "Siddur Sefard, Shabbat Morning Services, Pesukei D'Zimrah 11",
+   "order": [
+    101,
+    11
+   ],
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_11?lang=he",
    "status": "auto"
   }
  ],

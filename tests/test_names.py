@@ -146,6 +146,15 @@ class David(unittest.TestCase):
                 self.assertIsNotNone(e["samuel_placement"])
 
 
+class Inyanim(unittest.TestCase):
+    def test_every_source_names_psalms(self):
+        doc = json.loads((ROOT / "data" / "inyanim.json").read_text(encoding="utf-8"))
+        for need in doc["needs"]:
+            for src in need["sources"]:
+                self.assertTrue(src["psalms"], src["title"])
+                self.assertTrue(all(1 <= n <= 150 for n in src["psalms"]))
+
+
 class Chida(unittest.TestCase):
     def test_every_verse_once(self):
         doc = json.loads((ROOT / "data" / "chida.json").read_text(encoding="utf-8"))

@@ -1,101 +1,20 @@
 {% extends "base.html.j2" %}
-{% macro src_quote(s) %}
-<blockquote class="source-quote">
-  {% for seg in s.segments %}{{ seg.text }}{% if not loop.last %} {% endif %}{% endfor %}
-  <cite>{{ s.title }} · <a href="{{ s.url }}">ספריא</a>, {{ s.version }}{% if s.license and s.license != 'unknown' %} ({{ s.license }}){% endif %}</cite>
-</blockquote>
-{% endmacro %}
-{% block title %}תהילים בחיים היהודיים — בתפילה, במועדים ובמעגל החיים | {{ site.name }}{% endblock %}
-{% block description %}היכן נאמר כל מזמור בתהילים: שיר של יום, הלל, פסוקי דזמרה, קבלת שבת ועוד, בנוסח אשכנז, ספרד ועדות המזרח.{% endblock %}
+{% block title %}תהילים בחיים היהודיים: שיר של יום, קבלת שבת, הלל ועוד | {{ site.name }}{% endblock %}
+{% block description %}המזמורים שנאמרים בתפילה ובמועדים, כל סדר ברצף אחד: שיר של יום, קבלת שבת, הלל, פסוקי דזמרה, תיקון חצות, התיקון הכללי ועוד.{% endblock %}
 {% block content %}
-{% set NUS = lit.nusachim %}
 <section class="read">
   <h1>תהילים בחיים היהודיים</h1>
-  <p>היכן נאמר כל מזמור: בתפילה, בשבתות ובמועדים, ובמעגל החיים. כל פריט בדף מבוסס על קישור בין המזמור לסידור בספריא, ומוביל לסידור עצמו.</p>
+  <p>המזמורים שנאמרים בתפילה, בשבת ובמועדים. לחיצה על סדר פותחת את כל המזמורים שבו ברצף, בסדר שבו הם נאמרים.</p>
 </section>
-
-<h2 id="shir-shel-yom">שיר של יום</h2>
-{{ src_quote(sources.shir_shel_yom) }}
-<div class="table-wrap read"><table>
-  <thead><tr><th>יום</th><th>מזמור</th></tr></thead>
-  <tbody>
-  {% for r in lit.shir_shel_yom_mishnah %}
-  <tr><td>{{ r.day }}</td><td>{% if r.psalm %}<a href="{{ root }}mizmor/{{ r.psalm }}/">{{ r.psalm|heb }}</a>{% else %}<span class="no-source">לא זוהה</span>{% endif %}</td></tr>
+<ul class="collection-grid">
+  {% for c in collections %}
+  <li><a class="collection-btn" href="{{ root }}tefila/{{ c.slug }}/">
+    <span class="c-title">{{ c.title }}</span>
+    <span class="c-meta">{% if c.days %}מזמור לכל יום{% else %}{{ c.count }} {{ 'מזמור' if c.count == 1 else 'מזמורים' }}{% endif %}{% if c.by_nusach and c.by_nusach[0].nusach and not c.same_everywhere %} · לפי נוסח{% endif %}</span>
+  </a></li>
   {% endfor %}
-  </tbody>
-</table></div>
-<p class="note">הזיהוי נעשה בחישוב: הפסוק שהמשנה מצטטת לכל יום הותאם לנוסח המזמורים.</p>
-
-<h2 id="map">מפת המזמורים בסידור</h2>
-<p class="read muted small">צבע התא לפי מספר ההקשרים השונים שבהם המזמור נאמר בסידור (הלל, קבלת שבת וכו'). אפשר לסנן לפי נוסח ולהדגיש הקשר אחד.</p>
-<div class="map-box" data-litmap>
-  <div class="map-controls" role="group" aria-label="נוסח">
-    <span class="muted small">נוסח:</span>
-    <div class="seg" data-filter="nusach">
-      <button type="button" value="all" aria-pressed="true">כל הנוסחים</button>
-      {% for k in litv.nusach_ids %}<button type="button" value="{{ k }}" aria-pressed="false">{{ NUS[k] }}</button>{% endfor %}
-    </div>
-  </div>
-  <div class="map-controls" role="group" aria-label="הקשר">
-    <label class="muted small" for="ctx-select">הדגשת הקשר:</label>
-    <select id="ctx-select" class="ctx-select">
-      <option value="">— הכול —</option>
-      {% for c in litv.contexts %}<option value="{{ c.id }}">{{ c.label }}</option>{% endfor %}
-    </select>
-  </div>
-  <div class="book-map lit-map" data-nusach="all" data-ctx="">
-    {% for c in litv.cells %}
-    <a class="cell" href="{{ root }}mizmor/{{ c.n }}/" aria-label="{{ c.label }}"
-       {% for k, b in c.bucket.items() %}data-{{ k }}="{{ b }}" {% endfor %}data-ctxs=" {{ c.ctx|join(' ') }} "><span class="cl">{{ c.heb }}</span></a>
-    {% endfor %}
-  </div>
-  <ul class="legend">
-    <li><i style="background: var(--c-none)"></i>לא נמצא</li>
-    {% for b in range(1, 6) %}<li><i style="background: var(--b{{ b }})"></i>{{ b }}{% if b == 5 %}+{% endif %} {{ 'הקשר' if b == 1 else 'הקשרים' }}</li>{% endfor %}
-  </ul>
-</div>
-
-<h2 id="contexts">לפי הקשר ונוסח</h2>
-<div class="table-wrap"><table>
-  <thead><tr><th>הקשר</th>{% for k in litv.nusach_ids %}<th>{{ NUS[k] }}</th>{% endfor %}</tr></thead>
-  <tbody>
-  {% for c in litv.contexts %}
-  <tr id="ctx-{{ c.id }}"><td><b>{{ c.label }}</b></td>
-    {% for k in litv.nusach_ids %}
-    <td class="small">{% for n in litv.table[c.id][k]|sort %}<a href="{{ root }}mizmor/{{ n }}/">{{ n|heb }}</a>{% if not loop.last %} · {% endif %}{% else %}<span class="muted">—</span>{% endfor %}</td>
-    {% endfor %}
-  </tr>
-  {% endfor %}
-  </tbody>
-</table></div>
-<p class="note">"—" פירושו שלא נמצא קישור בסידור שבספריא, לא בהכרח שהמזמור אינו נאמר. בכל דף מזמור מופיעים הקישורים לסידור עצמו.</p>
-
-<h2 id="tikkun-haklali">התיקון הכללי</h2>
-{{ src_quote(sources.tikkun_haklali) }}
-<p class="psalm-index">
-  {% for n in tikkun %}<a href="{{ root }}mizmor/{{ n }}/" aria-label="מזמור {{ n|heb }}">{{ n|heb }}</a>{% endfor %}
-</p>
-
-<h2 id="method">איך נבנה הדף</h2>
+</ul>
 <div class="summary-box read">
-  הנתונים נאספו מהקישורים שבספריא בין ספר תהילים לשלושה סידורים: סידור אשכנז, סידור ספרד וסידור עדות המזרח. נכלל רק קישור שמכסה לפחות {{ 60 }}% מהמזמור, כדי שציטוט של פסוק בודד בתוך פיוט לא ייחשב כאמירת המזמור. ההקשר נקבע לפי שם הפרק בסידור. כל הנתונים מסומנים כ"טרם אומתו ידנית".
+  הרשימות נבנו מהסידורים שבספריא (אשכנז, ספרד ועדות המזרח): ממבנה הסידור ומהקישורים שבו לספר תהילים. שיר של יום לפי משנה תמיד, והתיקון הכללי לפי שיחות הר"ן.
 </div>
-<script>
-  (function () {
-    var box = document.querySelector('[data-litmap]'), map = box.querySelector('.lit-map');
-    box.querySelectorAll('[data-filter="nusach"] button').forEach(function (b) {
-      b.addEventListener('click', function () {
-        box.querySelectorAll('[data-filter="nusach"] button').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); });
-        b.setAttribute('aria-pressed', 'true'); map.setAttribute('data-nusach', b.value);
-      });
-    });
-    var sel = document.getElementById('ctx-select');
-    sel.addEventListener('change', function () {
-      map.setAttribute('data-ctx', sel.value);
-      map.querySelectorAll('.cell').forEach(function (c) {
-        c.classList.toggle('dim', !!sel.value && c.getAttribute('data-ctxs').indexOf(' ' + sel.value + ' ') < 0);
-      });
-    });
-  })();
-</script>
 {% endblock %}

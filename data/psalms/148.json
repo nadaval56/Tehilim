@@ -148,6 +148,12 @@
   {
    "nusach": "ashkenaz",
    "context": "pesukei",
+   "section": "סידור אשכנז, ימי חול, תפילת שחרית, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_148?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "pesukei",
    "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_148_1?lang=he"
   },

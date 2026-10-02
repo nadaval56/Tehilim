@@ -1,5 +1,5 @@
 {% extends "base.html.j2" %}
-{% block title %}דוד בתהילים — מזמורים שכותרתם מזכירה אירוע מחייו | {{ site.name }}{% endblock %}
+{% block title %}דוד בתהילים: מזמורים שכותרתם מזכירה אירוע מחייו | {{ site.name }}{% endblock %}
 {% block description %}שלושה עשר מזמורים שכותרתם מזכירה אירוע מחיי דוד, לצד הקטע המקביל בספר שמואל, על ציר זמן ועל מפה.{% endblock %}
 {% macro event_body(d) %}
 <div class="pair">
@@ -20,6 +20,9 @@
     {% endif %}
   </section>
 </div>
+{% if d.samuel_origin and d.samuel_origin.startswith('commentary') %}
+<p class="note">אין בספריא קישור בין כותרת המזמור לספר שמואל. המקום נקבע לפי {{ d.samuel_origin.split(':')[1] }}{% for c in d.comments if c.quotes_samuel %}, שלשונו ("{{ c.quotes_samuel.phrase }}") היא לשון הפסוק בשמואל{% endfor %}{% if not d.comments|selectattr('quotes_samuel')|list %}, שמפנה לשם{% endif %}. פירושים אחרים, אם יש, מובאים למטה כלשונם.</p>
+{% endif %}
 {% if d.passages_v|length > 1 %}
 <p class="note">קישורים נוספים מספריא לפסוקי הכותרת: {% for x in d.passages_v[1:] %}<a href="{{ x.url }}">{{ x.he_ref }}</a>{% if not loop.last %} · {% endif %}{% endfor %}.</p>
 {% endif %}
@@ -47,7 +50,8 @@
         <span class="tl-ref">{{ d.placement_he }}</span>
         <span class="tl-title">מזמור {{ d.psalm|heb }}{% if d.heading_event %} · {{ d.heading_event|plain }}{% endif %}</span>
         {% for pl in d.places_v %}<span class="tag neutral">{{ pl.name }}</span>{% endfor %}
-        {% if d.samuel_origin and d.samuel_origin.startswith('commentary') %}<span class="tag">לפי {{ d.samuel_origin.split(':')[1] }}</span>{% endif %}
+        {% if d.samuel_origin and d.samuel_origin.startswith('commentary-quote') %}<span class="tag">לפי לשון {{ d.samuel_origin.split(':')[1] }}</span>
+        {% elif d.samuel_origin and d.samuel_origin.startswith('commentary') %}<span class="tag">לפי {{ d.samuel_origin.split(':')[1] }}</span>{% endif %}
       </summary>
       {{ event_body(d) }}
     </details>
@@ -56,8 +60,8 @@
 </ol>
 
 {% if unplaced %}
-<h3>מזמורים שלא נמצא להם מקום אחד בספר שמואל</h3>
-<p class="note">אין קישור בין כותרת המזמור לספר שמואל, או שהפירושים מזכירים יותר ממקום אחד. הפירושים מובאים כלשונם.</p>
+<h3>מזמורים מתוך השלושה עשר שלא זוהה להם קטע בשמואל</h3>
+<p class="note">גם כותרתם מזכירה אירוע מחיי דוד, אך אין קישור בינה לבין ספר שמואל, והפירושים אינם מפנים למקום אחד. הפירושים מובאים כלשונם.</p>
 <ol class="timeline">
   {% for d in unplaced %}
   <li class="tl-item">
@@ -71,9 +75,14 @@
 {% endif %}
 
 <h2 id="map">מפה</h2>
-<p class="read">המפה משתמשת באריחי OpenStreetMap, שנטענים משרת חיצוני. לכן היא נטענת רק אחרי לחיצה, ובלחיצה כתובת ה-IP שלך נחשפת לשרת המפות. <a href="{{ root }}privacy/">פרטים</a>.</p>
-<button type="button" class="toggle" id="map-load">הצגת המפה</button>
-<div id="david-map" class="david-map" hidden></div>
+<figure class="map-figure">
+  {{ david_map }}
+  <figcaption class="legend">
+    <span><i class="m-key m-sure"></i>זיהוי ודאי</span>
+    <span><i class="m-key m-accepted"></i>זיהוי מקובל</span>
+    <span><i class="m-key m-guess"></i>זיהוי משוער</span>
+  </figcaption>
+</figure>
 <div class="table-wrap read" style="margin-top: var(--sp-4)"><table>
   <thead><tr><th>מקום</th><th>זיהוי</th><th>מזמורים</th></tr></thead>
   <tbody>
@@ -82,40 +91,8 @@
   {% endfor %}
   </tbody>
 </table></div>
-<p class="note">המקום נקבע לפי לשון הכותרת, ואם אין בה מקום, לפי הקטע המקביל בשמואל. הזיהוי הגאוגרפי הוא הזיהוי המקובל, ובשדה "זיהוי" מצוינת מידת הוודאות.</p>
+<p class="note">המקום נקבע לפי לשון הכותרת, ואם אין בה מקום, לפי הקטע המקביל בשמואל. מזמורים שבהם אין שם מקום (כמו יח, נט) אינם על המפה. הזיהוי הגאוגרפי הוא הזיהוי המקובל, ובשדה "זיהוי" מצוינת מידת הוודאות.</p>
 
-<h2 id="method">איך נבנה הדף</h2>
-<div class="summary-box read">
-  ההתאמה לספר שמואל לקוחה מהקישורים שבספריא לפסוקי הכותרת. כשיש כמה קישורים, הקטע העיקרי הוא זה שלשונו קרובה ביותר ללשון הכותרת, והשאר מוצגים כ"קישורים נוספים". כשאין קישור, נבדקים הקישורים של פירושי רש"י ורד"ק על הכותרת, ואירוע ממוקם על הציר רק כשהפירוש מפנה למקום אחד. כל הנתונים מסומנים כ"טרם אומתו ידנית".
-</div>
 
-<script>
-  (function () {
-    var POINTS = {{ map_points|tojson }};
-    var btn = document.getElementById('map-load'), box = document.getElementById('david-map');
-    function load(src, css) {
-      return new Promise(function (ok, bad) {
-        var el = document.createElement(css ? 'link' : 'script');
-        if (css) { el.rel = 'stylesheet'; el.href = src; } else { el.src = src; }
-        el.onload = ok; el.onerror = bad; document.head.appendChild(el);
-      });
-    }
-    btn.addEventListener('click', function () {
-      btn.disabled = true;
-      Promise.all([load('{{ root }}assets/vendor/leaflet/leaflet.css', true), load('{{ root }}assets/vendor/leaflet/leaflet.js')]).then(function () {
-        box.hidden = false; btn.hidden = true;
-        L.Icon.Default.imagePath = '{{ root }}assets/vendor/leaflet/images/';
-        var map = L.map(box, { scrollWheelZoom: false }).setView([31.6, 35.15], 8);
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          maxZoom: 13, attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
-        POINTS.forEach(function (p) {
-          var links = p.psalms.map(function (x) { return '<a href="{{ root }}mizmor/' + x.n + '/">' + x.heb + '</a>'; }).join(' · ');
-          L.marker([p.lat, p.lon], { title: p.name, alt: p.name }).addTo(map)
-            .bindPopup('<div dir="rtl"><b>' + p.name + '</b> (' + p.certainty + ')<br>מזמורים: ' + links + '</div>');
-        });
-      }, function () { btn.disabled = false; });
-    });
-  })();
-</script>
+
 {% endblock %}

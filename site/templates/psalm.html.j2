@@ -1,6 +1,6 @@
 {% extends "base.html.j2" %}
 {% set h = p.heading %}
-{% block title %}תהילים {{ n|heb_p }}{% if h %} — {{ h.attribution|join(', ') or h.types|join(', ') }}{% endif %} | {{ site.name }}{% endblock %}
+{% block title %}תהילים {{ n|heb_p }}{% if h %}: {{ h.attribution|join(', ') or h.types|join(', ') }}{% endif %} | {{ site.name }}{% endblock %}
 {% block description %}מזמור {{ n|heb_p }} בספר תהילים ({{ BOOK_NAMES[p.book] }}), {{ p.verse_count|heb }} פסוקים: נוסח המסורה עם ניקוד וטעמים, ניתוח הכותרת ומניין השמות.{% endblock %}
 {% block head %}
   <script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "CreativeWork", "name": "תהילים " ~ n|heb_p, "isPartOf": {"@type": "Book", "name": "תהילים"}, "position": n, "inLanguage": "he", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "isBasedOn": p.sources.url}|tojson }}</script>
@@ -34,7 +34,7 @@
   {% if h.musical_terms %}<div class="fact"><dt>מונחי נגינה וייעוד</dt><dd>{{ h.musical_terms|join(' · ') }}</dd></div>{% endif %}
   {% if h.historical_event %}<div class="fact" style="grid-column: 1 / -1"><dt>אירוע הנזכר בכותרת</dt><dd style="font-family: var(--font-plain); font-weight: 500; font-size: 1.125rem">{{ h.historical_event|plain }}</dd></div>{% endif %}
 </dl>
-<p class="note">הכותרת {% if h.own_verse %}היא פסוק בפני עצמו{% if h.end.v > 1 %} (פסוקים {{ 1|heb }}–{{ h.end.v|heb }}){% endif %}{% else %}היא תחילת פסוק {{ 1|heb }}{% endif %}. הניתוח נעשה לפי לשון הכותרת בלבד; <a href="{{ root }}shita/#headings">איך</a>.</p>
+<p class="note">הכותרת {% if h.own_verse %}היא פסוק בפני עצמו{% if h.end.v > 1 %} (פסוקים {{ 1|heb }}–{{ h.end.v|heb }}){% endif %}{% else %}היא תחילת פסוק {{ 1|heb }}{% endif %}.</p>
 {% else %}
 <p class="muted">למזמור זה אין כותרת.</p>
 {% endif %}
@@ -49,10 +49,10 @@
 </div>
 {% if p.names_combos %}<p class="note">צירופים סמוכים: {% for k, c in p.names_combos.items() %}{% for part in k.split('+') %}{{ NAME_SHORT[part] }}{% if not loop.last %} {% endif %}{% endfor %} ({{ c }}){% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
 {% else %}
-<p class="muted">במזמור זה אין שמות קודש לפי כללי הספירה.</p>
+<p class="muted">במזמור זה אין שמות קודש.</p>
 {% endif %}
 {% if p.selah_count %}<p class="note">"סלה" במזמור: {{ p.selah_count }}.</p>{% endif %}
-<p class="note">המספרים לפי <a href="{{ root }}shita/#counting">כללי הספירה</a>. הללויה ושמות חול שאושרו אינם נספרים.</p>
+<p class="note">"הללויה" אינה נספרת בין השמות.</p>
 
 <h2>בתפילה</h2>
 {% if p.liturgy %}
@@ -61,9 +61,9 @@
   <li><span class="tag neutral">{{ lit.nusachim[e.nusach] }}</span> {{ litv.ctx_label[e.context] }} · <a href="{{ e.url }}" class="small">{{ e.section }}</a></li>
   {% endfor %}
 </ul>
-<p class="note">לפי הקישורים שבספריא; טרם אומת ידנית. <a href="{{ root }}tefila/">עוד על העדשה</a>.</p>
+<p class="note">לפי הקישורים שבספריא לסידורים.</p>
 {% else %}
-<p class="muted">לא נמצא קישור בסידורים שבספריא (מה שאינו אומר בהכרח שהמזמור אינו נאמר).</p>
+<p class="muted">לא נמצא בסידורים שבספריא.</p>
 {% endif %}
 {% if n in tikkun %}<p>המזמור הוא אחד מעשרת מזמורי <a href="{{ root }}tefila/#tikkun-haklali">התיקון הכללי</a>.</p>{% endif %}
 {% for r in lit.shir_shel_yom_mishnah if r.psalm == n %}<p>שיר של יום {{ r.day }}, לפי <a href="{{ root }}tefila/#shir-shel-yom">משנה תמיד ז, ד</a>.</p>{% endfor %}

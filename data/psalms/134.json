@@ -115,6 +115,12 @@
  "doublet_of": null,
  "liturgy": [
   {
+   "nusach": "ashkenaz",
+   "context": "selichot",
+   "section": "סידור אשכנז, חגים, סליחות, צום גדליה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Selichot%2C_Fast_of_Gedalia_71?lang=he"
+  },
+  {
    "nusach": "sefard",
    "context": "shabbat",
    "section": "סידור ספרד, מנחה לשבת קודש, תפילת עמידה",

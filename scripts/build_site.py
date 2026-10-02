@@ -153,6 +153,53 @@ def he_samuel(ref: str) -> str:
     return out
 
 
+# --- static map (David lens) -------------------------------------------------
+def static_map(points: list[dict]) -> Markup:
+    """Inline SVG map from Natural Earth shapes (data/map_shapes.json); no tiles, no requests."""
+    import math
+    shapes = json.loads((DATA / "map_shapes.json").read_text(encoding="utf-8"))
+    x0, y0, x1, y1 = shapes["bbox"]
+    cx = math.cos(math.radians((y0 + y1) / 2))
+    W = 560  # drawn at display size, so labels and markers keep their real size
+    k = W / ((x1 - x0) * cx)
+    H = round((y1 - y0) * k)
+
+    def xy(lon, lat):
+        return (lon - x0) * cx * k, (y1 - lat) * k
+
+    def path(ring, close):
+        pts = " ".join(f"{a:.1f},{b:.1f}" for a, b in (xy(*p) for p in ring))
+        return f"M{pts}{'Z' if close else ''}"
+
+    parts = [f'<svg class="static-map" viewBox="0 0 {W} {H}" role="img" aria-labelledby="map-t map-d" style="direction: ltr">',
+             '<title id="map-t">מפת המקומות הנזכרים באירועים</title>',
+             '<desc id="map-d">' + html.escape("; ".join(f"{p['name']} ({p['certainty']}): מזמורים "
+                                                       + ", ".join(x['heb'] for x in p['psalms']) for p in points)) + '</desc>',
+             f'<rect class="m-sea" width="{W}" height="{H}"/>']
+    parts += [f'<path class="m-land" d="{path(r, True)}"/>' for r in shapes["land"]]
+    parts += [f'<path class="m-lake" d="{path(r, True)}"/>' for r in shapes["lakes"]]
+    parts += [f'<path class="m-river" d="{path(r, False)}"/>' for r in shapes["rivers"]]
+    placed = []  # label boxes, to keep labels from overlapping
+    for p in sorted(points, key=lambda p: -p["lat"]):
+        x, y = xy(p["lon"], p["lat"])
+        cls = {"ודאי": "m-sure", "מקובל": "m-accepted"}.get(p["certainty"], "m-guess")
+        label = f"{p['name']} · " + ", ".join(x_["heb"] for x_ in p["psalms"])
+        w = 6.0 * len(label) + 8
+        for dx, dy, anchor in ((-9, 4, "end"), (9, 4, "start"), (0, -10, "middle"), (0, 18, "middle"),
+                               (-9, -10, "end"), (9, 18, "start"), (-9, 18, "end"), (9, -10, "start")):
+            bx = x + dx - (w if anchor == "end" else w / 2 if anchor == "middle" else 0)
+            box_ = (bx, y + dy - 11, bx + w, y + dy + 3)
+            if all(box_[2] < b[0] or box_[0] > b[2] or box_[3] < b[1] or box_[1] > b[3] for b in placed) \
+                    and 0 <= box_[0] and box_[2] <= W:
+                break
+        placed.append(box_)
+        parts.append(f'<circle class="m-pt {cls}" cx="{x:.1f}" cy="{y:.1f}" r="4.5"/>')
+        parts.append(f'<text class="m-label" x="{x + dx:.1f}" y="{y + dy:.1f}" text-anchor="{anchor}">'
+                     f'{html.escape(label)}</text>')
+    parts.append("</svg>")
+    return Markup("".join(parts))
+
+
 # --- charts ------------------------------------------------------------------
 def hbar(items: list[tuple[str, int, str]], title: str, unit: str = "") -> Markup:
     """Horizontal bar chart (inline SVG): [(label, value, css colour)]. Labels on the right (RTL)."""
@@ -220,6 +267,67 @@ def parse_heb_numbers(text: str) -> list[int]:
         if all(c in _NUM for c in letters):
             out.append(sum(_NUM[c] for c in letters))
     return [n for n in out if 1 <= n <= 150]
+
+
+# Prayer collections: one button each; a page with the full text of its psalms in order.
+# mode "largest": the siddur section with the most psalms; "all": every matching section, in siddur order.
+COLLECTIONS = [
+    {"slug": "shir-shel-yom", "title": "שיר של יום", "special": "shir_shel_yom"},
+    {"slug": "kabbalat-shabbat", "title": "קבלת שבת", "contexts": ["kabbalat_shabbat"], "mode": "largest"},
+    {"slug": "hallel", "title": "הלל", "contexts": ["hallel"], "mode": "largest"},
+    {"slug": "pesukei-dezimra", "title": "פסוקי דזמרה (חול)", "contexts": ["pesukei"], "mode": "all", "exclude": "שבת"},
+    {"slug": "pesukei-dezimra-shabbat", "title": "פסוקי דזמרה (שבת)", "contexts": ["pesukei"], "mode": "all", "require": "שבת"},
+    {"slug": "tikkun-chatzot", "title": "תיקון חצות", "contexts": ["tikkun_chatzot"], "mode": "all"},
+    {"slug": "tikkun-haklali", "title": "התיקון הכללי", "special": "tikkun_haklali"},
+    {"slug": "kriat-shema-al-hamita", "title": "קריאת שמע על המיטה", "contexts": ["bedtime"], "mode": "largest"},
+    {"slug": "birkat-hamazon", "title": "לפני ברכת המזון", "contexts": ["birkat_hamazon"], "mode": "all"},
+    {"slug": "birkat-halevana", "title": "ברכת הלבנה", "contexts": ["levana"], "mode": "largest"},
+    {"slug": "rosh-chodesh", "title": "ראש חודש", "contexts": ["rosh_chodesh"], "mode": "all"},
+    {"slug": "motzaei-shabbat", "title": "מוצאי שבת", "contexts": ["motzaei_shabbat"], "mode": "all"},
+    {"slug": "tachanun", "title": "תחנון", "contexts": ["tachanun"], "mode": "all"},
+]
+
+
+def build_collections(lit: dict, tikkun: list[int]) -> list[dict]:
+    out = []
+    for col in COLLECTIONS:
+        c = {**col, "by_nusach": []}
+        if col.get("special") == "shir_shel_yom":
+            c["days"] = [d for d in lit["shir_shel_yom_mishnah"] if d["psalm"]]
+            c["count"] = len(c["days"])
+            out.append(c)
+            continue
+        if col.get("special") == "tikkun_haklali":
+            c["by_nusach"] = [{"nusach": None, "label": "", "psalms": tikkun, "sections": []}]
+            c["count"] = len(tikkun)
+            out.append(c)
+            continue
+        for nus, label in lit["nusachim"].items():
+            es = [e for e in lit["entries"] if e["nusach"] == nus and e["context"] in col["contexts"]
+                  and not (col.get("exclude") and col["exclude"] in e["section"])
+                  and (not col.get("require") or col["require"] in e["section"])]
+            if not es:
+                continue
+            if col["mode"] == "largest":
+                secs = {}
+                for e in es:
+                    secs.setdefault(e["section"], []).append(e)
+                es = max(secs.values(), key=len)
+            es.sort(key=lambda e: (e["order"], e["psalm"]))
+            psalms, seen = [], set()
+            for e in es:
+                if e["psalm"] not in seen:
+                    seen.add(e["psalm"])
+                    psalms.append(e["psalm"])
+            c["by_nusach"].append({"nusach": nus, "label": label, "psalms": psalms,
+                                   "sections": sorted({(e["section"], e["url"]) for e in es})[:6]})
+        if not c["by_nusach"]:
+            continue
+        lists = {tuple(x["psalms"]) for x in c["by_nusach"]}
+        c["same_everywhere"] = len(lists) == 1
+        c["count"] = max(len(x["psalms"]) for x in c["by_nusach"])
+        out.append(c)
+    return out
 
 
 def liturgy_view(lit: dict) -> dict:
@@ -427,7 +535,7 @@ def main() -> int:
         if ps:
             map_points.append({**pl, "psalms": [{"n": n, "heb": heb(n)} for n in ps]})
 
-    common = dict(psalms=psalms, cand_cmp=cand_cmp, timeline=timeline, unplaced=unplaced, map_points=map_points, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
+    common = dict(psalms=psalms, cand_cmp=cand_cmp, timeline=timeline, david_map=static_map(map_points), unplaced=unplaced, map_points=map_points, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
                   pairs=pairs, doublets=doublets, AUTHOR_LEGEND=AUTHOR_LEGEND, TYPE_LEGEND=TYPE_LEGEND,
                   chart_max=chart_max, kinuyim=KINUYIM, alpha=alphabetic(psalms), chida=chida, lit=lit, charts=structure_charts(psalms, books), litv=liturgy_view(lit),
                   tikkun=parse_heb_numbers(" ".join(x["text"] for x in sources["tikkun_haklali"]["segments"])),
@@ -438,7 +546,27 @@ def main() -> int:
     page("shemot", "shemot.html.j2", **common)
     for pr in pairs:
         page(f"kfulim/{pr['id']}", "pair.html.j2", pair=pr, **common)
-    page("tefila", "tefila.html.j2", **common)
+    collections = build_collections(lit, common["tikkun"])
+    verses_html = {}
+    for col in collections:
+        ns = [d["psalm"] for d in col.get("days", [])] + [n for x in col["by_nusach"] for n in x["psalms"]]
+        for n in ns:
+            verses_html.setdefault(n, psalm_verses_html(psalms[n]))
+    page("tefila", "tefila.html.j2", collections=collections, **common)
+    inyanim = json.loads((DATA / "inyanim.json").read_text(encoding="utf-8"))
+    for need in inyanim["needs"]:
+        order = []
+        for src in need["sources"]:
+            order += [n for n in src["psalms"] if n not in order]
+        order += [x["psalm"] for x in need["shimush"] if x["psalm"] not in order]
+        need["psalms"] = order
+        for n in order:
+            verses_html.setdefault(n, psalm_verses_html(psalms[n]))
+    page("inyanim", "inyanim.html.j2", inyanim=inyanim, **common)
+    for need in inyanim["needs"]:
+        page(f"inyanim/{need['id']}", "inyan.html.j2", need=need, inyanim=inyanim, verses_html=verses_html, **common)
+    for col in collections:
+        page(f"tefila/{col['slug']}", "tefila_collection.html.j2", col=col, verses_html=verses_html, **common)
     page("david", "david.html.j2", **common)
     page("chida", "chida.html.j2", **common)
     L = chida["letters"]
@@ -447,7 +575,6 @@ def main() -> int:
                  "html": dual(render_verse(psalms[r["psalm"]]["verses"][r["verse"] - 1]))} for r in l["verses"]]
         page(f"chida/{l['slug']}", "chida_letter.html.j2", index=False, letter=l, rows=rows,
              prev=L[i - 1] if i else None, next=L[i + 1] if i + 1 < len(L) else None, **common)
-    page("shita", "shita.html.j2", **common)
     page("about", "about.html.j2", **common)
     page("accessibility", "accessibility.html.j2", index=False, **common)
     page("privacy", "privacy.html.j2", index=False, **common)

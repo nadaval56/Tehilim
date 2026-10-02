@@ -461,7 +461,29 @@ details > summary {
 .tl-item summary { gap: var(--sp-3); flex-wrap: wrap; color: var(--text); padding: var(--sp-2) 0; }
 .tl-ref { font-variant-numeric: tabular-nums; color: var(--text-2); font-size: .875rem; min-width: 7.5rem; }
 .tl-title { font-weight: 600; }
-.david-map { height: 28rem; border: 1px solid var(--border); border-radius: var(--radius); margin-top: var(--sp-3); }
+/* מפה סטטית (SVG מ-Natural Earth): צבעים מהערכה, כך שגם הכהה עובדת */
+:root { --m-sea: #dfe8ef; --m-land: #f1ede2; --m-water: #8fb0cc; --m-coast: #c9c2b0; }
+:root[data-theme="dark"] { --m-sea: #1a2430; --m-land: #2b2926; --m-water: #3f6c94; --m-coast: #4a463f; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --m-sea: #1a2430; --m-land: #2b2926; --m-water: #3f6c94; --m-coast: #4a463f; }
+}
+.map-figure { margin: var(--sp-3) 0 0; max-width: 35rem; }
+.static-map { width: 100%; height: auto; display: block; border: 1px solid var(--border); border-radius: var(--radius); }
+.m-sea { fill: var(--m-sea); }
+.m-land { fill: var(--m-land); stroke: var(--m-coast); stroke-width: .8; }
+.m-lake { fill: var(--m-water); }
+.m-river { fill: none; stroke: var(--m-water); stroke-width: 1.4; }
+.m-pt { stroke: var(--gold-dark); stroke-width: 2; }
+.m-sure { fill: var(--gold-dark); }
+.m-accepted { fill: var(--bg-card); }
+.m-guess { fill: var(--bg-card); stroke-dasharray: 2 2; }
+.m-label { font-family: var(--font-ui); font-size: 12px; /* a11y-allow-px: SVG user units */ fill: var(--text); font-weight: 600;
+           paint-order: stroke; stroke: var(--m-land); stroke-width: 3px; stroke-linejoin: round; }
+.m-key { display: inline-block; width: .8rem; height: .8rem; border-radius: 50%; border: 2px solid var(--gold-dark); vertical-align: middle; margin-inline-end: .3rem; }
+.m-key.m-sure { background: var(--gold-dark); }
+.m-key.m-guess { border-style: dashed; }
+.map-figure .legend { gap: var(--sp-4); }
+.map-figure .legend i.m-key { border-radius: 50%; width: .8rem; height: .8rem; }
 
 /* ── חיפוש (Pagefind) ── */
 .search-link { display: inline-flex; align-items: center; justify-content: center; }
@@ -481,3 +503,30 @@ details > summary {
   background: color-mix(in srgb, var(--bg-card) 84%, transparent); color: var(--text);
   border-radius: 4px; padding: 0 .22em; line-height: 1.35;
 }
+
+/* ── טבלאות בטלפון: בלי גלילה לרוחב ── */
+th { white-space: nowrap; }
+td a { white-space: nowrap; }
+@media (max-width: 40rem) {
+  th, td { padding: var(--sp-2) var(--sp-2); }
+  table { font-size: .875rem; }
+  .cmp-table td:nth-child(3), .cmp-table th:nth-child(3) { display: none; }  /* מספר הפסוקים נראה בטווח עצמו */
+  .cmp-btn { padding: 0 var(--sp-2); }
+}
+
+/* ── עדשת התפילה: כפתורי סדרים ודף רציף ── */
+.collection-grid { list-style: none; margin: var(--sp-6) 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: var(--sp-3); }
+.collection-btn {
+  display: flex; flex-direction: column; gap: var(--sp-1); min-height: 5rem; justify-content: center;
+  padding: var(--sp-4) var(--sp-5); background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  text-decoration: none; color: var(--text);
+}
+.collection-btn:hover { border-color: var(--gold); background: var(--bg-card-h); }
+.c-title { font-size: 1.125rem; font-weight: 600; }
+.c-meta { font-size: .8125rem; color: var(--text-2); }
+.tabs { margin: var(--sp-2) 0 var(--sp-4); }
+.tabs [aria-selected="true"] { background: var(--bg-card); color: var(--text); font-weight: 600; box-shadow: 0 0 0 1px var(--border); }
+.tab-panel[hidden] { display: none; }
+.coll-psalm { margin: 0 0 var(--sp-4); }
+.coll-psalm h2 { font-family: var(--font-ui); font-size: 1.125rem; margin: 0 0 var(--sp-2); }
+.coll-psalm h2 a { color: var(--text); text-decoration: none; }

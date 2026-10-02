@@ -1,0 +1,76 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ col.title }}: מזמורי תהילים | {{ site.name }}{% endblock %}
+{% block description %}{{ col.title }}: נוסח המזמורים המלא, ברצף ובסדר שבו הם נאמרים.{% endblock %}
+{% macro psalm_block(n) %}
+<section class="psalm-text coll-psalm" lang="he" aria-label="מזמור {{ n|heb }}">
+  <h2><a href="{{ root }}mizmor/{{ n }}/">מזמור {{ n|heb }}</a></h2>
+  {% for v in verses_html[n] %}
+  <p class="verse"><span class="vnum" aria-label="פסוק {{ v.heb }}">{{ v.heb }}</span>{{ v.html }}</p>
+  {% endfor %}
+</section>
+{% endmacro %}
+{% macro src_quote(s) %}
+<blockquote class="source-quote">
+  {% for seg in s.segments %}{{ seg.text }}{% if not loop.last %} {% endif %}{% endfor %}
+  <cite>{{ s.title }} · <a href="{{ s.url }}">ספריא</a>, {{ s.version }}{% if s.license and s.license != 'unknown' %} ({{ s.license }}){% endif %}</cite>
+</blockquote>
+{% endmacro %}
+{% block content %}
+<p class="crumbs"><a href="{{ root }}tefila/">תהילים בחיים היהודיים</a></p>
+<h1>{{ col.title }}</h1>
+<div class="text-tools" role="group" aria-label="תצוגת הטקסט">
+  <button type="button" class="toggle" id="tg-teamim" aria-pressed="false">טעמי המקרא</button>
+</div>
+
+{% if col.days %}
+  <div class="seg tabs" role="tablist" aria-label="יום">
+    {% for d in col.days %}<button type="button" role="tab" data-tab="d{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ d.day }}</button>{% endfor %}
+  </div>
+  {% for d in col.days %}
+  <div class="tab-panel" data-panel="d{{ loop.index0 }}" role="tabpanel"{% if not loop.first %} hidden{% endif %}>
+    <p class="muted">שיר של יום {{ d.day }}: מזמור {{ d.psalm|heb }}</p>
+    {{ psalm_block(d.psalm) }}
+  </div>
+  {% endfor %}
+  <h2>המקור</h2>
+  {{ src_quote(sources.shir_shel_yom) }}
+  <script>
+    // today's day opens first (0 = Sunday ... 6 = Shabbat)
+    document.addEventListener('DOMContentLoaded', function () {
+      var b = document.querySelector('[data-tab="d' + new Date().getDay() + '"]'); if (b) b.click();
+    });
+  </script>
+{% else %}
+  {% set multi = col.by_nusach|length > 1 and not col.same_everywhere %}
+  {% if multi %}
+  <div class="seg tabs" role="tablist" aria-label="נוסח">
+    {% for x in col.by_nusach %}<button type="button" role="tab" data-tab="{{ x.nusach }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ x.label }}</button>{% endfor %}
+  </div>
+  {% endif %}
+  {% for x in (col.by_nusach if multi else col.by_nusach[:1]) %}
+  <div class="tab-panel" data-panel="{{ x.nusach }}"{% if multi %} role="tabpanel"{% endif %}{% if multi and not loop.first %} hidden{% endif %}>
+    <p class="muted">
+      {% if not multi and x.nusach %}בכל הנוסחים שבספריא{% if col.by_nusach|length < 3 %} ({% for y in col.by_nusach %}{{ y.label }}{% if not loop.last %}, {% endif %}{% endfor %}){% endif %}: {% endif %}
+      {% for n in x.psalms %}<a href="#m{{ x.nusach }}-{{ n }}">מזמור {{ n|heb }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+    </p>
+    {% for n in x.psalms %}<div id="m{{ x.nusach }}-{{ n }}">{{ psalm_block(n) }}</div>{% endfor %}
+    {% if x.sections %}<p class="note">בסידור: {% for sec, url in x.sections %}<a href="{{ url }}">{{ sec }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+  </div>
+  {% endfor %}
+  {% if col.special == 'tikkun_haklali' %}
+  <h2>המקור</h2>
+  {{ src_quote(sources.tikkun_haklali) }}
+  {% endif %}
+{% endif %}
+<script>
+  (function () {
+    var btns = document.querySelectorAll('.tabs [data-tab]');
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        btns.forEach(function (x) { x.setAttribute('aria-selected', String(x === b)); });
+        document.querySelectorAll('.tab-panel').forEach(function (p) { p.hidden = p.getAttribute('data-panel') !== b.getAttribute('data-tab'); });
+      });
+    });
+  })();
+</script>
+{% endblock %}

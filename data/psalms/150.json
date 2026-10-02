@@ -95,6 +95,24 @@
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_150_1?lang=he"
   },
   {
+   "nusach": "edot",
+   "context": "levana",
+   "section": "סידור נוסח עדות המזרח, ברכת הלבנה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Blessing_of_the_Moon_18?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Pesukei_D'Zimra_12?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_12?lang=he"
+  },
+  {
    "nusach": "sefard",
    "context": "levana",
    "section": "סידור ספרד, קידוש לבנה",
@@ -104,13 +122,13 @@
    "nusach": "sefard",
    "context": "pesukei",
    "section": "סידור ספרד, שחרית לימות החול, הודו",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_29?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_10?lang=he"
   },
   {
    "nusach": "sefard",
    "context": "pesukei",
    "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_81?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_11?lang=he"
   }
  ],
  "sources": {
