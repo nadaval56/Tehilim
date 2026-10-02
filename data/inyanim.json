@@ -177,6 +177,45 @@
    ]
   },
   {
+   "id": "parnasa",
+   "title": "לפרנסה",
+   "sources": [
+    {
+     "title": "בן איש חי, לשון חכמים ב, ו",
+     "segments": [
+      {
+       "ref": "Leshon_Chakhamim,_Part_II.6.2",
+       "he_ref": "לשון חכמים, חלק שני ו׳:ב׳",
+       "text": "מנהג ישראל קדושים לקרות בראש השנה ויוה״כ מזמור לה׳ הארץ ומלואה ולהתפלל בו על הפרנסה, כי כך קבלה בידם שקריאת מזמור הזה מסוגלת לבקשת הפרנסה,"
+      }
+     ],
+     "version": "Bakhshi Edition, 2021",
+     "license": "CC-BY-SA",
+     "url": "https://www.sefaria.org/Leshon_Chakhamim,_Part_II.6.2?lang=he",
+     "psalms": [
+      24
+     ]
+    },
+    {
+     "title": "בן איש חי, עוד יוסף חי, כי תשא טז",
+     "segments": [
+      {
+       "ref": "Od_Yosef_Chai;_Halakhot,_Ki_Tisa.16.1",
+       "he_ref": "עוד יוסף חי; הלכות, כי תשא ט״ז:א׳",
+       "text": "השיר שהיו אומרים על הדוכן ביום אחד בשבת הוא מזמור לה' הארץ ומלואה כי זה המזמור מסוגל לפרנסה, ולכן בכל קהילות ישראל אומרים זה המזמור בראש השנה ויוה\"כ אחר ערבית ואחר מוסף ואומרים אחריו בקשה על הפרנסה"
+      }
+     ],
+     "version": "Jerusalem, 1910",
+     "license": "unknown",
+     "url": "https://www.sefaria.org/Od_Yosef_Chai;_Halakhot,_Ki_Tisa.16.1?lang=he",
+     "psalms": [
+      24
+     ]
+    }
+   ],
+   "shimush": []
+  },
+  {
    "id": "shmira",
    "title": "לשמירה",
    "sources": [

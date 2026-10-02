@@ -1,5 +1,5 @@
 {% extends "base.html.j2" %}
-{% block title %}{{ col.title }} — מזמורי תהילים | {{ site.name }}{% endblock %}
+{% block title %}{{ col.title }}: מזמורי תהילים | {{ site.name }}{% endblock %}
 {% block description %}{{ col.title }}: נוסח המזמורים המלא, ברצף ובסדר שבו הם נאמרים.{% endblock %}
 {% macro psalm_block(n) %}
 <section class="psalm-text coll-psalm" lang="he" aria-label="מזמור {{ n|heb }}">

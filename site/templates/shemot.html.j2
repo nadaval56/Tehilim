@@ -1,6 +1,6 @@
 {% extends "base.html.j2" %}
 {% from "_map.html.j2" import book_map %}
-{% block title %}שמות הקודש בספר תהילים — פיזור ומזמורים כפולים | {{ site.name }}{% endblock %}
+{% block title %}שמות הקודש בספר תהילים: פיזור ומזמורים כפולים | {{ site.name }}{% endblock %}
 {% block description %}מניין שמות הקודש בכל מזמור ובכל ספר בתהילים, מפת חום של יחס השמות, והמזמורים הכפולים זה לצד זה.{% endblock %}
 {% block content %}
 {% set seg = stats.segments %}
@@ -8,7 +8,7 @@
 {% set out_h, out_e = seg['rest'].HAVAYAH, seg['rest'].ELOKIM %}
 <section class="read">
   <h1>השמות</h1>
-  <p>מניין שמות הקודש בספר, לפי מזמור ולפי ספר. כל המספרים חושבו מהטקסט עצמו, לפי <a href="{{ root }}shita/#counting">כללי הספירה</a>.</p>
+  <p>מניין שמות הקודש בספר, לפי מזמור ולפי ספר. המספרים חושבו מהטקסט עצמו.</p>
 </section>
 
 <dl class="facts">
@@ -60,7 +60,7 @@
   </a>
   {% endfor %}
 </div>
-<h3>קטעים מקבילים נוספים שנמצאו חישובית <span class="tag neutral">ממתין לאישור</span></h3>
+<h3>קטעים מקבילים נוספים שנמצאו חישובית</h3>
 <p class="note">פסוקים רצופים שדומים זה לזה לפחות ב-70%, כשכל שם נחשב שווה לכל שם. עמדו על שורה או לחצו על "השוואה" כדי לראות את שני הקטעים זה לצד זה, עם הדגשת ההבדלים.</p>
 <div class="table-wrap"><table class="cmp-table">
   <thead><tr><th>מקום א</th><th>מקום ב</th><th class="n">פסוקים</th><th class="n">דמיון</th><th><span class="visually-hidden">השוואה</span></th></tr></thead>
@@ -128,9 +128,6 @@
     window.addEventListener('scroll', function () { if (current && !pop.hidden) place(current); }, { passive: true });
   })();
 </script>
-
-<h2 id="explanations">הסברים</h2>
-<p class="no-source">ההסברים לבחירת השם יובאו מהפרשנים בשלב הבא, רק כפי שהם נמצאים במקורות שנשלפו. עד אז: לא נמצא מקור.</p>
 
 <h2 id="table">הנתונים לכל מזמור</h2>
 <div class="table-wrap"><table class="compact">

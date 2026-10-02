@@ -575,7 +575,6 @@ def main() -> int:
                  "html": dual(render_verse(psalms[r["psalm"]]["verses"][r["verse"] - 1]))} for r in l["verses"]]
         page(f"chida/{l['slug']}", "chida_letter.html.j2", index=False, letter=l, rows=rows,
              prev=L[i - 1] if i else None, next=L[i + 1] if i + 1 < len(L) else None, **common)
-    page("shita", "shita.html.j2", **common)
     page("about", "about.html.j2", **common)
     page("accessibility", "accessibility.html.j2", index=False, **common)
     page("privacy", "privacy.html.j2", index=False, **common)

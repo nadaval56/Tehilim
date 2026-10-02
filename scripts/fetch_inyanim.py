@@ -28,6 +28,7 @@ NEEDS = [
     {"id": "refua", "title": "לרפואה ולחולה", "kw": ["חולה", "חולי", "לרפואה", "קדחת", "ויתרפא", "יתרפא", "לרפאות"]},
     {"id": "tzara", "title": "בעת צרה", "kw": ["צרה", "להנצל", "סכנה"]},
     {"id": "leida", "title": "למקשה לילד ולמעוברת", "kw": ["מקשה", "מעוברת", "יולדת", "תפיל", "תלד", "לילד"]},
+    {"id": "parnasa", "title": "לפרנסה", "kw": ["פרנסה", "לפרנסה", "מזונות"]},
     {"id": "shmira", "title": "לשמירה", "kw": ["שמירה", "להשמר", "מזיק", "מזיקין", "שדים", "לסטים"]},
     {"id": "hatzlacha", "title": "להצלחה ולחן", "kw": ["חן", "הצלחה", "להצליח", "ותצליח"]},
     {"id": "derech", "title": "בדרך ובים", "kw": ["בדרך", "לדרך", "בים", "לים", "מסערת", "בלילה"]},
@@ -42,6 +43,8 @@ SOURCES = [
     ("tzara", ["Sansan_LeYair.1.17"], None, None, "י״ב פעמים", "חיד\"א, סנסן ליאיר א, יז"),
     ("leida", ["Sansan_LeYair.3.8"], None, None, "ככתוב לעיל", "חיד\"א, סנסן ליאיר ג, ח"),
     ("leida", ["Likutei_Moharan,_Part_II.2.10.1"], None, None, "דהינו לומר אותו.", "ליקוטי מוהר\"ן תנינא ב, י"),
+    ("parnasa", ["Leshon_Chakhamim,_Part_II.6.2"], None, None, "לבקשת הפרנסה,", "בן איש חי, לשון חכמים ב, ו"),
+    ("parnasa", ["Od_Yosef_Chai;_Halakhot,_Ki_Tisa.16.1"], None, None, "בקשה על הפרנסה", "בן איש חי, עוד יוסף חי, כי תשא טז"),
     ("shmira", ["Shevuot.15b.10"], "Wikisource Talmud Bavli", None, None, "שבועות טו ע\"ב"),
     ("hatzlacha", ["Sansan_LeYair.3.35", "Sansan_LeYair.3.36"], None, None, "ימצא חיים:", "חיד\"א, סנסן ליאיר ג, לה"),
     ("geshamim", ["Kaf_HaChayim_on_Shulchan_Arukh,_Orach_Chayim.579.18"], None, None, "קל\"ו.",
@@ -66,8 +69,10 @@ def psalm_openings() -> tuple[dict, dict]:
         text = v["text"][h["end"]["offset"]:] if h else v["text"]
         if h and not text.strip() and h["end"]["v"] < len(p["verses"]):
             text = p["verses"][h["end"]["v"]]["text"]
-        ws = [norm(w.skeleton) for w in tokenize(text)][:2]
-        openings[tuple(ws)] = openings.get(tuple(ws), []) + [n]
+        ws = [norm(w.skeleton) for w in tokenize(text)][:3]
+        # two words, or three when one of the first two is the one-letter kinui of the Name (too common)
+        key = tuple(ws[:3] if any(len(w) < 2 for w in ws[:2]) else ws[:2])
+        openings[key] = openings.get(key, []) + [n]
         firsts[ws[0]] = firsts.get(ws[0], []) + [n]
         if h:
             hw = tuple(norm(w.skeleton) for w in tokenize(h["text"])[:2])
@@ -92,6 +97,8 @@ def numerals(text: str) -> list[int]:
     out = []
     for tok in re.findall(r"[א-ת]+(?:[\"'׳״][א-ת]?)", text):
         letters = re.sub(r"[\"'׳״]", "", tok)
+        if re.fullmatch(r"[ולבמהכש]?ה[׳']", tok):  # ה׳ / לה׳ / בה׳ ...: the Name abbreviated, not a number
+            continue
         if letters and all(c in NUM for c in letters):
             v = sum(NUM[c] for c in letters)
             if 1 <= v <= 150 and hebrew_numeral(v) == normalize_finals(letters):
@@ -112,8 +119,10 @@ def psalms_in(text: str) -> list[int]:
         found += numerals(tail)
     ws = [norm(w.skeleton) for w in tokenize(text)]
     ws = ["מזמר" if w.endswith("מזמר") and len(w) <= 6 else w for w in ws]  # "שמזמור" -> "מזמור"
-    for a, b in zip(ws, ws[1:]):
-        if a == "מזמר" and b in FIRST:  # "מזמור יענך": a psalm named by its (unique) first word
+    for a, b, c in zip(ws, ws[1:], ws[2:] + [""]):
+        if (a, b, c) in OPEN:
+            found.append(OPEN[(a, b, c)])
+        if a == "מזמר" and len(b) >= 3 and b in FIRST:  # "מזמור יענך": a psalm named by its (unique) first word
             found.append(FIRST[b])
         if (a, b) in OPEN:
             found.append(OPEN[(a, b)])

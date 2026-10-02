@@ -136,7 +136,7 @@ var A11Y = (function () {
     fab.setAttribute('aria-expanded', 'false');
     fab.setAttribute('aria-controls', 'a11y-panel');
     fab.setAttribute('aria-label', 'תפריט נגישות (Alt+Shift+A)');
-    fab.title = 'תפריט נגישות — Alt+Shift+A';
+    fab.title = 'תפריט נגישות (Alt+Shift+A)';
     fab.innerHTML =
       '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
       '<circle cx="12" cy="4" r="2"/>' +

@@ -1,6 +1,6 @@
 {% extends "base.html.j2" %}
 {% from "_map.html.j2" import book_map %}
-{% block title %}{{ site.name }} — {{ site.tagline }}{% endblock %}
+{% block title %}{{ site.name }}: {{ site.tagline }}{% endblock %}
 {% block head %}
   <script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "WebSite", "name": site.name, "url": site.base_url, "inLanguage": "he",
     "description": site.tagline,
@@ -9,14 +9,14 @@
 {% block content %}
 <section class="read">
   <h1>ספר תהילים</h1>
-  <p>מאה וחמישים מזמורים, ספר אחד. האתר מציג כל מזמור בדף משלו, בנוסח המסורה המנוקד והמוטעם, ומעליהם ארבע עדשות שמסתכלות על הספר כולו.</p>
+  <p>כל מזמור בדף משלו, בנוסח המסורה. בדפים שלמטה אפשר לעיין בספר כולו: חלוקתו, השמות שבו, מזמורי דוד והמזמורים שבתפילה.</p>
 </section>
 
 <h2 id="map-title">מפת הספר</h2>
 <p class="muted small read">כל תא הוא מזמור. לחיצה על תא פותחת את המזמור.</p>
 {{ book_map(cells, root, [('book', 'ספר'), ('author', 'מחבר לפי הכותרת'), ('type', 'סוג לפי הכותרת'), ('names', 'שמות')], 'book', AUTHOR_LEGEND, TYPE_LEGEND, BOOK_NAMES) }}
 
-<h2>ארבע עדשות</h2>
+<h2>עיון בספר</h2>
 <div class="cards">
   <a class="card lens-card" href="{{ root }}sefer/">
     <h3>מבנה הספר</h3>
@@ -24,15 +24,15 @@
   </a>
   <a class="card lens-card" href="{{ root }}shemot/">
     <h3>השמות</h3>
-    <p>פיזור שמות הקודש לאורך הספר, והמזמורים הכפולים זה לצד זה.</p>
+    <p>שמות הקודש בכל מזמור ובכל ספר, והמזמורים הכפולים.</p>
   </a>
   <a class="card lens-card" href="{{ root }}david/">
     <h3>דוד</h3>
-    <p>מזמורים שכותרתם מזכירה אירוע מחייו, עם הקטע המקביל בספר שמואל, על ציר זמן ועל מפה.</p>
+    <p>מזמורים שכותרתם מזכירה אירוע מחיי דוד, והקטע המקביל בספר שמואל.</p>
   </a>
   <a class="card lens-card" href="{{ root }}tefila/">
     <h3>בחיים היהודיים</h3>
-    <p>היכן נאמר כל מזמור: בתפילה, במועדים ובמעגל החיים, בנוסח אשכנז, ספרד ועדות המזרח.</p>
+    <p>שיר של יום, קבלת שבת, הלל ושאר הסדרים, בנוסח המלא.</p>
   </a>
 </div>
 

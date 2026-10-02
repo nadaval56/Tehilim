@@ -1,6 +1,6 @@
 {% extends "base.html.j2" %}
 {% from "_map.html.j2" import book_map %}
-{% block title %}מבנה ספר תהילים — חמשת הספרים, המחברים וסוגי המזמורים | {{ site.name }}{% endblock %}
+{% block title %}מבנה ספר תהילים: חמשת הספרים, המחברים וסוגי המזמורים | {{ site.name }}{% endblock %}
 {% block description %}חמשת הספרים שבספר תהילים, המחברים לפי הכותרות ולפי חז"ל, וסוגי המזמורים לפי לשון הכותרות.{% endblock %}
 {% macro src_quote(s) %}
 <blockquote class="source-quote">
@@ -43,7 +43,7 @@
 <p class="note">החישוב לפי האות הראשונה של כל פסוק, אחרי הכותרת.</p>
 <h4>הנו"ן שאינה ב"תהלה לדוד" (קמה)</h4>
 {{ src_quote(sources.ashrei_nun) }}
-<p class="no-source">לאותיות החסרות במזמורים כה ו-לד: לא נמצא עדיין מקור בחומר שנשלף.</p>
+<p class="no-source">לאותיות החסרות במזמורים כה ו-לד לא נמצא מקור.</p>
 </section>
 
 <section class="dim-panel" data-for="author" id="authors" aria-label="נתונים לפי מחבר" hidden>

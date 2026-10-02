@@ -25,7 +25,7 @@
       <a class="brand" href="{{ root }}">{{ site.name }}</a>
       <nav class="site-nav" aria-label="ניווט ראשי">
         <ul>
-          {% set nav = [('sefer', 'מבנה הספר'), ('shemot', 'השמות'), ('david', 'דוד'), ('tefila', 'בחיים היהודיים'), ('inyanim', 'לעניינים'), ('chida', 'תהלים החיד"א'), ('shita', 'שיטה'), ('about', 'אודות')] %}
+          {% set nav = [('sefer', 'מבנה הספר'), ('shemot', 'השמות'), ('david', 'דוד'), ('tefila', 'בחיים היהודיים'), ('inyanim', 'לעניינים'), ('chida', 'תהלים החיד"א'), ('about', 'אודות')] %}
           {% for slug, label in nav %}
           <li><a href="{{ root }}{{ slug }}/"{% if path == slug or path.startswith(slug ~ '/') %} aria-current="page"{% endif %}>{{ label }}</a></li>
           {% endfor %}
@@ -49,7 +49,6 @@
       <p>נוסח המקרא: <a href="https://www.sefaria.org/Psalms?lang=he">מקרא על פי המסורה</a>, דרך ספריא, ברישיון CC-BY-SA. שמות הקודש מופיעים בכינוי.</p>
       <ul>
         <li><a href="{{ root }}about/">אודות וקרדיטים</a></li>
-        <li><a href="{{ root }}shita/">שיטת העבודה</a></li>
         <li><a href="{{ root }}accessibility/">הצהרת נגישות</a></li>
         <li><a href="{{ root }}privacy/">מדיניות פרטיות</a></li>
       </ul>
