@@ -17,12 +17,14 @@
   <button type="button" class="toggle" id="tg-names" aria-pressed="false">סימון השמות</button>
 </div>
 
-<article class="psalm-text" lang="he" aria-label="נוסח המזמור">
+<article class="psalm-text" lang="he" aria-label="נוסח המזמור" data-pagefind-ignore>
   {% for v in verses %}
   <p class="verse" id="v{{ v.v }}"><span class="vnum" aria-label="פסוק {{ v.heb }}">{{ v.heb }}</span>{{ v.html }}</p>
   {% if v.para and not loop.last %}<span class="para-break" aria-hidden="true"></span>{% endif %}
   {% endfor %}
 </article>
+
+<div class="visually-hidden" aria-hidden="true">{{ search_text }}</div>
 
 <h2>הכותרת</h2>
 {% if h %}

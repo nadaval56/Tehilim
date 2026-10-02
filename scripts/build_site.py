@@ -19,6 +19,7 @@ from markupsafe import Markup
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import a11y_snippets  # noqa: E402
+import names  # noqa: E402
 from build_data import verse_tokens  # noqa: E402
 from hebrew import hebrew_numeral, tokenize  # noqa: E402
 
@@ -197,6 +198,14 @@ def structure_charts(psalms: dict, books: list) -> dict:
             "type": hbar(t_counts, "מזמורים לפי כינוי הסוג שבכותרת")}
 
 
+def search_text(p: dict) -> str:
+    """Letters-only text of the psalm, for the search index (queries are typed without niqqud)."""
+    plain = " ".join(re.sub(r"[\u0591-\u05C7\u034F]", "", v["text"]).replace("\u05BE", " ") for v in p["verses"])
+    # Without niqqud some ordinary words look exactly like a name (e.g. "my field"); they get a kinui too.
+    masked, _ = names.mask(plain, names.detect(plain))
+    return masked
+
+
 # --- liturgy -----------------------------------------------------------------
 _NUM = {c: v for v, c in [(1, "א"), (2, "ב"), (3, "ג"), (4, "ד"), (5, "ה"), (6, "ו"), (7, "ז"), (8, "ח"), (9, "ט"),
                           (10, "י"), (20, "כ"), (30, "ל"), (40, "מ"), (50, "נ"), (60, "ס"), (70, "ע"), (80, "פ"),
@@ -328,7 +337,9 @@ def main() -> int:
     version = date.today().strftime("%Y%m%d")
     pages = []
 
-    def page(path: str, template: str, **ctx):
+    def page(path: str, template: str, index: bool = True, **ctx):
+        """index: include the page in the search index (Pagefind)."""
+        ctx["pagefind"] = index
         depth = path.count("/") + 1 if path else 0
         root = "../" * depth
         ctx.update(root=root, site=CONFIG, path=path, version=version,
@@ -434,16 +445,17 @@ def main() -> int:
     for i, l in enumerate(L):
         rows = [{"psalm": r["psalm"], "verse": r["verse"],
                  "html": dual(render_verse(psalms[r["psalm"]]["verses"][r["verse"] - 1]))} for r in l["verses"]]
-        page(f"chida/{l['slug']}", "chida_letter.html.j2", letter=l, rows=rows,
+        page(f"chida/{l['slug']}", "chida_letter.html.j2", index=False, letter=l, rows=rows,
              prev=L[i - 1] if i else None, next=L[i + 1] if i + 1 < len(L) else None, **common)
     page("shita", "shita.html.j2", **common)
     page("about", "about.html.j2", **common)
-    page("accessibility", "accessibility.html.j2", **common)
-    page("privacy", "privacy.html.j2", **common)
+    page("accessibility", "accessibility.html.j2", index=False, **common)
+    page("privacy", "privacy.html.j2", index=False, **common)
+    page("search", "search.html.j2", index=False, **common)
     for n, p in psalms.items():
         page(f"mizmor/{n}", "psalm.html.j2", p=p, n=n, verses=psalm_verses_html(p),
              prev=n - 1 if n > 1 else None, next=n + 1 if n < 150 else None,
-             pair_ids=p["doublet_of"] or [], **common)
+             pair_ids=p["doublet_of"] or [], search_text=search_text(p), **common)
 
     (OUT / "404.html").write_text(env.get_template("404.html.j2").render(
         root=CONFIG["base_path"], site=CONFIG, path="404", version=version,

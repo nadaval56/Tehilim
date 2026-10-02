@@ -88,6 +88,8 @@ html.a11y-invert {
 /* קישור הדילוג צבוע #fff על --gold-dark. בניגודיות הפוכה --gold-dark
    הופך לגוון בהיר, ולבן עליו הוא 1.33:1 — הקישור הראשון בכל דף, בדיוק
    במצב שמשתמש לקוי ראייה מדליק. הצבע נקבע לפי הרקע של כל מצב. */
+html.a11y-invert .tag { background: #1e1e1e !important; color: #ffd9a8 !important; border: 1px solid #6e6e6e; }
+html.a11y-contrast .tag { background: #fff !important; color: #000 !important; border: 1px solid #000; }
 html.a11y-invert .skip-link,
 html.a11y-invert .skip-link:focus { color: #000 !important; }
 html.a11y-contrast .skip-link,

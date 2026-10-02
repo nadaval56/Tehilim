@@ -30,6 +30,8 @@ python scripts/build_data.py
 python scripts/build_site.py        # → build/
 python scripts/check_names.py --git-log
 python -m unittest discover -s tests
+npx -y pagefind@1 --site build      # אינדקס החיפוש
+node scripts/a11y-audit.mjs --root build   # ביקורת נגישות (דורש Playwright)
 ```
 הפריסה ל-GitHub Pages נעשית ב-`.github/workflows/deploy.yml` בכל push ל-`main`.
 בהגדרות ה-repo, תחת Pages, יש לבחור Source: GitHub Actions.

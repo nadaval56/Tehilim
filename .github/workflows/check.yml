@@ -22,4 +22,5 @@ jobs:
       - name: Build and check the output
         run: |
           python scripts/build_site.py
+          npx -y pagefind@1 --site build
           python scripts/check_names.py build

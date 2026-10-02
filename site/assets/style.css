@@ -103,6 +103,7 @@ h1 { font-size: 1.75rem; margin: 0 0 var(--sp-2); }
 h2 { font-size: 1.25rem; margin: var(--sp-10) 0 var(--sp-3); }
 h3 { font-size: 1.0625rem; margin: var(--sp-6) 0 var(--sp-2); }
 p { margin: 0 0 var(--sp-4); }
+p, li, dd, td, blockquote { overflow-wrap: break-word; }  /* long names (e.g. a domain) must not widen the page */
 .num { font-variant-numeric: tabular-nums; }
 .muted { color: var(--text-2); }
 .small { font-size: .875rem; }
@@ -168,7 +169,7 @@ table { border-collapse: collapse; width: 100%; font-size: .9375rem; }
 th, td { text-align: start; padding: var(--sp-2) var(--sp-3); border-bottom: 1px solid var(--border); vertical-align: top; }
 th { font-weight: 600; color: var(--text-2); font-size: .8125rem; }
 td.n, th.n { text-align: end; font-variant-numeric: tabular-nums; }
-.table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg-card); }
+.table-wrap { position: relative; overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg-card); }
 .table-wrap table { margin: 0; }
 .table-wrap tr:last-child td { border-bottom: 0; }
 
@@ -246,10 +247,9 @@ td.n, th.n { text-align: end; font-variant-numeric: tabular-nums; }
 .book-map[data-dim="alpha"] .cell[data-alpha] { background: var(--b4); color: var(--b4-ink); }
 /* שני מחברים בכותרת: צבע הראשון, ופינה בצבע השני */
 .book-map[data-dim="author"] .cell[data-author2] { background: linear-gradient(135deg, var(--a1) 62%, var(--a2) 62%); }
-.book-map[data-dim="names"] .cell[data-names="h"] { background: color-mix(in oklab, var(--hav) var(--k), var(--mid)); }
-.book-map[data-dim="names"] .cell[data-names="e"] { background: color-mix(in oklab, var(--elo) var(--k), var(--mid)); }
-.book-map[data-dim="names"] .cell[data-names="h"][data-strong] { color: var(--hav-ink); }
-.book-map[data-dim="names"] .cell[data-names="e"][data-strong] { color: var(--elo-ink); }
+.book-map[data-dim="names"] .cell[data-names="h"] { background: color-mix(in srgb, var(--hav) var(--k), var(--mid)); }
+.book-map[data-dim="names"] .cell[data-names="e"] { background: color-mix(in srgb, var(--elo) var(--k), var(--mid)); }
+
 .book-map[data-dim="names"] .cell[data-names="0"] {
   background: repeating-linear-gradient(45deg, var(--c-none) 0 3px, transparent 3px 6px);
 }
@@ -462,3 +462,22 @@ details > summary {
 .tl-ref { font-variant-numeric: tabular-nums; color: var(--text-2); font-size: .875rem; min-width: 7.5rem; }
 .tl-title { font-weight: 600; }
 .david-map { height: 28rem; border: 1px solid var(--border); border-radius: var(--radius); margin-top: var(--sp-3); }
+
+/* ── חיפוש (Pagefind) ── */
+.search-link { display: inline-flex; align-items: center; justify-content: center; }
+#search { --pagefind-ui-font: var(--font-ui); --pagefind-ui-primary: var(--gold-dark); --pagefind-ui-text: var(--text);
+          --pagefind-ui-background: var(--bg-card); --pagefind-ui-border: var(--border-2); --pagefind-ui-tag: var(--bg-2);
+          --pagefind-ui-border-radius: 11px; margin-top: var(--sp-4); }
+/* Pagefind UI אינו בנוי ל-RTL: כפתור הניקוי עובר לצד שמאל, ליד סמל החיפוש */
+#search .pagefind-ui__search-clear { right: auto !important; left: 48px; }
+#search .pagefind-ui__search-input { padding-inline-end: 7rem !important; padding-inline-start: 1rem !important; }
+#search mark { background: color-mix(in srgb, var(--gold) 30%, transparent); color: inherit; padding: 0 .1em; border-radius: 3px; }
+.diff, .diff-name-HAVAYAH, .diff-name-ELOKIM { color: var(--text); }
+#search .pagefind-ui__search-clear { font-size: .75rem; }
+
+/* מספר המזמור בתא יושב על רקע קטן בצבע המשטח, כך שהניגודיות אינה תלויה בצבע התא
+   (בצבעי ביניים אין צבע תווית אחד שעומד ב-4.5:1). */
+.book-map .cell .cl {
+  background: color-mix(in srgb, var(--bg-card) 84%, transparent); color: var(--text);
+  border-radius: 4px; padding: 0 .22em; line-height: 1.35;
+}
