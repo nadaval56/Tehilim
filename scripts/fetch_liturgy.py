@@ -51,8 +51,16 @@ CONTEXTS = [
 ]
 
 
-def context_of(section: str) -> str:
+# Hallel is psalms 113-118 in every nusach (Pesachim 117a). Other psalms that Sefaria
+# files under a Hallel section (Ashrei after it, the Great Hallel in the Haggadah)
+# fall through to the next matching context.
+HALLEL = range(113, 119)
+
+
+def context_of(section: str, psalm: int) -> str:
     for cid, _, kws in CONTEXTS:
+        if cid == "hallel" and psalm not in HALLEL:
+            continue
         if any(re.search(k, section) for k in kws):
             return cid
     return "other"
@@ -149,7 +157,7 @@ def main() -> int:
         if cov < MIN_COVERAGE:
             continue
         best[(c, nus, sec)] = {
-            "psalm": c, "nusach": nus, "context": context_of(sec), "section": sec,
+            "psalm": c, "nusach": nus, "context": context_of(sec, c), "section": sec,
             "from": min(g["verses"]), "to": max(g["verses"]), "coverage": round(cov, 2), "ref": g["ref"],
             "order": list(g["pos"]),
             "url": "https://www.sefaria.org/" + g["ref"].replace(" ", "_").replace(",", "%2C") + "?lang=he",

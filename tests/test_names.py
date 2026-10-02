@@ -116,6 +116,12 @@ class Data(unittest.TestCase):
 
 
 class Liturgy(unittest.TestCase):
+    def test_hallel_is_113_to_118_in_every_nusach(self):
+        doc = json.loads((ROOT / "data" / "liturgy.json").read_text(encoding="utf-8"))
+        for nus in doc["nusachim"]:
+            got = {e["psalm"] for e in doc["entries"] if e["context"] == "hallel" and e["nusach"] == nus}
+            self.assertEqual(got, set(range(113, 119)), nus)
+
     def test_shir_shel_yom_found_for_every_day(self):
         doc = json.loads((ROOT / "data" / "liturgy.json").read_text(encoding="utf-8"))
         days = doc["shir_shel_yom_mishnah"]

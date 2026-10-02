@@ -4691,7 +4691,7 @@
   {
    "psalm": 136,
    "nusach": "sefard",
-   "context": "hallel",
+   "context": "festivals",
    "section": "סידור ספרד, הגדה של פסח, הלל",
    "from": 2,
    "to": 26,
@@ -4915,22 +4915,6 @@
   {
    "psalm": 145,
    "nusach": "edot",
-   "context": "hallel",
-   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",
-   "from": 1,
-   "to": 21,
-   "coverage": 0.95,
-   "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Hallel 25",
-   "order": [
-    84,
-    25
-   ],
-   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_25?lang=he",
-   "status": "auto"
-  },
-  {
-   "psalm": 145,
-   "nusach": "edot",
    "context": "pesukei",
    "section": "סידור נוסח עדות המזרח, שחרית לימי החול, פסוקי דזמרה",
    "from": 1,
@@ -4958,6 +4942,22 @@
     7
    ],
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_7?lang=he",
+   "status": "auto"
+  },
+  {
+   "psalm": 145,
+   "nusach": "edot",
+   "context": "rosh_chodesh",
+   "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",
+   "from": 1,
+   "to": 21,
+   "coverage": 0.95,
+   "ref": "Siddur Edot HaMizrach, Rosh Hodesh, Hallel 25",
+   "order": [
+    84,
+    25
+   ],
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Rosh_Hodesh%2C_Hallel_25?lang=he",
    "status": "auto"
   },
   {
