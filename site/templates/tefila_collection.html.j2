@@ -1,7 +1,7 @@
 {% extends "base.html.j2" %}
 {% block title %}{{ col.title }}: מזמורי תהילים | {{ site.name }}{% endblock %}
 {% block description %}{{ col.title }}: נוסח המזמורים המלא, ברצף ובסדר שבו הם נאמרים.{% endblock %}
-{% macro psalm_block(n, lead=none) %}
+{% macro psalm_block(n, lead=none, cut=none) %}
 <section class="psalm-text coll-psalm" lang="he" aria-label="מזמור {{ n|heb }}">
   <h2><a href="{{ root }}mizmor/{{ n }}/">מזמור {{ n|heb }}</a></h2>
   {% if lead %}
@@ -10,9 +10,10 @@
   <p class="verse lead-verse"><span class="vnum" aria-label="מזמור {{ lead.psalm|heb }} פסוק {{ v.heb }}">{{ lead.psalm|heb }}:{{ v.heb }}</span>{{ v.html }}</p>
   {% endfor %}
   {% endif %}
-  {% for v in verses_html[n] %}
+  {% for v in (cut or verses_html[n]) %}
   <p class="verse"><span class="vnum" aria-label="פסוק {{ v.heb }}">{{ v.heb }}</span>{{ v.html }}</p>
   {% endfor %}
+  {% if cut %}<p class="note">כאן נוהגים לסיים, כבסידור. <a href="{{ root }}mizmor/{{ n }}/">המזמור המלא</a></p>{% endif %}
 </section>
 {% endmacro %}
 {% macro src_quote(s) %}
@@ -57,13 +58,13 @@
   <div class="tab-panel" data-panel="{{ x.nusach }}"{% if multi %} role="tabpanel"{% endif %}{% if multi and not loop.first %} hidden{% endif %}>
     <p class="muted">
       {% if not multi and x.nusach %}{% if col.by_nusach|length < 3 %}בנוסח {% for y in col.by_nusach %}{{ y.label }}{% if not loop.last %} ו{% endif %}{% endfor %} שבספריא{% else %}בכל הנוסחים שבספריא{% endif %}: {% endif %}
-      {% for n in x.psalms %}<a href="#m{{ x.nusach }}-{{ n }}">מזמור {{ n|heb }}</a>{% if (x.rubrics or {}).get(n) %}*{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}
+      {% for n in x.psalms %}<a href="#m{{ x.nusach }}-{{ n }}">מזמור {{ n|heb }}</a>{% if (x.untils or {}).get(n) %} (עד פסוק {{ x.untils[n].v|heb }}){% endif %}{% if (x.rubrics or {}).get(n) %}*{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}
     </p>
     {% if x.rubrics %}<p class="note">* לא בכל יום. הוראת הסידור מובאת לפני המזמור.</p>{% endif %}
     {% for n in x.psalms %}<div id="m{{ x.nusach }}-{{ n }}">
       {% set r = (x.rubrics or {}).get(n) %}
       {% if r %}<p class="rubric">בסידור, לפני המזמור: "{{ r.text }}" <a href="{{ r.url }}" class="small">ספריא</a></p>{% endif %}
-      {{ psalm_block(n, (x.leads or {}).get(n)) }}</div>{% endfor %}
+      {{ psalm_block(n, (x.leads or {}).get(n), (x.cut or {}).get(n)) }}</div>{% endfor %}
     {% if x.sections %}<p class="note">בסידור: {% for sec, url in x.sections %}<a href="{{ url }}">{{ sec }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
   </div>
   {% endfor %}

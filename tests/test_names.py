@@ -128,6 +128,8 @@ class Liturgy(unittest.TestCase):
         for nus in ("ashkenaz", "sefard", "edot"):
             p91 = [x for x in doc["motzaei-shabbat"][nus]["psalms"] if x["psalm"] == 91]
             self.assertTrue(p91 and p91[0]["lead"]["psalm"] == 90 and p91[0]["lead"]["to"] == 17, nus)
+        bed = doc["kriat-shema-al-hamita"]["edot"]["psalms"]
+        self.assertEqual((bed[0]["psalm"], bed[0]["until"]["v"]), (91, 9))  # by custom, up to "my refuge"
         self.assertEqual([x["psalm"] for x in doc["kabbalat-shabbat"]["ashkenaz"]["psalms"]],
                          [95, 96, 97, 98, 99, 29, 92, 93])
 

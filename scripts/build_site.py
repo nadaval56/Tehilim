@@ -84,6 +84,18 @@ def render_verse(v: dict, heading_end: int | None = None, para: bool = False) ->
     return Markup(s)
 
 
+def cut_verse(v: dict, words: int) -> dict:
+    """The verse up to (and including) its words-th comparable word, as the siddur stops it."""
+    from fetch_orders import words as comparable
+    count, end = 0, len(v["text"])
+    for m in re.finditer(r"\S+", v["text"]):
+        count += len(comparable(m.group()))
+        if count >= words:
+            end = m.end()
+            break
+    return {**v, "text": v["text"][:end], "names": [e for e in v["names"] if e["end"] <= end]}
+
+
 def psalm_verses_html(p: dict) -> list[dict]:
     h = p["heading"]
     rows = []
@@ -303,6 +315,7 @@ def build_collections(lit: dict, tikkun: list[int], orders: dict | None = None) 
                     "nusach": nus, "label": label, "psalms": [x["psalm"] for x in o["psalms"]],
                     "rubrics": {x["psalm"]: {"text": x["rubric"].rstrip(": "), "url": x["url"]} for x in o["psalms"] if x.get("rubric")},
                     "leads": {x["psalm"]: x["lead"] for x in o["psalms"] if x.get("lead")},
+                    "untils": {x["psalm"]: x["until"] for x in o["psalms"] if x.get("until")},
                     "sections": [(f"סידור {label} בספריא", s["url"]) for s in o["sections"][:1]]})
             if c["by_nusach"]:
                 c["same_everywhere"] = len({(tuple(x["psalms"]), str(x["rubrics"])) for x in c["by_nusach"]}) == 1
@@ -572,6 +585,15 @@ def main() -> int:
             + [ld["psalm"] for x in col["by_nusach"] for ld in x.get("leads", {}).values()]
         for n in ns:
             verses_html.setdefault(n, psalm_verses_html(psalms[n]))
+    for col in collections:
+        for x in col["by_nusach"]:
+            x["cut"] = {}
+            for n, u in x.get("untils", {}).items():
+                rows = [r for r in psalm_verses_html(psalms[n]) if r["v"] < u["v"]]
+                if u.get("words"):
+                    v = cut_verse(next(v for v in psalms[n]["verses"] if v["v"] == u["v"]), u["words"])
+                    rows.append({"v": v["v"], "heb": heb(v["v"]), "html": dual(render_verse(v)), "para": False})
+                x["cut"][n] = rows
     page("tefila", "tefila.html.j2", collections=collections, **common)
     inyanim = json.loads((DATA / "inyanim.json").read_text(encoding="utf-8"))
     for need in inyanim["needs"]:
