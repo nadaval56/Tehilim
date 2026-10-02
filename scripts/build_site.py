@@ -153,6 +153,53 @@ def he_samuel(ref: str) -> str:
     return out
 
 
+# --- static map (David lens) -------------------------------------------------
+def static_map(points: list[dict]) -> Markup:
+    """Inline SVG map from Natural Earth shapes (data/map_shapes.json); no tiles, no requests."""
+    import math
+    shapes = json.loads((DATA / "map_shapes.json").read_text(encoding="utf-8"))
+    x0, y0, x1, y1 = shapes["bbox"]
+    cx = math.cos(math.radians((y0 + y1) / 2))
+    W = 560  # drawn at display size, so labels and markers keep their real size
+    k = W / ((x1 - x0) * cx)
+    H = round((y1 - y0) * k)
+
+    def xy(lon, lat):
+        return (lon - x0) * cx * k, (y1 - lat) * k
+
+    def path(ring, close):
+        pts = " ".join(f"{a:.1f},{b:.1f}" for a, b in (xy(*p) for p in ring))
+        return f"M{pts}{'Z' if close else ''}"
+
+    parts = [f'<svg class="static-map" viewBox="0 0 {W} {H}" role="img" aria-labelledby="map-t map-d" style="direction: ltr">',
+             '<title id="map-t">מפת המקומות הנזכרים באירועים</title>',
+             '<desc id="map-d">' + html.escape("; ".join(f"{p['name']} ({p['certainty']}): מזמורים "
+                                                       + ", ".join(x['heb'] for x in p['psalms']) for p in points)) + '</desc>',
+             f'<rect class="m-sea" width="{W}" height="{H}"/>']
+    parts += [f'<path class="m-land" d="{path(r, True)}"/>' for r in shapes["land"]]
+    parts += [f'<path class="m-lake" d="{path(r, True)}"/>' for r in shapes["lakes"]]
+    parts += [f'<path class="m-river" d="{path(r, False)}"/>' for r in shapes["rivers"]]
+    placed = []  # label boxes, to keep labels from overlapping
+    for p in sorted(points, key=lambda p: -p["lat"]):
+        x, y = xy(p["lon"], p["lat"])
+        cls = {"ודאי": "m-sure", "מקובל": "m-accepted"}.get(p["certainty"], "m-guess")
+        label = f"{p['name']} · " + ", ".join(x_["heb"] for x_ in p["psalms"])
+        w = 6.0 * len(label) + 8
+        for dx, dy, anchor in ((-9, 4, "end"), (9, 4, "start"), (0, -10, "middle"), (0, 18, "middle"),
+                               (-9, -10, "end"), (9, 18, "start"), (-9, 18, "end"), (9, -10, "start")):
+            bx = x + dx - (w if anchor == "end" else w / 2 if anchor == "middle" else 0)
+            box_ = (bx, y + dy - 11, bx + w, y + dy + 3)
+            if all(box_[2] < b[0] or box_[0] > b[2] or box_[3] < b[1] or box_[1] > b[3] for b in placed) \
+                    and 0 <= box_[0] and box_[2] <= W:
+                break
+        placed.append(box_)
+        parts.append(f'<circle class="m-pt {cls}" cx="{x:.1f}" cy="{y:.1f}" r="4.5"/>')
+        parts.append(f'<text class="m-label" x="{x + dx:.1f}" y="{y + dy:.1f}" text-anchor="{anchor}">'
+                     f'{html.escape(label)}</text>')
+    parts.append("</svg>")
+    return Markup("".join(parts))
+
+
 # --- charts ------------------------------------------------------------------
 def hbar(items: list[tuple[str, int, str]], title: str, unit: str = "") -> Markup:
     """Horizontal bar chart (inline SVG): [(label, value, css colour)]. Labels on the right (RTL)."""
@@ -488,7 +535,7 @@ def main() -> int:
         if ps:
             map_points.append({**pl, "psalms": [{"n": n, "heb": heb(n)} for n in ps]})
 
-    common = dict(psalms=psalms, cand_cmp=cand_cmp, timeline=timeline, unplaced=unplaced, map_points=map_points, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
+    common = dict(psalms=psalms, cand_cmp=cand_cmp, timeline=timeline, david_map=static_map(map_points), unplaced=unplaced, map_points=map_points, books=books, stats=stats, cells=cells, sources=sources, chol=chol,
                   pairs=pairs, doublets=doublets, AUTHOR_LEGEND=AUTHOR_LEGEND, TYPE_LEGEND=TYPE_LEGEND,
                   chart_max=chart_max, kinuyim=KINUYIM, alpha=alphabetic(psalms), chida=chida, lit=lit, charts=structure_charts(psalms, books), litv=liturgy_view(lit),
                   tikkun=parse_heb_numbers(" ".join(x["text"] for x in sources["tikkun_haklali"]["segments"])),

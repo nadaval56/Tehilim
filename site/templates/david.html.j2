@@ -75,8 +75,14 @@
 {% endif %}
 
 <h2 id="map">מפה</h2>
-<div id="david-map" class="david-map" role="region" aria-label="מפת המקומות"></div>
-<p class="note">אריחי המפה נטענים מ-OpenStreetMap. <a href="{{ root }}privacy/">פרטים</a>.</p>
+<figure class="map-figure">
+  {{ david_map }}
+  <figcaption class="legend">
+    <span><i class="m-key m-sure"></i>זיהוי ודאי</span>
+    <span><i class="m-key m-accepted"></i>זיהוי מקובל</span>
+    <span><i class="m-key m-guess"></i>זיהוי משוער</span>
+  </figcaption>
+</figure>
 <div class="table-wrap read" style="margin-top: var(--sp-4)"><table>
   <thead><tr><th>מקום</th><th>זיהוי</th><th>מזמורים</th></tr></thead>
   <tbody>
@@ -92,32 +98,5 @@
   ההתאמה לספר שמואל לקוחה מהקישורים שבספריא לפסוקי הכותרת. כשיש כמה קישורים, הקטע העיקרי הוא זה שלשונו קרובה ביותר ללשון הכותרת, והשאר מוצגים כ"קישורים נוספים". כשאין קישור, נבדקים פירושי רש"י ורד"ק על הכותרת: אירוע ממוקם לפי פירוש שמפנה לפרק אחד בשמואל, או שמצטט את לשון הפסוק (שלוש מילים רצופות). כל הנתונים מסומנים כ"טרם אומתו ידנית".
 </div>
 
-<script>
-  (function () {
-    var POINTS = {{ map_points|tojson }};
-    var box = document.getElementById('david-map');
-    function load(src, css) {
-      return new Promise(function (ok, bad) {
-        var el = document.createElement(css ? 'link' : 'script');
-        if (css) { el.rel = 'stylesheet'; el.href = src; } else { el.src = src; }
-        el.onload = ok; el.onerror = bad; document.head.appendChild(el);
-      });
-    }
-    Promise.all([load('{{ root }}assets/vendor/leaflet/leaflet.css', true), load('{{ root }}assets/vendor/leaflet/leaflet.js')]).then(function () {
-        L.Icon.Default.imagePath = '{{ root }}assets/vendor/leaflet/images/';
-        var map = L.map(box, { scrollWheelZoom: false });
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          maxZoom: 13, attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
-        var bounds = [];
-        POINTS.forEach(function (p) {
-          var links = p.psalms.map(function (x) { return '<a href="{{ root }}mizmor/' + x.n + '/">' + x.heb + '</a>'; }).join(' · ');
-          L.marker([p.lat, p.lon], { title: p.name, alt: p.name }).addTo(map)
-            .bindPopup('<div dir="rtl"><b>' + p.name + '</b> (' + p.certainty + ')<br>מזמורים: ' + links + '</div>');
-          bounds.push([p.lat, p.lon]);
-        });
-        map.fitBounds(bounds, { padding: [36, 36], maxZoom: 10 });
-    });
-  })();
-</script>
+
 {% endblock %}
