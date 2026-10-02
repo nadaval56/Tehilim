@@ -62,6 +62,12 @@
  "doublet_of": null,
  "liturgy": [
   {
+   "nusach": "ashkenaz",
+   "context": "hallel",
+   "section": "סידור אשכנז, חגים, ראש חודש, הלל",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Festivals%2C_Rosh_Chodesh%2C_Hallel%2C_Psalm_117?lang=he"
+  },
+  {
    "nusach": "edot",
    "context": "hallel",
    "section": "סידור נוסח עדות המזרח, סדר ראש חודש, הלל לראש חודש ולמועדים",

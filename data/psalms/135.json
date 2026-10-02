@@ -371,6 +371,12 @@
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_135_1?lang=he"
   },
   {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_14?lang=he"
+  },
+  {
    "nusach": "sefard",
    "context": "pesukei",
    "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",

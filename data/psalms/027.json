@@ -294,19 +294,19 @@
    "nusach": "ashkenaz",
    "context": "weekday",
    "section": "סידור אשכנז, ימי חול, מעריב, לדוד",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_LeDavid_2?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_LeDavid_1?lang=he"
   },
   {
    "nusach": "ashkenaz",
    "context": "weekday",
    "section": "סידור אשכנז, ימי חול, תפילת שחרית, סיום תפילה, לדוד",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_LeDavid_2?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Concluding_Prayers%2C_LeDavid_1?lang=he"
   },
   {
    "nusach": "sefard",
    "context": "shabbat",
    "section": "סידור ספרד, מנחה לערב שבת, תפילת עמידה",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Eve_Mincha%2C_Amidah_86?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Eve_Mincha%2C_Amidah_24?lang=he"
   },
   {
    "nusach": "sefard",
@@ -324,13 +324,13 @@
    "nusach": "sefard",
    "context": "tachanun",
    "section": "סידור ספרד, מנחה לימות החול, תחנון",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Mincha%2C_Tachanun_34?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Mincha%2C_Tachanun_33?lang=he"
   },
   {
    "nusach": "sefard",
    "context": "weekday",
    "section": "סידור ספרד, שחרית לימות החול, לדוד ה'",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_L'David_Hashem_2?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_L'David_Hashem_1?lang=he"
   }
  ],
  "sources": {

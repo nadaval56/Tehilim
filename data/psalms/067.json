@@ -162,8 +162,20 @@
   {
    "nusach": "ashkenaz",
    "context": "festivals",
+   "section": "סידור אשכנז, ימי חול, מעריב, ספירת העומר",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Sefirat_HaOmer_56?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "festivals",
    "section": "סידור אשכנז, שבת, מעריב, ספירת העומר",
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Maariv%2C_Sefirat_HaOmer_9?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "levana",
+   "section": "סידור אשכנז, ימי חול, מעריב, ברכת הלבנה",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Maariv%2C_Birkat_HaLevana_17?lang=he"
   },
   {
    "nusach": "edot",
@@ -181,7 +193,7 @@
    "nusach": "edot",
    "context": "pesukei",
    "section": "סידור נוסח עדות המזרח, שחרית לימי החול, הודו",
-   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_15?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Hodu_14?lang=he"
   },
   {
    "nusach": "edot",
@@ -194,6 +206,48 @@
    "context": "tikkun_chatzot",
    "section": "סידור נוסח עדות המזרח, סדר תיקון חצות, תיקון לאה",
    "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_The_Midnight_Rite%2C_Tikkun_Leah_7?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, הגדה של פסח, נרצה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Nirtzah_15?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, חנוכה, סדר הדלקת נרות חנוכה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Chanukah%2C_Menorah_Lighting_26?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "festivals",
+   "section": "סידור ספרד, ערבית לימות החול, ספירת העומר",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Maariv%2C_Sefirat_HaOmer_55?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "levana",
+   "section": "סידור ספרד, קידוש לבנה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Kiddush_Levanah_20?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "life",
+   "section": "סידור ספרד, תוספות אחרי שחרית, בקשות לאחר התפילה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Additional_Prayers_%2C_Supplications_After_Prayers_4?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "other",
+   "section": "סידור ספרד, שמחת תורה, הקפות לשמחת תורה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Simchat_Torah%2C_Hakafot_11?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית לימות החול, הודו",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Weekday_Shacharit%2C_Hodu_11?lang=he"
   }
  ],
  "sources": {

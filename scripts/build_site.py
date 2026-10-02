@@ -222,6 +222,67 @@ def parse_heb_numbers(text: str) -> list[int]:
     return [n for n in out if 1 <= n <= 150]
 
 
+# Prayer collections: one button each; a page with the full text of its psalms in order.
+# mode "largest": the siddur section with the most psalms; "all": every matching section, in siddur order.
+COLLECTIONS = [
+    {"slug": "shir-shel-yom", "title": "שיר של יום", "special": "shir_shel_yom"},
+    {"slug": "kabbalat-shabbat", "title": "קבלת שבת", "contexts": ["kabbalat_shabbat"], "mode": "largest"},
+    {"slug": "hallel", "title": "הלל", "contexts": ["hallel"], "mode": "largest"},
+    {"slug": "pesukei-dezimra", "title": "פסוקי דזמרה (חול)", "contexts": ["pesukei"], "mode": "all", "exclude": "שבת"},
+    {"slug": "pesukei-dezimra-shabbat", "title": "פסוקי דזמרה (שבת)", "contexts": ["pesukei"], "mode": "all", "require": "שבת"},
+    {"slug": "tikkun-chatzot", "title": "תיקון חצות", "contexts": ["tikkun_chatzot"], "mode": "all"},
+    {"slug": "tikkun-haklali", "title": "התיקון הכללי", "special": "tikkun_haklali"},
+    {"slug": "kriat-shema-al-hamita", "title": "קריאת שמע על המיטה", "contexts": ["bedtime"], "mode": "largest"},
+    {"slug": "birkat-hamazon", "title": "לפני ברכת המזון", "contexts": ["birkat_hamazon"], "mode": "all"},
+    {"slug": "birkat-halevana", "title": "ברכת הלבנה", "contexts": ["levana"], "mode": "largest"},
+    {"slug": "rosh-chodesh", "title": "ראש חודש", "contexts": ["rosh_chodesh"], "mode": "all"},
+    {"slug": "motzaei-shabbat", "title": "מוצאי שבת", "contexts": ["motzaei_shabbat"], "mode": "all"},
+    {"slug": "tachanun", "title": "תחנון", "contexts": ["tachanun"], "mode": "all"},
+]
+
+
+def build_collections(lit: dict, tikkun: list[int]) -> list[dict]:
+    out = []
+    for col in COLLECTIONS:
+        c = {**col, "by_nusach": []}
+        if col.get("special") == "shir_shel_yom":
+            c["days"] = [d for d in lit["shir_shel_yom_mishnah"] if d["psalm"]]
+            c["count"] = len(c["days"])
+            out.append(c)
+            continue
+        if col.get("special") == "tikkun_haklali":
+            c["by_nusach"] = [{"nusach": None, "label": "", "psalms": tikkun, "sections": []}]
+            c["count"] = len(tikkun)
+            out.append(c)
+            continue
+        for nus, label in lit["nusachim"].items():
+            es = [e for e in lit["entries"] if e["nusach"] == nus and e["context"] in col["contexts"]
+                  and not (col.get("exclude") and col["exclude"] in e["section"])
+                  and (not col.get("require") or col["require"] in e["section"])]
+            if not es:
+                continue
+            if col["mode"] == "largest":
+                secs = {}
+                for e in es:
+                    secs.setdefault(e["section"], []).append(e)
+                es = max(secs.values(), key=len)
+            es.sort(key=lambda e: (e["order"], e["psalm"]))
+            psalms, seen = [], set()
+            for e in es:
+                if e["psalm"] not in seen:
+                    seen.add(e["psalm"])
+                    psalms.append(e["psalm"])
+            c["by_nusach"].append({"nusach": nus, "label": label, "psalms": psalms,
+                                   "sections": sorted({(e["section"], e["url"]) for e in es})[:6]})
+        if not c["by_nusach"]:
+            continue
+        lists = {tuple(x["psalms"]) for x in c["by_nusach"]}
+        c["same_everywhere"] = len(lists) == 1
+        c["count"] = max(len(x["psalms"]) for x in c["by_nusach"])
+        out.append(c)
+    return out
+
+
 def liturgy_view(lit: dict) -> dict:
     nus = list(lit["nusachim"])
     ctx_label = {c["id"]: c["label"] for c in lit["contexts"]}
@@ -438,7 +499,15 @@ def main() -> int:
     page("shemot", "shemot.html.j2", **common)
     for pr in pairs:
         page(f"kfulim/{pr['id']}", "pair.html.j2", pair=pr, **common)
-    page("tefila", "tefila.html.j2", **common)
+    collections = build_collections(lit, common["tikkun"])
+    verses_html = {}
+    for col in collections:
+        ns = [d["psalm"] for d in col.get("days", [])] + [n for x in col["by_nusach"] for n in x["psalms"]]
+        for n in ns:
+            verses_html.setdefault(n, psalm_verses_html(psalms[n]))
+    page("tefila", "tefila.html.j2", collections=collections, **common)
+    for col in collections:
+        page(f"tefila/{col['slug']}", "tefila_collection.html.j2", col=col, verses_html=verses_html, **common)
     page("david", "david.html.j2", **common)
     page("chida", "chida.html.j2", **common)
     L = chida["letters"]

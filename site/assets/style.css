@@ -491,3 +491,20 @@ td a { white-space: nowrap; }
   .cmp-table td:nth-child(3), .cmp-table th:nth-child(3) { display: none; }  /* מספר הפסוקים נראה בטווח עצמו */
   .cmp-btn { padding: 0 var(--sp-2); }
 }
+
+/* ── עדשת התפילה: כפתורי סדרים ודף רציף ── */
+.collection-grid { list-style: none; margin: var(--sp-6) 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: var(--sp-3); }
+.collection-btn {
+  display: flex; flex-direction: column; gap: var(--sp-1); min-height: 5rem; justify-content: center;
+  padding: var(--sp-4) var(--sp-5); background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  text-decoration: none; color: var(--text);
+}
+.collection-btn:hover { border-color: var(--gold); background: var(--bg-card-h); }
+.c-title { font-size: 1.125rem; font-weight: 600; }
+.c-meta { font-size: .8125rem; color: var(--text-2); }
+.tabs { margin: var(--sp-2) 0 var(--sp-4); }
+.tabs [aria-selected="true"] { background: var(--bg-card); color: var(--text); font-weight: 600; box-shadow: 0 0 0 1px var(--border); }
+.tab-panel[hidden] { display: none; }
+.coll-psalm { margin: 0 0 var(--sp-4); }
+.coll-psalm h2 { font-family: var(--font-ui); font-size: 1.125rem; margin: 0 0 var(--sp-2); }
+.coll-psalm h2 a { color: var(--text); text-decoration: none; }

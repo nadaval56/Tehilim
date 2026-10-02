@@ -236,6 +236,12 @@
   },
   {
    "nusach": "sefard",
+   "context": "other",
+   "section": "סידור ספרד, שמחת תורה, הקפות לשמחת תורה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Simchat_Torah%2C_Hakafot_11?lang=he"
+  },
+  {
+   "nusach": "sefard",
    "context": "pesukei",
    "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_12?lang=he"

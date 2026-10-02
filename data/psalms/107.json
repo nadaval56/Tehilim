@@ -400,7 +400,20 @@
  "names_combos": {},
  "selah_count": 0,
  "doublet_of": null,
- "liturgy": [],
+ "liturgy": [
+  {
+   "nusach": "edot",
+   "context": "festivals",
+   "section": "סידור נוסח עדות המזרח, תפילה לשלש רגלים, מזמור לפסח",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Prayers_for_Three_Festivals%2C_Song_for_Passover_2?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "shabbat",
+   "section": "סידור ספרד, מנחה לערב שבת, מנחה לערב שבת",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Eve_Mincha%2C_Mincha_2?lang=he"
+  }
+ ],
  "sources": {
   "text": "sefaria:Psalms.107",
   "version": "Miqra according to the Masorah",

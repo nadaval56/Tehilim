@@ -197,6 +197,12 @@
   {
    "nusach": "ashkenaz",
    "context": "shabbat",
+   "section": "סידור אשכנז, שבת, מנחה, קריאת התורה, הכנסת התורה, לדוד מזמור",
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Minchah%2C_Torah_Reading%2C_Returning_Sefer_to_Aron%2C_LeDavid_1?lang=he"
+  },
+  {
+   "nusach": "ashkenaz",
+   "context": "shabbat",
    "section": "סידור אשכנז, שבת, שחרית, הכנסת ספר תורה",
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Returning_Sefer_to_Aron_5?lang=he"
   },

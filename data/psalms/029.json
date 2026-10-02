@@ -364,6 +364,12 @@
   },
   {
    "nusach": "sefard",
+   "context": "other",
+   "section": "סידור ספרד, שמחת תורה, הקפות לשמחת תורה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Simchat_Torah%2C_Hakafot_4?lang=he"
+  },
+  {
+   "nusach": "sefard",
    "context": "shabbat",
    "section": "סידור ספרד, שחרית של שבת, אב הרחמים",
    "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Av_HaRachamim_9?lang=he"

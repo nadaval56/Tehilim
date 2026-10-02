@@ -344,6 +344,12 @@
  "doublet_of": null,
  "liturgy": [
   {
+   "nusach": "edot",
+   "context": "weekday",
+   "section": "סידור נוסח עדות המזרח, שחרית לימי החול, בית יעקב",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Weekday_Shacharit%2C_Beit_Yaakov_3?lang=he"
+  },
+  {
    "nusach": "sefard",
    "context": "weekday",
    "section": "סידור ספרד, שחרית לימות החול, בית יעקב",

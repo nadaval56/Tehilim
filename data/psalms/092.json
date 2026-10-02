@@ -232,13 +232,31 @@
    "nusach": "ashkenaz",
    "context": "pesukei",
    "section": "סידור אשכנז, שבת, מוסף לשבת, מזמור שיר ליום השבת",
-   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Musaf_LeShabbat%2C_Mizmor_Shir_L'Yom_HaShabbat_2?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Musaf_LeShabbat%2C_Mizmor_Shir_L'Yom_HaShabbat_1?lang=he"
   },
   {
    "nusach": "ashkenaz",
    "context": "pesukei",
    "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_92_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "kabbalat_shabbat",
+   "section": "סידור נוסח עדות המזרח, קבלת שבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Kabbalat_Shabbat_25?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Pesukei_D'Zimra_3?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "shabbat",
+   "section": "סידור נוסח עדות המזרח, מנחה של שבת, ובא לציון גואל",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Mincha%2C_Uva_LeSion_18?lang=he"
   },
   {
    "nusach": "sefard",
@@ -268,7 +286,7 @@
    "nusach": "sefard",
    "context": "festivals",
    "section": "סידור ספרד, יוצרות, יוצר לשבת הגדול",
-   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Shabbat_HaGadol_90?lang=he"
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Yotzerot%2C_Shabbat_HaGadol_47?lang=he"
   },
   {
    "nusach": "sefard",

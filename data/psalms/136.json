@@ -218,6 +218,24 @@
    "context": "pesukei",
    "section": "סידור אשכנז, שבת, שחרית, פסוקי דזמרה",
    "url": "https://www.sefaria.org/Siddur_Ashkenaz%2C_Shabbat%2C_Shacharit%2C_Pesukei_Dezimra%2C_Psalm_136_1?lang=he"
+  },
+  {
+   "nusach": "edot",
+   "context": "pesukei",
+   "section": "סידור נוסח עדות המזרח, שחרית של שבת, ליום השבת",
+   "url": "https://www.sefaria.org/Siddur_Edot_HaMizrach%2C_Shabbat_Shacharit%2C_Psalms_for_Shabbat_15?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "hallel",
+   "section": "סידור ספרד, הגדה של פסח, הלל",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Pesach_Haggadah%2C_Hallel_38?lang=he"
+  },
+  {
+   "nusach": "sefard",
+   "context": "pesukei",
+   "section": "סידור ספרד, שחרית של שבת, פסוקי דזמרה",
+   "url": "https://www.sefaria.org/Siddur_Sefard%2C_Shabbat_Morning_Services%2C_Pesukei_D'Zimrah_24?lang=he"
   }
  ],
  "sources": {
