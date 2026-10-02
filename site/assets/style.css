@@ -481,3 +481,13 @@ details > summary {
   background: color-mix(in srgb, var(--bg-card) 84%, transparent); color: var(--text);
   border-radius: 4px; padding: 0 .22em; line-height: 1.35;
 }
+
+/* ── טבלאות בטלפון: בלי גלילה לרוחב ── */
+th { white-space: nowrap; }
+td a { white-space: nowrap; }
+@media (max-width: 40rem) {
+  th, td { padding: var(--sp-2) var(--sp-2); }
+  table { font-size: .875rem; }
+  .cmp-table td:nth-child(3), .cmp-table th:nth-child(3) { display: none; }  /* מספר הפסוקים נראה בטווח עצמו */
+  .cmp-btn { padding: 0 var(--sp-2); }
+}

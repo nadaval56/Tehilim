@@ -81,10 +81,27 @@
    "samuel_direct": [],
    "samuel_invalid_links": [],
    "samuel_primary": [],
-   "samuel_placement": null,
-   "samuel_origin": null,
-   "order": null,
-   "passages": [],
+   "samuel_placement": "I Samuel 24:13",
+   "samuel_origin": "commentary:רד\"ק",
+   "order": [
+    1,
+    24,
+    13
+   ],
+   "passages": [
+    {
+     "ref": "I Samuel 24:13",
+     "he_ref": "שמואל א 24:13",
+     "verses": [
+      {
+       "v": 13,
+       "text": "יִשְׁפֹּ֤ט ה' בֵּינִ֣י וּבֵינֶ֔ךָ וּנְקָמַ֥נִי ה' מִמֶּ֑ךָּ וְיָדִ֖י לֹ֥א תִֽהְיֶה־בָּֽךְ׃"
+      }
+     ],
+     "score": 0,
+     "url": "https://www.sefaria.org/I_Samuel_24:13?lang=he"
+    }
+   ],
    "comments": [
     {
      "commentator": "רש\"י",
@@ -896,8 +913,10 @@
    "status": "auto"
   },
   {
-   "places": [],
-   "places_from": null,
+   "places": [
+    "ein_gedi"
+   ],
+   "places_from": "samuel:I Samuel 24:1-4",
    "psalm": 57,
    "heading_event": "בְּבׇרְח֥וֹ מִפְּנֵי־שָׁ֝א֗וּל בַּמְּעָרָֽה׃",
    "heading_verses": [
@@ -906,10 +925,27 @@
    "samuel_direct": [],
    "samuel_invalid_links": [],
    "samuel_primary": [],
-   "samuel_placement": null,
-   "samuel_origin": null,
-   "order": null,
-   "passages": [],
+   "samuel_placement": "I Samuel 24:4",
+   "samuel_origin": "commentary-quote:רד\"ק",
+   "order": [
+    1,
+    24,
+    4
+   ],
+   "passages": [
+    {
+     "ref": "I Samuel 24:4",
+     "he_ref": "שמואל א 24:4",
+     "verses": [
+      {
+       "v": 4,
+       "text": "וַ֠יָּבֹ֠א אֶל־גִּדְר֨וֹת הַצֹּ֤אן עַל־הַדֶּ֙רֶךְ֙ וְשָׁ֣ם מְעָרָ֔ה וַיָּבֹ֥א שָׁא֖וּל לְהָסֵ֣ךְ אֶת־רַגְלָ֑יו וְדָוִד֙ וַאֲנָשָׁ֔יו בְּיַרְכְּתֵ֥י הַמְּעָרָ֖ה יֹשְׁבִֽים׃"
+      }
+     ],
+     "score": 0,
+     "url": "https://www.sefaria.org/I_Samuel_24:4?lang=he"
+    }
+   ],
    "comments": [
     {
      "commentator": "רש\"י",
@@ -927,7 +963,11 @@
      "samuel": [],
      "version": "Derekh Mesilah, Furth 1843",
      "license": "Public Domain",
-     "url": "https://www.sefaria.org/Radak_on_Psalms_57:1:1?lang=he"
+     "url": "https://www.sefaria.org/Radak_on_Psalms_57:1:1?lang=he",
+     "quotes_samuel": {
+      "ref": "I Samuel 24:4",
+      "phrase": "ואנשיו בירכתי המערה"
+     }
     }
    ],
    "status": "auto"

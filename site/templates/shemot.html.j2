@@ -40,15 +40,15 @@
 <ul class="legend"><li><i style="background: var(--hav)"></i>שם הויה (ה')</li><li><i style="background: var(--elo)"></i>א-להים</li></ul>
 
 <h3>כל השמות לפי ספר</h3>
-<div class="table-wrap"><table>
-  <thead><tr><th>ספר</th>{% for t in kinuyim.types %}<th class="n">{{ NAME_SHORT[t] }}</th>{% endfor %}</tr></thead>
+<div class="table-wrap"><table class="compact">
+  <thead><tr><th>שם</th>{% for b in stats.per_book %}<th class="n" title="{{ BOOK_NAMES[b.book] }}">{{ b.book|heb }}'</th>{% endfor %}<th class="n">סה"כ</th></tr></thead>
   <tbody>
-  {% for b in stats.per_book %}
-  <tr><td>{{ BOOK_NAMES[b.book] }}</td>{% for t in kinuyim.types %}<td class="n">{{ b.counts[t] }}</td>{% endfor %}</tr>
+  {% for t in kinuyim.types %}
+  <tr><td>{{ NAME_SHORT[t] }}</td>{% for b in stats.per_book %}<td class="n">{{ b.counts[t] }}</td>{% endfor %}<td class="n"><b>{{ stats.totals[t] }}</b></td></tr>
   {% endfor %}
-  <tr><td><b>סך הכול</b></td>{% for t in kinuyim.types %}<td class="n"><b>{{ stats.totals[t] }}</b></td>{% endfor %}</tr>
   </tbody>
 </table></div>
+<p class="note">העמודות הן חמשת הספרים (א' עד ה').</p>
 
 <h2 id="doublets">מזמורים כפולים</h2>
 <p class="read">קטעים שמופיעים בספר פעמיים, כמעט מילה במילה. בדף של כל זוג הם מוצגים זה לצד זה, וההבדלים מודגשים.</p>
@@ -133,11 +133,12 @@
 <p class="no-source">ההסברים לבחירת השם יובאו מהפרשנים בשלב הבא, רק כפי שהם נמצאים במקורות שנשלפו. עד אז: לא נמצא מקור.</p>
 
 <h2 id="table">הנתונים לכל מזמור</h2>
-<div class="table-wrap"><table>
-  <thead><tr><th>מזמור</th><th>ספר</th>{% for t in kinuyim.types %}<th class="n">{{ NAME_SHORT[t] }}</th>{% endfor %}</tr></thead>
+<div class="table-wrap"><table class="compact">
+  <thead><tr><th>מזמור</th><th class="n">ה'</th><th class="n">א-להים</th><th>שמות נוספים</th></tr></thead>
   <tbody>
   {% for r in stats.per_psalm %}
-  <tr><td><a href="{{ root }}mizmor/{{ r.n }}/">{{ r.n|heb }}</a></td><td>{{ r.book|heb }}</td>{% for t in kinuyim.types %}<td class="n">{{ r.counts[t] or '' }}</td>{% endfor %}</tr>
+  <tr><td><a href="{{ root }}mizmor/{{ r.n }}/">{{ r.n|heb }}</a></td><td class="n">{{ r.counts.HAVAYAH or '' }}</td><td class="n">{{ r.counts.ELOKIM or '' }}</td>
+    <td class="small">{% for t, c in r.counts.items() if t not in ('HAVAYAH', 'ELOKIM') and c %}{{ NAME_SHORT[t] }} {{ c }}{% if not loop.last %} · {% endif %}{% endfor %}</td></tr>
   {% endfor %}
   </tbody>
 </table></div>
