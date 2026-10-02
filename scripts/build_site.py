@@ -302,6 +302,7 @@ def build_collections(lit: dict, tikkun: list[int], orders: dict | None = None) 
                 c["by_nusach"].append({
                     "nusach": nus, "label": label, "psalms": [x["psalm"] for x in o["psalms"]],
                     "rubrics": {x["psalm"]: {"text": x["rubric"].rstrip(": "), "url": x["url"]} for x in o["psalms"] if x.get("rubric")},
+                    "leads": {x["psalm"]: x["lead"] for x in o["psalms"] if x.get("lead")},
                     "sections": [(f"סידור {label} בספריא", s["url"]) for s in o["sections"][:1]]})
             if c["by_nusach"]:
                 c["same_everywhere"] = len({(tuple(x["psalms"]), str(x["rubrics"])) for x in c["by_nusach"]}) == 1
@@ -567,7 +568,8 @@ def main() -> int:
     collections = build_collections(lit, common["tikkun"], orders)
     verses_html = {}
     for col in collections:
-        ns = [d["psalm"] for d in col.get("days", [])] + [n for x in col["by_nusach"] for n in x["psalms"]]
+        ns = [d["psalm"] for d in col.get("days", [])] + [n for x in col["by_nusach"] for n in x["psalms"]] \
+            + [ld["psalm"] for x in col["by_nusach"] for ld in x.get("leads", {}).values()]
         for n in ns:
             verses_html.setdefault(n, psalm_verses_html(psalms[n]))
     page("tefila", "tefila.html.j2", collections=collections, **common)

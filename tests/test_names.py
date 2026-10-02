@@ -125,6 +125,9 @@ class Liturgy(unittest.TestCase):
             for nus, o in doc[slug].items():
                 p130 = [x for x in o["psalms"] if x["psalm"] == 130]
                 self.assertTrue(p130 and p130[0].get("rubric"), (slug, nus))
+        for nus in ("ashkenaz", "sefard", "edot"):
+            p91 = [x for x in doc["motzaei-shabbat"][nus]["psalms"] if x["psalm"] == 91]
+            self.assertTrue(p91 and p91[0]["lead"]["psalm"] == 90 and p91[0]["lead"]["to"] == 17, nus)
         self.assertEqual([x["psalm"] for x in doc["kabbalat-shabbat"]["ashkenaz"]["psalms"]],
                          [95, 96, 97, 98, 99, 29, 92, 93])
 
