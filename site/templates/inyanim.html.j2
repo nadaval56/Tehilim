@@ -1,0 +1,21 @@
+{% extends "base.html.j2" %}
+{% block title %}מזמורי תהילים לעניינים — לרפואה, לצרה, למקשה לילד ועוד | {{ site.name }}{% endblock %}
+{% block description %}אילו מזמורים נאמרים לרפואה, בעת צרה, למקשה לילד, לשמירה, לגשמים ועוד — רק מתוך מקורות, עם הפניה, והנוסח המלא.{% endblock %}
+{% block content %}
+<section class="read">
+  <h1>מזמורים לעניינים</h1>
+  <p>אילו מזמורים נאמרים לצורך מסוים. כל רשימה מובאת מתוך מקור, כלשונו ועם הפניה. לחיצה על עניין פותחת את המקורות ואת נוסח המזמורים ברצף.</p>
+</section>
+<ul class="collection-grid">
+  {% for n in inyanim.needs if n.psalms %}
+  <li><a class="collection-btn" href="{{ root }}inyanim/{{ n.id }}/">
+    <span class="c-title">{{ n.title }}</span>
+    <span class="c-meta">{{ n.psalms|length }} {{ 'מזמור' if n.psalms|length == 1 else 'מזמורים' }}</span>
+  </a></li>
+  {% endfor %}
+</ul>
+<p class="read">ולחולה: לפי החיד"א, קוראים פסוקי תהלים לפי אותיות שמו. <a href="{{ root }}chida/#by-name">תהלים החיד"א, לפי אותיות השם</a>.</p>
+<div class="summary-box read">
+  המקורות: חיד"א (סנסן ליאיר), ליקוטי מוהר"ן, כף החיים, מעבר יבק ומסכת שבועות, דרך ספריא; ושמוש תהלים מתוך ויקיטקסט. מספרי המזמורים נקראו מתוך לשון המקור עצמו. לעניינים שלא נמצא להם מקור (למשל זיווג ופרנסה) לא הובאה רשימה.
+</div>
+{% endblock %}

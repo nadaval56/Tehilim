@@ -1,0 +1,34 @@
+{% extends "base.html.j2" %}
+{% block title %}מזמורי תהילים {{ need.title }} | {{ site.name }}{% endblock %}
+{% block description %}מזמורי תהילים {{ need.title }}, מתוך המקורות כלשונם, עם הנוסח המלא של המזמורים.{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{{ root }}inyanim/">מזמורים לעניינים</a></p>
+<h1>{{ need.title }}</h1>
+
+{% for src in need.sources %}
+<blockquote class="source-quote">
+  {% for seg in src.segments %}{{ seg.text }}{% if not loop.last %} … {% endif %}{% endfor %}
+  <cite>{{ src.title }} · <a href="{{ src.url }}">ספריא</a>, {{ src.version }}{% if src.license and src.license != 'unknown' %} ({{ src.license }}){% endif %}{% if src.psalms %} · מזמורים: {% for n in src.psalms %}<a href="#m{{ n }}">{{ n|heb }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</cite>
+</blockquote>
+{% endfor %}
+{% if need.id == 'refua' %}<p>ועוד בדברי החיד"א: קריאת פסוקי תהלים לפי אותיות שם החולה. <a href="{{ root }}chida/#by-name">תהלים החיד"א</a>.</p>{% endif %}
+
+{% if need.shimush %}
+<h2>בספר שמוש תהלים</h2>
+<p class="note">מתוך <a href="{{ inyanim.shimush_source.url }}">שמוש תהלים</a> (ויקיטקסט, {{ inyanim.shimush_source.license }}). מובאת רק תחילת השימוש שבספר; הספר מוסיף כתיבות, צירופי שמות ותפילות, שאינם מובאים כאן.</p>
+<ul class="lit-list">
+  {% for x in need.shimush %}<li><a href="#m{{ x.psalm }}">מזמור {{ x.psalm|heb }}</a> · <span class="small">"{{ x.text }}"</span></li>{% endfor %}
+</ul>
+{% endif %}
+
+<h2>נוסח המזמורים</h2>
+<div class="text-tools" role="group" aria-label="תצוגת הטקסט">
+  <button type="button" class="toggle" id="tg-teamim" aria-pressed="false">טעמי המקרא</button>
+</div>
+{% for n in need.psalms %}
+<section class="psalm-text coll-psalm" id="m{{ n }}" lang="he" aria-label="מזמור {{ n|heb }}">
+  <h2><a href="{{ root }}mizmor/{{ n }}/">מזמור {{ n|heb }}</a></h2>
+  {% for v in verses_html[n] %}<p class="verse"><span class="vnum" aria-label="פסוק {{ v.heb }}">{{ v.heb }}</span>{{ v.html }}</p>{% endfor %}
+</section>
+{% endfor %}
+{% endblock %}

@@ -506,6 +506,18 @@ def main() -> int:
         for n in ns:
             verses_html.setdefault(n, psalm_verses_html(psalms[n]))
     page("tefila", "tefila.html.j2", collections=collections, **common)
+    inyanim = json.loads((DATA / "inyanim.json").read_text(encoding="utf-8"))
+    for need in inyanim["needs"]:
+        order = []
+        for src in need["sources"]:
+            order += [n for n in src["psalms"] if n not in order]
+        order += [x["psalm"] for x in need["shimush"] if x["psalm"] not in order]
+        need["psalms"] = order
+        for n in order:
+            verses_html.setdefault(n, psalm_verses_html(psalms[n]))
+    page("inyanim", "inyanim.html.j2", inyanim=inyanim, **common)
+    for need in inyanim["needs"]:
+        page(f"inyanim/{need['id']}", "inyan.html.j2", need=need, inyanim=inyanim, verses_html=verses_html, **common)
     for col in collections:
         page(f"tefila/{col['slug']}", "tefila_collection.html.j2", col=col, verses_html=verses_html, **common)
     page("david", "david.html.j2", **common)
